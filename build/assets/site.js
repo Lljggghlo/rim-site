@@ -186,6 +186,21 @@
       var nx = form.querySelector('[name=_next]');
       if (nx) nx.value = nx.value.split('?')[0] + '?commune=' + encodeURIComponent(c) + '&prenom=' + encodeURIComponent(form.querySelector('[name=prenom]').value || '');
       var btn = form.querySelector('[type=submit]'); if (btn) { btn.disabled = true; btn.textContent = 'Envoi en cours…'; }
+      // Envoi instantané : la demande part en arrière-plan (keepalive) et le visiteur passe tout de suite à la page Merci.
+      // En cas d'échec réseau immédiat, on retombe sur l'envoi classique du formulaire.
+      var action = form.getAttribute('action') || '';
+      if (w.fetch && w.FormData && action.indexOf('formsubmit.co/') > -1 && !form.dataset.envoiClassique) {
+        e.preventDefault();
+        var fini = false, suite = nx ? nx.value.replace(/^https?:\/\/[^/]+/, '') : '/merci';
+        var go = function () { if (!fini) { fini = true; location.href = suite; } };
+        var classique = function () { if (!fini) { fini = true; form.dataset.envoiClassique = '1'; HTMLFormElement.prototype.submit.call(form); } };
+        try {
+          fetch(action.replace('formsubmit.co/', 'formsubmit.co/ajax/'), { method: 'POST', body: new FormData(form), headers: { Accept: 'application/json' }, keepalive: true, mode: 'cors' })
+            .then(function (r) { if (r.ok) go(); else classique(); })
+            .catch(function () { classique(); });
+          setTimeout(go, 1500);
+        } catch (err) { classique(); }
+      }
     });
     show(i);
   }
