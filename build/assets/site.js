@@ -146,6 +146,11 @@
     }, { once: true });
   });
 
+  /* ---------- Clics suivis (téléphone…) ---------- */
+  d.querySelectorAll('[data-track]').forEach(function (el) {
+    el.addEventListener('click', function () { track(el.getAttribute('data-track'), { page: location.pathname }); });
+  });
+
   /* ---------- Formulaire d'estimation en étapes ---------- */
   var est = d.querySelector('.est');
   if (est) {

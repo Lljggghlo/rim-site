@@ -1,5 +1,5 @@
 // Pages principales : accueil, gestion Airbnb & Booking, services, tarifs
-import { ctx, esc, icon, waIcon, bienImg, answer, faqBlock, breadcrumbs, bienCard, finalCta, googleReviews, videoTestimonials, microForm, proofs, sec, waLink, scoreCards, bienRate, bienBadge, googleBand, socialPills, presentationVideo, presentationVideoSchema } from '../lib.mjs';
+import { ctx, esc, icon, waIcon, bienImg, answer, faqBlock, breadcrumbs, bienCard, finalCta, googleReviews, videoTestimonials, microForm, proofs, sec, waLink, scoreCards, bienRate, bienBadge, googleBand, socialPills, presentationVideo, presentationVideoSchema, heroTel } from '../lib.mjs';
 
 export const VERIF = '31/10/2026';
 
@@ -229,14 +229,17 @@ export function accueil(data) {
     <p class="lead">Basés à Guyancourt, nous gérons votre location courte durée de A à Z : annonces, prix, voyageurs, ménage. Vos loyers vous sont versés directement.</p>
   </div>
   <div class="hero-form">${microForm({ id: 'hero' })}</div>
-  <div class="hero-more">${proofs()}</div>
+  <div class="hero-more">${proofs()}${heroTel()}</div>
 </div></section>
 
-<section class="sec sec-tight" id="apropos" aria-labelledby="apropos-t"><div class="wrap split">
-  <div>
+<section class="sec sec-tight" id="apropos" aria-labelledby="apropos-t"><div class="wrap apropos-g">
+  <div class="ap-head">
     <p class="kicker">La conciergerie en vidéo</p>
     <h2 class="h2" id="apropos-t">Bonjour, je suis <span class="script">Nassim</span></h2>
     ${answer("J'ai créé Rim Conciergerie à Guyancourt pour que la location courte durée ne devienne pas un second métier pour les propriétaires. Dans cette vidéo, je vous présente la conciergerie et chacun des services que nous assurons pour votre logement.")}
+  </div>
+  <div class="ap-media">${presentationVideo({ sizes: '(min-width:980px) 520px, 92vw', alt: 'Nassim, fondateur de Rim Conciergerie, présente la conciergerie en vidéo' })}</div>
+  <div class="ap-more">
     <ul class="stats" aria-label="En chiffres">
       <li><b>50+</b><span>logements gérés</span></li>
       <li><b>${esc(s.avis_google_note)}</b><span>sur Google · ${s.avis_google_nombre} avis</span></li>
@@ -245,7 +248,6 @@ export function accueil(data) {
     ${socialPills()}
     <p><a class="lnk" href="/qui-sommes-nous">Qui sommes-nous ${icon('arrow')}</a></p>
   </div>
-  ${presentationVideo({ sizes: '(min-width:980px) 520px, 92vw', alt: 'Nassim, fondateur de Rim Conciergerie, présente la conciergerie en vidéo' })}
 </div></section>
 
 ${sec('services', 'Ce que nous faisons', `<div class="g4">
@@ -351,7 +353,7 @@ export function gestion() {
     <p class="lead">De la première photo au dernier avis voyageur : nous créons vos annonces, ajustons vos prix chaque jour et répondons aux voyageurs 24 h/24. Les annonces restent sur vos comptes.</p>
   </div>
   <div class="hero-form">${microForm({ id: 'hero' })}</div>
-  <div class="hero-more">${proofs()}</div>
+  <div class="hero-more">${proofs()}${heroTel()}</div>
 </div></section>
 
 ${sec('annonce', 'Une annonce qui donne', `<div class="g3">

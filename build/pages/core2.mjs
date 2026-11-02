@@ -49,10 +49,12 @@ export function quiSommesNous() {
   const s = ctx.s;
   const body = `${bc.html}
 <section class="hero hero-tight"><div class="wrap founder">
-  <img src="/images/equipe/nassim-studio-480.webp" srcset="/images/equipe/nassim-studio-480.webp 480w, /images/equipe/nassim-studio-900.webp 900w" sizes="(min-width:860px) 420px, 90vw" width="480" height="600" alt="Nassim RIM, fondateur de Rim Conciergerie, à Guyancourt" fetchpriority="high">
-  <div>
+  <div class="f-head">
     <p class="kicker">Qui sommes-nous</p>
     <h1 class="h1">Une conciergerie de terrain, <span class="script">basée à Guyancourt</span></h1>
+  </div>
+  <img class="f-img" src="/images/equipe/nassim-studio-480.webp" srcset="/images/equipe/nassim-studio-480.webp 480w, /images/equipe/nassim-studio-900.webp 900w" sizes="(min-width:860px) 420px, 90vw" width="480" height="600" alt="Nassim RIM, fondateur de Rim Conciergerie, à Guyancourt" fetchpriority="high">
+  <div class="f-body">
     <p class="lead">Rim Conciergerie est née en 2024 à Guyancourt, dans les Yvelines. Notre idée : qu'un propriétaire puisse louer en courte durée sans que cela devienne un second métier.</p>
     ${proofs()}
   </div>
@@ -86,7 +88,7 @@ ${sec('engagements', 'Nos engagements', `<div class="pils">
 
 ${sec('equipe', 'Une équipe', `<div class="team">
   <div class="team-you">${icon('home')}<span><b>Vous, propriétaire</b> : un seul contact</span></div>
-  <div class="team-hub card"><span class="team-logo"><img src="/images/logo-rim-conciergerie-192.webp" width="84" height="48" alt="Rim Conciergerie" loading="lazy"></span><div><b>Rim Conciergerie</b><span>Suit chaque logement et coordonne chaque intervention</span></div></div>
+  <div class="team-hub card"><span class="team-logo"><img src="/images/logo-rim-conciergerie-192.webp" width="338" height="192" alt="Rim Conciergerie" loading="lazy"></span><div><b>Rim Conciergerie</b><span>Suit chaque logement et coordonne chaque intervention</span></div></div>
   <div class="team-nodes">
     <div class="team-n card"><span class="ic">${icon('broom')}</span><b>Intervenantes ménage</b><span>Formées à notre checklist et au protocole vidéo</span></div>
     <div class="team-n card"><span class="ic">${icon('sparkle')}</span><b>Blanchisserie</b><span>Linge lavé et repassé entre chaque séjour</span></div>
