@@ -497,4 +497,4 @@ export function presentationVideoSchema() {
 }
 
 // ---------- Téléphone mis en avant (accueil) ----------
-export const heroTel = () => `<a class="hero-tel" href="tel:${ctx.s.telephone_e164}" data-track="click_tel"><span class="hero-tel-ic">${icon('phone')}</span><span class="hero-tel-t"><small>Une question ? Appelez-nous</small><b>${esc(ctx.s.telephone_affiche)}</b></span></a>`;
+export const heroTel = () => `<a class="proof proof-tel" href="tel:${ctx.s.telephone_e164}" data-track="click_tel">${icon('phone', 'tel-ic')}<span><b>${esc(ctx.s.telephone_affiche)}</b><span class="proof-t"> · une question ? Appelez-nous</span></span></a>`;

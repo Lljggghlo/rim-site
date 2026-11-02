@@ -674,8 +674,6 @@ mark{background:linear-gradient(transparent 55%,rgba(215,15,69,.18) 55%);color:i
 .story-n{display:inline-block;font-family:var(--f-script);color:var(--accent);font-size:1.7rem;line-height:1;margin-bottom:10px}
 @media (min-width:900px){.story li:not(:last-child)::after{content:"→";position:absolute;right:-27px;top:50%;transform:translateY(-50%);color:var(--accent);font-size:22px;font-weight:600}}
 @media (max-width:899px){.story li:not(:last-child)::after{content:"↓";position:absolute;left:50%;bottom:-19px;transform:translateX(-50%);color:var(--accent);font-size:18px}}
-.transp{display:flex;gap:12px;align-items:flex-start;margin:26px 0 0;padding:16px 18px;border-radius:var(--r-m);background:var(--gray);color:var(--soft);max-width:760px}
-.transp .i{color:var(--accent);flex:none;margin-top:2px}
 .eng{display:grid;gap:12px;grid-template-columns:1fr 1fr}
 @media (min-width:900px){.eng{grid-template-columns:repeat(3,1fr);gap:16px}}
 .eng-i{display:flex;flex-direction:column;gap:8px;padding:22px 20px;border-radius:var(--r-m);background:var(--gray)}
@@ -1497,14 +1495,9 @@ svg.ab,.score-s,.proof svg,.btn-ab svg{flex:none;overflow:visible}
 .team-logo{width:72px;height:72px;padding:12px;box-sizing:border-box}
 .team-logo img{width:100%;height:100%;object-fit:contain}
 @media (max-width:759px){.team-logo{width:58px;height:58px;padding:10px}.team-logo img{width:100%}}
-/* V9 — téléphone visible dès le premier écran */
-.hero-tel{display:inline-flex;align-items:center;gap:12px;margin-top:12px;padding:8px 18px 8px 8px;border-radius:999px;background:#fff;border:1px solid var(--line);box-shadow:var(--shadow);color:var(--ink);text-decoration:none;line-height:1.15;transition:transform .2s ease,box-shadow .2s ease}
-.hero-tel:hover{transform:translateY(-1px);box-shadow:0 10px 30px rgba(0,0,0,.08)}
-.hero-tel-ic{flex:none;display:grid;place-items:center;width:38px;height:38px;border-radius:50%;background:var(--grad,#D70F45);background:linear-gradient(135deg,#E8185A,#C2185B);color:#fff}
-.hero-tel-ic .i{width:18px;height:18px;stroke:#fff}
-.hero-tel-t{display:grid;gap:2px}
-.hero-tel-t small{font-size:12.5px;color:var(--muted);font-weight:500}
-.hero-tel-t b{font-size:18px;font-weight:700;letter-spacing:.01em;font-variant-numeric:tabular-nums}
+/* V9 — téléphone : même style que les pastilles d'avis */
+.proof-tel{margin-top:10px}
+@media (max-width:759px){.proof-tel{margin-top:6px}}
+.proof .tel-ic{width:17px;height:17px;flex:none;fill:none;stroke:var(--accent,#D70F45);stroke-width:1.9}
 .hero-more{display:flex;flex-direction:column;align-items:flex-start}
-@media (max-width:759px){.hero-tel{margin-top:10px;padding:6px 16px 6px 6px}.hero-tel-ic{width:34px;height:34px}.hero-tel-t b{font-size:16.5px}}
 @media (max-width:979px){.hero-home .hero-g{grid-template-areas:"head" "more" "form"}.hero-home .hero-more .proofs{margin-top:0}}

@@ -68,7 +68,6 @@ export function quiSommesNous() {
     <li class="card"><span class="story-n">La méthode</span><p>Il construit une réponse à chacun : <strong>messages automatisés 24 h/24</strong>, <strong>vidéo horodatée à chaque ménage</strong>, <strong>prix ajustés chaque jour</strong>.</p></li>
     <li class="card"><span class="story-n">Aujourd'hui</span><p><strong>${esc(s.logements_geres)} logements gérés</strong> en location courte durée, et un nombre de logements choisi pour que <mark>chaque propriétaire ait un interlocuteur qui connaît son bien</mark>.</p></li>
   </ol>
-  <p class="transp">${icon('shield')}<span><b>En toute transparence :</b> Rim Conciergerie est le nom commercial de Nassim RIM, entrepreneur individuel, SIRET ${esc(s.siret)}. Vous savez à qui vous confiez votre logement.</span></p>
 </div></section>
 
 ${presentationVideo() ? sec('video', 'La conciergerie', presentationVideo(), { gray: true, script: 'en vidéo', intro: "En quelques minutes, Nassim présente la conciergerie, l'équipe et la façon dont nous gérons un logement, du premier voyageur à la facture mensuelle." }) : ''}
