@@ -465,3 +465,33 @@ export const sec = (id, titre, inner, { gray = false, narrow = false, script = '
   ${intro ? answer(intro) : ''}
   ${inner}
 </div></section>`;
+
+// ---------- Vidéo de présentation (hébergée sur le site, lue dans la page au clic) ----------
+export function presentationVideo({ sizes = '(min-width:980px) 760px, 92vw', alt = 'Nassim RIM présente Rim Conciergerie en vidéo', cap = 'Lancer la vidéo · 1 min 20' } = {}) {
+  const s = ctx.s;
+  const img = `<img src="/images/equipe/nassim-video-640.webp" srcset="/images/equipe/nassim-video-640.webp 640w, /images/equipe/nassim-video-1280.webp 1280w" sizes="${sizes}" width="1280" height="720" alt="${esc(alt)}" loading="lazy" decoding="async"><span class="pbtn">${icon('play')}</span><span class="vcap">${esc(cap)}</span>`;
+  if (s.video_presentation_mp4) {
+    return `<a class="vfacade" href="${esc(s.video_presentation_mp4)}" data-mp4="${esc(s.video_presentation_mp4)}"${s.video_presentation_mp4_mobile ? ` data-mp4-sd="${esc(s.video_presentation_mp4_mobile)}"` : ''} data-poster="/images/equipe/nassim-video-1280.webp" aria-label="Lire la vidéo de présentation de Rim Conciergerie">${img}</a>`;
+  }
+  if (s.video_presentation_youtube) {
+    const yt = esc(s.video_presentation_youtube);
+    return `<a class="vfacade" href="https://www.youtube.com/watch?v=${yt}" data-yt="https://www.youtube-nocookie.com/embed/${yt}?autoplay=1&amp;rel=0&amp;playsinline=1" aria-label="Lire la vidéo de présentation de Rim Conciergerie">${img}</a>`;
+  }
+  return '';
+}
+export function presentationVideoSchema() {
+  const s = ctx.s;
+  if (!s.video_presentation_mp4 || !s.video_presentation_date) return null;
+  return {
+    '@type': 'VideoObject',
+    '@id': `${s.url}/#video-presentation`,
+    name: 'Présentation de Rim Conciergerie',
+    description: "Nassim RIM présente Rim Conciergerie, conciergerie Airbnb et Booking basée à Guyancourt : gestion des annonces, des voyageurs, du ménage et des imprévus pour les propriétaires en Île-de-France.",
+    thumbnailUrl: `${s.url}/images/equipe/nassim-video-1280.webp`,
+    uploadDate: s.video_presentation_date,
+    ...(s.video_presentation_duree ? { duration: s.video_presentation_duree } : {}),
+    contentUrl: `${s.url}${s.video_presentation_mp4}`,
+    inLanguage: 'fr-FR',
+    publisher: { '@id': `${s.url}/#entreprise` },
+  };
+}

@@ -1,5 +1,5 @@
 // Pages : biens gérés, avis, qui sommes-nous, estimation, merci, zones, légal, 404
-import { ctx, esc, icon, waIcon, answer, faqBlock, breadcrumbs, bienCard, finalCta, googleReviews, videoTestimonials, TYPES, proofs, proofGoogle, proofAirbnb, sec, waLink, dateFr, scoreCards, googleBand, airbnbBand, socialBand } from '../lib.mjs';
+import { ctx, esc, icon, waIcon, answer, faqBlock, breadcrumbs, bienCard, finalCta, googleReviews, videoTestimonials, TYPES, proofs, proofGoogle, proofAirbnb, sec, waLink, dateFr, scoreCards, googleBand, airbnbBand, socialBand, presentationVideo, presentationVideoSchema } from '../lib.mjs';
 import { ZONES_CHIPS, VERIF } from './core.mjs';
 
 // ---------- Avis ----------
@@ -69,7 +69,7 @@ export function quiSommesNous() {
   <p class="transp">${icon('shield')}<span><b>En toute transparence :</b> Rim Conciergerie est le nom commercial de Nassim RIM, entrepreneur individuel, SIRET ${esc(s.siret)}. Vous savez à qui vous confiez votre logement.</span></p>
 </div></section>
 
-${s.video_presentation_youtube ? sec('video', 'La conciergerie', `<a class="vfacade" href="https://www.youtube.com/watch?v=${esc(s.video_presentation_youtube)}" data-yt="https://www.youtube-nocookie.com/embed/${esc(s.video_presentation_youtube)}?autoplay=1&amp;rel=0&amp;playsinline=1" aria-label="Lire la vidéo de présentation de Rim Conciergerie"><img src="/images/equipe/nassim-video-1280.webp" width="1280" height="720" alt="Nassim RIM présente Rim Conciergerie en vidéo" loading="lazy" decoding="async"><span class="pbtn">${icon('play')}</span><span class="vcap">Lancer la vidéo</span></a>`, { gray: true, script: 'en vidéo', intro: "En quelques minutes, Nassim présente la conciergerie, l'équipe et la façon dont nous gérons un logement, du premier voyageur à la facture mensuelle." }) : ''}
+${presentationVideo() ? sec('video', 'La conciergerie', presentationVideo(), { gray: true, script: 'en vidéo', intro: "En quelques minutes, Nassim présente la conciergerie, l'équipe et la façon dont nous gérons un logement, du premier voyageur à la facture mensuelle." }) : ''}
 
 ${sec('reseaux', 'Nos conseils', socialBand(), {
     gray: true,
@@ -101,7 +101,7 @@ ${finalCta()}`;
     title: 'Qui sommes-nous | Rim Conciergerie, Guyancourt',
     description: 'Rim Conciergerie, conciergerie Airbnb fondée par Nassim RIM à Guyancourt en 2024 : notre histoire, notre équipe de terrain et nos engagements vérifiables.',
     body,
-    schema: [bc.schema, { '@type': 'AboutPage', name: 'Qui sommes-nous', about: { '@id': `${s.url}/#entreprise` } }],
+    schema: [bc.schema, { '@type': 'AboutPage', name: 'Qui sommes-nous', about: { '@id': `${s.url}/#entreprise` } }, presentationVideoSchema()].filter(Boolean),
     preloadImage: '/images/equipe/nassim-studio-480.webp',
     lastmod: ctx.today,
   };
@@ -238,7 +238,7 @@ export function cookies() {
   ${tools.length
     ? `<p>Le site fonctionne sans cookie. Avec votre accord seulement, nous utilisons les outils de mesure suivants :</p><ul>${tools.join('')}</ul><p>Votre choix est conservé 6 mois dans votre navigateur. Vous pouvez le modifier à tout moment : <button type="button" class="lnk-btn" data-consent-open>gérer mes choix</button>.</p>`
     : `<p>Ce site ne dépose aucun cookie de mesure d'audience ni de publicité. Il enregistre seulement, dans votre navigateur, la page par laquelle vous êtes arrivé et les paramètres de campagne (UTM), le temps de votre visite, pour savoir quelle page vous a amené au formulaire. Ces informations ne sont transmises que si vous envoyez le formulaire.</p>`}
-  <p>Les vidéos hébergées sur YouTube ne sont chargées que si vous cliquez sur le bouton de lecture. Elles sont alors lues sur cette page en mode de confidentialité renforcée (youtube-nocookie.com) ; YouTube peut à ce moment-là déposer ses propres traceurs, selon ses règles.</p>
+  ${s.video_presentation_mp4 ? '<p>Notre vidéo de présentation est hébergée sur ce site : elle ne fait appel à aucun service tiers et ne dépose aucun cookie. Elle ne se charge que si vous cliquez sur le bouton de lecture.</p>' : '<p>Les vidéos hébergées sur YouTube ne sont chargées que si vous cliquez sur le bouton de lecture. Elles sont alors lues sur cette page en mode de confidentialité renforcée (youtube-nocookie.com) ; YouTube peut à ce moment-là déposer ses propres traceurs, selon ses règles.</p>'}
 </div></section>`;
   return { path: '/cookies', title: 'Cookies | Rim Conciergerie', description: 'Les cookies et traceurs utilisés sur rimconciergerie.fr, et comment gérer vos choix.', body, schema: [], lastmod: ctx.today };
 }

@@ -1,5 +1,5 @@
 // Pages principales : accueil, gestion Airbnb & Booking, services, tarifs
-import { ctx, esc, icon, waIcon, bienImg, answer, faqBlock, breadcrumbs, bienCard, finalCta, googleReviews, videoTestimonials, microForm, proofs, sec, waLink, scoreCards, bienRate, bienBadge, googleBand, socialPills } from '../lib.mjs';
+import { ctx, esc, icon, waIcon, bienImg, answer, faqBlock, breadcrumbs, bienCard, finalCta, googleReviews, videoTestimonials, microForm, proofs, sec, waLink, scoreCards, bienRate, bienBadge, googleBand, socialPills, presentationVideo, presentationVideoSchema } from '../lib.mjs';
 
 export const VERIF = '31/10/2026';
 
@@ -219,7 +219,6 @@ export function accueil(data) {
   const all = FAQ_GENERALE();
   const faq = faqBlock([all[0], all[2], all[3], all[4], all[5], all[7]], { titre: 'Vos questions,', script: 'nos réponses', intro: "Les questions que les propriétaires nous posent le plus souvent avant de nous confier leur logement : réglementation, dégâts, contrôle, prix, revenus et durée du contrat." });
   const biensIdf = data.biens.filter((b) => b.region === 'idf');
-  const yt = s.video_presentation_youtube;
   const body = `
 <section class="hero hero-photo hero-home" id="accueil">
   <img class="hero-bg" src="/images/hero-villa-1920.webp" srcset="/images/hero-villa-960.webp 960w, /images/hero-villa-1920.webp 1920w" sizes="100vw" width="1920" height="1280" alt="" fetchpriority="high">
@@ -246,7 +245,7 @@ export function accueil(data) {
     ${socialPills()}
     <p><a class="lnk" href="/qui-sommes-nous">Qui sommes-nous ${icon('arrow')}</a></p>
   </div>
-  ${yt ? `<a class="vfacade" href="https://www.youtube.com/watch?v=${esc(yt)}" target="_blank" rel="noopener"><img src="/images/equipe/nassim-video-640.webp" srcset="/images/equipe/nassim-video-640.webp 640w, /images/equipe/nassim-video-1280.webp 1280w" sizes="(min-width:980px) 520px, 92vw" width="640" height="360" alt="Nassim, fondateur de Rim Conciergerie, présente la conciergerie en vidéo" loading="lazy" decoding="async"><span class="pbtn">${icon('play')}</span><span class="vcap">Voir la vidéo de présentation</span></a>` : ''}
+  ${presentationVideo({ sizes: '(min-width:980px) 520px, 92vw', alt: 'Nassim, fondateur de Rim Conciergerie, présente la conciergerie en vidéo' })}
 </div></section>
 
 ${sec('services', 'Ce que nous faisons', `<div class="g4">
@@ -327,7 +326,7 @@ ${finalCta()}`;
     ogTitle: 'Rim Conciergerie, conciergerie Airbnb en Île-de-France',
     description: `Conciergerie Airbnb basée à Guyancourt : annonces, prix, voyageurs 24 h/24, ménage filmé. ${s.avis_google_note}/5 sur Google. Estimez votre bien.`,
     body,
-    schema: [faq.schema],
+    schema: [faq.schema, presentationVideoSchema()].filter(Boolean),
     lastmod: ctx.today,
   };
 }

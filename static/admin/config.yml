@@ -169,6 +169,10 @@ collections:
           - { label: "YouTube", name: youtube, widget: string }
           - { label: "Facebook", name: facebook, widget: string }
           - { label: "Vidéo de présentation (identifiant YouTube)", name: video_presentation_youtube, widget: string, required: false }
+          - { label: "Vidéo de présentation : fichier MP4 (1080p, moins de 40 Mo)", name: video_presentation_mp4, widget: file, media_folder: /static/videos, public_folder: /videos, required: false }
+          - { label: "Vidéo de présentation : version téléphone (720p, facultatif)", name: video_presentation_mp4_mobile, widget: file, media_folder: /static/videos, public_folder: /videos, required: false }
+          - { label: "Vidéo de présentation : durée (format PT1M20S)", name: video_presentation_duree, widget: string, required: false }
+          - { label: "Vidéo de présentation : date de mise en ligne", name: video_presentation_date, widget: datetime, format: "YYYY-MM-DD", date_format: "DD/MM/YYYY", time_format: false, required: false }
           - { label: "Protocole ménage : vidéo verticale (MP4)", name: protocole_video, widget: file, media_folder: /static/videos, public_folder: /videos, required: false }
           - { label: "Protocole ménage : capture WhatsApp (image verticale)", name: protocole_image, widget: image, required: false }
           - { label: "SIRET", name: siret, widget: string }
