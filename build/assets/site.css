@@ -1459,3 +1459,10 @@ a.score:hover{transform:translateY(-2px);box-shadow:0 2px 4px rgba(0,0,0,.04),0 
   .soc-go{margin-left:0;width:100%;justify-content:center}
   .socp{font-size:13px}
 }
+
+/* Menu mobile : bouton centré ; pastilles réseaux côte à côte */
+.mnav a.btn{display:flex;justify-content:center;align-items:center;text-align:center;border-bottom:0;padding:0 22px;color:#fff;font-weight:600}
+@media (max-width:759px){
+  .socp{gap:8px}
+  .socp > span{flex-basis:100%}
+}
