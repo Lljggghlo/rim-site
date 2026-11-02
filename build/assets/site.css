@@ -1466,3 +1466,8 @@ a.score:hover{transform:translateY(-2px);box-shadow:0 2px 4px rgba(0,0,0,.04),0 
   .socp{gap:8px}
   .socp > span{flex-basis:100%}
 }
+
+/* V8 — vidéo de présentation lue dans la page */
+.vfacade iframe{position:absolute;inset:0;width:100%;height:100%;border:0;z-index:4;background:#000}
+.vfacade.is-playing{cursor:default}
+.vfacade.is-playing .pbtn,.vfacade.is-playing .vcap{display:none}

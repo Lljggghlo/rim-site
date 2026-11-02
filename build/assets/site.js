@@ -124,6 +124,17 @@
     }, { once: true });
   });
 
+  /* ---------- Vidéo de présentation : lue dans la page, au clic ---------- */
+  d.querySelectorAll('.vfacade[data-yt]').forEach(function (a) {
+    a.addEventListener('click', function (e) {
+      e.preventDefault();
+      var f = d.createElement('iframe');
+      f.src = a.getAttribute('data-yt'); f.allow = 'autoplay; encrypted-media; picture-in-picture; fullscreen'; f.allowFullscreen = true; f.title = a.getAttribute('aria-label') || 'Vidéo';
+      a.appendChild(f); a.classList.add('is-playing'); a.removeAttribute('data-yt'); a.removeAttribute('href');
+      track('view_video', { name: 'presentation' });
+    }, { once: true });
+  });
+
   /* ---------- Formulaire d'estimation en étapes ---------- */
   var est = d.querySelector('.est');
   if (est) {
