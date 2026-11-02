@@ -1,0 +1,11 @@
+{
+  "verifie_le": "2026-11-01",
+  "avis": [
+    { "prenom": "Hanna", "lieu": "", "date": "juin 2025", "texte": "L’appartement est encore plus beau que sur les photos, décoré avec énormément de goût, propre, lumineux et très bien équipé. On s’y sent immédiatement bien. L’équipe de la conciergerie a été adorable, douce et très professionnelle du début à la fin, un vrai plus qui fait toute la différence." },
+    { "prenom": "Yvan", "lieu": "Québec, Canada", "date": "avril 2026", "texte": "Endroit calme et reposant. Appartement très luxueux et avec toutes les commodités nécessaires à un beau séjour. La réactivité des propriétaires a été exemplaire, nous avons été en grande confiance." },
+    { "prenom": "Ksatra", "lieu": "Toulouse, France", "date": "octobre 2025", "texte": "Nous avons passé un excellent séjour dans ce logement. Il est remarquablement fonctionnel et idéalement situé pour visiter Versailles. L’arrivée autonome s’est déroulée sans accroc grâce aux instructions très claires et précises de l’hôte." },
+    { "prenom": "Lionel", "lieu": "Genève, Suisse", "date": "juillet 2025", "texte": "Nous avons passé un excellent séjour dans un appartement spacieux, très bien équipé et décoré avec goût. La climatisation dans les deux chambres, très appréciable pendant la canicule. Je recommande vivement !" },
+    { "prenom": "Melania", "lieu": "", "date": "octobre 2025", "traduit": "anglais", "texte": "Tout était impeccable, la décoration charmante et bien pensée, et le logement très facile à trouver et à rejoindre. La communication de l’hôte a été excellente. Une expérience 10/10." },
+    { "prenom": "Gradi", "lieu": "Kinshasa, RD Congo", "date": "juillet 2026", "texte": "Appartement propre dans un quartier très calme. Rim Conciergerie est très flexible : j’avais demandé de sortir deux heures plus tard et cela n’a causé aucun problème. Je recommande vivement !" }
+  ]
+}

@@ -1,0 +1,178 @@
+# Espace d'écriture du site rimconciergerie.fr (Sveltia CMS)
+# Chaque enregistrement crée une modification dans GitHub ; Vercel republie le site automatiquement.
+backend:
+  name: github
+  repo: Lljggghlo/rim-site   # dépôt GitHub du site
+  branch: main
+media_folder: static/images/uploads
+public_folder: /images/uploads
+slug:
+  encoding: ascii
+  clean_accents: true
+  sanitize_replacement: "-"
+
+collections:
+  - name: blog
+    label: Blog
+    label_singular: Article
+    description: "La date de publication décide du jour où l'article paraît. Une date future = article programmé : il paraîtra seul ce jour-là, vers 6 h."
+    folder: content/blog
+    create: true
+    slug: "{{title}}"
+    sortable_fields: [date, title]
+    summary: "{{date}} · {{title}}"
+    fields:
+      - { label: "Titre", name: title, widget: string }
+      - { label: "Titre pour Google (60 caractères max, se termine par « | Rim Conciergerie »)", name: seo_title, widget: string, required: false }
+      - { label: "Résumé affiché dans Google (155 caractères max)", name: description, widget: text }
+      - { label: "Date de publication", name: date, widget: datetime, time_format: false, format: "YYYY-MM-DD" }
+      - { label: "Mis à jour le (facultatif)", name: modif, widget: datetime, time_format: false, format: "YYYY-MM-DD", required: false }
+      - { label: "Brouillon (ne pas publier)", name: brouillon, widget: boolean, default: false, required: false }
+      - { label: "Catégorie", name: categorie, widget: select, options: ["Réglementation", "Gestion", "Dégâts et litiges", "Contrat", "Fiscalité", "Conseils"], default: "Conseils", required: false }
+      - { label: "Photo de couverture (paysage, 1200 px de large, photo réelle d'un logement)", name: image, widget: image, required: false }
+      - { label: "Description de la photo (pour les malvoyants et Google)", name: image_alt, widget: string, required: false }
+      - { label: "Crédit de la photo (auteur et licence, si la licence l'exige)", name: image_credit, widget: string, required: false }
+      - label: "Questions fréquentes (facultatif)"
+        name: faq
+        widget: list
+        required: false
+        fields:
+          - { label: Question, name: q, widget: string }
+          - { label: Réponse, name: a, widget: text }
+      - { label: "Texte de l'article", name: body, widget: markdown }
+
+  - name: villes
+    label: Pages villes
+    label_singular: Ville
+    description: "Une page par ville, avec un contenu propre à la ville. Ne jamais dupliquer le texte d'une autre ville en changeant seulement le nom : Google pénalise les pages en série."
+    folder: content/villes
+    create: true
+    slug: "{{ville}}"
+    summary: "{{ordre}} · {{ville}} ({{departement}})"
+    sortable_fields: [ordre, ville]
+    fields:
+      - { label: Ville, name: ville, widget: string }
+      - { label: "Adresse de la page (laisser vide = automatique)", name: slug, widget: string, required: false }
+      - { label: Département, name: departement, widget: select, options: ["78", "75", "92", "93", "94", "91", "95", "77"] }
+      - { label: "Photo d'un lieu connu de la ville (paysage, 1920 px de large, libre de droits)", name: photo, widget: image, required: false }
+      - { label: "Description de la photo (ex. Château de Versailles)", name: photo_alt, widget: string, required: false }
+      - { label: "Crédit de la photo (auteur et licence, obligatoire si la licence l'exige)", name: photo_credit, widget: string, required: false }
+      - { label: "Trajet depuis Guyancourt (ex. 20 min, ou Sur place)", name: trajet, widget: string }
+      - { label: "Ordre d'affichage", name: ordre, widget: number, value_type: int }
+      - { label: Publiée, name: publie, widget: boolean, default: true }
+      - { label: "Résumé Google (155 caractères max)", name: description, widget: text }
+      - { label: "Introduction (40 à 60 mots)", name: intro, widget: text }
+      - { label: "Qui loue dans cette ville (40 à 60 mots)", name: voyageurs, widget: text }
+      - { label: "Ce qui attire les voyageurs", name: atouts, widget: list, field: { label: Atout, name: atout, widget: string } }
+      - label: Secteurs
+        name: quartiers
+        widget: list
+        required: false
+        fields:
+          - { label: Nom, name: nom, widget: string }
+          - { label: Note, name: note, widget: string }
+      - { label: "Règle enregistrement (laisser vide = texte standard)", name: regle_enregistrement, widget: text, required: false }
+      - { label: "Règle changement d'usage (laisser vide = texte standard)", name: regle_usage, widget: text, required: false }
+      - { label: "Règle résidence principale (laisser vide = 120 nuits)", name: regle_rp, widget: text, required: false }
+      - { label: "Source des règles", name: regle_source, widget: string, required: false }
+      - { label: "Bien géré dans la ville (facultatif)", name: bien, widget: relation, collection: biens, value_field: "{{slug}}", search_fields: [titre, ville], display_fields: ["{{titre}} · {{ville}}"], required: false }
+      - { label: "Présentation du bien (facultatif)", name: bien_intro, widget: text, required: false }
+      - { label: "Villes voisines (2)", name: voisins, widget: relation, collection: villes, value_field: "{{slug}}", search_fields: [ville], display_fields: [ville], multiple: true, required: false }
+      - label: "Questions fréquentes de la ville"
+        name: faq
+        widget: list
+        fields:
+          - { label: Question, name: q, widget: string }
+          - { label: Réponse, name: a, widget: text }
+      - { label: "Notre regard sur la ville (texte libre, 150 à 250 mots)", name: body, widget: markdown }
+
+  - name: biens
+    label: Biens gérés
+    label_singular: Bien
+    folder: content/biens
+    create: true
+    slug: "{{titre}}-{{ville}}"
+    summary: "{{titre}} · {{ville}}"
+    fields:
+      - { label: Nom du logement, name: titre, widget: string }
+      - { label: Ville, name: ville, widget: string }
+      - { label: "Département (ou Maroc)", name: departement, widget: string }
+      - { label: Région, name: region, widget: select, options: [{ label: Île-de-France, value: idf }, { label: Maroc, value: maroc }] }
+      - { label: "Ordre d'affichage", name: ordre, widget: number, value_type: int }
+      - { label: "Photo (sans texte dessus, format paysage)", name: photo, widget: image, required: false }
+      - { label: "Description de la photo (pour les malvoyants et Google)", name: alt, widget: string }
+      - { label: "Note Airbnb du logement (ex. 5,0)", name: note_airbnb, widget: string, required: false }
+      - { label: "Nombre d'avis Airbnb du logement", name: avis_airbnb, widget: number, value_type: int, required: false }
+      - { label: "Badge Airbnb « Coup de cœur voyageurs » obtenu", name: coup_de_coeur, widget: boolean, default: false, required: false }
+      - { label: "Résumé (une phrase)", name: resume, widget: string }
+      - { label: Étiquettes, name: tags, widget: list, required: false }
+      - { label: "Adresse de la page ville liée (ex. guyancourt)", name: ville_page, widget: string, required: false }
+      - { label: Histoire du logement, name: body, widget: markdown, required: false }
+
+  - name: temoignages
+    label: Témoignages vidéo
+    label_singular: Témoignage
+    description: "Publier seulement avec l'accord écrit du propriétaire (case à cocher + date). Vidéo verticale, 30 à 60 secondes, moins de 15 Mo."
+    folder: content/temoignages
+    create: true
+    slug: "{{prenom}}-{{ville}}"
+    summary: "{{prenom}} · {{ville}} · publié : {{publie}}"
+    fields:
+      - { label: Prénom, name: prenom, widget: string }
+      - { label: Ville du logement, name: ville, widget: string }
+      - { label: "Type de bien (ex. Appartement T2)", name: bien, widget: string }
+      - { label: "Phrase courte tirée de la vidéo", name: citation, widget: string, required: false }
+      - { label: "Vidéo (MP4)", name: video, widget: file, media_folder: /static/videos, public_folder: /videos, required: false }
+      - { label: "Ou identifiant YouTube (facultatif)", name: youtube, widget: string, required: false }
+      - { label: "Vignette verticale (image)", name: vignette, widget: image }
+      - { label: "Accord écrit du propriétaire reçu", name: accord_ecrit, widget: boolean, default: false }
+      - { label: "Date de l'accord", name: date_accord, widget: datetime, time_format: false, format: "YYYY-MM-DD", required: false }
+      - { label: "Ordre d'affichage", name: ordre, widget: number, value_type: int, required: false }
+      - { label: Publié, name: publie, widget: boolean, default: false }
+
+  - name: reglages
+    label: Réglages
+    files:
+      - name: site
+        label: "Avis, chiffres et coordonnées"
+        file: content/reglages/site.json
+        fields:
+          - { label: "Note Google", name: avis_google_note, widget: string }
+          - { label: "Nombre d'avis Google (à mettre à jour à chaque nouvel avis)", name: avis_google_nombre, widget: number, value_type: int }
+          - { label: "Date de vérification des avis Google", name: avis_google_verifie_le, widget: datetime, time_format: false, format: "YYYY-MM-DD" }
+          - { label: "Lien vers les avis Google", name: avis_google_lien, widget: string }
+          - { label: "Lien vers la fiche Google", name: fiche_google_lien, widget: string }
+          - { label: "Note Airbnb", name: airbnb_note, widget: string }
+          - { label: "Nombre d'évaluations Airbnb", name: airbnb_evaluations, widget: number, value_type: int }
+          - { label: "Superhôte", name: airbnb_superhote, widget: boolean }
+          - { label: "Années d'activité sur Airbnb", name: airbnb_annees, widget: number, value_type: int }
+          - { label: "Lien du profil Airbnb", name: airbnb_profil_lien, widget: string, required: false }
+          - { label: "Date de vérification Airbnb", name: airbnb_verifie_le, widget: datetime, time_format: false, format: "YYYY-MM-DD" }
+          - { label: "Logements gérés (texte, ex. plus de 50)", name: logements_geres, widget: string }
+          - { label: "Identifiant Google Analytics 4 (G-…), vide = aucune mesure", name: ga4_id, widget: string, required: false }
+          - { label: "Identifiant Pixel Meta, vide = aucun pixel", name: meta_pixel_id, widget: string, required: false }
+          - { label: "Nom", name: nom, widget: string }
+          - { label: "Slogan", name: slogan, widget: string }
+          - { label: "Adresse du site", name: url, widget: string }
+          - { label: "Téléphone affiché", name: telephone_affiche, widget: string }
+          - { label: "Téléphone international (+33…)", name: telephone_e164, widget: string }
+          - { label: "WhatsApp (33…, sans +)", name: whatsapp, widget: string }
+          - { label: "E-mail affiché", name: email, widget: string }
+          - { label: "E-mail qui reçoit les demandes", name: email_formulaire, widget: string }
+          - { label: "Rue", name: adresse_rue, widget: string }
+          - { label: "Code postal", name: adresse_cp, widget: string }
+          - { label: "Ville", name: adresse_ville, widget: string }
+          - { label: "Latitude", name: latitude, widget: number, value_type: float }
+          - { label: "Longitude", name: longitude, widget: number, value_type: float }
+          - { label: "Instagram", name: instagram, widget: string }
+          - { label: "TikTok", name: tiktok, widget: string }
+          - { label: "YouTube", name: youtube, widget: string }
+          - { label: "Facebook", name: facebook, widget: string }
+          - { label: "Vidéo de présentation (identifiant YouTube)", name: video_presentation_youtube, widget: string, required: false }
+          - { label: "Protocole ménage : vidéo verticale (MP4)", name: protocole_video, widget: file, media_folder: /static/videos, public_folder: /videos, required: false }
+          - { label: "Protocole ménage : capture WhatsApp (image verticale)", name: protocole_image, widget: image, required: false }
+          - { label: "SIRET", name: siret, widget: string }
+          - { label: "Mention TVA", name: mention_tva, widget: string }
+          - { label: "Médiateur : nom", name: mediateur_nom, widget: string }
+          - { label: "Médiateur : adresse", name: mediateur_adresse, widget: string }
+          - { label: "Médiateur : site", name: mediateur_site, widget: string }

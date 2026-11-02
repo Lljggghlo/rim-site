@@ -1,0 +1,989 @@
+[
+ {
+  "nom": "Versailles",
+  "dep": "78",
+  "trajet": 10,
+  "repere": "Château, centre historique, Palais des congrès",
+  "testee": true
+ },
+ {
+  "nom": "Paris",
+  "dep": "75",
+  "trajet": 35,
+  "repere": "Demande maximale toute l'année, règles les plus strictes",
+  "testee": true
+ },
+ {
+  "nom": "Chessy",
+  "dep": "77",
+  "trajet": 55,
+  "repere": "Disneyland Paris à pied, gare TGV et RER A Marne-la-Vallée",
+  "testee": true
+ },
+ {
+  "nom": "Serris",
+  "dep": "77",
+  "trajet": 55,
+  "repere": "Val d'Europe, Disney à 5 min, centre commercial, clientèle familles",
+  "testee": true
+ },
+ {
+  "nom": "Boulogne-Billancourt",
+  "dep": "92",
+  "trajet": 20,
+  "repere": "Collé à Paris, M9 et M10, Roland-Garros et Parc des Princes, affaires",
+  "testee": false
+ },
+ {
+  "nom": "Issy-les-Moulineaux",
+  "dep": "92",
+  "trajet": 20,
+  "repere": "Sièges sociaux, Paris Expo Porte de Versailles à 5 min, M12 et T2",
+  "testee": false
+ },
+ {
+  "nom": "Montrouge",
+  "dep": "92",
+  "trajet": 25,
+  "repere": "M4 directe vers le centre de Paris, clientèle loisirs et pro",
+  "testee": true
+ },
+ {
+  "nom": "Magny-le-Hongre",
+  "dep": "77",
+  "trajet": 55,
+  "repere": "Hôtels Disney sur la commune, parcs à 5 min",
+  "testee": false
+ },
+ {
+  "nom": "Puteaux",
+  "dep": "92",
+  "trajet": 30,
+  "repere": "La Défense et Paris La Défense Arena, clientèle affaires",
+  "testee": false
+ },
+ {
+  "nom": "Courbevoie",
+  "dep": "92",
+  "trajet": 30,
+  "repere": "La Défense, affaires en semaine et tourisme le week-end",
+  "testee": false
+ },
+ {
+  "nom": "Levallois-Perret",
+  "dep": "92",
+  "trajet": 30,
+  "repere": "M3 vers Paris, affaires, standing",
+  "testee": false
+ },
+ {
+  "nom": "Bailly-Romainvilliers",
+  "dep": "77",
+  "trajet": 55,
+  "repere": "Villages Nature et Disney à 5 min, clientèle familles",
+  "testee": false
+ },
+ {
+  "nom": "Neuilly-sur-Seine",
+  "dep": "92",
+  "trajet": 30,
+  "repere": "M1, Fondation Louis Vuitton, clientèle haut de gamme",
+  "testee": false
+ },
+ {
+  "nom": "Suresnes",
+  "dep": "92",
+  "trajet": 20,
+  "repere": "T2 vers La Défense, vue sur Paris",
+  "testee": true
+ },
+ {
+  "nom": "Orly",
+  "dep": "94",
+  "trajet": 25,
+  "repere": "Aéroport d'Orly, M14 vers Paris, escales et équipages",
+  "testee": true
+ },
+ {
+  "nom": "Massy",
+  "dep": "91",
+  "trajet": 20,
+  "repere": "Gare TGV, RER B et C, Orly à 15 min, pôle d'affaires Atlantis",
+  "testee": false
+ },
+ {
+  "nom": "Palaiseau",
+  "dep": "91",
+  "trajet": 20,
+  "repere": "Plateau de Saclay, Polytechnique, chercheurs et étudiants, M18 à venir",
+  "testee": true
+ },
+ {
+  "nom": "Athis-Mons",
+  "dep": "91",
+  "trajet": 25,
+  "repere": "Orly à 5 min",
+  "testee": true
+ },
+ {
+  "nom": "Vincennes",
+  "dep": "94",
+  "trajet": 45,
+  "repere": "Château, bois, M1 directe, clientèle familles",
+  "testee": false
+ },
+ {
+  "nom": "Le Chesnay-Rocquencourt",
+  "dep": "78",
+  "trajet": 12,
+  "repere": "Collé au château de Versailles, Parly 2, calme",
+  "testee": false
+ },
+ {
+  "nom": "Saint-Germain-en-Laye",
+  "dep": "78",
+  "trajet": 25,
+  "repere": "Château, RER A direct, ville bourgeoise, campus PSG proche",
+  "testee": false
+ },
+ {
+  "nom": "Montévrain",
+  "dep": "77",
+  "trajet": 55,
+  "repere": "Val d'Europe, Disney à 10 min, logements neufs",
+  "testee": false
+ },
+ {
+  "nom": "Clichy",
+  "dep": "92",
+  "trajet": 35,
+  "repere": "M13 et M14, collé au 17e, hôpital Beaujon",
+  "testee": false
+ },
+ {
+  "nom": "Malakoff",
+  "dep": "92",
+  "trajet": 25,
+  "repere": "M13, collé au 14e",
+  "testee": false
+ },
+ {
+  "nom": "Vanves",
+  "dep": "92",
+  "trajet": 25,
+  "repere": "Paris Expo Porte de Versailles à pied, salons",
+  "testee": false
+ },
+ {
+  "nom": "Charenton-le-Pont",
+  "dep": "94",
+  "trajet": 40,
+  "repere": "M8, Bercy et Accor Arena, collé au 12e",
+  "testee": false
+ },
+ {
+  "nom": "Saint-Mandé",
+  "dep": "94",
+  "trajet": 45,
+  "repere": "M1, bois de Vincennes, collé au 12e",
+  "testee": false
+ },
+ {
+  "nom": "Nanterre",
+  "dep": "92",
+  "trajet": 30,
+  "repere": "Paris La Défense Arena, université, RER A",
+  "testee": false
+ },
+ {
+  "nom": "Rueil-Malmaison",
+  "dep": "92",
+  "trajet": 25,
+  "repere": "Château de Malmaison, RER A, sièges sociaux",
+  "testee": false
+ },
+ {
+  "nom": "Saint-Cloud",
+  "dep": "92",
+  "trajet": 20,
+  "repere": "Parc, hippodrome, Paris à 10 min",
+  "testee": false
+ },
+ {
+  "nom": "Le Kremlin-Bicêtre",
+  "dep": "94",
+  "trajet": 30,
+  "repere": "M7, CHU Bicêtre, collé au 13e",
+  "testee": false
+ },
+ {
+  "nom": "Ivry-sur-Seine",
+  "dep": "94",
+  "trajet": 35,
+  "repere": "M7, RER C, collé au 13e",
+  "testee": false
+ },
+ {
+  "nom": "Villejuif",
+  "dep": "94",
+  "trajet": 30,
+  "repere": "Gustave Roussy (patients et familles), M7, M14 vers Orly",
+  "testee": false
+ },
+ {
+  "nom": "Gentilly",
+  "dep": "94",
+  "trajet": 30,
+  "repere": "RER B, Cité universitaire, collé au 13e",
+  "testee": false
+ },
+ {
+  "nom": "Arcueil",
+  "dep": "94",
+  "trajet": 30,
+  "repere": "RER B, proche Paris",
+  "testee": false
+ },
+ {
+  "nom": "Sèvres",
+  "dep": "92",
+  "trajet": 15,
+  "repere": "Cité de la céramique, T2, entre Paris et Versailles",
+  "testee": false
+ },
+ {
+  "nom": "Meudon",
+  "dep": "92",
+  "trajet": 15,
+  "repere": "Observatoire, T2, cadre vert, proche Vélizy",
+  "testee": false
+ },
+ {
+  "nom": "Vélizy-Villacoublay",
+  "dep": "78",
+  "trajet": 10,
+  "repere": "Pôle d'affaires (Dassault, Thales, Renault), T6, pros en semaine",
+  "testee": false
+ },
+ {
+  "nom": "Guyancourt",
+  "dep": "78",
+  "trajet": 0,
+  "repere": "Technocentre Renault, Golf National",
+  "testee": false
+ },
+ {
+  "nom": "Saint-Cyr-l'École",
+  "dep": "78",
+  "trajet": 10,
+  "repere": "Versailles à 5 min, RER C",
+  "testee": false
+ },
+ {
+  "nom": "Montigny-le-Bretonneux",
+  "dep": "78",
+  "trajet": 5,
+  "repere": "Vélodrome national, gare de SQY, clientèle pro",
+  "testee": false
+ },
+ {
+  "nom": "Viroflay",
+  "dep": "78",
+  "trajet": 10,
+  "repere": "Deux gares vers Paris, proche Versailles",
+  "testee": false
+ },
+ {
+  "nom": "Chevilly-Larue",
+  "dep": "94",
+  "trajet": 25,
+  "repere": "M14 vers Orly et Paris, MIN de Rungis",
+  "testee": false
+ },
+ {
+  "nom": "Rungis",
+  "dep": "94",
+  "trajet": 25,
+  "repere": "MIN de Rungis, Orly à 5 min, clientèle pro",
+  "testee": false
+ },
+ {
+  "nom": "Thiais",
+  "dep": "94",
+  "trajet": 25,
+  "repere": "Orly à 5 min, Belle Épine, M14",
+  "testee": false
+ },
+ {
+  "nom": "Antony",
+  "dep": "92",
+  "trajet": 20,
+  "repere": "Orlyval, RER B, université, familles",
+  "testee": false
+ },
+ {
+  "nom": "Châtillon",
+  "dep": "92",
+  "trajet": 20,
+  "repere": "M13, T6, proche Paris",
+  "testee": false
+ },
+ {
+  "nom": "Clamart",
+  "dep": "92",
+  "trajet": 15,
+  "repere": "Montparnasse en 8 min, hôpitaux Percy et Béclère",
+  "testee": false
+ },
+ {
+  "nom": "Asnières-sur-Seine",
+  "dep": "92",
+  "trajet": 35,
+  "repere": "M13, 17e proche, bonne demande",
+  "testee": false
+ },
+ {
+  "nom": "Maisons-Alfort",
+  "dep": "94",
+  "trajet": 40,
+  "repere": "M8, école vétérinaire, Paris proche",
+  "testee": false
+ },
+ {
+  "nom": "Nogent-sur-Marne",
+  "dep": "94",
+  "trajet": 45,
+  "repere": "RER A et E, bords de Marne, Pavillon Baltard",
+  "testee": false
+ },
+ {
+  "nom": "Cachan",
+  "dep": "94",
+  "trajet": 30,
+  "repere": "RER B, Paris proche, étudiants",
+  "testee": false
+ },
+ {
+  "nom": "Gif-sur-Yvette",
+  "dep": "91",
+  "trajet": 20,
+  "repere": "CEA, CentraleSupélec, plateau de Saclay",
+  "testee": false
+ },
+ {
+  "nom": "Orsay",
+  "dep": "91",
+  "trajet": 20,
+  "repere": "Université Paris-Saclay, RER B, chercheurs",
+  "testee": false
+ },
+ {
+  "nom": "Jouy-en-Josas",
+  "dep": "78",
+  "trajet": 10,
+  "repere": "HEC Paris, formations courtes, cadre vert",
+  "testee": false
+ },
+ {
+  "nom": "Maisons-Laffitte",
+  "dep": "78",
+  "trajet": 30,
+  "repere": "Château, cité du cheval, RER A",
+  "testee": false
+ },
+ {
+  "nom": "La Garenne-Colombes",
+  "dep": "92",
+  "trajet": 30,
+  "repere": "Collé à La Défense, résidentiel",
+  "testee": false
+ },
+ {
+  "nom": "Bagneux",
+  "dep": "92",
+  "trajet": 25,
+  "repere": "M4 depuis 2022",
+  "testee": false
+ },
+ {
+  "nom": "Sceaux",
+  "dep": "92",
+  "trajet": 25,
+  "repere": "Parc de Sceaux, RER B",
+  "testee": false
+ },
+ {
+  "nom": "Juvisy-sur-Orge",
+  "dep": "91",
+  "trajet": 25,
+  "repere": "RER C et D, Orly à 10 min",
+  "testee": false
+ },
+ {
+  "nom": "Saint-Maurice",
+  "dep": "94",
+  "trajet": 40,
+  "repere": "Bois de Vincennes, proche Charenton",
+  "testee": false
+ },
+ {
+  "nom": "Chatou",
+  "dep": "78",
+  "trajet": 25,
+  "repere": "RER A, île des Impressionnistes",
+  "testee": false
+ },
+ {
+  "nom": "Bourg-la-Reine",
+  "dep": "92",
+  "trajet": 25,
+  "repere": "RER B, proche Sceaux",
+  "testee": false
+ },
+ {
+  "nom": "Chaville",
+  "dep": "92",
+  "trajet": 15,
+  "repere": "Deux gares, forêt, entre Paris et Versailles",
+  "testee": false
+ },
+ {
+  "nom": "Bois-Colombes",
+  "dep": "92",
+  "trajet": 35,
+  "repere": "Résidentiel, Saint-Lazare en 10 min",
+  "testee": false
+ },
+ {
+  "nom": "Alfortville",
+  "dep": "94",
+  "trajet": 40,
+  "repere": "Proche M8 et Paris 12e/13e",
+  "testee": false
+ },
+ {
+  "nom": "Choisy-le-Roi",
+  "dep": "94",
+  "trajet": 30,
+  "repere": "RER C, T9, Orly à 10 min",
+  "testee": false
+ },
+ {
+  "nom": "Vitry-sur-Seine",
+  "dep": "94",
+  "trajet": 30,
+  "repere": "RER C, MAC VAL",
+  "testee": false
+ },
+ {
+  "nom": "Fontenay-sous-Bois",
+  "dep": "94",
+  "trajet": 45,
+  "repere": "RER A, pôle d'affaires Val de Fontenay",
+  "testee": false
+ },
+ {
+  "nom": "Le Vésinet",
+  "dep": "78",
+  "trajet": 25,
+  "repere": "RER A, cadre haut de gamme",
+  "testee": false
+ },
+ {
+  "nom": "Marly-le-Roi",
+  "dep": "78",
+  "trajet": 20,
+  "repere": "Domaine national de Marly",
+  "testee": false
+ },
+ {
+  "nom": "Poissy",
+  "dep": "78",
+  "trajet": 30,
+  "repere": "Villa Savoye (UNESCO), campus PSG, RER A",
+  "testee": false
+ },
+ {
+  "nom": "Villeneuve-le-Roi",
+  "dep": "94",
+  "trajet": 25,
+  "repere": "Collé à l'aéroport d'Orly (bruit à surveiller)",
+  "testee": false
+ },
+ {
+  "nom": "Joinville-le-Pont",
+  "dep": "94",
+  "trajet": 45,
+  "repere": "RER A, bords de Marne",
+  "testee": false
+ },
+ {
+  "nom": "Créteil",
+  "dep": "94",
+  "trajet": 40,
+  "repere": "M8, CHU Henri-Mondor, université",
+  "testee": false
+ },
+ {
+  "nom": "L'Haÿ-les-Roses",
+  "dep": "94",
+  "trajet": 30,
+  "repere": "Roseraie, M14 à côté",
+  "testee": false
+ },
+ {
+  "nom": "Saint-Maur-des-Fossés",
+  "dep": "94",
+  "trajet": 45,
+  "repere": "RER A, résidentiel aisé",
+  "testee": false
+ },
+ {
+  "nom": "Fontenay-aux-Roses",
+  "dep": "92",
+  "trajet": 20,
+  "repere": "RER B, résidentiel",
+  "testee": false
+ },
+ {
+  "nom": "Le Plessis-Robinson",
+  "dep": "92",
+  "trajet": 15,
+  "repere": "Cœur de ville rénové, proche Clamart",
+  "testee": false
+ },
+ {
+  "nom": "Colombes",
+  "dep": "92",
+  "trajet": 35,
+  "repere": "Stade Yves-du-Manoir, Saint-Lazare proche",
+  "testee": false
+ },
+ {
+  "nom": "Les Ulis",
+  "dep": "91",
+  "trajet": 20,
+  "repere": "Zone d'activité de Courtabœuf",
+  "testee": false
+ },
+ {
+  "nom": "Le Pecq",
+  "dep": "78",
+  "trajet": 25,
+  "repere": "RER A, bords de Seine",
+  "testee": false
+ },
+ {
+  "nom": "Le Perreux-sur-Marne",
+  "dep": "94",
+  "trajet": 45,
+  "repere": "Bords de Marne, RER E",
+  "testee": false
+ },
+ {
+  "nom": "Chilly-Mazarin",
+  "dep": "91",
+  "trajet": 20,
+  "repere": "Orly à 10 min, A6",
+  "testee": false
+ },
+ {
+  "nom": "Savigny-sur-Orge",
+  "dep": "91",
+  "trajet": 25,
+  "repere": "RER C, Orly à 15 min",
+  "testee": false
+ },
+ {
+  "nom": "Ville-d'Avray",
+  "dep": "92",
+  "trajet": 15,
+  "repere": "Étangs de Corot, cadre vert",
+  "testee": false
+ },
+ {
+  "nom": "La Celle-Saint-Cloud",
+  "dep": "78",
+  "trajet": 20,
+  "repere": "Résidentiel, proche Versailles",
+  "testee": false
+ },
+ {
+  "nom": "Croissy-sur-Seine",
+  "dep": "78",
+  "trajet": 25,
+  "repere": "Résidentiel aisé, RER A proche",
+  "testee": false
+ },
+ {
+  "nom": "Verrières-le-Buisson",
+  "dep": "91",
+  "trajet": 20,
+  "repere": "Arboretum, proche Massy",
+  "testee": false
+ },
+ {
+  "nom": "Morangis",
+  "dep": "91",
+  "trajet": 20,
+  "repere": "Orly à 10 min",
+  "testee": false
+ },
+ {
+  "nom": "Villebon-sur-Yvette",
+  "dep": "91",
+  "trajet": 20,
+  "repere": "Proche Saclay et Courtabœuf",
+  "testee": false
+ },
+ {
+  "nom": "Bry-sur-Marne",
+  "dep": "94",
+  "trajet": 50,
+  "repere": "INA, studios de tournage, RER A",
+  "testee": false
+ },
+ {
+  "nom": "Châtenay-Malabry",
+  "dep": "92",
+  "trajet": 15,
+  "repere": "Vallée-aux-Loups, T10",
+  "testee": false
+ },
+ {
+  "nom": "Garches",
+  "dep": "92",
+  "trajet": 20,
+  "repere": "Hôpital Raymond-Poincaré",
+  "testee": false
+ },
+ {
+  "nom": "Fresnes",
+  "dep": "94",
+  "trajet": 25,
+  "repere": "Proche Orly et Antony",
+  "testee": false
+ },
+ {
+  "nom": "Évry-Courcouronnes",
+  "dep": "91",
+  "trajet": 35,
+  "repere": "Genopole, université, centre d'affaires",
+  "testee": false
+ },
+ {
+  "nom": "Élancourt",
+  "dep": "78",
+  "trajet": 10,
+  "repere": "France Miniature, proche base",
+  "testee": false
+ },
+ {
+  "nom": "Voisins-le-Bretonneux",
+  "dep": "78",
+  "trajet": 10,
+  "repere": "Résidentiel, proche Technocentre",
+  "testee": false
+ },
+ {
+  "nom": "Houilles",
+  "dep": "78",
+  "trajet": 30,
+  "repere": "Saint-Lazare en 12 min",
+  "testee": false
+ },
+ {
+  "nom": "Igny",
+  "dep": "91",
+  "trajet": 15,
+  "repere": "Proche Massy et Saclay",
+  "testee": false
+ },
+ {
+  "nom": "Gennevilliers",
+  "dep": "92",
+  "trajet": 35,
+  "repere": "M13, port, zones d'activité",
+  "testee": false
+ },
+ {
+  "nom": "Champigny-sur-Marne",
+  "dep": "94",
+  "trajet": 45,
+  "repere": "RER A et E, bords de Marne",
+  "testee": false
+ },
+ {
+  "nom": "Sartrouville",
+  "dep": "78",
+  "trajet": 30,
+  "repere": "RER A",
+  "testee": false
+ },
+ {
+  "nom": "Bois-d'Arcy",
+  "dep": "78",
+  "trajet": 15,
+  "repere": "Proche Versailles et SQY",
+  "testee": false
+ },
+ {
+  "nom": "Plaisir",
+  "dep": "78",
+  "trajet": 15,
+  "repere": "Pôle commercial, zones d'activité",
+  "testee": false
+ },
+ {
+  "nom": "Villeneuve-Saint-Georges",
+  "dep": "94",
+  "trajet": 35,
+  "repere": "RER C et D",
+  "testee": false
+ },
+ {
+  "nom": "Longjumeau",
+  "dep": "91",
+  "trajet": 25,
+  "repere": "Proche Orly et Massy",
+  "testee": false
+ },
+ {
+  "nom": "Villiers-sur-Marne",
+  "dep": "94",
+  "trajet": 50,
+  "repere": "RER E, futur M15",
+  "testee": false
+ },
+ {
+  "nom": "Sucy-en-Brie",
+  "dep": "94",
+  "trajet": 45,
+  "repere": "RER A, château",
+  "testee": false
+ },
+ {
+  "nom": "Carrières-sur-Seine",
+  "dep": "78",
+  "trajet": 25,
+  "repere": "Proche Chatou, RER A",
+  "testee": false
+ },
+ {
+  "nom": "Trappes",
+  "dep": "78",
+  "trajet": 10,
+  "repere": "Gare SQY-Trappes, zones d'activité",
+  "testee": false
+ },
+ {
+  "nom": "Fontenay-le-Fleury",
+  "dep": "78",
+  "trajet": 15,
+  "repere": "Proche Versailles",
+  "testee": false
+ },
+ {
+  "nom": "Montesson",
+  "dep": "78",
+  "trajet": 25,
+  "repere": "Résidentiel",
+  "testee": false
+ },
+ {
+  "nom": "Les Clayes-sous-Bois",
+  "dep": "78",
+  "trajet": 15,
+  "repere": "Proche Plaisir",
+  "testee": false
+ },
+ {
+  "nom": "Chennevières-sur-Marne",
+  "dep": "94",
+  "trajet": 50,
+  "repere": "Résidentiel",
+  "testee": false
+ },
+ {
+  "nom": "Villeneuve-la-Garenne",
+  "dep": "92",
+  "trajet": 40,
+  "repere": "Centre commercial Qwartz",
+  "testee": false
+ },
+ {
+  "nom": "Le Plessis-Trévise",
+  "dep": "94",
+  "trajet": 50,
+  "repere": "Résidentiel",
+  "testee": false
+ },
+ {
+  "nom": "Boissy-Saint-Léger",
+  "dep": "94",
+  "trajet": 50,
+  "repere": "RER A, château du Piple",
+  "testee": false
+ },
+ {
+  "nom": "Maurepas",
+  "dep": "78",
+  "trajet": 15,
+  "repere": "Proche SQY",
+  "testee": false
+ },
+ {
+  "nom": "Brétigny-sur-Orge",
+  "dep": "91",
+  "trajet": 30,
+  "repere": "Base 217, RER C",
+  "testee": false
+ },
+ {
+  "nom": "Viry-Châtillon",
+  "dep": "91",
+  "trajet": 30,
+  "repere": "Lac, RER D",
+  "testee": false
+ },
+ {
+  "nom": "Bonneuil-sur-Marne",
+  "dep": "94",
+  "trajet": 45,
+  "repere": "Port, zones d'activité",
+  "testee": false
+ },
+ {
+  "nom": "Ris-Orangis",
+  "dep": "91",
+  "trajet": 35,
+  "repere": "RER D",
+  "testee": false
+ },
+ {
+  "nom": "Sainte-Geneviève-des-Bois",
+  "dep": "91",
+  "trajet": 30,
+  "repere": "Résidentiel",
+  "testee": false
+ },
+ {
+  "nom": "Draveil",
+  "dep": "91",
+  "trajet": 35,
+  "repere": "Base de loisirs Port-aux-Cerises",
+  "testee": false
+ },
+ {
+  "nom": "Montgeron",
+  "dep": "91",
+  "trajet": 35,
+  "repere": "RER D",
+  "testee": false
+ },
+ {
+  "nom": "Carrières-sous-Poissy",
+  "dep": "78",
+  "trajet": 30,
+  "repere": "Proche Poissy",
+  "testee": false
+ },
+ {
+  "nom": "Villepreux",
+  "dep": "78",
+  "trajet": 15,
+  "repere": "Résidentiel",
+  "testee": false
+ },
+ {
+  "nom": "Limeil-Brévannes",
+  "dep": "94",
+  "trajet": 45,
+  "repere": "Résidentiel",
+  "testee": false
+ },
+ {
+  "nom": "La Queue-en-Brie",
+  "dep": "94",
+  "trajet": 50,
+  "repere": "Résidentiel",
+  "testee": false
+ },
+ {
+  "nom": "Saint-Michel-sur-Orge",
+  "dep": "91",
+  "trajet": 30,
+  "repere": "RER C",
+  "testee": false
+ },
+ {
+  "nom": "Épinay-sur-Orge",
+  "dep": "91",
+  "trajet": 25,
+  "repere": "RER C",
+  "testee": false
+ },
+ {
+  "nom": "Ormesson-sur-Marne",
+  "dep": "94",
+  "trajet": 50,
+  "repere": "Résidentiel",
+  "testee": false
+ },
+ {
+  "nom": "Villecresnes",
+  "dep": "94",
+  "trajet": 45,
+  "repere": "Résidentiel",
+  "testee": false
+ },
+ {
+  "nom": "Valenton",
+  "dep": "94",
+  "trajet": 40,
+  "repere": "",
+  "testee": false
+ },
+ {
+  "nom": "Morsang-sur-Orge",
+  "dep": "91",
+  "trajet": 30,
+  "repere": "Résidentiel",
+  "testee": false
+ },
+ {
+  "nom": "Vigneux-sur-Seine",
+  "dep": "91",
+  "trajet": 35,
+  "repere": "Bords de Seine",
+  "testee": false
+ },
+ {
+  "nom": "Les Mureaux",
+  "dep": "78",
+  "trajet": 40,
+  "repere": "",
+  "testee": false
+ },
+ {
+  "nom": "Grigny",
+  "dep": "91",
+  "trajet": 30,
+  "repere": "",
+  "testee": false
+ },
+ {
+  "nom": "Fleury-Mérogis",
+  "dep": "91",
+  "trajet": 30,
+  "repere": "",
+  "testee": false
+ },
+ {
+  "nom": "Saint-Forget",
+  "dep": "78",
+  "trajet": 20,
+  "repere": "Vallée de Chevreuse, cadre naturel, week-ends",
+  "testee": false
+ }
+]
