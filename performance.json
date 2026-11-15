@@ -1,0 +1,95 @@
+{
+ "date": "2026-11-15T20:37:35.611Z",
+ "profil": "téléphone (Lighthouse, mesure de laboratoire)",
+ "seuils": {
+  "lcp_s": 2.5,
+  "cls": 0.1
+ },
+ "pages": [
+  {
+   "page": "/",
+   "performance": 96,
+   "seo": 100,
+   "accessibilite": 100,
+   "bonnes_pratiques": 100,
+   "lcp_s": 2.26,
+   "cls": 0,
+   "tbt_ms": 94,
+   "fcp_s": 2.12,
+   "poids_ko": 314,
+   "a_corriger": [
+    "Properly size images"
+   ]
+  },
+  {
+   "page": "/gestion-airbnb-booking",
+   "performance": 100,
+   "seo": 100,
+   "accessibilite": 100,
+   "bonnes_pratiques": 100,
+   "lcp_s": 1.36,
+   "cls": 0,
+   "tbt_ms": 0,
+   "fcp_s": 1.06,
+   "poids_ko": 150,
+   "a_corriger": [
+    "Eliminate render-blocking resources",
+    "Minify CSS",
+    "Reduce unused CSS"
+   ]
+  },
+  {
+   "page": "/conciergerie-airbnb-versailles",
+   "performance": 99,
+   "seo": 100,
+   "accessibilite": 100,
+   "bonnes_pratiques": 100,
+   "lcp_s": 2.19,
+   "cls": 0,
+   "tbt_ms": 0,
+   "fcp_s": 1.07,
+   "poids_ko": 250,
+   "a_corriger": [
+    "Eliminate render-blocking resources",
+    "Minify CSS",
+    "Reduce unused CSS",
+    "Properly size images"
+   ]
+  },
+  {
+   "page": "/estimation",
+   "performance": 94,
+   "seo": 100,
+   "accessibilite": 100,
+   "bonnes_pratiques": 100,
+   "lcp_s": 1.29,
+   "cls": 0.157,
+   "tbt_ms": 0,
+   "fcp_s": 1.06,
+   "poids_ko": 148,
+   "a_corriger": [
+    "Eliminate render-blocking resources",
+    "Minify CSS",
+    "Reduce unused CSS"
+   ]
+  },
+  {
+   "page": "/blog/degats-voyageur-aircover-booking",
+   "performance": 100,
+   "seo": 100,
+   "accessibilite": 100,
+   "bonnes_pratiques": 100,
+   "lcp_s": 1.89,
+   "cls": 0,
+   "tbt_ms": 0,
+   "fcp_s": 0.92,
+   "poids_ko": 219,
+   "a_corriger": [
+    "Properly size images"
+   ]
+  }
+ ],
+ "alertes": [
+  "/estimation : LCP 1.29 s, CLS 0.157, SEO 100"
+ ]
+}
