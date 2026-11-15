@@ -1,14 +1,14 @@
 {
- "date": "2026-11-15T20:40:22.429Z",
+ "date": "2026-11-15T20:41:34.981Z",
  "ok": true,
- "pages_controlees": 47,
- "articles_en_ligne": 4,
- "jours_depuis_dernier_article": 3,
- "article_attendu": null,
- "article_en_ligne": null,
+ "pages_controlees": 49,
+ "articles_en_ligne": 5,
+ "jours_depuis_dernier_article": 0,
+ "article_attendu": "/blog/demarches-mettre-logement-airbnb",
+ "article_en_ligne": true,
  "indexnow": {
-  "envoyees": 43,
-  "reponse": 202
+  "envoyees": 46,
+  "reponse": 200
  },
  "erreurs": [],
  "avertissements": []
