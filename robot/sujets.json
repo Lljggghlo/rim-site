@@ -20,9 +20,9 @@
    "intention": "information → estimation",
    "priorite": 1,
    "angle": "Liste ordonnée : copropriété, mairie (déclaration, enregistrement, changement d'usage), impôts (SIRET), assurance, annonce. Distinguer résidence principale et secondaire.",
-   "statut": "a_faire",
-   "slug": null,
-   "publie_le": null
+   "statut": "publie",
+   "slug": "demarches-mettre-logement-airbnb",
+   "publie_le": "2026-11-15"
   },
   {
    "id": 2,
