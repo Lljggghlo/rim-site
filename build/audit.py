@@ -1,6 +1,6 @@
 import os, re, json, html, glob, sys, collections
 from html.parser import HTMLParser
-D = '/home/claude/site/dist'; BASE = 'https://www.rimconciergerie.fr'
+D = os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', 'dist'); BASE = 'https://www.rimconciergerie.fr'
 pages = sorted(glob.glob(D + '/**/*.html', recursive=True))
 pages = [p for p in pages if '/admin/' not in p and 'google0995' not in p]
 issues = collections.defaultdict(list)

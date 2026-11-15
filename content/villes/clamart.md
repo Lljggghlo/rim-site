@@ -23,7 +23,7 @@ faq:
 - q: Louer à des familles de patients, comment ça se passe ?
   a: 'Ces voyageurs ont besoin de souplesse : dates qui bougent, séjours prolongés, arrivées à toute heure. Nous adaptons les règles de réservation et la communication, avec tact.'
 - q: Faut-il une autorisation de changement d'usage à Clamart ?
-  a: 'Oui, si le logement n''est pas votre résidence principale : la règle s''applique dans tous les Hauts-de-Seine. La mairie de Clamart fixe ses conditions dans son règlement ; nous les vérifions avec vous avant de signer.'
+  a: 'C''est à vérifier auprès de la mairie, si le logement n''est pas votre résidence principale. Jusqu''en novembre 2024, l''autorisation était obligatoire d''office dans tous les Hauts-de-Seine ; depuis la loi du 19 novembre 2024, elle dépend d''une délibération de la commune ou de son intercommunalité, qui en fixe les conditions. Nous vérifions avec vous la règle en vigueur avant de signer.'
 publie: true
 photo: "/images/villes/clamart-1920.webp"
 photo_alt: "Hôtel de ville de Clamart"

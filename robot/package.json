@@ -1,0 +1,9 @@
+{
+  "name": "rim-robot-blog",
+  "private": true,
+  "type": "module",
+  "description": "Outils du robot éditorial de rimconciergerie.fr (images, contrôles, suivi). Séparé du site pour ne pas alourdir sa construction.",
+  "dependencies": {
+    "sharp": "0.33.5"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "site": "https://www.rimconciergerie.fr",
+  "mode": "auto",
+  "_mode": "auto = l'article est publié dès qu'il passe tous les contrôles. relecture = l'article est déposé en brouillon ; il paraît quand Nassim décoche « Brouillon » dans /admin.",
+  "relecture_obligatoire_pour": [],
+  "_relecture_obligatoire_pour": "Liste de catégories toujours déposées en brouillon, même en mode auto. Exemple : [\"Fiscalité\", \"Réglementation\"].",
+  "rythme": {
+    "articles_par_semaine": 3,
+    "jours": ["lundi", "mercredi", "vendredi"],
+    "articles_villes_max_par_semaine": 1,
+    "pause_jusqu_au": null
+  },
+  "regles": {
+    "mots_min": 1000,
+    "mots_max": 2800,
+    "h2_min": 4,
+    "paragraphe_max": 120,
+    "liens_internes_min": 4,
+    "liens_externes_min": 2,
+    "sources_min": 2,
+    "sources_officielles_min_sensible": 2,
+    "verification_max_jours": 7,
+    "similarite_max": 0.18,
+    "slug_max": 70
+  },
+  "suivi": {
+    "propriete_search_console": "https://www.rimconciergerie.fr/",
+    "ga4_property_id": "",
+    "article_a_reprendre_apres_jours": 60,
+    "impressions_min_28j": 30
+  },
+  "alerte": {
+    "jours_sans_article_max": 6
+  },
+  "indexnow_key": "02aee623294ba9e19a2624a3c754a840"
+}

@@ -23,7 +23,7 @@ voisins:
 - paris
 faq:
 - q: Faut-il une autorisation de changement d'usage à Boulogne-Billancourt ?
-  a: 'Oui, si le logement n''est pas votre résidence principale : la règle s''applique dans tous les Hauts-de-Seine. La mairie de Boulogne-Billancourt fixe ses conditions dans son règlement ; nous les vérifions avec vous avant de signer.'
+  a: 'C''est à vérifier auprès de la mairie, si le logement n''est pas votre résidence principale. Jusqu''en novembre 2024, l''autorisation était obligatoire d''office dans tous les Hauts-de-Seine ; depuis la loi du 19 novembre 2024, elle dépend d''une délibération de la commune ou de son intercommunalité, qui en fixe les conditions. Nous vérifions avec vous la règle en vigueur avant de signer.'
 - q: Les événements comme Roland-Garros changent-ils les prix ?
   a: Oui. Pendant les grands tournois et matchs, la demande grimpe autour de la porte d'Auteuil. Nos prix s'ajustent chaque jour et anticipent ces dates plusieurs mois à l'avance, avec des durées minimales adaptées.
 publie: true

@@ -23,7 +23,7 @@ faq:
 - q: Courbevoie se loue-t-elle aussi le week-end ?
   a: 'Oui, grâce à Paris tout proche : Saint-Lazare en train, l''Arc de Triomphe par la ligne 1 depuis La Défense. Nous ajustons les prix du week-end pour attirer les touristes quand les professionnels repartent.'
 - q: Faut-il une autorisation de changement d'usage à Courbevoie ?
-  a: 'Oui, si le logement n''est pas votre résidence principale : la règle s''applique dans tous les Hauts-de-Seine. La mairie de Courbevoie fixe ses conditions dans son règlement ; nous les vérifions avec vous avant de signer.'
+  a: 'C''est à vérifier auprès de la mairie, si le logement n''est pas votre résidence principale. Jusqu''en novembre 2024, l''autorisation était obligatoire d''office dans tous les Hauts-de-Seine ; depuis la loi du 19 novembre 2024, elle dépend d''une délibération de la commune ou de son intercommunalité, qui en fixe les conditions. Nous vérifions avec vous la règle en vigueur avant de signer.'
 publie: true
 photo: "/images/villes/courbevoie-1920.webp"
 photo_alt: "Péniche sur la Seine au pont de Courbevoie"

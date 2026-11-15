@@ -1,5 +1,6 @@
 ---
 ville: Paris
+title: 'Conciergerie et gestion Airbnb Paris | Rim Conciergerie'
 departement: '75'
 trajet: 35 min
 ordre: 7

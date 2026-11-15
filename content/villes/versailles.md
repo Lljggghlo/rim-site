@@ -1,5 +1,6 @@
 ---
 ville: Versailles
+title: 'Conciergerie et gestion Airbnb Versailles | Rim Conciergerie'
 departement: '78'
 trajet: 10 min
 ordre: 2

@@ -25,7 +25,7 @@ faq:
 - q: Un logement à Montrouge peut-il rivaliser avec Paris ?
   a: 'Sur le prix, souvent : les voyageurs acceptent quelques stations de métro pour un logement plus grand ou mieux équipé. Nous mettons en avant le temps de trajet exact jusqu''aux grands sites parisiens.'
 - q: Faut-il une autorisation de changement d'usage à Montrouge ?
-  a: 'Oui, si le logement n''est pas votre résidence principale : la règle s''applique dans tous les Hauts-de-Seine. La mairie de Montrouge fixe ses conditions dans son règlement ; nous les vérifions avec vous avant de signer.'
+  a: 'C''est à vérifier auprès de la mairie, si le logement n''est pas votre résidence principale. Jusqu''en novembre 2024, l''autorisation était obligatoire d''office dans tous les Hauts-de-Seine ; depuis la loi du 19 novembre 2024, elle dépend d''une délibération de la commune ou de son intercommunalité, qui en fixe les conditions. Nous vérifions avec vous la règle en vigueur avant de signer.'
 publie: true
 photo: "/images/villes/montrouge-1920.webp"
 photo_alt: "Hôtel de ville de Montrouge"

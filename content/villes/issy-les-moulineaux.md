@@ -23,7 +23,7 @@ faq:
 - q: Les salons de Paris Expo font-ils vraiment la différence à Issy ?
   a: Oui. Pendant les grands salons, exposants et visiteurs cherchent à dormir à pied ou à quelques stations. Nous intégrons le calendrier des salons à la tarification, pour remplir ces dates au bon prix.
 - q: Faut-il une autorisation de changement d'usage à Issy-les-Moulineaux ?
-  a: 'Oui, si le logement n''est pas votre résidence principale : la règle s''applique dans tous les Hauts-de-Seine. La mairie d''Issy-les-Moulineaux fixe ses conditions dans son règlement ; nous les vérifions avec vous avant de signer.'
+  a: 'C''est à vérifier auprès de la mairie, si le logement n''est pas votre résidence principale. Jusqu''en novembre 2024, l''autorisation était obligatoire d''office dans tous les Hauts-de-Seine ; depuis la loi du 19 novembre 2024, elle dépend d''une délibération de la commune ou de son intercommunalité, qui en fixe les conditions. Nous vérifions avec vous la règle en vigueur avant de signer.'
 publie: true
 photo: "/images/villes/issy-les-moulineaux-1920.webp"
 photo_alt: "Bras de Seine à Issy-les-Moulineaux"

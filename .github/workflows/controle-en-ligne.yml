@@ -1,0 +1,48 @@
+name: Contrôle du site en ligne
+
+# Chaque matin, et après chaque modification directe du site (par /admin ou à la main) :
+# toutes les pages répondent-elles, sont-elles indexables, le blog est-il à jour ?
+on:
+  schedule:
+    - cron: '40 6 * * *'
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ['content/**', 'build/**', 'static/**', 'data/**', 'vercel.json']
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  group: controle-en-ligne
+  cancel-in-progress: true
+
+env:
+  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+  GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+jobs:
+  controler:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Laisser à Vercel le temps de mettre en ligne
+        if: github.event_name == 'push'
+        run: sleep 240
+      - name: Contrôler le site
+        run: |
+          set -o pipefail
+          robot/ci/etat.sh tirer
+          node robot/verif-en-ligne.mjs --indexnow 2>&1 | tee /tmp/controle.log
+      - name: Enregistrer le résultat
+        if: always()
+        run: robot/ci/etat.sh pousser
+      - name: Alerte en cas d'échec
+        if: failure()
+        run: |
+          robot/ci/alerte.sh "Robot blog : anomalie sur le site en ligne" /tmp/controle.log

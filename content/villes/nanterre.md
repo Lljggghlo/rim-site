@@ -23,7 +23,7 @@ faq:
 - q: Faut-il louer différemment les soirs de concert à Nanterre ?
   a: 'Oui : prix plus élevés, durées minimales adaptées et règles de la maison claires sur le bruit et le nombre de voyageurs. Le protocole vidéo permet de constater tout dégât après le séjour.'
 - q: Faut-il une autorisation de changement d'usage à Nanterre ?
-  a: 'Oui, si le logement n''est pas votre résidence principale : la règle s''applique dans tous les Hauts-de-Seine. La mairie de Nanterre fixe ses conditions dans son règlement ; nous les vérifions avec vous avant de signer.'
+  a: 'C''est à vérifier auprès de la mairie, si le logement n''est pas votre résidence principale. Jusqu''en novembre 2024, l''autorisation était obligatoire d''office dans tous les Hauts-de-Seine ; depuis la loi du 19 novembre 2024, elle dépend d''une délibération de la commune ou de son intercommunalité, qui en fixe les conditions. Nous vérifions avec vous la règle en vigueur avant de signer.'
 publie: true
 photo: "/images/villes/nanterre-1920.webp"
 photo_alt: "Parc André-Malraux à Nanterre"

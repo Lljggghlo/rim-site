@@ -8,8 +8,8 @@ import { marked } from 'marked';
 import { ctx, layout, slugify, dateCourte, bienImg } from './lib.mjs';
 import { accueil, gestion, services, tarifs } from './pages/core.mjs';
 import { avis, quiSommesNous, estimation, merci, mentionsLegales, confidentialite, cookies, page404 } from './pages/core2.mjs';
-import { villePage, deptPage, DEPTS } from './pages/villes.mjs';
-import { blogIndex, blogPost, rss } from './pages/blog.mjs';
+import { villePage, deptPage, sqyPage, DEPTS } from './pages/villes.mjs';
+import { blogIndex, blogPost, blogThemes, rss } from './pages/blog.mjs';
 
 const ROOT = path.resolve(path.dirname(new URL(import.meta.url).pathname), '..');
 const OUT = path.join(ROOT, 'dist');
@@ -37,6 +37,11 @@ const toISO = (d) => (d instanceof Date ? d.toISOString().slice(0, 10) : String(
 ctx.s = JSON.parse(fs.readFileSync(C('reglages', 'site.json'), 'utf8'));
 ctx.communes = JSON.parse(fs.readFileSync(path.join(ROOT, 'data', 'communes.json'), 'utf8'));
 ctx.carte = JSON.parse(fs.readFileSync(path.join(ROOT, 'data', 'carte-idf.json'), 'utf8'));
+ctx.credits = JSON.parse(fs.readFileSync(path.join(ROOT, 'data', 'credits-photos.json'), 'utf8'));
+// Registre des dates de dernière modification réelle (data/lastmod.json, tenu par « npm run lastmod »)
+const LASTMOD_FILE = path.join(ROOT, 'data', 'lastmod.json');
+const lastmodReg = fs.existsSync(LASTMOD_FILE) ? JSON.parse(fs.readFileSync(LASTMOD_FILE, 'utf8')) : {};
+const empreinte = (txt) => crypto.createHash('md5').update(String(txt).replace(/\s+/g, ' ')).digest('hex').slice(0, 12);
 
 const biens = readMd(C('biens'))
   .map((b) => ({ ...b, slug: b.slug || b._file.replace(/\.md$/, ''), histoire: b.body, tags: b.tags || null }))
@@ -70,7 +75,7 @@ const nowMs = now.getTime();
 const allPosts = readMd(C('blog')).map((p) => {
   const dt = p.date instanceof Date ? p.date : new Date(String(p.date).length <= 10 ? `${p.date}T00:00:00+01:00` : p.date);
   const words = p.body.split(/\s+/).length;
-  return { ...p, slug: p.slug || p._file.replace(/\.md$/, ''), date: toISO(dt), _ms: dt.getTime(), modif: p.modif ? toISO(p.modif) : null, lecture: Math.max(2, Math.round(words / 220)) };
+  return { ...p, slug: p.slug || p._file.replace(/\.md$/, ''), date: toISO(dt), _ms: dt.getTime(), modif: p.modif ? toISO(p.modif) : null, verifie: p.verifie ? toISO(p.verifie) : null, mots: words, lecture: Math.max(2, Math.round(words / 220)) };
 });
 const posts = allPosts.filter((p) => !p.brouillon && p._ms <= nowMs).sort((a, b) => b._ms - a._ms);
 const programmes = allPosts.filter((p) => !p.brouillon && p._ms > nowMs);
@@ -115,8 +120,10 @@ const pages = [
   estimation(),
   merci(),
   ...Object.keys(DEPTS).filter((d) => d !== '75').map((d) => deptPage(d)),
+  sqyPage(data),
   ...ctx.villes.map((v) => villePage(v, data)),
   blogIndex(posts),
+  ...blogThemes(posts),
   ...posts.map((p) => blogPost(p, posts)),
   mentionsLegales(),
   confidentialite(),
@@ -124,7 +131,25 @@ const pages = [
   page404(),
 ];
 
+ctx.indexnowKey = '02aee623294ba9e19a2624a3c754a840';
 const BANNIS = [/\bformation\b/i, /\bformateur/i, /\bélève/i, /academy/i, /rim-academy/i, /\bmandat\b/i, /\bmaximis/i, /tout risque/i, /\bmeilleur/i, /\bgarantir\b|\bgarantit\b|\bgarantissons\b/i, /À COMPLÉTER/i, /\[À /];
+// Date de dernière modification réelle de chaque page : celle fournie par le contenu (articles),
+// sinon celle du registre si le contenu n'a pas changé, sinon la date du jour.
+const lastmodNew = {};
+const lastmodPerime = [];
+for (const p of pages) {
+  if (p.noindex) continue;
+  const h = empreinte(p.body);
+  const reg = lastmodReg[p.path];
+  const fixe = p.lastmod && p.lastmod !== ctx.today ? p.lastmod : null;
+  const date = fixe || (reg && reg.h === h ? reg.d : ctx.today);
+  if (!fixe && !(reg && reg.h === h)) lastmodPerime.push(p.path);
+  p.lastmod = date;
+  lastmodNew[p.path] = { h, d: date };
+}
+if (process.env.ECRIRE_LASTMOD) fs.writeFileSync(LASTMOD_FILE, JSON.stringify(lastmodNew, null, 1) + '\n');
+else if (lastmodPerime.length) warn.push(`Registre des dates (data/lastmod.json) à mettre à jour avec « npm run lastmod » : ${lastmodPerime.length} page(s) modifiée(s), dont ${lastmodPerime.slice(0, 3).join(', ')}`);
+
 for (const p of pages) {
   const html = layout(p);
   const file = p.out ? path.join(OUT, p.out) : p.path === '/' ? path.join(OUT, 'index.html') : path.join(OUT, p.path.slice(1), 'index.html');
@@ -182,14 +207,15 @@ fs.writeFileSync(
 ## Pages de référence
 
 - [Accueil](${s.url}/)
-- [Gestion Airbnb et Booking](${s.url}/gestion-airbnb-booking)
+- [Gestion de location courte durée Airbnb et Booking](${s.url}/gestion-airbnb-booking)
 - [Services](${s.url}/services)
 - [Tarifs](${s.url}/tarifs)
 - [Avis](${s.url}/avis)
 - [Qui sommes-nous](${s.url}/qui-sommes-nous)
 
-## Départements
+## Départements et agglomération
 
+- [Conciergerie Airbnb à Saint-Quentin-en-Yvelines](${s.url}/conciergerie-airbnb-saint-quentin-en-yvelines) : les 12 communes de l'agglomération, autour de notre base de Guyancourt.
 ${Object.entries(DEPTS).filter(([d]) => d !== '75').map(([, D]) => `- [Conciergerie Airbnb ${D.dans}](${s.url}/${D.path})`).join('\n')}
 
 ## Villes

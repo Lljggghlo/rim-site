@@ -1,0 +1,81 @@
+name: Publication du blog
+
+# Le robot dépose chaque article sur une branche « publication/… ».
+# Ce pipeline prépare les images, contrôle l'article, le met en ligne, puis vérifie le site.
+on:
+  push:
+    branches: ['publication/**']
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  group: publication
+  cancel-in-progress: false
+
+env:
+  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+  GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+jobs:
+  publier:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Identité des commits et dernière version du site
+        run: |
+          git config user.name "${{ github.repository_owner }}"
+          git config user.email "${{ github.repository_owner_id }}+${{ github.repository_owner }}@users.noreply.github.com"
+          git fetch origin main
+          git rebase origin/main
+      - name: Installer les outils
+        run: |
+          npm ci
+          npm ci --prefix robot
+      - name: Préparer les images (Wikimedia Commons, licences libres)
+        run: set -o pipefail; node robot/images.mjs 2>&1 | tee -a /tmp/publication.log
+      - name: Construire le site
+        run: set -o pipefail; npm run build 2>&1 | tee -a /tmp/publication.log
+      - name: Contrôle qualité des articles
+        run: set -o pipefail; node robot/controle.mjs --nouveaux 2>&1 | tee -a /tmp/publication.log
+      - name: Dates de modification et construction stricte
+        run: |
+          set -o pipefail
+          npm run lastmod 2>&1 | tail -5
+          npm run strict 2>&1 | tee -a /tmp/publication.log
+      - name: Mettre en ligne
+        id: pub
+        run: |
+          SLUG="$(git diff --name-only --diff-filter=A origin/main -- content/blog | head -1 | xargs -r basename -s .md)"
+          if [ -n "$SLUG" ] && [ ! -f "dist/blog/$SLUG/index.html" ]; then echo "Article $SLUG en brouillon ou programmé : pas d'attente de mise en ligne."; SLUG=""; fi
+          echo "slug=$SLUG" >> "$GITHUB_OUTPUT"
+          git add -A
+          git diff --cached --quiet || git commit -q -m "Publication : images, dates et contrôles${SLUG:+ ($SLUG)}"
+          git push origin HEAD:main
+          git push origin --delete "$GITHUB_REF_NAME" || true
+      - name: Attendre la mise en ligne, contrôler le site, prévenir Bing
+        run: |
+          set -o pipefail
+          ATTENDRE=""; [ -n "${{ steps.pub.outputs.slug }}" ] && ATTENDRE="--attendre /blog/${{ steps.pub.outputs.slug }}"
+          [ -z "$ATTENDRE" ] && sleep 240
+          robot/ci/etat.sh tirer
+          node robot/verif-en-ligne.mjs $ATTENDRE --indexnow 2>&1 | tee -a /tmp/publication.log
+      - name: Enregistrer le résultat
+        if: always()
+        run: |
+          mkdir -p etat
+          [ -f etat/controle-en-ligne.json ] || robot/ci/etat.sh tirer || true
+          printf '{\n "date": "%s",\n "ok": %s,\n "branche": "%s",\n "article": "%s",\n "execution": "%s/%s/actions/runs/%s"\n}\n' "$(date -u +%Y-%m-%dT%H:%M:%SZ)" "${{ job.status == 'success' }}" "$GITHUB_REF_NAME" "${{ steps.pub.outputs.slug }}" "$GITHUB_SERVER_URL" "$GITHUB_REPOSITORY" "$GITHUB_RUN_ID" > etat/publication.json
+          tail -n 120 /tmp/publication.log > etat/publication-journal.txt 2>/dev/null || true
+          robot/ci/etat.sh pousser
+      - name: Alerte en cas d'échec
+        if: failure()
+        run: |
+          robot/ci/alerte.sh "Robot blog : publication en échec" /tmp/publication.log

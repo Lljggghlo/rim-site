@@ -4,7 +4,9 @@
   "type": "module",
   "scripts": {
     "build": "node build/build.mjs",
-    "dev": "node build/build.mjs && npx --yes serve dist -l 4321"
+    "dev": "node build/build.mjs && npx --yes serve dist -l 4321",
+    "lastmod": "ECRIRE_LASTMOD=1 node build/build.mjs",
+    "strict": "STRICT=1 node build/build.mjs"
   },
   "dependencies": {
     "gray-matter": "4.0.3",

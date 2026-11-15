@@ -985,5 +985,95 @@
   "trajet": 20,
   "repere": "Vallée de Chevreuse, cadre naturel, week-ends",
   "testee": false
+ },
+ {
+  "nom": "La Verrière",
+  "dep": "78",
+  "trajet": 10,
+  "repere": "Gare de La Verrière (lignes N et U)"
+ },
+ {
+  "nom": "Magny-les-Hameaux",
+  "dep": "78",
+  "trajet": 10,
+  "repere": "Port-Royal des Champs, vallée de Chevreuse"
+ },
+ {
+  "nom": "Coignières",
+  "dep": "78",
+  "trajet": 15,
+  "repere": "Zone commerciale de la N10, gare de Coignières (ligne N)"
+ },
+ {
+  "nom": "Saint-Denis",
+  "dep": "93",
+  "trajet": 45,
+  "repere": "Stade de France, basilique, métro 13 et 14, RER B et D"
+ },
+ {
+  "nom": "Saint-Ouen-sur-Seine",
+  "dep": "93",
+  "trajet": 40,
+  "repere": "Marché aux Puces, métro 13 et 14, aux portes de Paris"
+ },
+ {
+  "nom": "Bagnolet",
+  "dep": "93",
+  "trajet": 45,
+  "repere": "Gare routière internationale de Gallieni, métro 3"
+ },
+ {
+  "nom": "Montreuil",
+  "dep": "93",
+  "trajet": 50,
+  "repere": "Métro 9 et 11, en limite de Paris"
+ },
+ {
+  "nom": "Pantin",
+  "dep": "93",
+  "trajet": 50,
+  "repere": "Canal de l'Ourcq, métro 5 et 7, RER E"
+ },
+ {
+  "nom": "Aubervilliers",
+  "dep": "93",
+  "trajet": 50,
+  "repere": "Campus Condorcet, métro 7 et 12"
+ },
+ {
+  "nom": "Les Lilas",
+  "dep": "93",
+  "trajet": 50,
+  "repere": "Métro 11, en limite de Paris"
+ },
+ {
+  "nom": "Bobigny",
+  "dep": "93",
+  "trajet": 50,
+  "repere": "Préfecture, métro 5, tramway T1"
+ },
+ {
+  "nom": "Le Bourget",
+  "dep": "93",
+  "trajet": 50,
+  "repere": "Musée de l'Air et de l'Espace, aéroport d'affaires, parc des expositions"
+ },
+ {
+  "nom": "Noisy-le-Grand",
+  "dep": "93",
+  "trajet": 50,
+  "repere": "RER A, quartier d'affaires du Mont d'Est"
+ },
+ {
+  "nom": "Villepinte",
+  "dep": "93",
+  "trajet": 55,
+  "repere": "Parc des expositions Paris Nord Villepinte, RER B"
+ },
+ {
+  "nom": "Tremblay-en-France",
+  "dep": "93",
+  "trajet": 55,
+  "repere": "Proximité de l'aéroport Paris-Charles-de-Gaulle"
  }
 ]

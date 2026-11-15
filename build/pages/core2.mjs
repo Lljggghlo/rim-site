@@ -2,6 +2,9 @@
 import { ctx, esc, icon, waIcon, answer, faqBlock, breadcrumbs, bienCard, finalCta, googleReviews, videoTestimonials, TYPES, proofs, proofGoogle, proofAirbnb, sec, waLink, dateFr, scoreCards, googleBand, airbnbBand, socialBand, presentationVideo, presentationVideoSchema } from '../lib.mjs';
 import { ZONES_CHIPS, VERIF } from './core.mjs';
 
+// Date de la dernière modification réelle des pages légales (à changer à la main quand leur texte change)
+const LEGAL_MAJ = '2026-11-02';
+
 // ---------- Avis ----------
 export function avis(data) {
   const bc = breadcrumbs([{ name: 'Avis propriétaires', path: '/avis' }]);
@@ -190,7 +193,7 @@ export function mentionsLegales() {
   const s = ctx.s;
   const body = `<section class="sec legal"><div class="wrap narrow">
   <h1 class="h2">Mentions légales</h1>
-  <p class="muted">Dernière mise à jour : ${dateFr(ctx.today)}</p>
+  <p class="muted">Dernière mise à jour : ${dateFr(LEGAL_MAJ)}</p>
   <p>Conformément aux articles 6-III et 19 de la loi n° 2004-575 du 21 juin 2004 pour la confiance dans l'économie numérique, voici les informations relatives au site rimconciergerie.fr.</p>
   <h2>1. Éditeur du site</h2>
   <p>Nassim RIM, entrepreneur individuel (EI, micro-entreprise), exerçant sous le nom commercial Rim Conciergerie.<br>Adresse : ${esc(s.adresse_rue)}, ${esc(s.adresse_cp)} ${esc(s.adresse_ville)}, France<br>SIRET : ${esc(s.siret)}<br>E-mail : <a href="mailto:${esc(s.email)}">${esc(s.email)}</a><br>Téléphone : ${esc(s.telephone_affiche)}<br>${esc(s.mention_tva)}</p>
@@ -211,7 +214,7 @@ export function confidentialite() {
   const mesure = s.ga4_id || s.meta_pixel_id;
   const body = `<section class="sec legal"><div class="wrap narrow">
   <h1 class="h2">Politique de confidentialité</h1>
-  <p class="muted">Dernière mise à jour : ${dateFr(ctx.today)}</p>
+  <p class="muted">Dernière mise à jour : ${dateFr(LEGAL_MAJ)}</p>
   <h2>Responsable du traitement</h2><p>Nassim RIM, entrepreneur individuel (Rim Conciergerie), ${esc(s.adresse_rue)}, ${esc(s.adresse_cp)} ${esc(s.adresse_ville)}. Contact : <a href="mailto:${esc(s.email)}">${esc(s.email)}</a>.</p>
   <h2>Données collectées et finalités</h2>
   <ul>
@@ -235,7 +238,7 @@ export function cookies() {
   if (s.meta_pixel_id) tools.push('<li><b>Pixel Meta</b> (Meta Platforms Ireland Ltd) : mesure de l’efficacité de nos publicités. Cookie <code>_fbp</code>, conservé 3 mois.</li>');
   const body = `<section class="sec legal"><div class="wrap narrow">
   <h1 class="h2">Cookies</h1>
-  <p class="muted">Dernière mise à jour : ${dateFr(ctx.today)}</p>
+  <p class="muted">Dernière mise à jour : ${dateFr(LEGAL_MAJ)}</p>
   ${tools.length
     ? `<p>Le site fonctionne sans cookie. Avec votre accord seulement, nous utilisons les outils de mesure suivants :</p><ul>${tools.join('')}</ul><p>Votre choix est conservé 6 mois dans votre navigateur. Vous pouvez le modifier à tout moment : <button type="button" class="lnk-btn" data-consent-open>gérer mes choix</button>.</p>`
     : `<p>Ce site ne dépose aucun cookie de mesure d'audience ni de publicité. Il enregistre seulement, dans votre navigateur, la page par laquelle vous êtes arrivé et les paramètres de campagne (UTM), le temps de votre visite, pour savoir quelle page vous a amené au formulaire. Ces informations ne sont transmises que si vous envoyez le formulaire.</p>`}

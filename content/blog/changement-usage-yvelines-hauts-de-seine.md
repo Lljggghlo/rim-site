@@ -1,8 +1,9 @@
 ---
 title: "Changement d'usage dans les Yvelines et les Hauts-de-Seine : faut-il une autorisation ?"
 seo_title: "Changement d'usage Yvelines et 92 | Rim Conciergerie"
-description: "Changement d'usage pour louer en courte durée : automatique dans le 92, le 94 et à Paris, sur décision communale dans les Yvelines. Point au 31/10/2026."
+description: "Changement d'usage pour louer en courte durée : il dépend d'une délibération de la commune, dans les Yvelines comme dans le 92. Point au 15/11/2026."
 date: 2026-10-31
+modif: 2026-11-15
 categorie: "Réglementation"
 image: "/images/blog/changement-usage-yvelines-hauts-de-seine-1200.webp"
 image_alt: "Façade de l'immeuble Jassedé, avenue de Versailles à Paris"
@@ -31,10 +32,12 @@ Une résidence principale louée sous le plafond n'a pas besoin de cette autoris
 | Où | Règle |
 |---|---|
 | Paris | Obligatoire, avec compensation |
-| Hauts-de-Seine (92), Seine-Saint-Denis (93), Val-de-Marne (94) | Obligatoire dans toutes les communes ; chaque mairie fixe ses conditions |
+| Hauts-de-Seine (92), Seine-Saint-Denis (93), Val-de-Marne (94) | Obligatoire d'office dans toutes les communes jusqu'en novembre 2024 ; depuis, selon la délibération de la commune ou de son intercommunalité |
 | Yvelines (78), Essonne (91), Seine-et-Marne (77) | Seulement si la commune l'a instauré par délibération |
 
-La loi applique automatiquement le changement d'usage aux communes de plus de 200 000 habitants et à celles des Hauts-de-Seine, de la Seine-Saint-Denis et du Val-de-Marne. Ailleurs, **toute commune peut l'instaurer par délibération**.
+Jusqu'en novembre 2024, la loi appliquait d'office le changement d'usage aux communes de plus de 200 000 habitants et à celles des Hauts-de-Seine, de la Seine-Saint-Denis et du Val-de-Marne. La loi du 19 novembre 2024 a changé la règle : l'[article L631-7 du Code de la construction et de l'habitation](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000037669825) prévoit désormais que le changement d'usage « peut être soumis, sur décision de l'organe délibérant, à autorisation préalable ». Autrement dit, **c'est une délibération de la commune ou de son intercommunalité qui le rend obligatoire**, en petite couronne comme dans les Yvelines.
+
+*Mis à jour le 15/11/2026 : ce paragraphe et le tableau tiennent compte de la rédaction de l'article L631-7 en vigueur depuis la loi du 19 novembre 2024.*
 
 ## L'exemple de Versailles
 

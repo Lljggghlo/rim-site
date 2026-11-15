@@ -292,6 +292,7 @@ export function orgGraph() {
     { '@type': 'AdministrativeArea', name: 'Seine-Saint-Denis' },
     { '@type': 'AdministrativeArea', name: "Val-d'Oise" },
     { '@type': 'AdministrativeArea', name: 'Île-de-France' },
+    { '@type': 'AdministrativeArea', name: 'Saint-Quentin-en-Yvelines' },
     ...ctx.villes.filter((v) => v.ville !== 'Paris').map((v) => ({ '@type': 'City', name: v.ville })),
   ];
   return [
@@ -322,7 +323,7 @@ export function orgGraph() {
       sameAs,
       priceRange: '20 % à 25 % des recettes locatives nettes',
     },
-    { '@type': 'Person', '@id': `${s.url}/#nassim-rim`, name: 'Nassim RIM', jobTitle: 'Fondateur', worksFor: { '@id': `${s.url}/#entreprise` }, sameAs: [s.instagram] },
+    { '@type': 'Person', '@id': `${s.url}/#nassim-rim`, name: 'Nassim RIM', jobTitle: 'Fondateur', url: `${s.url}/qui-sommes-nous`, worksFor: { '@id': `${s.url}/#entreprise` }, sameAs: [s.instagram] },
     { '@type': 'WebSite', '@id': `${s.url}/#site`, url: `${s.url}/`, name: s.nom, inLanguage: 'fr-FR', publisher: { '@id': `${s.url}/#entreprise` } },
   ];
 }
@@ -379,6 +380,7 @@ function footer() {
     </ul></div>
     <div><h2 class="foot-h">Villes</h2><ul>
       ${villes.map((v) => `<li><a href="/${v.path}">Conciergerie Airbnb ${esc(v.ville)}</a></li>`).join('')}
+      <li><a href="/conciergerie-airbnb-saint-quentin-en-yvelines">Saint-Quentin-en-Yvelines</a></li>
     </ul></div>
     <div><h2 class="foot-h">Ressources</h2><ul>
       <li><a href="/blog">Blog propriétaires</a></li>
@@ -398,6 +400,7 @@ export function layout(page) {
   const s = ctx.s;
   const canonical = s.url + (page.path === '/' ? '/' : page.path);
   const og = page.ogImage || `${s.url}/images/og-image.jpg`;
+  if (!page.ogImage) page.ogH = null;
   const graph = [...orgGraph(), ...(page.schema || [])];
   if (!page.noindex) {
     graph.push({
@@ -431,8 +434,8 @@ ${page.noindex ? '<meta name="robots" content="noindex, follow">' : '<meta name=
 <meta property="og:description" content="${esc(page.description)}">
 <meta property="og:image" content="${og}">
 <meta property="og:image:width" content="1200">
-<meta property="og:image:height" content="630">
-<meta property="og:image:alt" content="Rim Conciergerie, conciergerie Airbnb en Île-de-France">
+<meta property="og:image:height" content="${page.ogH || 630}">
+<meta property="og:image:alt" content="${esc(page.ogAlt || 'Rim Conciergerie, conciergerie Airbnb en Île-de-France')}">
 <meta name="twitter:card" content="summary_large_image">
 <link rel="icon" href="/favicon-48.png" sizes="48x48" type="image/png">
 <link rel="icon" href="/favicon-96.png" sizes="96x96" type="image/png">

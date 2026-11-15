@@ -28,7 +28,7 @@ collections:
       - { label: "Date de publication", name: date, widget: datetime, time_format: false, format: "YYYY-MM-DD" }
       - { label: "Mis à jour le (facultatif)", name: modif, widget: datetime, time_format: false, format: "YYYY-MM-DD", required: false }
       - { label: "Brouillon (ne pas publier)", name: brouillon, widget: boolean, default: false, required: false }
-      - { label: "Catégorie", name: categorie, widget: select, options: ["Réglementation", "Gestion", "Dégâts et litiges", "Contrat", "Fiscalité", "Conseils"], default: "Conseils", required: false }
+      - { label: "Catégorie", name: categorie, widget: select, options: ["Rentabilité", "Gestion", "Réglementation", "Fiscalité", "Villes", "Dégâts et litiges", "Contrat", "Conseils"], default: "Conseils", required: false }
       - { label: "Photo de couverture (paysage, 1200 px de large, photo réelle d'un logement)", name: image, widget: image, required: false }
       - { label: "Description de la photo (pour les malvoyants et Google)", name: image_alt, widget: string, required: false }
       - { label: "Crédit de la photo (auteur et licence, si la licence l'exige)", name: image_credit, widget: string, required: false }
@@ -39,6 +39,17 @@ collections:
         fields:
           - { label: Question, name: q, widget: string }
           - { label: Réponse, name: a, widget: text }
+      - { label: "L'essentiel (3 à 5 points affichés en haut de l'article)", name: essentiel, widget: list, required: false, field: { label: Point, name: point, widget: string } }
+      - { label: "Ville liée (adresse de la page ville, ex. versailles)", name: ville, widget: string, required: false }
+      - { label: "Informations vérifiées le", name: verifie, widget: datetime, time_format: false, format: "YYYY-MM-DD", required: false }
+      - label: "Sources (sites officiels de préférence)"
+        name: sources
+        widget: list
+        required: false
+        fields:
+          - { label: Nom de la source, name: nom, widget: string }
+          - { label: Adresse, name: url, widget: string }
+      - { label: "Requête Google visée (usage interne)", name: requete, widget: string, required: false }
       - { label: "Texte de l'article", name: body, widget: markdown }
 
   - name: villes

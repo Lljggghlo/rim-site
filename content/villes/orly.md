@@ -25,7 +25,7 @@ faq:
 - q: Comment gérer des arrivées à 2 h du matin près de l'aéroport ?
   a: 'Avec un accès autonome : boîte à clés ou serrure connectée, consignes envoyées avant l''arrivée, guidage jusqu''à la porte. Les voyageurs reçoivent leurs messages automatiquement, à toute heure, et un téléphone d''urgence reste joignable.'
 - q: Faut-il une autorisation de changement d'usage à Orly ?
-  a: 'Oui, si le logement n''est pas votre résidence principale : la règle s''applique dans tout le Val-de-Marne. La mairie d''Orly fixe ses conditions dans son règlement ; nous les vérifions avec vous avant de signer.'
+  a: 'C''est à vérifier auprès de la mairie, si le logement n''est pas votre résidence principale. Jusqu''en novembre 2024, l''autorisation était obligatoire d''office dans tout le Val-de-Marne ; depuis la loi du 19 novembre 2024, elle dépend d''une délibération de la commune ou de son intercommunalité, qui en fixe les conditions. Nous vérifions avec vous la règle en vigueur avant de signer.'
 publie: true
 photo: "/images/villes/orly-1920.webp"
 photo_alt: "Église Saint-Germain d'Orly"

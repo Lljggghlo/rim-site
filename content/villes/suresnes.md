@@ -23,7 +23,7 @@ faq:
 - q: Un logement à Suresnes se loue-t-il en semaine ?
   a: Oui, grâce à La Défense, à quelques arrêts de tramway. Les professionnels réservent du lundi au jeudi ; nous travaillons les week-ends avec des prix et des durées adaptés aux touristes.
 - q: Faut-il une autorisation de changement d'usage à Suresnes ?
-  a: 'Oui, si le logement n''est pas votre résidence principale : la règle s''applique dans tous les Hauts-de-Seine. La mairie de Suresnes fixe ses conditions dans son règlement ; nous les vérifions avec vous avant de signer.'
+  a: 'C''est à vérifier auprès de la mairie, si le logement n''est pas votre résidence principale. Jusqu''en novembre 2024, l''autorisation était obligatoire d''office dans tous les Hauts-de-Seine ; depuis la loi du 19 novembre 2024, elle dépend d''une délibération de la commune ou de son intercommunalité, qui en fixe les conditions. Nous vérifions avec vous la règle en vigueur avant de signer.'
 publie: true
 photo: "/images/villes/suresnes-1920.webp"
 photo_alt: "Vue de Suresnes vers Paris"

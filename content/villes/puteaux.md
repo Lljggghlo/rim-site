@@ -23,7 +23,7 @@ faq:
 - q: Les concerts de Paris La Défense Arena changent-ils la demande ?
   a: Oui. Les soirs de concert ou de match, beaucoup de spectateurs cherchent à dormir sur place. Nos prix s'ajustent sur ces dates, avec des durées minimales adaptées.
 - q: Faut-il une autorisation de changement d'usage à Puteaux ?
-  a: 'Oui, si le logement n''est pas votre résidence principale : la règle s''applique dans tous les Hauts-de-Seine. La mairie de Puteaux fixe ses conditions dans son règlement ; nous les vérifions avec vous avant de signer.'
+  a: 'C''est à vérifier auprès de la mairie, si le logement n''est pas votre résidence principale. Jusqu''en novembre 2024, l''autorisation était obligatoire d''office dans tous les Hauts-de-Seine ; depuis la loi du 19 novembre 2024, elle dépend d''une délibération de la commune ou de son intercommunalité, qui en fixe les conditions. Nous vérifions avec vous la règle en vigueur avant de signer.'
 publie: true
 photo: "/images/villes/puteaux-1920.webp"
 photo_alt: "La Seine et l'île de Puteaux"

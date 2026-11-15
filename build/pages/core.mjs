@@ -1,4 +1,5 @@
 // Pages principales : accueil, gestion Airbnb & Booking, services, tarifs
+import { postCard } from './blog.mjs';
 import { ctx, esc, icon, waIcon, bienImg, answer, faqBlock, breadcrumbs, bienCard, finalCta, googleReviews, videoTestimonials, microForm, proofs, sec, waLink, scoreCards, bienRate, bienBadge, googleBand, socialPills, presentationVideo, presentationVideoSchema, heroTel } from '../lib.mjs';
 
 export const VERIF = '31/10/2026';
@@ -65,7 +66,7 @@ export const REGLES_TABLE = () => `<div class="tbl-wrap"><table class="tbl tbl-w
 <thead><tr><th scope="col">Règle</th><th scope="col">Ce qu'elle impose</th><th scope="col">Où elle s'applique</th></tr></thead>
 <tbody>
 <tr><td><b>Numéro d'enregistrement</b></td><td>Déclarer le meublé et afficher son numéro sur chaque annonce.</td><td>Partout en France depuis mai 2026. Téléservice national pas encore ouvert : procédure de la mairie en attendant.</td></tr>
-<tr><td><b>Changement d'usage</b></td><td>Autorisation de la mairie pour louer en courte durée un logement qui n'est pas votre résidence principale.</td><td>Automatique à Paris et dans les Hauts-de-Seine, la Seine-Saint-Denis et le Val-de-Marne. Ailleurs, seulement si la commune l'a décidé (c'est le cas à Versailles).</td></tr>
+<tr><td><b>Changement d'usage</b></td><td>Autorisation de la mairie pour louer en courte durée un logement qui n'est pas votre résidence principale.</td><td>Dans les communes qui l'ont décidé par délibération : c'est le cas à Paris et à Versailles. En petite couronne (Hauts-de-Seine, Seine-Saint-Denis, Val-de-Marne), il s'appliquait d'office jusqu'en novembre 2024 : la règle en vigueur se vérifie auprès de la mairie.</td></tr>
 <tr><td><b>Plafond de nuitées</b></td><td>Votre résidence principale ne peut pas être louée plus de 120 nuits par an. La commune peut abaisser ce plafond jusqu'à 90.</td><td>Partout. Paris applique 90 nuits.</td></tr>
 </tbody></table></div>
 <p class="verif">Vérifié le ${VERIF}, d'après le ministère de l'Économie (entreprises.gouv.fr), le ministère de la Transition écologique, la Ville de Paris et la Ville de Versailles. À reconfirmer auprès de la mairie de votre commune.</p>`;
@@ -75,7 +76,7 @@ export const REGLES_TABLE = () => `<div class="tbl-wrap"><table class="tbl tbl-w
 const DEPTS_IDF = {
   '75': { t: 1, hub: '/conciergerie-airbnb-paris', sous: 'Tous les arrondissements' },
   '92': { t: 2, hub: '/conciergerie-airbnb-hauts-de-seine' },
-  '93': { t: 2, sous: 'Toute la Seine-Saint-Denis' },
+  '93': { t: 2, hub: '/conciergerie-airbnb-seine-saint-denis' },
   '94': { t: 2, hub: '/conciergerie-airbnb-val-de-marne' },
   '78': { t: 3, hub: '/conciergerie-airbnb-yvelines', sous: 'Notre base : Guyancourt' },
   '91': { t: 3, hub: '/conciergerie-airbnb-essonne' },
@@ -319,6 +320,13 @@ ${sec('zones', 'Où nous', ZONES_CHIPS(), {
     intro: "Depuis notre base de Guyancourt, dans les Yvelines, nous intervenons dans toute l'Île-de-France : Paris, la petite couronne (Hauts-de-Seine, Seine-Saint-Denis, Val-de-Marne) et la grande couronne (Yvelines, Essonne, Val-d'Oise, Seine-et-Marne). Chaque département renvoie vers nos pages locales.",
   })}
 
+${data.posts && data.posts.length ? `<section class="sec sec-gray" id="guides" aria-labelledby="guides-t"><div class="wrap">
+  <h2 class="h2" id="guides-t">Nos derniers <span class="script">guides</span></h2>
+  <p class="answer">Rentabilité, réglementation, fiscalité, gestion au quotidien : notre blog répond aux questions des propriétaires d'Île-de-France, avec des sources officielles et la date de chaque vérification.</p>
+  <div class="pgrid" style="margin-top:28px">${data.posts.slice(0, 3).map((p) => postCard(p, { hx: 'h3' })).join('')}</div>
+  <p class="more"><a class="lnk" href="/blog">Tous les articles du blog ${icon('arrow')}</a></p>
+</div></section>` : ''}
+
 ${faq.html}
 
 ${finalCta()}`;
@@ -341,6 +349,8 @@ export function gestion() {
       { q: 'Mes annonces restent-elles à mon nom ?', a: '<p>Oui. Vos annonces sont publiées sur vos propres comptes Airbnb et Booking, et les versements arrivent sur votre compte bancaire. Nous y travaillons avec un accès délégué, que vous pouvez retirer à la fin du contrat.</p>' },
       { q: 'Faut-il être à la fois sur Airbnb et sur Booking ?', a: "<p>Pas toujours. Airbnb convient à la plupart des logements. Booking ajoute une clientèle professionnelle et internationale, utile près des gares, des aéroports et des quartiers d'affaires. Nous vous conseillons selon votre logement et votre commune.</p>" },
       { q: 'Comment évitez-vous les doubles réservations ?', a: '<p>Les calendriers de toutes les plateformes sont reliés à un seul outil de gestion (channel manager). Une réservation prise sur Airbnb ferme immédiatement les mêmes dates sur Booking.</p>' },
+      { q: 'Quelle différence entre une conciergerie et une gestion locative saisonnière ?', a: "<p>Une agence de gestion locative saisonnière encaisse les loyers pour le compte du propriétaire : elle doit pour cela détenir une carte professionnelle. Une conciergerie comme la nôtre fait fonctionner la location au quotidien (annonces, prix, voyageurs, ménage) sans jamais encaisser vos loyers : ils vous sont versés directement par Airbnb et Booking. Le résultat pour vous est le même, une location courte durée gérée de A à Z, avec un circuit de l'argent plus simple.</p>" },
+      { q: 'Dans quelles villes gérez-vous des locations courte durée ?', a: '<p>Dans toute l\'Île-de-France, depuis notre base de Guyancourt : <a href="/conciergerie-airbnb-paris">Paris</a>, <a href="/conciergerie-airbnb-versailles">Versailles</a>, <a href="/conciergerie-airbnb-saint-quentin-en-yvelines">Saint-Quentin-en-Yvelines</a>, les <a href="/conciergerie-airbnb-yvelines">Yvelines</a>, les <a href="/conciergerie-airbnb-hauts-de-seine">Hauts-de-Seine</a>, la <a href="/conciergerie-airbnb-seine-saint-denis">Seine-Saint-Denis</a>, le <a href="/conciergerie-airbnb-val-de-marne">Val-de-Marne</a> et l\'<a href="/conciergerie-airbnb-essonne">Essonne</a>.</p>' },
       { q: 'Qui fixe les prix ?', a: "<p>Nous les ajustons chaque jour avec un outil de tarification dynamique, selon la saison, les événements et la demande locale. Vous fixez un prix plancher par nuit : nous ne descendons jamais en dessous.</p>" },
     ],
     { titre: 'Questions sur la', script: 'gestion des annonces' }
@@ -349,8 +359,8 @@ export function gestion() {
 <section class="hero"><div class="wrap hero-g">
   <div class="hero-head">
     <p class="kicker">Gestion Airbnb &amp; Booking en Île-de-France</p>
-    <h1 class="h1">Nous gérons votre annonce <span class="script">Airbnb et Booking</span></h1>
-    <p class="lead">De la première photo au dernier avis voyageur : nous créons vos annonces, ajustons vos prix chaque jour et répondons aux voyageurs 24 h/24. Les annonces restent sur vos comptes.</p>
+    <h1 class="h1">Gestion de location courte durée <span class="script">Airbnb et Booking</span></h1>
+    <p class="lead">De la première photo au dernier avis voyageur, nous gérons votre location courte durée en Île-de-France : annonces, prix ajustés chaque jour, voyageurs 24 h/24, ménage contrôlé. Les annonces restent sur vos comptes.</p>
   </div>
   <div class="hero-form">${microForm({ id: 'hero' })}</div>
   <div class="hero-more">${proofs()}${heroTel()}</div>
@@ -391,10 +401,10 @@ ${faq.html}
 ${finalCta()}`;
   return {
     path: '/gestion-airbnb-booking',
-    title: 'Gestion Airbnb & Booking Île-de-France | Rim Conciergerie',
-    description: 'Création d’annonces Airbnb et Booking, prix ajustés chaque jour, voyageurs gérés 24 h/24. Annonces sur vos comptes, loyers versés chez vous.',
+    title: 'Gestion location courte durée Airbnb | Rim Conciergerie',
+    description: 'Gestion de location courte durée en Île-de-France : annonces Airbnb et Booking, prix ajustés chaque jour, voyageurs 24 h/24. Loyers versés chez vous.',
     body,
-    schema: [bc.schema, faq.schema, { '@type': 'Service', name: 'Gestion d’annonces Airbnb et Booking', serviceType: 'Conciergerie Airbnb', provider: { '@id': `${ctx.s.url}/#entreprise` }, areaServed: 'Île-de-France' }],
+    schema: [bc.schema, faq.schema, { '@type': 'Service', name: 'Gestion de location courte durée Airbnb et Booking', serviceType: 'Gestion de location courte durée', provider: { '@id': `${ctx.s.url}/#entreprise` }, areaServed: 'Île-de-France' }],
     lastmod: ctx.today,
   };
 }

@@ -23,7 +23,7 @@ faq:
 - q: Qui loue un logement à Malakoff ?
   a: 'Des touristes qui veulent Paris à quelques stations, des professionnels en mission dans le sud de Paris et des visiteurs de salons. Les séjours sont courts : la qualité des arrivées autonomes et des ménages entre deux voyageurs est décisive.'
 - q: Faut-il une autorisation de changement d'usage à Malakoff ?
-  a: 'Oui, si le logement n''est pas votre résidence principale : la règle s''applique dans tous les Hauts-de-Seine. La mairie de Malakoff fixe ses conditions dans son règlement ; nous les vérifions avec vous avant de signer.'
+  a: 'C''est à vérifier auprès de la mairie, si le logement n''est pas votre résidence principale. Jusqu''en novembre 2024, l''autorisation était obligatoire d''office dans tous les Hauts-de-Seine ; depuis la loi du 19 novembre 2024, elle dépend d''une délibération de la commune ou de son intercommunalité, qui en fixe les conditions. Nous vérifions avec vous la règle en vigueur avant de signer.'
 publie: true
 photo: "/images/villes/malakoff-1920.webp"
 photo_alt: "Maison de la vie associative de Malakoff"

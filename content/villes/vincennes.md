@@ -23,7 +23,7 @@ faq:
 - q: 'Vincennes est loin de Guyancourt : comment intervenez-vous ?'
   a: Vincennes est à environ 45 minutes hors heures de pointe. Nous planifions à l'avance les ménages et les passages sur place, avec le même protocole vidéo qu'ailleurs, et les arrivées des voyageurs sont autonomes.
 - q: Faut-il une autorisation de changement d'usage à Vincennes ?
-  a: 'Oui, si le logement n''est pas votre résidence principale : la règle s''applique dans tout le Val-de-Marne. La mairie de Vincennes fixe ses conditions dans son règlement ; nous les vérifions avec vous avant de signer.'
+  a: 'C''est à vérifier auprès de la mairie, si le logement n''est pas votre résidence principale. Jusqu''en novembre 2024, l''autorisation était obligatoire d''office dans tout le Val-de-Marne ; depuis la loi du 19 novembre 2024, elle dépend d''une délibération de la commune ou de son intercommunalité, qui en fixe les conditions. Nous vérifions avec vous la règle en vigueur avant de signer.'
 publie: true
 photo: "/images/villes/vincennes-1920.webp"
 photo_alt: "Château de Vincennes"
