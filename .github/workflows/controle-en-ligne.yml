@@ -1,0 +1,8 @@
+name: Contrôle du site en ligne
+on:
+  workflow_dispatch:
+jobs:
+  ping:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "ok"
