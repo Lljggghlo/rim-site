@@ -1,45 +1,93 @@
 ---
-title: "Mettre son logement sur Airbnb : les démarches à faire avant, en Île-de-France"
-seo_title: "Démarches avant de louer sur Airbnb | Rim Conciergerie"
-description: "Copropriété, mairie, changement d'usage, impôts, assurance : les démarches à faire avant de mettre votre logement sur Airbnb en Île-de-France."
-date: 2026-11-15
-categorie: "Réglementation"
-requete: "démarches avant de mettre son logement sur Airbnb"
-image_source: "File:Immeuble_haussmannien_à_Paris_(52169315349).jpg"
-image_alt: "Façade en pierre d'un immeuble haussmannien à Paris, avec ses balcons"
-verifie: 2026-11-15
+title: 'Mettre son logement sur Airbnb : les démarches à faire avant, en Île-de-France'
+seo_title: Démarches avant de louer sur Airbnb | Rim Conciergerie
+description: >-
+  Copropriété, mairie, changement d'usage, impôts, assurance : les démarches à
+  faire avant de mettre votre logement sur Airbnb en Île-de-France.
+date: 2026-11-15T00:00:00.000Z
+categorie: Réglementation
+requete: démarches avant de mettre son logement sur Airbnb
+image_source: 'File:Immeuble_haussmannien_à_Paris_(52169315349).jpg'
+image_alt: 'Façade en pierre d''un immeuble haussmannien à Paris, avec ses balcons'
+verifie: 2026-11-15T00:00:00.000Z
 essentiel:
-  - "Tout part d'une question : le logement est-il votre résidence principale (occupée au moins huit mois par an) ou non ?"
-  - "Une résidence secondaire se déclare toujours à la mairie. Dans les communes qui l'ont décidé, comme Paris ou Versailles, il faut en plus une autorisation de changement d'usage."
-  - "Le téléservice national d'enregistrement est annoncé pour le quatrième trimestre 2026 : d'ici là, c'est la procédure de votre commune qui s'applique."
-  - "Côté impôts : une déclaration de début d'activité, un numéro SIRET, puis vos recettes à déclarer chaque année."
-  - "Faites ces démarches avant de publier l'annonce : les plateformes vous demandent une attestation sur l'honneur."
+  - >-
+    Tout part d'une question : le logement est-il votre résidence principale
+    (occupée au moins huit mois par an) ou non ?
+  - >-
+    Une résidence secondaire se déclare toujours à la mairie. Dans les communes
+    qui l'ont décidé, comme Paris ou Versailles, il faut en plus une
+    autorisation de changement d'usage.
+  - >-
+    Le téléservice national d'enregistrement est annoncé pour le quatrième
+    trimestre 2026 : d'ici là, c'est la procédure de votre commune qui
+    s'applique.
+  - >-
+    Côté impôts : une déclaration de début d'activité, un numéro SIRET, puis vos
+    recettes à déclarer chaque année.
+  - >-
+    Faites ces démarches avant de publier l'annonce : les plateformes vous
+    demandent une attestation sur l'honneur.
 sources:
-  - nom: "Service-Public.fr — Faire de sa résidence secondaire une location de vacances (meublé de tourisme)"
-    url: "https://www.service-public.gouv.fr/particuliers/vosdroits/F2043"
-  - nom: "Service-Public.fr — Faire de sa résidence principale une location de vacances (meublé de tourisme)"
-    url: "https://www.service-public.gouv.fr/particuliers/vosdroits/F33175"
-  - nom: "Service-Public.fr — Mettre son logement en location : les règles évoluent en 2026 (actualité du 27 juillet 2026)"
-    url: "https://www.service-public.gouv.fr/particuliers/actualites/A18880"
-  - nom: "Service-Public.fr — Règles de location d'un logement meublé (déclarations préalables)"
-    url: "https://www.service-public.gouv.fr/particuliers/vosdroits/F2315"
-  - nom: "Ministère chargé du Logement — Guide pratique 2025 de la réglementation des meublés de tourisme"
-    url: "https://www.ecologie.gouv.fr/sites/default/files/documents/25113_GuidePratique2025MeubleTourisme.pdf"
-  - nom: "Direction générale des entreprises — Les meublés de tourisme"
-    url: "https://www.entreprises.gouv.fr/espace-entreprises/s-informer-sur-la-reglementation/les-meubles-de-tourisme"
-  - nom: "Légifrance — Code de la construction et de l'habitation, article L631-7"
-    url: "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000037669825"
-  - nom: "Saint-Quentin-en-Yvelines — Guide pratique de la taxe de séjour (2024)"
-    url: "https://www.saint-quentin-en-yvelines.fr/wp-content/uploads/2024/02/Guide-pratique-taxe-de-sejour-2024.pdf"
+  - nom: >-
+      Service-Public.fr — Faire de sa résidence secondaire une location de
+      vacances (meublé de tourisme)
+    url: 'https://www.service-public.gouv.fr/particuliers/vosdroits/F2043'
+  - nom: >-
+      Service-Public.fr — Faire de sa résidence principale une location de
+      vacances (meublé de tourisme)
+    url: 'https://www.service-public.gouv.fr/particuliers/vosdroits/F33175'
+  - nom: >-
+      Service-Public.fr — Mettre son logement en location : les règles évoluent
+      en 2026 (actualité du 27 juillet 2026)
+    url: 'https://www.service-public.gouv.fr/particuliers/actualites/A18880'
+  - nom: >-
+      Service-Public.fr — Règles de location d'un logement meublé (déclarations
+      préalables)
+    url: 'https://www.service-public.gouv.fr/particuliers/vosdroits/F2315'
+  - nom: >-
+      Ministère chargé du Logement — Guide pratique 2025 de la réglementation
+      des meublés de tourisme
+    url: >-
+      https://www.ecologie.gouv.fr/sites/default/files/documents/25113_GuidePratique2025MeubleTourisme.pdf
+  - nom: Direction générale des entreprises — Les meublés de tourisme
+    url: >-
+      https://www.entreprises.gouv.fr/espace-entreprises/s-informer-sur-la-reglementation/les-meubles-de-tourisme
+  - nom: 'Légifrance — Code de la construction et de l''habitation, article L631-7'
+    url: 'https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000037669825'
+  - nom: Saint-Quentin-en-Yvelines — Guide pratique de la taxe de séjour (2024)
+    url: >-
+      https://www.saint-quentin-en-yvelines.fr/wp-content/uploads/2024/02/Guide-pratique-taxe-de-sejour-2024.pdf
 faq:
-  - q: "Faut-il toujours déclarer son logement Airbnb à la mairie ?"
-    a: "Pour une résidence secondaire, oui, dans toutes les communes : déclaration avec enregistrement dans la plupart des grandes communes, déclaration simple ailleurs. Pour une résidence principale, la déclaration n'est exigée que dans les communes qui ont mis en place l'enregistrement. Quand le téléservice national ouvrira, l'enregistrement deviendra obligatoire partout."
-  - q: "Peut-on louer sur Airbnb sans numéro SIRET ?"
-    a: "Non. Louer un logement meublé suppose de déclarer un début d'activité auprès de l'administration fiscale et d'obtenir un numéro SIRET : Service-Public.fr le range parmi les déclarations préalables. Les recettes se déclarent ensuite chaque année avec vos revenus."
-  - q: "Que risque-t-on à louer sans avoir fait ces démarches ?"
-    a: "D'après Service-Public.fr, l'absence de déclaration simple est punie d'une amende pouvant aller jusqu'à 450 €, et louer sans l'autorisation de changement d'usage, là où elle est exigée, d'une amende pouvant aller jusqu'à 100 000 €. Dans les communes à enregistrement, une annonce sans numéro doit être retirée par la plateforme."
-  - q: "Une conciergerie peut-elle faire ces démarches à ma place ?"
-    a: "Les déclarations se font à votre nom : c'est vous le loueur. En revanche, une conciergerie peut vérifier avec vous ce que demande votre commune avant toute mise en ligne. Chez Rim Conciergerie, nous faisons ce point avec vous avant de signer."
+  - q: Faut-il toujours déclarer son logement Airbnb à la mairie ?
+    a: >-
+      Pour une résidence secondaire, oui, dans toutes les communes : déclaration
+      avec enregistrement dans la plupart des grandes communes, déclaration
+      simple ailleurs. Pour une résidence principale, la déclaration n'est
+      exigée que dans les communes qui ont mis en place l'enregistrement. Quand
+      le téléservice national ouvrira, l'enregistrement deviendra obligatoire
+      partout.
+  - q: Peut-on louer sur Airbnb sans numéro SIRET ?
+    a: >-
+      Non. Louer un logement meublé suppose de déclarer un début d'activité
+      auprès de l'administration fiscale et d'obtenir un numéro SIRET :
+      Service-Public.fr le range parmi les déclarations préalables. Les recettes
+      se déclarent ensuite chaque année avec vos revenus.
+  - q: Que risque-t-on à louer sans avoir fait ces démarches ?
+    a: >-
+      D'après Service-Public.fr, l'absence de déclaration simple est punie d'une
+      amende pouvant aller jusqu'à 450 €, et louer sans l'autorisation de
+      changement d'usage, là où elle est exigée, d'une amende pouvant aller
+      jusqu'à 100 000 €. Dans les communes à enregistrement, une annonce sans
+      numéro doit être retirée par la plateforme.
+  - q: Une conciergerie peut-elle faire ces démarches à ma place ?
+    a: >-
+      Les déclarations se font à votre nom : c'est vous le loueur. En revanche,
+      une conciergerie peut vérifier avec vous ce que demande votre commune
+      avant toute mise en ligne. Chez Rim Conciergerie, nous faisons ce point
+      avec vous avant de signer.
+image: /images/blog/demarches-mettre-logement-airbnb-1200.webp
+image_credit: 'besopha, CC BY 2.0, via Wikimedia Commons'
 ---
 Vous avez un appartement ou une maison en Île-de-France et vous pensez à Airbnb. Avant la première photo, plusieurs démarches s'imposent : auprès de votre copropriété, de la mairie et des impôts. Elles dépendent de deux choses : la commune, et le fait que le logement soit ou non votre résidence principale. Voici les démarches à faire avant de mettre son logement sur Airbnb, dans l'ordre où elles se présentent.
 
