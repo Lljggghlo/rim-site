@@ -173,6 +173,7 @@
     function syncAutre() { if (autre) autre.hidden = sel.value !== 'Autre'; }
     if (sel) { sel.addEventListener('change', syncAutre); syncAutre(); }
 
+    window.rimEst = true;
     est.classList.add('stepper');
     // Si les deux premières réponses sont connues, on démarre à l'étape 3
     if (sel && sel.value && sel.value !== 'Autre' && form.querySelector('input[name=type]:checked')) i = 2;

@@ -153,6 +153,7 @@ export function estimation() {
         <div class="submit-row"><button class="btn btn-primary btn-block" type="submit">Envoyer ma demande ${icon('arrow')}</button></div>
         <div class="est-nav"><button type="button" class="btn btn-ghost back" hidden>Retour</button><button type="button" class="btn btn-primary next">Continuer ${icon('arrow')}</button></div>
       </form>
+      <script>(function(){var e=document.querySelector('.est');if(!e)return;e.classList.add('stepper');var s=e.querySelector('.step');if(s)s.classList.add('on');setTimeout(function(){if(!window.rimEst)e.classList.remove('stepper')},6000)})()</script>
     </div>
     <p class="center small muted" style="margin-top:18px">Vous préférez écrire ? <a class="lnk-wa" href="${waLink()}" target="_blank" rel="noopener">${waIcon('i i-s')}WhatsApp</a> ou <a href="tel:${s.telephone_e164}">${esc(s.telephone_affiche)}</a></p>
     <div class="center" style="display:flex;justify-content:center">${proofs()}</div>
