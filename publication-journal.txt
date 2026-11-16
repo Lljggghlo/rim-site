@@ -1,32 +1,33 @@
-✔ Couverture demarches-mettre-logement-airbnb : File:Immeuble haussmannien à Paris (52169315349).jpg (CC BY 2.0, 174 ko)
+✔ Couverture airbnb-ou-location-longue-duree : File:Fameux toits en zinc de Paris.jpg (CC BY 2.0, 92 ko)
 1 image(s) préparée(s).
 
 > build
 > node build/build.mjs
 
-✔ Site généré dans dist/ : 53 pages HTML, 49 dans le sitemap (2026-11-15).
-  Articles publiés : 5 · programmés : 1 → fin-contrat-conciergerie (2026-11-26)
+✔ Site généré dans dist/ : 54 pages HTML, 50 dans le sitemap (2026-11-16).
+  Articles publiés : 6 · programmés : 1 → fin-contrat-conciergerie (2026-11-26)
   Villes : 25 · Témoignages vidéo publiés : 0
 ⚠ 1 point(s) à vérifier :
   - Registre des dates (data/lastmod.json) à mettre à jour avec « npm run lastmod » : 5 page(s) modifiée(s), dont /, /blog, /blog/theme/reglementation
-✔ demarches-mettre-logement-airbnb — 1770 mots, 8 parties, 9 liens internes, 8 sources (8 officielles)
+✔ airbnb-ou-location-longue-duree — 2716 mots, 8 parties, 8 liens internes, 15 sources (14 officielles)
+✔ demarches-mettre-logement-airbnb — 1800 mots, 8 parties, 10 liens internes, 8 sources (8 officielles)
 
 > strict
 > STRICT=1 node build/build.mjs
 
-✔ Site généré dans dist/ : 53 pages HTML, 49 dans le sitemap (2026-11-15).
-  Articles publiés : 5 · programmés : 1 → fin-contrat-conciergerie (2026-11-26)
+✔ Site généré dans dist/ : 54 pages HTML, 50 dans le sitemap (2026-11-16).
+  Articles publiés : 6 · programmés : 1 → fin-contrat-conciergerie (2026-11-26)
   Villes : 25 · Témoignages vidéo publiés : 0
 {
- "date": "2026-11-15T20:41:34.981Z",
+ "date": "2026-11-16T05:56:35.098Z",
  "ok": true,
- "pages_controlees": 49,
- "articles_en_ligne": 5,
- "jours_depuis_dernier_article": 0,
- "article_attendu": "/blog/demarches-mettre-logement-airbnb",
+ "pages_controlees": 50,
+ "articles_en_ligne": 6,
+ "jours_depuis_dernier_article": -1,
+ "article_attendu": "/blog/airbnb-ou-location-longue-duree",
  "article_en_ligne": true,
  "indexnow": {
-  "envoyees": 46,
+  "envoyees": 47,
   "reponse": 200
  },
  "erreurs": [],
