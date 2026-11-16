@@ -37,9 +37,9 @@
    "intention": "comparaison",
    "priorite": 1,
    "angle": "Méthode de comparaison (recettes, charges, vacance, fiscalité, temps, règles locales), tableau, sans promettre de revenus. Chiffres de marché uniquement avec source nommée.",
-   "statut": "a_faire",
-   "slug": null,
-   "publie_le": null
+   "statut": "publie",
+   "slug": "airbnb-ou-location-longue-duree",
+   "publie_le": "2026-11-16"
   },
   {
    "id": 3,

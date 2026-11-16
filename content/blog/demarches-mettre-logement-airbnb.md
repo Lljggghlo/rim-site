@@ -10,6 +10,7 @@ requete: démarches avant de mettre son logement sur Airbnb
 image_source: 'File:Immeuble_haussmannien_à_Paris_(52169315349).jpg'
 image_alt: 'Façade en pierre d''un immeuble haussmannien à Paris, avec ses balcons'
 verifie: 2026-11-15T00:00:00.000Z
+modif: 2026-11-16
 essentiel:
   - >-
     Tout part d'une question : le logement est-il votre résidence principale
@@ -196,6 +197,8 @@ Reprenez ces sept points dans cet ordre : chacun conditionne le suivant. Tant qu
 5. Déclarer le début d'activité aux impôts et obtenir le numéro SIRET.
 6. Prévenir l'assureur ; vérifier qui collecte la taxe de séjour.
 7. Publier l'annonce, avec le numéro d'enregistrement s'il est exigé, et informer le syndic.
+
+Vous hésitez encore entre la courte durée et un bail classique ? Avant de lancer ces démarches, faites le calcul avec notre méthode pour comparer [Airbnb et location longue durée](/blog/airbnb-ou-location-longue-duree).
 
 Votre logement est en Île-de-France et vous voulez savoir ce que demande votre commune ? [Demandez une estimation gratuite](/estimation) : nous regardons ces points avec vous et nous vous rappelons sous 24 h. Vous pouvez aussi voir [ce que comprend notre gestion Airbnb et Booking](/gestion-airbnb-booking).
 
