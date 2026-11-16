@@ -1,11 +1,11 @@
 {
- "date": "2026-11-16T05:56:35.098Z",
+ "date": "2026-11-16T16:25:58.271Z",
  "ok": true,
  "pages_controlees": 50,
  "articles_en_ligne": 6,
- "jours_depuis_dernier_article": -1,
- "article_attendu": "/blog/airbnb-ou-location-longue-duree",
- "article_en_ligne": true,
+ "jours_depuis_dernier_article": 0,
+ "article_attendu": null,
+ "article_en_ligne": null,
  "indexnow": {
   "envoyees": 47,
   "reponse": 200
