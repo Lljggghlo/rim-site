@@ -1,59 +1,125 @@
 ---
-title: "Airbnb ou location longue durée en Île-de-France : comment comparer"
-seo_title: "Airbnb ou location longue durée : calcul | Rim Conciergerie"
-description: "Baux, règles locales, fiscalité 2026 et seuil de nuits : la méthode pour comparer Airbnb et location longue durée en Île-de-France avec vos chiffres."
-date: 2026-11-16
-categorie: "Rentabilité"
-requete: "Airbnb ou location longue durée"
-image_source: "File:Fameux_toits_en_zinc_de_Paris.jpg"
-image_alt: "Toits en zinc d'immeubles parisiens, avec leurs lucarnes et leurs fenêtres de toit"
-verifie: 2026-11-16
+title: 'Airbnb ou location longue durée en Île-de-France : comment comparer'
+seo_title: 'Airbnb ou location longue durée : calcul | Rim Conciergerie'
+description: >-
+  Baux, règles locales, fiscalité 2026 et seuil de nuits : la méthode pour
+  comparer Airbnb et location longue durée en Île-de-France avec vos chiffres.
+date: 2026-11-16T00:00:00.000Z
+categorie: Rentabilité
+requete: Airbnb ou location longue durée
+image_source: 'File:Fameux_toits_en_zinc_de_Paris.jpg'
+image_alt: >-
+  Toits en zinc d'immeubles parisiens, avec leurs lucarnes et leurs fenêtres de
+  toit
+verifie: 2026-11-16T00:00:00.000Z
 essentiel:
-  - "Dans les communes à numéro d'enregistrement, une résidence principale ne se loue en meublé de tourisme que 90 à 120 jours par an : la comparaison vaut surtout pour un logement que vous n'habitez pas."
-  - "Avant tout calcul, vérifiez ce qui est permis : règlement de copropriété, autorisation de changement d'usage selon la commune, classe du DPE."
-  - "Calculez votre seuil de nuits : (loyer mensuel de longue durée + charges que vous gardez) ÷ recette nette par nuit. C'est le nombre de nuits à vendre chaque mois, en moyenne, pour faire jeu égal avant impôt."
-  - "Pour les revenus de 2026, le micro-BIC donne un abattement de 50 % en location meublée de longue durée (jusqu'à 83 600 € de recettes) et de 30 % pour un meublé de tourisme non classé (jusqu'à 15 000 € de recettes)."
-  - "La longue durée l'emporte quand le seuil dépasse ce que le quartier permet, quand la commune ou la copropriété ferme la porte, ou quand vous préférez un loyer fixé par le bail."
+  - >-
+    Dans les communes à numéro d'enregistrement, une résidence principale ne se
+    loue en meublé de tourisme que 90 à 120 jours par an : la comparaison vaut
+    surtout pour un logement que vous n'habitez pas.
+  - >-
+    Avant tout calcul, vérifiez ce qui est permis : règlement de copropriété,
+    autorisation de changement d'usage selon la commune, classe du DPE.
+  - >-
+    Calculez votre seuil de nuits : (loyer mensuel de longue durée + charges que
+    vous gardez) ÷ recette nette par nuit. C'est le nombre de nuits à vendre
+    chaque mois, en moyenne, pour faire jeu égal avant impôt.
+  - >-
+    Pour les revenus de 2026, le micro-BIC donne un abattement de 50 % en
+    location meublée de longue durée (jusqu'à 83 600 € de recettes) et de 30 %
+    pour un meublé de tourisme non classé (jusqu'à 15 000 € de recettes).
+  - >-
+    La longue durée l'emporte quand le seuil dépasse ce que le quartier permet,
+    quand la commune ou la copropriété ferme la porte, ou quand vous préférez un
+    loyer fixé par le bail.
 sources:
-  - nom: "Service-Public.fr — Bail d'habitation : quelles différences entre logement vide et logement meublé ?"
-    url: "https://www.service-public.gouv.fr/particuliers/vosdroits/F1165"
-  - nom: "Service-Public.fr — Règles de location d'un logement meublé (bail meublé, bail mobilité, meublé de tourisme)"
-    url: "https://www.service-public.gouv.fr/particuliers/vosdroits/F2315"
-  - nom: "Service-Public.fr — Faire de sa résidence principale une location de vacances (meublé de tourisme)"
-    url: "https://www.service-public.gouv.fr/particuliers/vosdroits/F33175"
-  - nom: "Service-Public.fr — Faire de sa résidence secondaire une location de vacances (meublé de tourisme)"
-    url: "https://www.service-public.gouv.fr/particuliers/vosdroits/F2043"
-  - nom: "Service-Public.fr — Diagnostic de performance énergétique (DPE)"
-    url: "https://www.service-public.gouv.fr/particuliers/vosdroits/F16096"
-  - nom: "Service-Public.fr — Logement à louer décent"
-    url: "https://www.service-public.gouv.fr/particuliers/vosdroits/F2042"
-  - nom: "Service-Public.fr — Impôt sur le revenu : revenus d'une location meublée (revenus 2026)"
-    url: "https://www.service-public.gouv.fr/particuliers/vosdroits/F32744"
-  - nom: "Service-Public.fr — Impôt sur le revenu : revenus locatifs (location non meublée)"
-    url: "https://www.service-public.gouv.fr/particuliers/vosdroits/F1991"
-  - nom: "impots.gouv.fr — Location vide de meubles"
-    url: "https://www.impots.gouv.fr/particulier/location-vide-de-meubles"
-  - nom: "Service-Public.fr — Cotisations sociales pour la mise en location d'un meublé"
-    url: "https://www.service-public.gouv.fr/particuliers/vosdroits/F34102"
-  - nom: "Service-Public.fr — Encadrement des loyers en zone tendue (page vérifiée le 1er novembre 2026)"
-    url: "https://www.service-public.gouv.fr/particuliers/vosdroits/F1314"
-  - nom: "Sénat — Proposition de loi pour retrouver la confiance et l'équilibre dans les rapports locatifs"
-    url: "https://www.senat.fr/travaux-parlementaires/textes-legislatifs/la-loi-en-clair/proposition-de-loi-pour-retrouver-la-confiance-et-lequilibre-dans-les-rapports-locatifs.html"
-  - nom: "Service-Public.fr — Règles d'un bail mobilité"
-    url: "https://www.service-public.gouv.fr/particuliers/vosdroits/F34759"
-  - nom: "Service-Public.fr — Trêve hivernale 2026-2027"
-    url: "https://www.service-public.gouv.fr/particuliers/actualites/A14632"
-  - nom: "Airbnb, centre d'aide — Frais de service Airbnb"
-    url: "https://www.airbnb.fr/help/article/1857"
+  - nom: >-
+      Service-Public.fr — Bail d'habitation : quelles différences entre logement
+      vide et logement meublé ?
+    url: 'https://www.service-public.gouv.fr/particuliers/vosdroits/F1165'
+  - nom: >-
+      Service-Public.fr — Règles de location d'un logement meublé (bail meublé,
+      bail mobilité, meublé de tourisme)
+    url: 'https://www.service-public.gouv.fr/particuliers/vosdroits/F2315'
+  - nom: >-
+      Service-Public.fr — Faire de sa résidence principale une location de
+      vacances (meublé de tourisme)
+    url: 'https://www.service-public.gouv.fr/particuliers/vosdroits/F33175'
+  - nom: >-
+      Service-Public.fr — Faire de sa résidence secondaire une location de
+      vacances (meublé de tourisme)
+    url: 'https://www.service-public.gouv.fr/particuliers/vosdroits/F2043'
+  - nom: Service-Public.fr — Diagnostic de performance énergétique (DPE)
+    url: 'https://www.service-public.gouv.fr/particuliers/vosdroits/F16096'
+  - nom: Service-Public.fr — Logement à louer décent
+    url: 'https://www.service-public.gouv.fr/particuliers/vosdroits/F2042'
+  - nom: >-
+      Service-Public.fr — Impôt sur le revenu : revenus d'une location meublée
+      (revenus 2026)
+    url: 'https://www.service-public.gouv.fr/particuliers/vosdroits/F32744'
+  - nom: >-
+      Service-Public.fr — Impôt sur le revenu : revenus locatifs (location non
+      meublée)
+    url: 'https://www.service-public.gouv.fr/particuliers/vosdroits/F1991'
+  - nom: impots.gouv.fr — Location vide de meubles
+    url: 'https://www.impots.gouv.fr/particulier/location-vide-de-meubles'
+  - nom: >-
+      Service-Public.fr — Cotisations sociales pour la mise en location d'un
+      meublé
+    url: 'https://www.service-public.gouv.fr/particuliers/vosdroits/F34102'
+  - nom: >-
+      Service-Public.fr — Encadrement des loyers en zone tendue (page vérifiée
+      le 1er novembre 2026)
+    url: 'https://www.service-public.gouv.fr/particuliers/vosdroits/F1314'
+  - nom: >-
+      Sénat — Proposition de loi pour retrouver la confiance et l'équilibre dans
+      les rapports locatifs
+    url: >-
+      https://www.senat.fr/travaux-parlementaires/textes-legislatifs/la-loi-en-clair/proposition-de-loi-pour-retrouver-la-confiance-et-lequilibre-dans-les-rapports-locatifs.html
+  - nom: Service-Public.fr — Règles d'un bail mobilité
+    url: 'https://www.service-public.gouv.fr/particuliers/vosdroits/F34759'
+  - nom: Service-Public.fr — Trêve hivernale 2026-2027
+    url: 'https://www.service-public.gouv.fr/particuliers/actualites/A14632'
+  - nom: 'Airbnb, centre d''aide — Frais de service Airbnb'
+    url: 'https://www.airbnb.fr/help/article/1857'
 faq:
-  - q: "Peut-on passer d'Airbnb à la location longue durée, et revenir en arrière ?"
-    a: "Dans un sens, rien dans les fiches de Service-Public.fr ne s'y oppose, à condition de respecter les règles du bail choisi : classe du DPE, situation du locataire pour un bail mobilité, loyer encadré selon la commune. Le retour est plus lent : le propriétaire ne peut donner congé qu'à l'échéance du bail, pour vendre, pour habiter le logement ou pour un motif légitime et sérieux, avec un préavis d'au moins six mois en location vide et trois mois en meublé."
-  - q: "Un logement classé F ou G au DPE peut-il encore être loué ?"
-    a: "D'après Service-Public.fr, il n'est plus possible depuis le 1er janvier 2025 de louer un logement classé G, renouvellement et reconduction tacite du bail compris. La classe F suivra en 2028 et la classe E en 2034. En meublé de tourisme, là où la commune exige une autorisation de changement d'usage, le DPE doit afficher en métropole une classe de A à E pour l'obtenir."
-  - q: "L'encadrement des loyers s'applique-t-il à un logement loué sur Airbnb ?"
-    a: "Non. D'après Service-Public.fr, l'encadrement concerne les logements qui servent de résidence principale au locataire ou qui sont loués avec un bail mobilité. Les meublés de tourisme relèvent d'autres règles et leur prix est fixé librement par le propriétaire. Ils dépendent en revanche des règles de la mairie : selon la commune, une déclaration, voire une autorisation de changement d'usage."
-  - q: "Faut-il un numéro SIRET pour louer en longue durée ?"
-    a: "En location meublée, oui, quelle que soit la durée : Service-Public.fr range la déclaration de début d'activité et le numéro SIRET parmi les déclarations préalables du bail meublé, du bail mobilité et du meublé de tourisme. Les fiches que nous avons consultées ne mentionnent cette déclaration que pour les locations meublées ; pour une location vide, voyez votre service des impôts."
+  - q: >-
+      Peut-on passer d'Airbnb à la location longue durée, et revenir en arrière
+      ?
+    a: >-
+      Dans un sens, rien dans les fiches de Service-Public.fr ne s'y oppose, à
+      condition de respecter les règles du bail choisi : classe du DPE,
+      situation du locataire pour un bail mobilité, loyer encadré selon la
+      commune. Le retour est plus lent : le propriétaire ne peut donner congé
+      qu'à l'échéance du bail, pour vendre, pour habiter le logement ou pour un
+      motif légitime et sérieux, avec un préavis d'au moins six mois en location
+      vide et trois mois en meublé.
+  - q: Un logement classé F ou G au DPE peut-il encore être loué ?
+    a: >-
+      D'après Service-Public.fr, il n'est plus possible depuis le 1er janvier
+      2025 de louer un logement classé G, renouvellement et reconduction tacite
+      du bail compris. La classe F suivra en 2028 et la classe E en 2034. En
+      meublé de tourisme, là où la commune exige une autorisation de changement
+      d'usage, le DPE doit afficher en métropole une classe de A à E pour
+      l'obtenir.
+  - q: L'encadrement des loyers s'applique-t-il à un logement loué sur Airbnb ?
+    a: >-
+      Non. D'après Service-Public.fr, l'encadrement concerne les logements qui
+      servent de résidence principale au locataire ou qui sont loués avec un
+      bail mobilité. Les meublés de tourisme relèvent d'autres règles et leur
+      prix est fixé librement par le propriétaire. Ils dépendent en revanche des
+      règles de la mairie : selon la commune, une déclaration, voire une
+      autorisation de changement d'usage.
+  - q: Faut-il un numéro SIRET pour louer en longue durée ?
+    a: >-
+      En location meublée, oui, quelle que soit la durée : Service-Public.fr
+      range la déclaration de début d'activité et le numéro SIRET parmi les
+      déclarations préalables du bail meublé, du bail mobilité et du meublé de
+      tourisme. Les fiches que nous avons consultées ne mentionnent cette
+      déclaration que pour les locations meublées ; pour une location vide,
+      voyez votre service des impôts.
+image: /images/blog/airbnb-ou-location-longue-duree-1200.webp
+image_credit: 'besopha, CC BY 2.0, via Wikimedia Commons'
 ---
 Vous avez un logement en Île-de-France et vous hésitez : Airbnb ou location longue durée ? La réponse ne tient pas dans une moyenne nationale. Elle dépend de ce que votre commune et votre immeuble autorisent, puis d'un calcul à faire avec vos propres chiffres : le nombre de nuits à vendre chaque mois pour égaler un loyer. Voici la méthode, les règles lues à la source, et les cas où la longue durée l'emporte.
 
