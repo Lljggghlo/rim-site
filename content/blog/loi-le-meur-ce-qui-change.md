@@ -104,7 +104,7 @@ faq:
       avec l'avis d'imposition comme preuve, et la commune peut abaisser son
       plafond de location de 120 à 90 jours par an.
 image: /images/blog/loi-le-meur-ce-qui-change-1200.webp
-image_credit: 'Diego Delso, CC BY-SA 4.0, via Wikimedia Commons'
+image_credit: 'Diego Delso, CC BY-SA 4.0, via Wikimedia Commons (affiches floutées)'
 ---
 La loi Le Meur, du nom de la députée Annaïg Le Meur, l'une de ses deux rapporteurs à l'Assemblée nationale, a changé les règles de la location courte durée. Le problème, c'est que ses mesures entrent en vigueur par étapes : certaines s'appliquent depuis fin 2024, d'autres sont en vigueur sur le papier mais reposent sur un téléservice national pas encore ouvert, d'autres arriveront en 2034. Voici, mesure par mesure et vérifié à la source, ce qui change pour un propriétaire en Île-de-France et ce qu'il doit faire.
 
