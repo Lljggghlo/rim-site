@@ -1,5 +1,5 @@
 {
- "date": "2026-11-21T21:18:48.314Z",
+ "date": "2026-11-21T21:52:20.526Z",
  "ok": true,
  "pages_controlees": 51,
  "articles_en_ligne": 7,
@@ -7,7 +7,7 @@
  "article_attendu": null,
  "article_en_ligne": null,
  "indexnow": {
-  "envoyees": 9,
+  "envoyees": 12,
   "reponse": 200
  },
  "erreurs": [],
