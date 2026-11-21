@@ -457,6 +457,7 @@ ${communeList()}
 ${footer()}
 ${consent ? `<div class="consent" role="dialog" aria-labelledby="consent-t" aria-describedby="consent-d" hidden><p class="consent-t" id="consent-t">Mesure d'audience</p><p id="consent-d">Avec votre accord, nous mesurons les visites (Google Analytics${s.meta_pixel_id ? ', Meta' : ''}) pour savoir quelles pages aident les propriétaires. <a href="/cookies">En savoir plus</a></p><div class="consent-b"><button type="button" class="btn btn-ghost" data-consent="0">Refuser</button><button type="button" class="btn btn-ghost" data-consent="1">Accepter</button></div></div>` : ''}
 <script src="/assets/${ctx.jsFile}" defer></script>
+<script src="/_vercel/insights/script.js" defer></script>
 </body>
 </html>`;
 }

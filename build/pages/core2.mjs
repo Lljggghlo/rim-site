@@ -3,7 +3,7 @@ import { ctx, esc, icon, waIcon, answer, faqBlock, breadcrumbs, bienCard, finalC
 import { ZONES_CHIPS, VERIF } from './core.mjs';
 
 // Date de la dernière modification réelle des pages légales (à changer à la main quand leur texte change)
-const LEGAL_MAJ = '2026-11-02';
+const LEGAL_MAJ = '2026-11-21';
 
 // ---------- Avis ----------
 export function avis(data) {
@@ -222,10 +222,11 @@ export function confidentialite() {
     <li><b>Formulaire d'estimation</b> : commune, type de bien, situation, échéance, prénom, téléphone, e-mail facultatif, page d'origine et paramètres de campagne (UTM). Finalité : vous rappeler et préparer une proposition. Base légale : mesures précontractuelles prises à votre demande, et votre consentement à être recontacté.</li>
     <li><b>Messages WhatsApp, e-mails et appels</b> : contenu de vos échanges. Finalité : répondre à vos demandes.</li>
     <li><b>Clients</b> : données nécessaires à l'exécution du contrat et à la facturation (voir le contrat de prestations).</li>
+    <li><b>Statistiques de visite</b> : pages consultées, site de provenance, pays, type d'appareil et de navigateur, mesurés par Vercel Web Analytics sans cookie. Votre visite est comptée grâce à une empreinte calculée à partir de la requête, remise à zéro chaque jour : elle ne permet pas de vous suivre d'un jour à l'autre ni sur d'autres sites. Finalité : savoir quelles pages aident les propriétaires. Base légale : notre intérêt légitime à améliorer le site.</li>
     ${mesure ? '<li><b>Mesure d’audience</b> : uniquement avec votre accord, voir la page <a href="/cookies">cookies</a>.</li>' : ''}
   </ul>
   <h2>Durées de conservation</h2><ul><li>Demandes de propriétaires non suivies d'un contrat : 3 ans à compter du dernier échange.</li><li>Clients : durée du contrat, puis 5 ans ; pièces comptables : 10 ans.</li></ul>
-  <h2>Destinataires et sous-traitants</h2><p>Vos données sont destinées à Rim Conciergerie uniquement. Elles transitent par nos prestataires techniques : Vercel (hébergement du site, États-Unis), FormSubmit (transmission du formulaire par e-mail), Google (messagerie Gmail), WhatsApp (Meta)${mesure ? ', et les outils de mesure listés sur la page cookies' : ''}. Certains de ces prestataires sont situés hors de l'Union européenne ; les transferts s'appuient sur les garanties prévues par le RGPD (clauses contractuelles types ou décision d'adéquation). Vos données ne sont jamais vendues.</p>
+  <h2>Destinataires et sous-traitants</h2><p>Vos données sont destinées à Rim Conciergerie uniquement. Elles transitent par nos prestataires techniques : Vercel (hébergement du site et statistiques de visite, États-Unis), FormSubmit (transmission du formulaire par e-mail), Google (messagerie Gmail), WhatsApp (Meta)${mesure ? ', et les outils de mesure listés sur la page cookies' : ''}. Certains de ces prestataires sont situés hors de l'Union européenne ; les transferts s'appuient sur les garanties prévues par le RGPD (clauses contractuelles types ou décision d'adéquation). Vos données ne sont jamais vendues.</p>
   <h2>Prospection</h2><p>Nous ne vous appelons que si vous l'avez demandé. Vous pouvez aussi vous inscrire sur la liste d'opposition au démarchage téléphonique Bloctel.</p>
   <h2>Vos droits</h2><p>Vous disposez d'un droit d'accès, de rectification, d'effacement, de limitation, d'opposition et de portabilité. Écrivez à <a href="mailto:${esc(s.email)}">${esc(s.email)}</a> ; nous répondons sous un mois. Vous pouvez aussi saisir la CNIL (cnil.fr).</p>
 </div></section>`;
@@ -242,7 +243,7 @@ export function cookies() {
   <p class="muted">Dernière mise à jour : ${dateFr(LEGAL_MAJ)}</p>
   ${tools.length
     ? `<p>Le site fonctionne sans cookie. Avec votre accord seulement, nous utilisons les outils de mesure suivants :</p><ul>${tools.join('')}</ul><p>Votre choix est conservé 6 mois dans votre navigateur. Vous pouvez le modifier à tout moment : <button type="button" class="lnk-btn" data-consent-open>gérer mes choix</button>.</p>`
-    : `<p>Ce site ne dépose aucun cookie de mesure d'audience ni de publicité. Il enregistre seulement, dans votre navigateur, la page par laquelle vous êtes arrivé et les paramètres de campagne (UTM), le temps de votre visite, pour savoir quelle page vous a amené au formulaire. Ces informations ne sont transmises que si vous envoyez le formulaire.</p>`}
+    : `<p>Ce site ne dépose aucun cookie de mesure d'audience ni de publicité. Les visites sont comptées par Vercel Web Analytics, qui ne dépose aucun cookie et n'enregistre rien dans votre navigateur : chaque visite est reconnue par une empreinte calculée à partir de la requête, remise à zéro chaque jour.</p><p>Le site enregistre seulement, dans votre navigateur, la page par laquelle vous êtes arrivé et les paramètres de campagne (UTM), le temps de votre visite, pour savoir quelle page vous a amené au formulaire. Ces informations ne sont transmises que si vous envoyez le formulaire.</p>`}
   ${s.video_presentation_mp4 ? '<p>Notre vidéo de présentation est hébergée sur ce site : elle ne fait appel à aucun service tiers et ne dépose aucun cookie. Elle ne se charge que si vous cliquez sur le bouton de lecture.</p>' : '<p>Les vidéos hébergées sur YouTube ne sont chargées que si vous cliquez sur le bouton de lecture. Elles sont alors lues sur cette page en mode de confidentialité renforcée (youtube-nocookie.com) ; YouTube peut à ce moment-là déposer ses propres traceurs, selon ses règles.</p>'}
 </div></section>`;
   return { path: '/cookies', title: 'Cookies | Rim Conciergerie', description: 'Les cookies et traceurs utilisés sur rimconciergerie.fr, et comment gérer vos choix.', body, schema: [], lastmod: ctx.today };
