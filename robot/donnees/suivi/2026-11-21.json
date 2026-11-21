@@ -1,0 +1,335 @@
+{
+ "date": "2026-11-21",
+ "source": "Google Search Console via Windsor.ai (propriété https://www.rimconciergerie.fr/), 28 derniers jours",
+ "totaux": {
+  "clics": 61,
+  "impressions": 2933,
+  "position_moyenne": 11.5,
+  "ctr_pct": 2.08
+ },
+ "pages": [
+  {
+   "page": "/blog/numero-enregistrement-meuble-de-tourisme-2026",
+   "clics": 4,
+   "impressions": 704,
+   "position": 10.0,
+   "ctr_pct": 0.6
+  },
+  {
+   "page": "/conciergerie-airbnb-guyancourt",
+   "clics": 3,
+   "impressions": 200,
+   "position": 6.9,
+   "ctr_pct": 1.5
+  },
+  {
+   "page": "/",
+   "clics": 31,
+   "impressions": 167,
+   "position": 6.1,
+   "ctr_pct": 18.6
+  },
+  {
+   "page": "/conciergerie-airbnb-essonne",
+   "clics": 3,
+   "impressions": 124,
+   "position": 11.5,
+   "ctr_pct": 2.4
+  },
+  {
+   "page": "/conciergerie-airbnb-hauts-de-seine",
+   "clics": 3,
+   "impressions": 118,
+   "position": 15.8,
+   "ctr_pct": 2.5
+  },
+  {
+   "page": "/conciergerie-airbnb-boulogne-billancourt",
+   "clics": 1,
+   "impressions": 113,
+   "position": 12.1,
+   "ctr_pct": 0.9
+  },
+  {
+   "page": "/mentions-legales",
+   "clics": 0,
+   "impressions": 108,
+   "position": 5.7,
+   "ctr_pct": 0.0
+  },
+  {
+   "page": "/conciergerie-airbnb-paris",
+   "clics": 0,
+   "impressions": 100,
+   "position": 15.8,
+   "ctr_pct": 0.0
+  },
+  {
+   "page": "/conciergerie-airbnb-montrouge",
+   "clics": 4,
+   "impressions": 93,
+   "position": 7.9,
+   "ctr_pct": 4.3
+  },
+  {
+   "page": "/conciergerie-airbnb-yvelines",
+   "clics": 1,
+   "impressions": 80,
+   "position": 11.3,
+   "ctr_pct": 1.2
+  },
+  {
+   "page": "/estimation",
+   "clics": 2,
+   "impressions": 78,
+   "position": 27.4,
+   "ctr_pct": 2.6
+  },
+  {
+   "page": "/avis",
+   "clics": 0,
+   "impressions": 69,
+   "position": 5.2,
+   "ctr_pct": 0.0
+  },
+  {
+   "page": "/conciergerie-airbnb-val-de-marne",
+   "clics": 0,
+   "impressions": 69,
+   "position": 12.4,
+   "ctr_pct": 0.0
+  },
+  {
+   "page": "/blog/conciergerie-airbnb-ou-gerer-seul",
+   "clics": 0,
+   "impressions": 68,
+   "position": 61.6,
+   "ctr_pct": 0.0
+  },
+  {
+   "page": "/conciergerie-airbnb-orly",
+   "clics": 1,
+   "impressions": 66,
+   "position": 7.3,
+   "ctr_pct": 1.5
+  },
+  {
+   "page": "/conciergerie-airbnb-versailles",
+   "clics": 1,
+   "impressions": 56,
+   "position": 14.1,
+   "ctr_pct": 1.8
+  },
+  {
+   "page": "/qui-sommes-nous",
+   "clics": 0,
+   "impressions": 56,
+   "position": 2.8,
+   "ctr_pct": 0.0
+  },
+  {
+   "page": "/conciergerie-airbnb-clamart",
+   "clics": 1,
+   "impressions": 53,
+   "position": 9.8,
+   "ctr_pct": 1.9
+  },
+  {
+   "page": "/conciergerie-airbnb-montigny-le-bretonneux",
+   "clics": 0,
+   "impressions": 49,
+   "position": 6.1,
+   "ctr_pct": 0.0
+  },
+  {
+   "page": "/conciergerie-airbnb-puteaux",
+   "clics": 0,
+   "impressions": 45,
+   "position": 9.6,
+   "ctr_pct": 0.0
+  },
+  {
+   "page": "/conciergerie-airbnb-massy",
+   "clics": 1,
+   "impressions": 44,
+   "position": 9.0,
+   "ctr_pct": 2.3
+  },
+  {
+   "page": "/conciergerie-airbnb-athis-mons",
+   "clics": 0,
+   "impressions": 39,
+   "position": 12.0,
+   "ctr_pct": 0.0
+  },
+  {
+   "page": "/conciergerie-airbnb-suresnes",
+   "clics": 0,
+   "impressions": 38,
+   "position": 9.1,
+   "ctr_pct": 0.0
+  },
+  {
+   "page": "/conciergerie-airbnb-palaiseau",
+   "clics": 3,
+   "impressions": 37,
+   "position": 13.5,
+   "ctr_pct": 8.1
+  },
+  {
+   "page": "/conciergerie-airbnb-saint-germain-en-laye",
+   "clics": 0,
+   "impressions": 37,
+   "position": 8.8,
+   "ctr_pct": 0.0
+  },
+  {
+   "page": "/blog/changement-usage-yvelines-hauts-de-seine",
+   "clics": 1,
+   "impressions": 36,
+   "position": 4.5,
+   "ctr_pct": 2.8
+  },
+  {
+   "page": "/conciergerie-airbnb-vincennes",
+   "clics": 0,
+   "impressions": 35,
+   "position": 8.9,
+   "ctr_pct": 0.0
+  },
+  {
+   "page": "/conciergerie-airbnb-neuilly-sur-seine",
+   "clics": 0,
+   "impressions": 34,
+   "position": 12.6,
+   "ctr_pct": 0.0
+  },
+  {
+   "page": "/conciergerie-airbnb-val-d-europe",
+   "clics": 0,
+   "impressions": 33,
+   "position": 20.2,
+   "ctr_pct": 0.0
+  },
+  {
+   "page": "/conciergerie-airbnb-courbevoie",
+   "clics": 1,
+   "impressions": 31,
+   "position": 10.1,
+   "ctr_pct": 3.2
+  },
+  {
+   "page": "/tarifs",
+   "clics": 0,
+   "impressions": 27,
+   "position": 7.5,
+   "ctr_pct": 0.0
+  },
+  {
+   "page": "/conciergerie-airbnb-velizy-villacoublay",
+   "clics": 0,
+   "impressions": 25,
+   "position": 18.7,
+   "ctr_pct": 0.0
+  },
+  {
+   "page": "/gestion-airbnb-booking",
+   "clics": 0,
+   "impressions": 25,
+   "position": 8.3,
+   "ctr_pct": 0.0
+  },
+  {
+   "page": "/conciergerie-airbnb-nanterre",
+   "clics": 0,
+   "impressions": 20,
+   "position": 9.7,
+   "ctr_pct": 0.0
+  },
+  {
+   "page": "/conciergerie-airbnb-juvisy-sur-orge",
+   "clics": 0,
+   "impressions": 13,
+   "position": 8.2,
+   "ctr_pct": 0.0
+  },
+  {
+   "page": "/confidentialite",
+   "clics": 0,
+   "impressions": 13,
+   "position": 4.7,
+   "ctr_pct": 0.0
+  },
+  {
+   "page": "/conciergerie-airbnb-rueil-malmaison",
+   "clics": 0,
+   "impressions": 12,
+   "position": 9.0,
+   "ctr_pct": 0.0
+  },
+  {
+   "page": "/conciergerie-airbnb-le-chesnay-rocquencourt",
+   "clics": 0,
+   "impressions": 8,
+   "position": 7.9,
+   "ctr_pct": 0.0
+  },
+  {
+   "page": "/conciergerie-airbnb-issy-les-moulineaux",
+   "clics": 0,
+   "impressions": 6,
+   "position": 9.7,
+   "ctr_pct": 0.0
+  },
+  {
+   "page": "/blog",
+   "clics": 0,
+   "impressions": 3,
+   "position": 16.7,
+   "ctr_pct": 0.0
+  },
+  {
+   "page": "/cookies",
+   "clics": 0,
+   "impressions": 1,
+   "position": 6.0,
+   "ctr_pct": 0.0
+  }
+ ],
+ "pages_a_pousser": [
+  "/blog/numero-enregistrement-meuble-de-tourisme-2026",
+  "/conciergerie-airbnb-essonne",
+  "/conciergerie-airbnb-hauts-de-seine",
+  "/conciergerie-airbnb-boulogne-billancourt",
+  "/conciergerie-airbnb-paris",
+  "/conciergerie-airbnb-yvelines",
+  "/conciergerie-airbnb-val-de-marne",
+  "/conciergerie-airbnb-versailles",
+  "/conciergerie-airbnb-clamart",
+  "/conciergerie-airbnb-puteaux",
+  "/conciergerie-airbnb-massy",
+  "/conciergerie-airbnb-athis-mons",
+  "/conciergerie-airbnb-suresnes",
+  "/conciergerie-airbnb-palaiseau",
+  "/conciergerie-airbnb-saint-germain-en-laye",
+  "/conciergerie-airbnb-vincennes",
+  "/conciergerie-airbnb-neuilly-sur-seine",
+  "/conciergerie-airbnb-courbevoie"
+ ],
+ "titres_a_retravailler": [
+  {
+   "page": "/blog/numero-enregistrement-meuble-de-tourisme-2026",
+   "raison": "704 impressions, 4 clics (0,6 %), position 10 : requêtes « numéro enregistrement meublé de tourisme + commune » dans toute la France, et « numéro d'enregistrement airbnb » (position 25)"
+  }
+ ],
+ "constats": [
+  "Les requêtes « conciergerie versailles » et « conciergerie yvelines » affichent la page Guyancourt (positions 4,5 et 3,1) plutôt que les pages Versailles (28) et Yvelines (37).",
+  "« conciergerie airbnb » : la page Guyancourt sort en position 3,5 à 5 pour des recherches localisées près de Guyancourt ; ailleurs, Google montre l'article « conciergerie Airbnb ou gérer seul » vers la position 54.",
+  "/estimation reçoit des impressions sur « simulation airbnb », « simulateur airbnb » (positions 34 à 72) : il n'existe pas de simulateur sur le site.",
+  "Requêtes de conciergerie d'entreprise (« conciergerie sur mesure / haut de gamme / d'entreprise boulogne billancourt ») : hors cible, à ignorer."
+ ],
+ "idees_de_sujets": [
+  "numéro d'enregistrement Airbnb : comment l'obtenir (requête à 12 impressions, position 25)",
+  "simulateur de rentabilité Airbnb (outil à étudier avant tout article)"
+ ]
+}
