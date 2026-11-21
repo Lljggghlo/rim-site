@@ -33,7 +33,7 @@ Le message qui t'a lancé précise le type : **rédaction** (lundi, mercredi, ve
 3. Lis `robot/config.json`, `robot/sujets.json`, les 15 dernières lignes de `robot/journal.md`.
 4. Lis l'état laissé par les contrôles automatiques :
    ```
-   git fetch origin robot-etat && for f in publication.json controle-en-ligne.json; do git show origin/robot-etat:$f; done
+   git fetch -q origin +robot-etat:refs/remotes/origin/robot-etat && for f in publication.json controle-en-ligne.json; do git show origin/robot-etat:$f; done
    ```
    - `publication.json` avec `"ok": false` : la dernière publication a échoué. Lis `publication-journal.txt` (même branche), corrige la cause **avant toute autre chose**, republie.
    - `controle-en-ligne.json` avec des erreurs : corrige ce qui relève du contenu ; pour le reste (domaine, hébergement), note-le dans le journal en tête de ligne avec `ALERTE`.
@@ -79,7 +79,7 @@ En mode `relecture` (voir `config.json`), ou si la catégorie figure dans `relec
 
 **Étape 9 — Vérifier le résultat.** Attends la fin du pipeline (jusqu'à 15 minutes) :
 ```
-for i in $(seq 1 30); do sleep 30; git fetch -q origin robot-etat main; git show origin/robot-etat:publication.json | grep -q "publication/<adresse>" && break; done; git show origin/robot-etat:publication.json; git show origin/robot-etat:controle-en-ligne.json
+for i in $(seq 1 30); do sleep 30; git fetch -q origin +robot-etat:refs/remotes/origin/robot-etat; git show origin/robot-etat:publication.json | grep -q "publication/<adresse>" && break; done; git show origin/robot-etat:publication.json; git show origin/robot-etat:controle-en-ligne.json
 ```
 - `"ok": true` et `"article_en_ligne": true` : la page est en ligne et indexable. Récupère `main`, ouvre la photo de couverture préparée (`static/images/blog/<adresse>-1200.webp`) avec l'outil de lecture d'image : si elle est hors sujet, floue, mal cadrée, ou montre une personne reconnaissable ou un bâtiment récent, remplace `image_source` et republie par une nouvelle branche `publication/<adresse>-image`.
 - `"ok": false` : lis `publication-journal.txt`, corrige, republie. Deux échecs de suite sur le même article : écris `ALERTE` dans le journal avec la cause, et arrête-toi.
@@ -94,7 +94,7 @@ Dans cet ordre, en t'arrêtant quand le temps manque (note où tu t'es arrêté)
 1. **État du site** : erreurs de `controle-en-ligne.json`, publication en échec, tickets ouverts. Corrige. Lis aussi `performance.json` (vitesse mesurée chaque dimanche par Lighthouse) : si une page dépasse les seuils (LCP 2,5 s, CLS 0,1) à cause d'un contenu que tu maîtrises (image d'article trop lourde, tableau trop large), corrige ; sinon écris `ALERTE` dans le journal avec la page et la mesure.
    Photos des pages locales : si `robot/donnees/images-a-preparer.json` est vide et qu'une page locale n'a pas de photo (voir le journal), choisis un fichier Wikimedia Commons selon la section 7 et ajoute `{"slug": "…", "fichier": "File:….jpg", "alt": "…"}` à ce fichier : le pipeline prépare la photo à la publication suivante.
 2. **Veille réglementaire** : vérifie sur les sources officielles les points de la liste `robot/veille.md`. Si une règle a changé, mets à jour les articles concernés (champ `modif` à la date du jour, `verifie` à jour, phrase « Mis à jour le … : … » en tête de la partie modifiée) et note dans le journal ce qui a changé, avec la source. Si le changement touche une page ville ou une page de service (fichiers `content/villes/`, `build/pages/`), corrige le texte concerné et sa date de vérification ; s'il est profond, écris `ALERTE` dans le journal pour que Nassim le voie.
-3. **Performances** : lis `git show origin/robot-etat:rapport-hebdo.md` et `suivi.json`. Si le suivi n'est pas branché (`"configure": false`), passe au point 4.
+3. **Performances** : lis `git show origin/robot-etat:rapport-hebdo.md` et `suivi.json` (après `git fetch -q origin +robot-etat:refs/remotes/origin/robot-etat`). Si le suivi n'est pas branché (`"configure": false`), passe au point 4.
    - `articles_a_reprendre` (plus de 60 jours, presque pas d'impressions) : reprends-en deux au plus par semaine. Relis la requête visée, regarde ce qui est en première page aujourd'hui, et réécris ce qui manque : angle, titre, introduction, parties absentes, liens internes entrants. Change `modif`.
    - `pages_a_pousser` (positions 8 à 20) : ajoute deux ou trois liens internes vers la page depuis des articles proches, complète la partie la plus faible, vérifie le titre.
    - `titres_a_retravailler` (bien placées, peu cliquées) : réécris `seo_title` et `description` pour répondre plus directement à la requête dominante (`meilleure_requete_par_page`). Une seule modification par page et par mois, pour pouvoir mesurer.
