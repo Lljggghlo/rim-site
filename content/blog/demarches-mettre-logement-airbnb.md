@@ -10,7 +10,7 @@ requete: démarches avant de mettre son logement sur Airbnb
 image_source: 'File:Immeuble_haussmannien_à_Paris_(52169315349).jpg'
 image_alt: 'Façade en pierre d''un immeuble haussmannien à Paris, avec ses balcons'
 verifie: 2026-11-15T00:00:00.000Z
-modif: 2026-11-16
+modif: 2026-11-21
 essentiel:
   - >-
     Tout part d'une question : le logement est-il votre résidence principale
@@ -133,7 +133,7 @@ La démarche dépend de la commune. Dans la plupart des grandes communes, la dé
 2. à son ouverture, l'enregistrement deviendra obligatoire dans toutes les communes, par un formulaire en ligne ;
 3. si vous avez déjà un numéro communal, vous aurez plusieurs mois pour le renouveler sur le téléservice ; passé ce délai, l'ancien numéro ne sera plus valable.
 
-Nous suivons ce calendrier dans notre guide du [numéro d'enregistrement d'un meublé de tourisme](/blog/numero-enregistrement-meuble-de-tourisme-2026).
+Nous suivons ce calendrier dans notre guide du [numéro d'enregistrement d'un meublé de tourisme](/blog/numero-enregistrement-meuble-de-tourisme-2026). Pour l'ensemble des mesures et leurs dates, voyez notre point sur [ce que change la loi Le Meur](/blog/loi-le-meur-ce-qui-change).
 
 ## Étape 3 : vérifier le changement d'usage
 
