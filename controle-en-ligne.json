@@ -1,17 +1,15 @@
 {
- "date": "2026-11-21T20:26:15.007Z",
- "ok": false,
- "pages_controlees": 50,
- "articles_en_ligne": 6,
- "jours_depuis_dernier_article": 5,
- "article_attendu": null,
- "article_en_ligne": null,
+ "date": "2026-11-21T20:58:53.996Z",
+ "ok": true,
+ "pages_controlees": 51,
+ "articles_en_ligne": 7,
+ "jours_depuis_dernier_article": 0,
+ "article_attendu": "/blog/loi-le-meur-ce-qui-change",
+ "article_en_ligne": true,
  "indexnow": {
-  "envoyees": 2,
+  "envoyees": 7,
   "reponse": 200
  },
- "erreurs": [
-  "aucun article publié depuis 5 jours (seuil d'alerte : 4)"
- ],
+ "erreurs": [],
  "avertissements": []
 }

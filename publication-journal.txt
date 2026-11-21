@@ -1,35 +1,35 @@
-0 image(s) préparée(s).
+✔ Couverture loi-le-meur-ce-qui-change : File:Palacio Borbón, París, Francia, 2026-04-04, DD 82-84 HDR.jpg (CC BY-SA 4.0, 86 ko)
+1 image(s) préparée(s).
 
 > build
 > node build/build.mjs
 
-✔ Site généré dans dist/ : 54 pages HTML, 50 dans le sitemap (2026-11-21).
-  Articles publiés : 6 · programmés : 1 → fin-contrat-conciergerie (2026-11-26)
+✔ Site généré dans dist/ : 55 pages HTML, 51 dans le sitemap (2026-11-21).
+  Articles publiés : 7 · programmés : 1 → fin-contrat-conciergerie (2026-11-26)
   Villes : 25 · Témoignages vidéo publiés : 0
 ⚠ 1 point(s) à vérifier :
-  - Registre des dates (data/lastmod.json) à mettre à jour avec « npm run lastmod » : 2 page(s) modifiée(s), dont /tarifs, /blog/airbnb-ou-location-longue-duree
-✔ airbnb-ou-location-longue-duree — 2772 mots, 8 parties, 8 liens internes, 16 sources (15 officielles)
+  - Registre des dates (data/lastmod.json) à mettre à jour avec « npm run lastmod » : 6 page(s) modifiée(s), dont /, /blog, /blog/theme/reglementation
+✔ demarches-mettre-logement-airbnb — 1818 mots, 8 parties, 11 liens internes, 8 sources (8 officielles)
+✔ loi-le-meur-ce-qui-change — 2568 mots, 8 parties, 7 liens internes, 11 sources (11 officielles)
 
 > strict
 > STRICT=1 node build/build.mjs
 
-✔ Site généré dans dist/ : 54 pages HTML, 50 dans le sitemap (2026-11-21).
-  Articles publiés : 6 · programmés : 1 → fin-contrat-conciergerie (2026-11-26)
+✔ Site généré dans dist/ : 55 pages HTML, 51 dans le sitemap (2026-11-21).
+  Articles publiés : 7 · programmés : 1 → fin-contrat-conciergerie (2026-11-26)
   Villes : 25 · Témoignages vidéo publiés : 0
 {
- "date": "2026-11-21T20:26:15.007Z",
- "ok": false,
- "pages_controlees": 50,
- "articles_en_ligne": 6,
- "jours_depuis_dernier_article": 5,
- "article_attendu": null,
- "article_en_ligne": null,
+ "date": "2026-11-21T20:58:53.996Z",
+ "ok": true,
+ "pages_controlees": 51,
+ "articles_en_ligne": 7,
+ "jours_depuis_dernier_article": 0,
+ "article_attendu": "/blog/loi-le-meur-ce-qui-change",
+ "article_en_ligne": true,
  "indexnow": {
-  "envoyees": 2,
+  "envoyees": 7,
   "reponse": 200
  },
- "erreurs": [
-  "aucun article publié depuis 5 jours (seuil d'alerte : 4)"
- ],
+ "erreurs": [],
  "avertissements": []
 }

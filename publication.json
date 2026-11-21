@@ -1,7 +1,7 @@
 {
- "date": "2026-11-21T20:26:15Z",
- "ok": false,
- "branche": "publication/entretien-2026-11-21",
- "article": "",
- "execution": "https://github.com/Lljggghlo/rim-site/actions/runs/44945894065"
+ "date": "2026-11-21T20:58:54Z",
+ "ok": true,
+ "branche": "publication/loi-le-meur-ce-qui-change",
+ "article": "loi-le-meur-ce-qui-change",
+ "execution": "https://github.com/Lljggghlo/rim-site/actions/runs/44949043277"
 }
