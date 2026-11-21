@@ -227,7 +227,7 @@ export function accueil(data) {
   <div class="hero-head">
     <p class="eyebrow eyebrow-face"><img src="/images/equipe/nassim-avatar.webp" width="28" height="28" alt=""><span><b>${esc(s.slogan)}</b></span></p>
     <h1 class="h1">Conciergerie Airbnb <span class="script">en Île-de-France</span></h1>
-    <p class="lead">Basés à Guyancourt, nous gérons votre location courte durée de A à Z : annonces, prix, voyageurs, ménage. Vos loyers vous sont versés directement.</p>
+    <p class="lead">Votre gestionnaire Airbnb et Booking, basé à Guyancourt : nous gérons votre location saisonnière de A à Z, annonces, prix, voyageurs, ménage. Vos loyers vous sont versés directement.</p>
   </div>
   <div class="hero-form">${microForm({ id: 'hero' })}</div>
   <div class="hero-more">${proofs()}${heroTel()}</div>
@@ -332,9 +332,9 @@ ${faq.html}
 ${finalCta()}`;
   return {
     path: '/',
-    title: 'Conciergerie Airbnb Île-de-France | Rim Conciergerie',
+    title: 'Conciergerie Airbnb, location saisonnière | Rim Conciergerie',
     ogTitle: 'Rim Conciergerie, conciergerie Airbnb en Île-de-France',
-    description: `Conciergerie Airbnb basée à Guyancourt : annonces, prix, voyageurs 24 h/24, ménage filmé. ${s.avis_google_note}/5 sur Google. Estimez votre bien.`,
+    description: `Conciergerie Airbnb et location saisonnière en Île-de-France, depuis Guyancourt : annonces, prix, voyageurs 24 h/24, ménage filmé. ${s.avis_google_note}/5 sur Google.`,
     body,
     schema: [faq.schema, presentationVideoSchema()].filter(Boolean),
     lastmod: ctx.today,
@@ -358,7 +358,7 @@ export function gestion() {
   const body = `${bc.html}
 <section class="hero"><div class="wrap hero-g">
   <div class="hero-head">
-    <p class="kicker">Gestion Airbnb &amp; Booking en Île-de-France</p>
+    <p class="kicker">Gestionnaire Airbnb &amp; Booking en Île-de-France</p>
     <h1 class="h1">Gestion de location courte durée <span class="script">Airbnb et Booking</span></h1>
     <p class="lead">De la première photo au dernier avis voyageur, nous gérons votre location courte durée en Île-de-France : annonces, prix ajustés chaque jour, voyageurs 24 h/24, ménage contrôlé. Les annonces restent sur vos comptes.</p>
   </div>
@@ -437,7 +437,7 @@ export function services() {
   const body = `${bc.html}
 <section class="hero hero-tight"><div class="wrap">
   <p class="kicker">Services de conciergerie Airbnb</p>
-  <h1 class="h1">Tout ce que nous faisons <span class="script">pour votre location</span></h1>
+  <h1 class="h1">Conciergerie de location courte durée : <span class="script">tout ce que nous faisons</span></h1>
   <p class="lead">Vous confiez votre logement, nous nous occupons du reste. Voici, service par service, ce que nous prenons en charge.</p>
 </div></section>
 
@@ -447,8 +447,8 @@ ${faq.html}
 ${finalCta()}`;
   return {
     path: '/services',
-    title: 'Services de conciergerie Airbnb | Rim Conciergerie',
-    description: 'Annonce, prix ajustés, voyageurs 24 h/24, ménage filmé, maintenance, incidents : tous nos services de conciergerie Airbnb en Île-de-France.',
+    title: 'Conciergerie location courte durée | Rim Conciergerie',
+    description: 'Conciergerie de location courte durée en Île-de-France : annonce, prix ajustés, voyageurs 24 h/24, ménage filmé, maintenance, incidents.',
     body,
     schema: [bc.schema, faq.schema, { '@type': 'Service', name: 'Conciergerie Airbnb', serviceType: 'Conciergerie pour location courte durée', provider: { '@id': `${ctx.s.url}/#entreprise` }, areaServed: 'Île-de-France' }],
     lastmod: ctx.today,
