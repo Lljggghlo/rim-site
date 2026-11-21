@@ -82,7 +82,11 @@ async function main() {
   const flux = await get(`${BASE}/blog/rss.xml?v=${Date.now()}`);
   const dernierePub = [...flux.text.matchAll(/<pubDate>([^<]+)<\/pubDate>/g)].map((m) => new Date(m[1]).getTime()).sort((a, b) => b - a)[0];
   const jours = dernierePub ? Math.floor((Date.now() - dernierePub) / 864e5) : null;
-  if (jours !== null && jours > CONFIG.alerte.jours_sans_article_max) erreurs.push(`aucun article publié depuis ${jours} jours (seuil d'alerte : ${CONFIG.alerte.jours_sans_article_max})`);
+  if (jours !== null && jours > CONFIG.alerte.jours_sans_article_max) {
+    // Le contrôle quotidien alerte ; une publication d'entretien ne doit pas être déclarée en échec pour autant.
+    const msg = `aucun article publié depuis ${jours} jours (seuil d'alerte : ${CONFIG.alerte.jours_sans_article_max}) : vérifier la tâche planifiée « rédaction »`;
+    (process.env.GITHUB_WORKFLOW === 'Publication du blog' ? avertissements : erreurs).push(msg);
+  }
 
   // IndexNow (Bing et moteurs partenaires) : adresses modifiées depuis hier
   let indexnow = null;
