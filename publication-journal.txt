@@ -7,8 +7,8 @@
   Articles publiés : 7 · programmés : 1 → fin-contrat-conciergerie (2026-11-26)
   Villes : 25 · Témoignages vidéo publiés : 0
 ⚠ 1 point(s) à vérifier :
-  - Registre des dates (data/lastmod.json) à mettre à jour avec « npm run lastmod » : 1 page(s) modifiée(s), dont /blog/loi-le-meur-ce-qui-change
-✔ loi-le-meur-ce-qui-change — 2568 mots, 8 parties, 7 liens internes, 11 sources (11 officielles)
+  - Registre des dates (data/lastmod.json) à mettre à jour avec « npm run lastmod » : 3 page(s) modifiée(s), dont /, /gestion-airbnb-booking, /services
+Aucun article à contrôler.
 
 > strict
 > STRICT=1 node build/build.mjs
@@ -17,7 +17,7 @@
   Articles publiés : 7 · programmés : 1 → fin-contrat-conciergerie (2026-11-26)
   Villes : 25 · Témoignages vidéo publiés : 0
 {
- "date": "2026-11-21T21:05:12.340Z",
+ "date": "2026-11-21T21:18:48.314Z",
  "ok": true,
  "pages_controlees": 51,
  "articles_en_ligne": 7,
@@ -25,7 +25,7 @@
  "article_attendu": null,
  "article_en_ligne": null,
  "indexnow": {
-  "envoyees": 7,
+  "envoyees": 9,
   "reponse": 200
  },
  "erreurs": [],
