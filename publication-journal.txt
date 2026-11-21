@@ -1,5 +1,4 @@
-✔ Couverture loi-le-meur-ce-qui-change : File:Palacio Borbón, París, Francia, 2026-04-04, DD 82-84 HDR.jpg (CC BY-SA 4.0, 86 ko)
-1 image(s) préparée(s).
+0 image(s) préparée(s).
 
 > build
 > node build/build.mjs
@@ -8,8 +7,7 @@
   Articles publiés : 7 · programmés : 1 → fin-contrat-conciergerie (2026-11-26)
   Villes : 25 · Témoignages vidéo publiés : 0
 ⚠ 1 point(s) à vérifier :
-  - Registre des dates (data/lastmod.json) à mettre à jour avec « npm run lastmod » : 6 page(s) modifiée(s), dont /, /blog, /blog/theme/reglementation
-✔ demarches-mettre-logement-airbnb — 1818 mots, 8 parties, 11 liens internes, 8 sources (8 officielles)
+  - Registre des dates (data/lastmod.json) à mettre à jour avec « npm run lastmod » : 1 page(s) modifiée(s), dont /blog/loi-le-meur-ce-qui-change
 ✔ loi-le-meur-ce-qui-change — 2568 mots, 8 parties, 7 liens internes, 11 sources (11 officielles)
 
 > strict
@@ -19,13 +17,13 @@
   Articles publiés : 7 · programmés : 1 → fin-contrat-conciergerie (2026-11-26)
   Villes : 25 · Témoignages vidéo publiés : 0
 {
- "date": "2026-11-21T20:58:53.996Z",
+ "date": "2026-11-21T21:05:12.340Z",
  "ok": true,
  "pages_controlees": 51,
  "articles_en_ligne": 7,
  "jours_depuis_dernier_article": 0,
- "article_attendu": "/blog/loi-le-meur-ce-qui-change",
- "article_en_ligne": true,
+ "article_attendu": null,
+ "article_en_ligne": null,
  "indexnow": {
   "envoyees": 7,
   "reponse": 200

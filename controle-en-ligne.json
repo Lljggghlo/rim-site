@@ -1,11 +1,11 @@
 {
- "date": "2026-11-21T20:58:53.996Z",
+ "date": "2026-11-21T21:05:12.340Z",
  "ok": true,
  "pages_controlees": 51,
  "articles_en_ligne": 7,
  "jours_depuis_dernier_article": 0,
- "article_attendu": "/blog/loi-le-meur-ce-qui-change",
- "article_en_ligne": true,
+ "article_attendu": null,
+ "article_en_ligne": null,
  "indexnow": {
   "envoyees": 7,
   "reponse": 200
