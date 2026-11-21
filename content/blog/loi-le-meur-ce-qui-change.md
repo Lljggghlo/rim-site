@@ -1,51 +1,110 @@
 ---
-title: "Loi Le Meur : ce qui change pour les propriétaires Airbnb en Île-de-France"
-seo_title: "Loi Le Meur : ce qui change en 2026 | Rim Conciergerie"
-description: "Loi Le Meur : ce qui s'applique déjà, ce qui attend le téléservice national, ce qui arrive en 2034. Le calendrier vérifié pour l'Île-de-France."
-date: 2026-11-21
-categorie: "Réglementation"
-requete: "loi Le Meur"
-image_source: "File:Palacio_Borbón,_París,_Francia,_2026-04-04,_DD_82-84_HDR.jpg"
-image_alt: "Façade nord du Palais Bourbon, siège de l'Assemblée nationale, à Paris"
-verifie: 2026-11-21
+title: 'Loi Le Meur : ce qui change pour les propriétaires Airbnb en Île-de-France'
+seo_title: 'Loi Le Meur : ce qui change en 2026 | Rim Conciergerie'
+description: >-
+  Loi Le Meur : ce qui s'applique déjà, ce qui attend le téléservice national,
+  ce qui arrive en 2034. Le calendrier vérifié pour l'Île-de-France.
+date: 2026-11-21T00:00:00.000Z
+categorie: Réglementation
+requete: loi Le Meur
+image_source: 'File:Palacio_Borbón,_París,_Francia,_2026-04-04,_DD_82-84_HDR.jpg'
+image_alt: 'Façade nord du Palais Bourbon, siège de l''Assemblée nationale, à Paris'
+verifie: 2026-11-21T00:00:00.000Z
 essentiel:
-  - "La loi Le Meur du 19 novembre 2024 encadre les meublés de tourisme. Ses mesures n'entrent pas toutes en vigueur à la même date."
-  - "Déjà en vigueur : fiscalité alignée (15 000 € et 30 % d'abattement pour un meublé non classé), plafond de 90 jours possible pour une résidence principale (Paris l'applique), information du syndic, autorisation de changement d'usage conditionnée au DPE."
-  - "Depuis le 20 mai 2026, le Code du tourisme prévoit l'enregistrement de tous les meublés sur un téléservice national et des amendes relevées. Mais ce téléservice n'est pas ouvert : Service-Public.fr l'annonce pour le quatrième trimestre 2026 et renvoie, d'ici là, vers la mairie."
-  - "En 2034 : tout meublé de tourisme qui n'est pas la résidence principale du loueur devra respecter le DPE d'un logement décent."
-  - "À faire maintenant : vérifier la règle de votre commune et de votre copropriété, et préparer votre avis d'imposition et votre DPE pour la future déclaration."
+  - >-
+    La loi Le Meur du 19 novembre 2024 encadre les meublés de tourisme. Ses
+    mesures n'entrent pas toutes en vigueur à la même date.
+  - >-
+    Déjà en vigueur : fiscalité alignée (15 000 € et 30 % d'abattement pour un
+    meublé non classé), plafond de 90 jours possible pour une résidence
+    principale (Paris l'applique), information du syndic, autorisation de
+    changement d'usage conditionnée au DPE.
+  - >-
+    Depuis le 20 mai 2026, le Code du tourisme prévoit l'enregistrement de tous
+    les meublés sur un téléservice national et des amendes relevées. Mais ce
+    téléservice n'est pas ouvert : Service-Public.fr l'annonce pour le quatrième
+    trimestre 2026 et renvoie, d'ici là, vers la mairie.
+  - >-
+    En 2034 : tout meublé de tourisme qui n'est pas la résidence principale du
+    loueur devra respecter le DPE d'un logement décent.
+  - >-
+    À faire maintenant : vérifier la règle de votre commune et de votre
+    copropriété, et préparer votre avis d'imposition et votre DPE pour la future
+    déclaration.
 sources:
-  - nom: "Légifrance — Code du tourisme, article L324-1-1 (version en vigueur depuis le 20 mai 2026)"
-    url: "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000050623378"
-  - nom: "Légifrance — Loi n° 2024-1039 du 19 novembre 2024 visant à renforcer les outils de régulation des meublés de tourisme à l'échelle locale"
-    url: "https://www.legifrance.gouv.fr/eli/loi/2024/11/19/TECX2330139L/jo/texte"
-  - nom: "Service-Public.fr — Mettre son logement en location : les règles évoluent en 2026 (actualité du 27 juillet 2026)"
-    url: "https://www.service-public.gouv.fr/particuliers/actualites/A18880"
-  - nom: "Service-Public.fr — Locations touristiques : de nouvelles règles en 2025 ? (mise à jour du 20 janvier 2025)"
-    url: "https://www.service-public.gouv.fr/particuliers/actualites/A17883"
-  - nom: "Service-Public.fr — Faire de sa résidence secondaire une location de vacances (meublé de tourisme)"
-    url: "https://www.service-public.gouv.fr/particuliers/vosdroits/F2043"
-  - nom: "Service-Public.fr — Faire de sa résidence principale une location de vacances (meublé de tourisme)"
-    url: "https://www.service-public.gouv.fr/particuliers/vosdroits/F33175"
-  - nom: "impots.gouv.fr — Location meublée de tourisme : le nouveau régime fiscal"
-    url: "https://www.impots.gouv.fr/particulier/questions/je-suis-proprietaire-dune-location-meublee-de-tourisme-quel-est-le-nouveau"
-  - nom: "Ministère chargé du Logement — La location touristique meublée (FAQ sur le changement d'usage)"
-    url: "https://www.ecologie.gouv.fr/politiques-publiques/location-touristique-meublee"
-  - nom: "Conseil constitutionnel — Décision n° 2025-1186 QPC du 19 mars 2026"
-    url: "https://www.conseil-constitutionnel.fr/decision/2026/20251186QPC.htm"
-  - nom: "Ville de Paris — Location limitée à 90 jours : Paris serre la vis sur les meublés touristiques"
-    url: "https://www.paris.fr/pages/location-limitee-a-90-jours-paris-serre-la-vis-sur-les-meubles-touristiques-29653"
-  - nom: "Ville de Paris — La location meublée touristique : les règles à suivre"
-    url: "https://www.paris.fr/pages/meubles-touristiques-3637"
+  - nom: >-
+      Légifrance — Code du tourisme, article L324-1-1 (version en vigueur depuis
+      le 20 mai 2026)
+    url: 'https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000050623378'
+  - nom: >-
+      Légifrance — Loi n° 2024-1039 du 19 novembre 2024 visant à renforcer les
+      outils de régulation des meublés de tourisme à l'échelle locale
+    url: 'https://www.legifrance.gouv.fr/eli/loi/2024/11/19/TECX2330139L/jo/texte'
+  - nom: >-
+      Service-Public.fr — Mettre son logement en location : les règles évoluent
+      en 2026 (actualité du 27 juillet 2026)
+    url: 'https://www.service-public.gouv.fr/particuliers/actualites/A18880'
+  - nom: >-
+      Service-Public.fr — Locations touristiques : de nouvelles règles en 2025 ?
+      (mise à jour du 20 janvier 2025)
+    url: 'https://www.service-public.gouv.fr/particuliers/actualites/A17883'
+  - nom: >-
+      Service-Public.fr — Faire de sa résidence secondaire une location de
+      vacances (meublé de tourisme)
+    url: 'https://www.service-public.gouv.fr/particuliers/vosdroits/F2043'
+  - nom: >-
+      Service-Public.fr — Faire de sa résidence principale une location de
+      vacances (meublé de tourisme)
+    url: 'https://www.service-public.gouv.fr/particuliers/vosdroits/F33175'
+  - nom: 'impots.gouv.fr — Location meublée de tourisme : le nouveau régime fiscal'
+    url: >-
+      https://www.impots.gouv.fr/particulier/questions/je-suis-proprietaire-dune-location-meublee-de-tourisme-quel-est-le-nouveau
+  - nom: >-
+      Ministère chargé du Logement — La location touristique meublée (FAQ sur le
+      changement d'usage)
+    url: >-
+      https://www.ecologie.gouv.fr/politiques-publiques/location-touristique-meublee
+  - nom: Conseil constitutionnel — Décision n° 2025-1186 QPC du 19 mars 2026
+    url: 'https://www.conseil-constitutionnel.fr/decision/2026/20251186QPC.htm'
+  - nom: >-
+      Ville de Paris — Location limitée à 90 jours : Paris serre la vis sur les
+      meublés touristiques
+    url: >-
+      https://www.paris.fr/pages/location-limitee-a-90-jours-paris-serre-la-vis-sur-les-meubles-touristiques-29653
+  - nom: 'Ville de Paris — La location meublée touristique : les règles à suivre'
+    url: 'https://www.paris.fr/pages/meubles-touristiques-3637'
 faq:
-  - q: "La loi Le Meur est-elle rétroactive ?"
-    a: "En principe, non. Pour le changement d'usage, le ministère chargé du Logement indique qu'une infraction pratiquée et constatée avant la loi se juge selon l'ancien texte. Mais chaque nouvelle location peut constituer une nouvelle infraction, jugée selon la loi nouvelle : avoir loué avant novembre 2024 ne confère pas automatiquement le droit de continuer."
-  - q: "La loi Le Meur interdit-elle de louer sur Airbnb ?"
-    a: "Non. Elle n'interdit pas la location courte durée : elle donne des outils aux communes (plafond de 90 jours, quotas d'autorisations, secteurs réservés aux résidences principales) et aux copropriétés, et elle durcit la fiscalité des meublés non classés. Ce qui est permis dépend donc de votre commune, de votre immeuble et du statut du logement."
-  - q: "J'ai déjà un numéro d'enregistrement de ma mairie : dois-je refaire la démarche ?"
-    a: "Oui, une fois le téléservice national ouvert. Selon Service-Public.fr, les titulaires d'un numéro communal disposeront de plusieurs mois pour le renouveler sur ce téléservice. Après cette période, les anciens numéros ne seront plus valables et ne pourront plus figurer sur les annonces."
-  - q: "La loi Le Meur concerne-t-elle aussi la résidence principale ?"
-    a: "Oui, mais moins lourdement. La résidence principale reste dispensée d'autorisation de changement d'usage et de l'exigence de DPE prévue pour 2034. En revanche, elle devra être déclarée sur le téléservice national, avec l'avis d'imposition comme preuve, et la commune peut abaisser son plafond de location de 120 à 90 jours par an."
+  - q: La loi Le Meur est-elle rétroactive ?
+    a: >-
+      En principe, non. Pour le changement d'usage, le ministère chargé du
+      Logement indique qu'une infraction pratiquée et constatée avant la loi se
+      juge selon l'ancien texte. Mais chaque nouvelle location peut constituer
+      une nouvelle infraction, jugée selon la loi nouvelle : avoir loué avant
+      novembre 2024 ne confère pas automatiquement le droit de continuer.
+  - q: La loi Le Meur interdit-elle de louer sur Airbnb ?
+    a: >-
+      Non. Elle n'interdit pas la location courte durée : elle donne des outils
+      aux communes (plafond de 90 jours, quotas d'autorisations, secteurs
+      réservés aux résidences principales) et aux copropriétés, et elle durcit
+      la fiscalité des meublés non classés. Ce qui est permis dépend donc de
+      votre commune, de votre immeuble et du statut du logement.
+  - q: >-
+      J'ai déjà un numéro d'enregistrement de ma mairie : dois-je refaire la
+      démarche ?
+    a: >-
+      Oui, une fois le téléservice national ouvert. Selon Service-Public.fr, les
+      titulaires d'un numéro communal disposeront de plusieurs mois pour le
+      renouveler sur ce téléservice. Après cette période, les anciens numéros ne
+      seront plus valables et ne pourront plus figurer sur les annonces.
+  - q: La loi Le Meur concerne-t-elle aussi la résidence principale ?
+    a: >-
+      Oui, mais moins lourdement. La résidence principale reste dispensée
+      d'autorisation de changement d'usage et de l'exigence de DPE prévue pour
+      2034. En revanche, elle devra être déclarée sur le téléservice national,
+      avec l'avis d'imposition comme preuve, et la commune peut abaisser son
+      plafond de location de 120 à 90 jours par an.
+image: /images/blog/loi-le-meur-ce-qui-change-1200.webp
+image_credit: 'Diego Delso, CC BY-SA 4.0, via Wikimedia Commons'
 ---
 La loi Le Meur, du nom de la députée Annaïg Le Meur, l'une de ses deux rapporteurs à l'Assemblée nationale, a changé les règles de la location courte durée. Le problème, c'est que ses mesures entrent en vigueur par étapes : certaines s'appliquent depuis fin 2024, d'autres sont en vigueur sur le papier mais reposent sur un téléservice national pas encore ouvert, d'autres arriveront en 2034. Voici, mesure par mesure et vérifié à la source, ce qui change pour un propriétaire en Île-de-France et ce qu'il doit faire.
 

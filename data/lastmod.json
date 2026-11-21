@@ -1,7 +1,7 @@
 {
  "/": {
-  "h": "0b525091cd7a",
-  "d": "2026-11-16"
+  "h": "bc5620dd642a",
+  "d": "2026-11-21"
  },
  "/gestion-airbnb-booking": {
   "h": "1009207be2cc",
@@ -156,35 +156,39 @@
   "d": "2026-11-15"
  },
  "/blog": {
-  "h": "d2a961e6c0db",
-  "d": "2026-11-16"
+  "h": "105c669bf593",
+  "d": "2026-11-21"
  },
  "/blog/theme/reglementation": {
-  "h": "f08fed3ac44a",
-  "d": "2026-11-16"
+  "h": "f8f113ce116a",
+  "d": "2026-11-21"
+ },
+ "/blog/loi-le-meur-ce-qui-change": {
+  "h": "e64023141c2f",
+  "d": "2026-11-21"
  },
  "/blog/airbnb-ou-location-longue-duree": {
-  "h": "ef3a1c863ca7",
+  "h": "05d8ec050134",
   "d": "2026-11-21"
  },
  "/blog/demarches-mettre-logement-airbnb": {
-  "h": "a5eb5afc2246",
-  "d": "2026-11-16"
+  "h": "d7dee43d70ce",
+  "d": "2026-11-21"
  },
  "/blog/degats-voyageur-aircover-booking": {
-  "h": "afca409a49b3",
+  "h": "34e75f677a75",
   "d": "2026-11-12"
  },
  "/blog/changement-usage-yvelines-hauts-de-seine": {
-  "h": "810b0d059492",
+  "h": "e40203be764e",
   "d": "2026-11-15"
  },
  "/blog/conciergerie-airbnb-ou-gerer-seul": {
-  "h": "9ddce0ee255b",
+  "h": "07a2c4bb8e53",
   "d": "2026-10-31"
  },
  "/blog/numero-enregistrement-meuble-de-tourisme-2026": {
-  "h": "765bcbc70337",
+  "h": "919caac28930",
   "d": "2026-10-31"
  },
  "/mentions-legales": {
