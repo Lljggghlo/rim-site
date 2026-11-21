@@ -1,14 +1,17 @@
 {
- "date": "2026-11-21T14:56:02.609Z",
- "ok": true,
+ "date": "2026-11-21T20:26:15.007Z",
+ "ok": false,
  "pages_controlees": 50,
  "articles_en_ligne": 6,
  "jours_depuis_dernier_article": 5,
  "article_attendu": null,
  "article_en_ligne": null,
  "indexnow": {
-  "envoyees": 0
+  "envoyees": 2,
+  "reponse": 200
  },
- "erreurs": [],
+ "erreurs": [
+  "aucun article publié depuis 5 jours (seuil d'alerte : 4)"
+ ],
  "avertissements": []
 }

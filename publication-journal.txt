@@ -1,35 +1,35 @@
-✔ Couverture airbnb-ou-location-longue-duree : File:Fameux toits en zinc de Paris.jpg (CC BY 2.0, 92 ko)
-1 image(s) préparée(s).
+0 image(s) préparée(s).
 
 > build
 > node build/build.mjs
 
-✔ Site généré dans dist/ : 54 pages HTML, 50 dans le sitemap (2026-11-16).
+✔ Site généré dans dist/ : 54 pages HTML, 50 dans le sitemap (2026-11-21).
   Articles publiés : 6 · programmés : 1 → fin-contrat-conciergerie (2026-11-26)
   Villes : 25 · Témoignages vidéo publiés : 0
 ⚠ 1 point(s) à vérifier :
-  - Registre des dates (data/lastmod.json) à mettre à jour avec « npm run lastmod » : 5 page(s) modifiée(s), dont /, /blog, /blog/theme/reglementation
-✔ airbnb-ou-location-longue-duree — 2716 mots, 8 parties, 8 liens internes, 15 sources (14 officielles)
-✔ demarches-mettre-logement-airbnb — 1800 mots, 8 parties, 10 liens internes, 8 sources (8 officielles)
+  - Registre des dates (data/lastmod.json) à mettre à jour avec « npm run lastmod » : 2 page(s) modifiée(s), dont /tarifs, /blog/airbnb-ou-location-longue-duree
+✔ airbnb-ou-location-longue-duree — 2772 mots, 8 parties, 8 liens internes, 16 sources (15 officielles)
 
 > strict
 > STRICT=1 node build/build.mjs
 
-✔ Site généré dans dist/ : 54 pages HTML, 50 dans le sitemap (2026-11-16).
+✔ Site généré dans dist/ : 54 pages HTML, 50 dans le sitemap (2026-11-21).
   Articles publiés : 6 · programmés : 1 → fin-contrat-conciergerie (2026-11-26)
   Villes : 25 · Témoignages vidéo publiés : 0
 {
- "date": "2026-11-16T05:56:35.098Z",
- "ok": true,
+ "date": "2026-11-21T20:26:15.007Z",
+ "ok": false,
  "pages_controlees": 50,
  "articles_en_ligne": 6,
- "jours_depuis_dernier_article": -1,
- "article_attendu": "/blog/airbnb-ou-location-longue-duree",
- "article_en_ligne": true,
+ "jours_depuis_dernier_article": 5,
+ "article_attendu": null,
+ "article_en_ligne": null,
  "indexnow": {
-  "envoyees": 47,
+  "envoyees": 2,
   "reponse": 200
  },
- "erreurs": [],
+ "erreurs": [
+  "aucun article publié depuis 5 jours (seuil d'alerte : 4)"
+ ],
  "avertissements": []
 }
