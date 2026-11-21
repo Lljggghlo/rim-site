@@ -22,7 +22,8 @@
    "angle": "Liste ordonnée : copropriété, mairie (déclaration, enregistrement, changement d'usage), impôts (SIRET), assurance, annonce. Distinguer résidence principale et secondaire.",
    "statut": "publie",
    "slug": "demarches-mettre-logement-airbnb",
-   "publie_le": "2026-11-15"
+   "publie_le": "2026-11-15",
+   "volume": 1060
   },
   {
    "id": 2,
@@ -39,7 +40,182 @@
    "angle": "Méthode de comparaison (recettes, charges, vacance, fiscalité, temps, règles locales), tableau, sans promettre de revenus. Chiffres de marché uniquement avec source nommée.",
    "statut": "publie",
    "slug": "airbnb-ou-location-longue-duree",
-   "publie_le": "2026-11-16"
+   "publie_le": "2026-11-16",
+   "volume": 20
+  },
+  {
+   "id": 51,
+   "titre": "Loi Le Meur : ce qui change pour les propriétaires Airbnb en Île-de-France",
+   "requete": "loi Le Meur",
+   "secondaires": [
+    "loi Le Meur Airbnb",
+    "nouvelle loi Airbnb",
+    "loi Airbnb 2024 ce qui change"
+   ],
+   "categorie": "Réglementation",
+   "intention": "information → estimation",
+   "angle": "Article pivot : loi n° 2024-1039 du 19/11/2024 lue sur Légifrance. Calendrier des mesures (déjà en vigueur, en 2025, en 2026, à venir) dans un tableau ; pour chaque mesure, ce que doit faire un propriétaire en Île-de-France et le lien vers notre article détaillé (numéro d'enregistrement, changement d'usage, fiscalité, DPE). Rien d'autre que les sources officielles.",
+   "note": "Requête la plus recherchée du thème (3 600 recherches par mois, difficulté 13).",
+   "priorite": 1,
+   "statut": "a_faire",
+   "slug": null,
+   "publie_le": null,
+   "volume": 4170
+  },
+  {
+   "id": 17,
+   "titre": "Ménage en location courte durée : organisation, contrôle et coût réel",
+   "requete": "ménage Airbnb",
+   "secondaires": [
+    "femme de ménage Airbnb",
+    "prix ménage Airbnb",
+    "frais de ménage Airbnb combien",
+    "contrôle ménage location courte durée",
+    "linge Airbnb blanchisserie"
+   ],
+   "categorie": "Gestion",
+   "intention": "information",
+   "priorite": 1,
+   "angle": "Protocole vidéo horodatée avant et après, liste de contrôle, consommables, linge. Frais de ménage : qui paie quoi.",
+   "statut": "a_faire",
+   "slug": null,
+   "publie_le": null,
+   "volume": 2250
+  },
+  {
+   "id": 4,
+   "titre": "Fiscalité d'un meublé de tourisme en 2026 : micro-BIC, régime réel, ce qui a changé",
+   "requete": "fiscalité Airbnb",
+   "secondaires": [
+    "impôt Airbnb",
+    "location saisonnière impôt",
+    "micro-BIC Airbnb 2026",
+    "abattement 30 % meublé de tourisme",
+    "impôts revenus Airbnb"
+   ],
+   "categorie": "Fiscalité",
+   "intention": "information",
+   "priorite": 1,
+   "angle": "Seuils et abattements d'après service-public et impots.gouv ; classé ou non classé ; micro ou réel ; exemple chiffré étiqueté « exemple ».",
+   "statut": "a_faire",
+   "slug": null,
+   "publie_le": null,
+   "volume": 1330,
+   "note": "Le sujet 35 (déclarer ses revenus) vise la démarche de déclaration : ne pas répéter dans le 4 le pas-à-pas des formulaires, lier les deux articles."
+  },
+  {
+   "id": 19,
+   "titre": "Classement en meublé de tourisme : démarche, coût et intérêt fiscal en 2026",
+   "requete": "classement meublé de tourisme",
+   "secondaires": [
+    "meublé de tourisme classé étoiles avantage",
+    "classement meublé de tourisme Île-de-France prix",
+    "abattement 50 % meublé classé"
+   ],
+   "categorie": "Fiscalité",
+   "intention": "information",
+   "priorite": 1,
+   "angle": "Organismes accrédités, grille Atout France, durée de validité, effet sur le micro-BIC et la taxe de séjour. Sources : atout-france, service-public.",
+   "statut": "a_faire",
+   "slug": null,
+   "publie_le": null,
+   "volume": 1180
+  },
+  {
+   "id": 6,
+   "titre": "Réglementation Airbnb à Paris en 2026 : ce qu'un propriétaire doit vérifier",
+   "requete": "réglementation Airbnb Paris",
+   "secondaires": [
+    "location courte durée Paris",
+    "Airbnb Paris 90 jours",
+    "louer sur Airbnb à Paris règles",
+    "90 jours Airbnb Paris",
+    "changement d'usage Paris compensation"
+   ],
+   "categorie": "Réglementation",
+   "intention": "information",
+   "priorite": 1,
+   "ville": "paris",
+   "angle": "Résidence principale (plafond de nuitées en vigueur), résidence secondaire (changement d'usage et compensation), contrôles et amendes. Sources : paris.fr, service-public, Légifrance.",
+   "statut": "a_faire",
+   "slug": null,
+   "publie_le": null,
+   "volume": 1100
+  },
+  {
+   "id": 12,
+   "titre": "Taxe de séjour en Île-de-France : qui la collecte, combien, et quand la déclarer",
+   "requete": "taxe de séjour Airbnb",
+   "secondaires": [
+    "taxe de séjour Île-de-France",
+    "taxe de séjour meublé non classé",
+    "taxe de séjour Airbnb qui paie",
+    "taxe additionnelle Île-de-France Mobilités"
+   ],
+   "categorie": "Fiscalité",
+   "intention": "information",
+   "priorite": 1,
+   "angle": "Collecte par les plateformes, cas de la réservation en direct, taxe additionnelle régionale, meublé classé ou non. Exemple de Saint-Quentin-en-Yvelines (guide de l'agglomération).",
+   "statut": "a_faire",
+   "slug": null,
+   "publie_le": null,
+   "volume": 720
+  },
+  {
+   "id": 24,
+   "titre": "Caution et empreinte bancaire sur Airbnb et Booking : ce qui est possible",
+   "requete": "caution Airbnb",
+   "secondaires": [
+    "empreinte bancaire location saisonnière",
+    "dépôt de garantie Airbnb",
+    "caution Booking location saisonnière",
+    "empreinte bancaire location courte durée"
+   ],
+   "categorie": "Dégâts et litiges",
+   "intention": "information",
+   "priorite": 1,
+   "angle": "Règles de chaque plateforme, réservation en direct, limites. Lien avec l'article sur les dégâts.",
+   "statut": "a_faire",
+   "slug": null,
+   "publie_le": null,
+   "volume": 720
+  },
+  {
+   "id": 52,
+   "titre": "Serrure connectée ou boîte à clés pour Airbnb : comment organiser les arrivées autonomes",
+   "requete": "serrure connectée Airbnb",
+   "secondaires": [
+    "boîte à clé Airbnb",
+    "arrivée autonome Airbnb",
+    "check-in autonome"
+   ],
+   "categorie": "Gestion",
+   "intention": "information → services",
+   "angle": "Comparer boîte à clés, serrure connectée et remise en main propre : sécurité, coût d'équipement (fourchettes uniquement avec source), copropriété (autorisation de poser une boîte sur les parties communes), panne et plan B. Ce que nous faisons : arrivées autonomes. Pas de marque mise en avant.",
+   "note": "480 + 170 recherches par mois, difficulté 0.",
+   "priorite": 1,
+   "statut": "a_faire",
+   "slug": null,
+   "publie_le": null,
+   "volume": 650
+  },
+  {
+   "id": 10,
+   "titre": "Comment choisir une conciergerie Airbnb : 12 questions à poser avant de signer",
+   "requete": "comment choisir une conciergerie Airbnb",
+   "secondaires": [
+    "meilleure conciergerie Airbnb comment choisir",
+    "conciergerie Airbnb avis",
+    "conciergerie Airbnb arnaque"
+   ],
+   "categorie": "Contrat",
+   "intention": "commerciale",
+   "priorite": 1,
+   "angle": "Critères vérifiables : qui encaisse les loyers, à quel nom sont les annonces, preuve du ménage, durée et sortie du contrat, avis publics. Honnête, y compris sur nos limites.",
+   "statut": "a_faire",
+   "slug": null,
+   "publie_le": null,
+   "volume": 420
   },
   {
    "id": 3,
@@ -57,97 +233,8 @@
    "angle": "Guide des meublés de la Ville de Versailles, autorisation temporaire, saisonnalité du château, quartiers. Lien fort vers la page ville.",
    "statut": "a_faire",
    "slug": null,
-   "publie_le": null
-  },
-  {
-   "id": 4,
-   "titre": "Fiscalité d'un meublé de tourisme en 2026 : micro-BIC, régime réel, ce qui a changé",
-   "requete": "fiscalité meublé de tourisme 2026",
-   "secondaires": [
-    "micro-BIC Airbnb 2026",
-    "abattement 30 % meublé de tourisme",
-    "impôts revenus Airbnb",
-    "LMNP location courte durée"
-   ],
-   "categorie": "Fiscalité",
-   "intention": "information",
-   "priorite": 1,
-   "angle": "Seuils et abattements d'après service-public et impots.gouv ; classé ou non classé ; micro ou réel ; exemple chiffré étiqueté « exemple ».",
-   "statut": "a_faire",
-   "slug": null,
-   "publie_le": null
-  },
-  {
-   "id": 5,
-   "titre": "Combien coûte une conciergerie Airbnb ? Commission, assiette et frais à comparer",
-   "requete": "tarif conciergerie Airbnb",
-   "secondaires": [
-    "prix conciergerie Airbnb",
-    "commission conciergerie Airbnb",
-    "conciergerie Airbnb pourcentage",
-    "frais de conciergerie location courte durée"
-   ],
-   "categorie": "Contrat",
-   "intention": "commerciale",
-   "priorite": 1,
-   "angle": "Ce qui se cache derrière un pourcentage : assiette (brut ou net), ménage, linge, frais de mise en service. Grille de questions à poser. Lien vers /tarifs.",
-   "statut": "a_faire",
-   "slug": null,
-   "publie_le": null
-  },
-  {
-   "id": 6,
-   "titre": "Réglementation Airbnb à Paris en 2026 : ce qu'un propriétaire doit vérifier",
-   "requete": "réglementation Airbnb Paris 2026",
-   "secondaires": [
-    "louer sur Airbnb à Paris règles",
-    "90 jours Airbnb Paris",
-    "changement d'usage Paris compensation",
-    "numéro d'enregistrement Paris"
-   ],
-   "categorie": "Réglementation",
-   "intention": "information",
-   "priorite": 1,
-   "ville": "paris",
-   "angle": "Résidence principale (plafond de nuitées en vigueur), résidence secondaire (changement d'usage et compensation), contrôles et amendes. Sources : paris.fr, service-public, Légifrance.",
-   "statut": "a_faire",
-   "slug": null,
-   "publie_le": null
-  },
-  {
-   "id": 7,
-   "titre": "Tarification dynamique sur Airbnb : comment sont fixés les prix, nuit par nuit",
-   "requete": "tarification dynamique Airbnb",
-   "secondaires": [
-    "revenue management location courte durée",
-    "prix par nuit Airbnb comment fixer",
-    "prix plancher Airbnb"
-   ],
-   "categorie": "Gestion",
-   "intention": "information",
-   "priorite": 1,
-   "angle": "Saison, jour de semaine, événements, délai de réservation, durée minimale, prix plancher. Exemples franciliens (salons, Versailles, Roland-Garros) sans chiffres de revenus.",
-   "statut": "a_faire",
-   "slug": null,
-   "publie_le": null
-  },
-  {
-   "id": 8,
-   "titre": "Louer en courte durée à Saint-Quentin-en-Yvelines : qui vient, quand, et que demande la mairie",
-   "requete": "location courte durée Saint-Quentin-en-Yvelines",
-   "secondaires": [
-    "Airbnb Guyancourt",
-    "Airbnb Montigny-le-Bretonneux",
-    "louer son logement Guyancourt Airbnb"
-   ],
-   "categorie": "Villes",
-   "intention": "locale",
-   "priorite": 1,
-   "ville": "guyancourt",
-   "angle": "Demande professionnelle en semaine (Technocentre, université), Golf National, Vélodrome, taxe de séjour intercommunale. Terrain : notre base.",
-   "statut": "a_faire",
-   "slug": null,
-   "publie_le": null
+   "publie_le": null,
+   "volume": 190
   },
   {
    "id": 9,
@@ -164,76 +251,44 @@
    "angle": "Méthode pas à pas : recettes, commissions des plateformes, ménage, charges, fiscalité, vacance. Tableau modèle avec valeurs d'exemple étiquetées.",
    "statut": "a_faire",
    "slug": null,
-   "publie_le": null
+   "publie_le": null,
+   "volume": 190
   },
   {
-   "id": 10,
-   "titre": "Comment choisir une conciergerie Airbnb : 12 questions à poser avant de signer",
-   "requete": "comment choisir une conciergerie Airbnb",
+   "id": 55,
+   "titre": "LMNP et Airbnb : quel statut pour un meublé de tourisme ?",
+   "requete": "LMNP Airbnb",
    "secondaires": [
-    "meilleure conciergerie Airbnb comment choisir",
-    "conciergerie Airbnb avis",
-    "conciergerie Airbnb arnaque"
-   ],
-   "categorie": "Contrat",
-   "intention": "commerciale",
-   "priorite": 1,
-   "angle": "Critères vérifiables : qui encaisse les loyers, à quel nom sont les annonces, preuve du ménage, durée et sortie du contrat, avis publics. Honnête, y compris sur nos limites.",
-   "statut": "a_faire",
-   "slug": null,
-   "publie_le": null
-  },
-  {
-   "id": 11,
-   "titre": "Plafond de 120 jours (ou 90) : comment il se calcule et qui le contrôle",
-   "requete": "120 jours Airbnb résidence principale",
-   "secondaires": [
-    "limite 90 jours Airbnb",
-    "nombre de nuits maximum Airbnb résidence principale",
-    "compteur de nuitées Airbnb"
-   ],
-   "categorie": "Réglementation",
-   "intention": "information",
-   "priorite": 1,
-   "angle": "Année civile, logement entier ou chambre, communes qui ont abaissé le plafond, blocage par les plateformes, sanctions. Sources officielles.",
-   "statut": "a_faire",
-   "slug": null,
-   "publie_le": null
-  },
-  {
-   "id": 12,
-   "titre": "Taxe de séjour en Île-de-France : qui la collecte, combien, et quand la déclarer",
-   "requete": "taxe de séjour Airbnb Île-de-France",
-   "secondaires": [
-    "taxe de séjour meublé non classé",
-    "taxe de séjour Airbnb qui paie",
-    "taxe additionnelle Île-de-France Mobilités"
+    "statut LMNP meublé de tourisme",
+    "LMNP ou micro-BIC"
    ],
    "categorie": "Fiscalité",
    "intention": "information",
-   "priorite": 1,
-   "angle": "Collecte par les plateformes, cas de la réservation en direct, taxe additionnelle régionale, meublé classé ou non. Exemple de Saint-Quentin-en-Yvelines (guide de l'agglomération).",
+   "angle": "Ce que recouvre le statut de loueur en meublé non professionnel pour un meublé de tourisme, seuils LMNP/LMP, micro-BIC ou réel : uniquement depuis impots.gouv.fr, BOFiP et Service-Public. Renvoi vers un expert-comptable pour le choix.",
+   "note": "170 + 1 300 (statut LMNP) recherches par mois.",
+   "priorite": 2,
    "statut": "a_faire",
    "slug": null,
-   "publie_le": null
+   "publie_le": null,
+   "volume": 1470
   },
   {
-   "id": 13,
-   "titre": "Optimiser son annonce Airbnb : ce qui fait réserver, dans l'ordre",
-   "requete": "optimiser annonce Airbnb",
+   "id": 48,
+   "titre": "Location courte durée : quelles communes d'Île-de-France demandent un changement d'usage ?",
+   "requete": "changement d'usage Île-de-France communes",
    "secondaires": [
-    "améliorer annonce Airbnb",
-    "titre annonce Airbnb",
-    "photos annonce Airbnb",
-    "référencement annonce Airbnb"
+    "changement d'usage Val-de-Marne",
+    "changement d'usage Seine-Saint-Denis",
+    "changement d'usage Essonne"
    ],
-   "categorie": "Gestion",
+   "categorie": "Réglementation",
    "intention": "information",
    "priorite": 2,
-   "angle": "Photos, titre, équipements, calendrier ouvert, réponse rapide, avis. Liste d'actions classées par effet.",
+   "angle": "Règle par département (petite couronne, grande couronne), comment vérifier sa commune. Complète l'article Yvelines et Hauts-de-Seine sans le répéter.",
    "statut": "a_faire",
    "slug": null,
-   "publie_le": null
+   "publie_le": null,
+   "volume": 430
   },
   {
    "id": 14,
@@ -250,210 +305,80 @@
    "angle": "Durée minimale, délai de préavis, séjours moyens (missions, mobilité), Booking en complément, prix de dernière minute.",
    "statut": "a_faire",
    "slug": null,
-   "publie_le": null
+   "publie_le": null,
+   "volume": 390
   },
   {
-   "id": 15,
-   "titre": "Gérer ses voyageurs sans être disponible : arrivée autonome, messages, urgences",
-   "requete": "gérer Airbnb à distance",
+   "id": 35,
+   "titre": "Déclarer ses revenus Airbnb aux impôts : la marche à suivre",
+   "requete": "déclarer revenus Airbnb",
    "secondaires": [
-    "arrivée autonome Airbnb boîte à clés",
-    "serrure connectée location courte durée",
-    "messages automatiques Airbnb"
-   ],
-   "categorie": "Gestion",
-   "intention": "information",
-   "priorite": 2,
-   "angle": "Boîte à clés ou serrure connectée (et copropriété), messages programmés, numéro d'urgence, livret d'accueil. Ce qui reste impossible à distance.",
-   "statut": "a_faire",
-   "slug": null,
-   "publie_le": null
-  },
-  {
-   "id": 16,
-   "titre": "Les 10 erreurs qui réduisent la rentabilité d'un logement Airbnb",
-   "requete": "erreurs Airbnb propriétaire",
-   "secondaires": [
-    "pourquoi mon Airbnb ne marche pas",
-    "erreurs location courte durée"
-   ],
-   "categorie": "Gestion",
-   "intention": "information",
-   "priorite": 2,
-   "angle": "Erreurs observées sur le terrain : prix fixe, ménage non contrôlé, photos, règles oubliées, calendrier fermé, assurance. Encadrés « Vu sur le terrain ».",
-   "statut": "a_faire",
-   "slug": null,
-   "publie_le": null
-  },
-  {
-   "id": 17,
-   "titre": "Ménage en location courte durée : organisation, contrôle et coût réel",
-   "requete": "ménage Airbnb organisation",
-   "secondaires": [
-    "frais de ménage Airbnb combien",
-    "contrôle ménage location courte durée",
-    "linge Airbnb blanchisserie"
-   ],
-   "categorie": "Gestion",
-   "intention": "information",
-   "priorite": 2,
-   "angle": "Protocole vidéo horodatée avant et après, liste de contrôle, consommables, linge. Frais de ménage : qui paie quoi.",
-   "statut": "a_faire",
-   "slug": null,
-   "publie_le": null
-  },
-  {
-   "id": 18,
-   "titre": "Airbnb ou Booking : faut-il publier son logement sur les deux ?",
-   "requete": "Airbnb ou Booking propriétaire",
-   "secondaires": [
-    "Booking.com location courte durée commission",
-    "publier sur Airbnb et Booking",
-    "channel manager double réservation"
-   ],
-   "categorie": "Gestion",
-   "intention": "comparaison",
-   "priorite": 2,
-   "angle": "Clientèles, commissions publiées par les plateformes, annulation, synchronisation des calendriers. Selon le type de logement et la commune.",
-   "statut": "a_faire",
-   "slug": null,
-   "publie_le": null
-  },
-  {
-   "id": 19,
-   "titre": "Classement en meublé de tourisme : démarche, coût et intérêt fiscal en 2026",
-   "requete": "classement meublé de tourisme",
-   "secondaires": [
-    "meublé de tourisme classé étoiles avantage",
-    "classement meublé de tourisme Île-de-France prix",
-    "abattement 50 % meublé classé"
+    "déclaration impôts Airbnb 2042-C-PRO",
+    "déclaration revenus location meublée 2042 C PRO",
+    "SIRET location meublée",
+    "Airbnb impôts déclaration"
    ],
    "categorie": "Fiscalité",
    "intention": "information",
    "priorite": 2,
-   "angle": "Organismes accrédités, grille Atout France, durée de validité, effet sur le micro-BIC et la taxe de séjour. Sources : atout-france, service-public.",
+   "angle": "Début d'activité et SIRET, relevé annuel des plateformes, cases de la déclaration, micro ou réel. Sources : impots.gouv, service-public.",
    "statut": "a_faire",
    "slug": null,
-   "publie_le": null
+   "publie_le": null,
+   "volume": 320
   },
   {
-   "id": 20,
-   "titre": "Airbnb en copropriété : ce que dit le règlement, ce que peut voter l'assemblée",
-   "requete": "Airbnb copropriété règlement",
+   "id": 34,
+   "titre": "Sous-louer son logement sur Airbnb quand on est locataire : ce qui est permis",
+   "requete": "sous-location Airbnb locataire",
    "secondaires": [
-    "location courte durée copropriété interdiction",
-    "clause habitation bourgeoise Airbnb",
-    "informer syndic meublé de tourisme"
+    "sous-louer Airbnb autorisation propriétaire",
+    "sous-location meublé de tourisme"
    ],
    "categorie": "Réglementation",
    "intention": "information",
    "priorite": 2,
-   "angle": "Loi du 19 novembre 2024 : information du syndic, nouveaux règlements, majorité de vote. Nuisances et responsabilité du propriétaire.",
+   "angle": "Autorisation écrite du bailleur, loyer plafonné, logement social interdit, sanctions. Sources : service-public, Légifrance.",
    "statut": "a_faire",
    "slug": null,
-   "publie_le": null
+   "publie_le": null,
+   "volume": 210
   },
   {
-   "id": 21,
-   "titre": "DPE et meublé de tourisme : les classes exigées et le calendrier jusqu'en 2034",
-   "requete": "DPE meublé de tourisme",
+   "id": 39,
+   "titre": "Photos d'une annonce Airbnb : les 15 vues à prévoir",
+   "requete": "photos annonce Airbnb",
    "secondaires": [
-    "DPE Airbnb obligatoire",
-    "passoire thermique location courte durée",
-    "DPE changement d'usage"
-   ],
-   "categorie": "Réglementation",
-   "intention": "information",
-   "priorite": 2,
-   "angle": "DPE A à E pour le changement d'usage, A à D en 2034, contrôle par le maire, astreinte. Guide pratique du ministère.",
-   "statut": "a_faire",
-   "slug": null,
-   "publie_le": null
-  },
-  {
-   "id": 22,
-   "titre": "Assurance et location courte durée : ce que couvrent AirCover, votre PNO et le reste",
-   "requete": "assurance location courte durée",
-   "secondaires": [
-    "assurance Airbnb propriétaire",
-    "PNO location saisonnière",
-    "AirCover suffisant"
-   ],
-   "categorie": "Dégâts et litiges",
-   "intention": "information",
-   "priorite": 2,
-   "angle": "Ce qu'AirCover n'est pas, PNO, multirisque meublé de tourisme, copropriété. Nous ne sommes pas assureur : questions à poser au sien.",
-   "statut": "a_faire",
-   "slug": null,
-   "publie_le": null
-  },
-  {
-   "id": 23,
-   "titre": "Fêtes, nuisances, voyageurs en trop : prévenir et réagir",
-   "requete": "fête Airbnb voyageur",
-   "secondaires": [
-    "nuisances sonores Airbnb propriétaire",
-    "voyageurs non déclarés Airbnb",
-    "expulser voyageur Airbnb"
-   ],
-   "categorie": "Dégâts et litiges",
-   "intention": "information",
-   "priorite": 2,
-   "angle": "Règlement intérieur, filtrage des réservations, capteur de bruit (et information obligatoire), marche à suivre avec la plateforme, preuves.",
-   "statut": "a_faire",
-   "slug": null,
-   "publie_le": null
-  },
-  {
-   "id": 24,
-   "titre": "Caution et empreinte bancaire sur Airbnb et Booking : ce qui est possible",
-   "requete": "caution Airbnb propriétaire",
-   "secondaires": [
-    "dépôt de garantie Airbnb",
-    "caution Booking location saisonnière",
-    "empreinte bancaire location courte durée"
-   ],
-   "categorie": "Dégâts et litiges",
-   "intention": "information",
-   "priorite": 2,
-   "angle": "Règles de chaque plateforme, réservation en direct, limites. Lien avec l'article sur les dégâts.",
-   "statut": "a_faire",
-   "slug": null,
-   "publie_le": null
-  },
-  {
-   "id": 25,
-   "titre": "Équiper un logement pour la location courte durée : la liste, pièce par pièce",
-   "requete": "équipement logement Airbnb liste",
-   "secondaires": [
-    "meubler appartement Airbnb",
-    "équipements indispensables location saisonnière",
-    "inventaire location courte durée"
+    "photographe Airbnb",
+    "photo de couverture Airbnb"
    ],
    "categorie": "Gestion",
    "intention": "information",
    "priorite": 2,
-   "angle": "Indispensable, attendu, différenciant. Clientèle professionnelle (bureau, Wi-Fi) ou familles. Sans marques ni liens d'affiliation.",
+   "angle": "Ordre des photos, lumière, pièces, détails utiles (bureau, parking). Shooting professionnel ou non.",
    "statut": "a_faire",
    "slug": null,
-   "publie_le": null
+   "publie_le": null,
+   "volume": 170
   },
   {
-   "id": 26,
-   "titre": "Louer son logement sur Airbnb à Saint-Germain-en-Laye",
-   "requete": "location courte durée Saint-Germain-en-Laye",
+   "id": 42,
+   "titre": "Louer en courte durée au Val d'Europe, près de Disneyland Paris",
+   "requete": "location courte durée Val d'Europe",
    "secondaires": [
-    "Airbnb Saint-Germain-en-Laye",
-    "conciergerie Saint-Germain-en-Laye location"
+    "Airbnb Chessy",
+    "Airbnb Serris",
+    "location saisonnière Disneyland"
    ],
    "categorie": "Villes",
    "intention": "locale",
    "priorite": 2,
-   "ville": "saint-germain-en-laye",
-   "angle": "Château, forêt, RER A, lycée international. Règles de la commune vérifiées auprès de la mairie.",
+   "ville": "chessy",
+   "angle": "Familles, vacances scolaires, résidences récentes et règlements de copropriété. Sans photo ni visuel du parc.",
    "statut": "a_faire",
    "slug": null,
-   "publie_le": null
+   "publie_le": null,
+   "volume": 160
   },
   {
    "id": 27,
@@ -470,61 +395,150 @@
    "angle": "Changement d'usage dans les Hauts-de-Seine, Roland-Garros, Seine Musicale (sans photo du bâtiment), sièges d'entreprises.",
    "statut": "a_faire",
    "slug": null,
-   "publie_le": null
+   "publie_le": null,
+   "volume": 130
   },
   {
-   "id": 28,
-   "titre": "Confier la gestion de son Airbnb dans les Yvelines : comment ça se passe",
-   "requete": "gestion Airbnb Yvelines",
+   "id": 21,
+   "titre": "DPE et meublé de tourisme : les classes exigées et le calendrier jusqu'en 2034",
+   "requete": "DPE meublé de tourisme",
    "secondaires": [
-    "conciergerie Airbnb Yvelines",
-    "gestion location courte durée 78",
-    "faire gérer son Airbnb Versailles"
+    "DPE Airbnb obligatoire",
+    "passoire thermique location courte durée",
+    "DPE changement d'usage"
    ],
-   "categorie": "Villes",
-   "intention": "commerciale",
+   "categorie": "Réglementation",
+   "intention": "information",
    "priorite": 2,
-   "ville": "guyancourt",
-   "angle": "Déroulé concret d'une prise en charge depuis Guyancourt : visite, vérifications en mairie, annonce, premier voyageur. Lien vers la page Yvelines.",
+   "angle": "DPE A à E pour le changement d'usage, A à D en 2034, contrôle par le maire, astreinte. Guide pratique du ministère.",
    "statut": "a_faire",
    "slug": null,
-   "publie_le": null
+   "publie_le": null,
+   "volume": 120
   },
   {
-   "id": 29,
-   "titre": "Louer en courte durée près de l'aéroport d'Orly : une demande à part",
-   "requete": "location courte durée Orly aéroport",
+   "id": 22,
+   "titre": "Assurance et location courte durée : ce que couvrent AirCover, votre PNO et le reste",
+   "requete": "assurance location courte durée",
    "secondaires": [
-    "Airbnb Orly",
-    "Airbnb Athis-Mons",
-    "location courte durée Val-de-Marne aéroport"
+    "assurance Airbnb propriétaire",
+    "PNO location saisonnière",
+    "AirCover suffisant"
    ],
-   "categorie": "Villes",
-   "intention": "locale",
+   "categorie": "Dégâts et litiges",
+   "intention": "information",
    "priorite": 2,
-   "ville": "orly",
-   "angle": "Escales, départs matinaux, équipages, ligne 14. Séjours d'une nuit : ménage et arrivées tardives.",
+   "angle": "Ce qu'AirCover n'est pas, PNO, multirisque meublé de tourisme, copropriété. Nous ne sommes pas assureur : questions à poser au sien.",
    "statut": "a_faire",
    "slug": null,
-   "publie_le": null
+   "publie_le": null,
+   "volume": 120
   },
   {
-   "id": 30,
-   "titre": "Louer en courte durée à Massy et sur le plateau de Saclay",
-   "requete": "location courte durée Massy",
+   "id": 11,
+   "titre": "Plafond de 120 jours (ou 90) : comment il se calcule et qui le contrôle",
+   "requete": "120 jours Airbnb résidence principale",
    "secondaires": [
-    "Airbnb Massy",
-    "Airbnb Palaiseau",
-    "location meublée Saclay chercheurs"
+    "limite 90 jours Airbnb",
+    "nombre de nuits maximum Airbnb résidence principale",
+    "compteur de nuitées Airbnb"
    ],
-   "categorie": "Villes",
-   "intention": "locale",
+   "categorie": "Réglementation",
+   "intention": "information",
    "priorite": 2,
-   "ville": "massy",
-   "angle": "Gare TGV, chercheurs et intervenants, séjours de moyenne durée, bail mobilité en complément.",
+   "angle": "Année civile, logement entier ou chambre, communes qui ont abaissé le plafond, blocage par les plateformes, sanctions. Sources officielles.",
    "statut": "a_faire",
    "slug": null,
-   "publie_le": null
+   "publie_le": null,
+   "volume": 110
+  },
+  {
+   "id": 47,
+   "titre": "Résidence principale ou secondaire : pourquoi tout change pour Airbnb",
+   "requete": "résidence principale ou secondaire Airbnb",
+   "secondaires": [
+    "définition résidence principale 8 mois",
+    "louer résidence secondaire Airbnb règles"
+   ],
+   "categorie": "Réglementation",
+   "intention": "information",
+   "priorite": 2,
+   "angle": "Définition légale (8 mois), preuve demandée, conséquences sur le changement d'usage, le plafond de nuitées et la fiscalité.",
+   "statut": "a_faire",
+   "slug": null,
+   "publie_le": null,
+   "volume": 110
+  },
+  {
+   "id": 18,
+   "titre": "Airbnb ou Booking : faut-il publier son logement sur les deux ?",
+   "requete": "Airbnb ou Booking propriétaire",
+   "secondaires": [
+    "Booking.com location courte durée commission",
+    "publier sur Airbnb et Booking",
+    "channel manager double réservation"
+   ],
+   "categorie": "Gestion",
+   "intention": "comparaison",
+   "priorite": 2,
+   "angle": "Clientèles, commissions publiées par les plateformes, annulation, synchronisation des calendriers. Selon le type de logement et la commune.",
+   "statut": "a_faire",
+   "slug": null,
+   "publie_le": null,
+   "volume": 90
+  },
+  {
+   "id": 32,
+   "titre": "Bail mobilité ou Airbnb : que choisir pour un logement en Île-de-France ?",
+   "requete": "bail mobilité ou Airbnb",
+   "secondaires": [
+    "bail mobilité avantages inconvénients propriétaire",
+    "location moyenne durée Île-de-France"
+   ],
+   "categorie": "Rentabilité",
+   "intention": "comparaison",
+   "priorite": 2,
+   "angle": "Cadre légal du bail mobilité (service-public), profils de locataires, combiner les deux selon la saison et les règles de la commune.",
+   "statut": "a_faire",
+   "slug": null,
+   "publie_le": null,
+   "volume": 90
+  },
+  {
+   "id": 7,
+   "titre": "Tarification dynamique sur Airbnb : comment sont fixés les prix, nuit par nuit",
+   "requete": "tarification dynamique Airbnb",
+   "secondaires": [
+    "revenue management location courte durée",
+    "prix par nuit Airbnb comment fixer",
+    "prix plancher Airbnb"
+   ],
+   "categorie": "Gestion",
+   "intention": "information",
+   "priorite": 2,
+   "angle": "Saison, jour de semaine, événements, délai de réservation, durée minimale, prix plancher. Exemples franciliens (salons, Versailles, Roland-Garros) sans chiffres de revenus.",
+   "statut": "a_faire",
+   "slug": null,
+   "publie_le": null,
+   "volume": 40
+  },
+  {
+   "id": 20,
+   "titre": "Airbnb en copropriété : ce que dit le règlement, ce que peut voter l'assemblée",
+   "requete": "Airbnb copropriété règlement",
+   "secondaires": [
+    "location courte durée copropriété interdiction",
+    "clause habitation bourgeoise Airbnb",
+    "informer syndic meublé de tourisme"
+   ],
+   "categorie": "Réglementation",
+   "intention": "information",
+   "priorite": 2,
+   "angle": "Loi du 19 novembre 2024 : information du syndic, nouveaux règlements, majorité de vote. Nuisances et responsabilité du propriétaire.",
+   "statut": "a_faire",
+   "slug": null,
+   "publie_le": null,
+   "volume": 30
   },
   {
    "id": 31,
@@ -542,72 +556,64 @@
    "angle": "Uniquement des données publiques datées et sourcées (Ville de Paris, Insee, observatoires), écart entre brut et net, effet du plafond de nuitées. Aucune promesse.",
    "statut": "a_faire",
    "slug": null,
-   "publie_le": null
+   "publie_le": null,
+   "volume": 10
   },
   {
-   "id": 32,
-   "titre": "Bail mobilité ou Airbnb : que choisir pour un logement en Île-de-France ?",
-   "requete": "bail mobilité ou Airbnb",
+   "id": 8,
+   "titre": "Louer en courte durée à Saint-Quentin-en-Yvelines : qui vient, quand, et que demande la mairie",
+   "requete": "location courte durée Saint-Quentin-en-Yvelines",
    "secondaires": [
-    "bail mobilité avantages inconvénients propriétaire",
-    "location moyenne durée Île-de-France"
+    "Airbnb Guyancourt",
+    "Airbnb Montigny-le-Bretonneux",
+    "louer son logement Guyancourt Airbnb"
    ],
-   "categorie": "Rentabilité",
-   "intention": "comparaison",
+   "categorie": "Villes",
+   "intention": "locale",
    "priorite": 2,
-   "angle": "Cadre légal du bail mobilité (service-public), profils de locataires, combiner les deux selon la saison et les règles de la commune.",
+   "ville": "guyancourt",
+   "angle": "Demande professionnelle en semaine (Technocentre, université), Golf National, Vélodrome, taxe de séjour intercommunale. Terrain : notre base.",
    "statut": "a_faire",
    "slug": null,
-   "publie_le": null
+   "publie_le": null,
+   "volume": 0
   },
   {
-   "id": 33,
-   "titre": "Augmenter les revenus de son logement Airbnb sans casser les prix",
-   "requete": "augmenter revenus Airbnb",
+   "id": 45,
+   "titre": "Contrat de conciergerie : les clauses à lire avant de signer",
+   "requete": "contrat de conciergerie Airbnb",
    "secondaires": [
-    "gagner plus Airbnb",
-    "améliorer taux d'occupation Airbnb"
+    "contrat conciergerie location courte durée clauses",
+    "durée contrat conciergerie",
+    "résiliation conciergerie Airbnb"
    ],
-   "categorie": "Rentabilité",
-   "intention": "information",
+   "categorie": "Contrat",
+   "intention": "commerciale",
    "priorite": 2,
-   "angle": "Leviers classés : photos, durée minimale, événements, avis, équipements, frais. Aucun pourcentage de gain promis.",
+   "angle": "Durée, préavis, assiette de la commission, accès aux comptes, responsabilité, restitution des photos et des accès. Complète l'article sur la fin de contrat.",
    "statut": "a_faire",
    "slug": null,
-   "publie_le": null
+   "publie_le": null,
+   "volume": 0
   },
   {
-   "id": 34,
-   "titre": "Sous-louer son logement sur Airbnb quand on est locataire : ce qui est permis",
-   "requete": "sous-location Airbnb locataire",
+   "id": 54,
+   "titre": "Meublé de tourisme : définition, obligations et différence avec la location meublée",
+   "requete": "meublé de tourisme",
    "secondaires": [
-    "sous-louer Airbnb autorisation propriétaire",
-    "sous-location meublé de tourisme"
+    "location meublée touristique",
+    "meublé de tourisme définition",
+    "meublé de tourisme obligations"
    ],
    "categorie": "Réglementation",
    "intention": "information",
+   "angle": "Définition du Code du tourisme (art. L324-1-1), différence avec le bail meublé et le bail mobilité, liste des obligations par situation. Requête très concurrencée (difficulté 61) : à écrire quand le blog aura déjà une dizaine d'articles réglementaires.",
+   "note": "3 600 recherches par mois, difficulté 61.",
    "priorite": 3,
-   "angle": "Autorisation écrite du bailleur, loyer plafonné, logement social interdit, sanctions. Sources : service-public, Légifrance.",
    "statut": "a_faire",
    "slug": null,
-   "publie_le": null
-  },
-  {
-   "id": 35,
-   "titre": "Déclarer ses revenus Airbnb aux impôts : la marche à suivre",
-   "requete": "déclarer revenus Airbnb impôts",
-   "secondaires": [
-    "déclaration revenus location meublée 2042 C PRO",
-    "SIRET location meublée",
-    "Airbnb impôts déclaration"
-   ],
-   "categorie": "Fiscalité",
-   "intention": "information",
-   "priorite": 2,
-   "angle": "Début d'activité et SIRET, relevé annuel des plateformes, cases de la déclaration, micro ou réel. Sources : impots.gouv, service-public.",
-   "statut": "a_faire",
-   "slug": null,
-   "publie_le": null
+   "publie_le": null,
+   "volume": 3600
   },
   {
    "id": 36,
@@ -623,7 +629,8 @@
    "angle": "Seuil, régimes possibles, source URSSAF. Renvoyer vers un expert-comptable pour le choix.",
    "statut": "a_faire",
    "slug": null,
-   "publie_le": null
+   "publie_le": null,
+   "volume": 90
   },
   {
    "id": 37,
@@ -639,91 +646,83 @@
    "angle": "Principe, exonérations, démarche auprès du service des impôts des entreprises. Source : impots.gouv.",
    "statut": "a_faire",
    "slug": null,
-   "publie_le": null
+   "publie_le": null,
+   "volume": 50
   },
   {
-   "id": 38,
-   "titre": "Avis voyageurs : comment garder une note proche de 5 sur Airbnb",
-   "requete": "améliorer note Airbnb",
+   "id": 30,
+   "titre": "Louer en courte durée à Massy et sur le plateau de Saclay",
+   "requete": "location courte durée Massy",
    "secondaires": [
-    "avis Airbnb propriétaire",
-    "Superhôte Airbnb conditions",
-    "mauvais avis Airbnb que faire"
-   ],
-   "categorie": "Gestion",
-   "intention": "information",
-   "priorite": 3,
-   "angle": "Critères de notation, conditions du statut Superhôte publiées par Airbnb, réponse aux avis, ce qui fait perdre des points.",
-   "statut": "a_faire",
-   "slug": null,
-   "publie_le": null
-  },
-  {
-   "id": 39,
-   "titre": "Photos d'une annonce Airbnb : les 15 vues à prévoir",
-   "requete": "photos annonce Airbnb",
-   "secondaires": [
-    "photographe Airbnb",
-    "photo de couverture Airbnb"
-   ],
-   "categorie": "Gestion",
-   "intention": "information",
-   "priorite": 3,
-   "angle": "Ordre des photos, lumière, pièces, détails utiles (bureau, parking). Shooting professionnel ou non.",
-   "statut": "a_faire",
-   "slug": null,
-   "publie_le": null
-  },
-  {
-   "id": 40,
-   "titre": "Livret d'accueil d'une location courte durée : ce qu'il doit contenir",
-   "requete": "livret d'accueil Airbnb",
-   "secondaires": [
-    "guide d'accueil location saisonnière modèle",
-    "consignes voyageurs Airbnb"
-   ],
-   "categorie": "Gestion",
-   "intention": "information",
-   "priorite": 3,
-   "angle": "Arrivée, Wi-Fi, équipements, tri, voisinage, urgences, départ. Version numérique.",
-   "statut": "a_faire",
-   "slug": null,
-   "publie_le": null
-  },
-  {
-   "id": 41,
-   "titre": "Grands événements en Île-de-France : le calendrier qui fait monter la demande",
-   "requete": "événements Île-de-France location courte durée",
-   "secondaires": [
-    "salons Paris hébergement demande",
-    "Roland-Garros location Airbnb",
-    "Salon du Bourget hébergement"
-   ],
-   "categorie": "Rentabilité",
-   "intention": "information",
-   "priorite": 2,
-   "angle": "Salons de Villepinte et de la porte de Versailles, Roland-Garros, compétitions au Golf National, Grandes Eaux de Versailles. Dates vérifiées sur les sites des organisateurs.",
-   "statut": "a_faire",
-   "slug": null,
-   "publie_le": null
-  },
-  {
-   "id": 42,
-   "titre": "Louer en courte durée au Val d'Europe, près de Disneyland Paris",
-   "requete": "location courte durée Val d'Europe",
-   "secondaires": [
-    "Airbnb Chessy",
-    "Airbnb Serris",
-    "location saisonnière Disneyland"
+    "Airbnb Massy",
+    "Airbnb Palaiseau",
+    "location meublée Saclay chercheurs"
    ],
    "categorie": "Villes",
    "intention": "locale",
    "priorite": 3,
-   "ville": "chessy",
-   "angle": "Familles, vacances scolaires, résidences récentes et règlements de copropriété. Sans photo ni visuel du parc.",
+   "ville": "massy",
+   "angle": "Gare TGV, chercheurs et intervenants, séjours de moyenne durée, bail mobilité en complément.",
    "statut": "a_faire",
    "slug": null,
-   "publie_le": null
+   "publie_le": null,
+   "volume": 40
+  },
+  {
+   "id": 26,
+   "titre": "Louer son logement sur Airbnb à Saint-Germain-en-Laye",
+   "requete": "location courte durée Saint-Germain-en-Laye",
+   "secondaires": [
+    "Airbnb Saint-Germain-en-Laye",
+    "conciergerie Saint-Germain-en-Laye location"
+   ],
+   "categorie": "Villes",
+   "intention": "locale",
+   "priorite": 3,
+   "ville": "saint-germain-en-laye",
+   "angle": "Château, forêt, RER A, lycée international. Règles de la commune vérifiées auprès de la mairie.",
+   "statut": "a_faire",
+   "slug": null,
+   "publie_le": null,
+   "volume": 30
+  },
+  {
+   "id": 29,
+   "titre": "Louer en courte durée près de l'aéroport d'Orly : une demande à part",
+   "requete": "location courte durée Orly aéroport",
+   "secondaires": [
+    "Airbnb Orly",
+    "Airbnb Athis-Mons",
+    "location courte durée Val-de-Marne aéroport"
+   ],
+   "categorie": "Villes",
+   "intention": "locale",
+   "priorite": 3,
+   "ville": "orly",
+   "angle": "Escales, départs matinaux, équipages, ligne 14. Séjours d'une nuit : ménage et arrivées tardives.",
+   "statut": "a_faire",
+   "slug": null,
+   "publie_le": null,
+   "volume": 30
+  },
+  {
+   "id": 13,
+   "titre": "Optimiser son annonce Airbnb : ce qui fait réserver, dans l'ordre",
+   "requete": "optimiser annonce Airbnb",
+   "secondaires": [
+    "améliorer annonce Airbnb",
+    "titre annonce Airbnb",
+    "photos annonce Airbnb",
+    "référencement annonce Airbnb"
+   ],
+   "categorie": "Gestion",
+   "intention": "information",
+   "priorite": 3,
+   "angle": "Photos, titre, équipements, calendrier ouvert, réponse rapide, avis. Liste d'actions classées par effet.",
+   "statut": "a_faire",
+   "slug": null,
+   "publie_le": null,
+   "volume": 10
   },
   {
    "id": 43,
@@ -741,7 +740,149 @@
    "angle": "Métro 4 et 13, Paris Expo à proximité, changement d'usage dans les Hauts-de-Seine.",
    "statut": "a_faire",
    "slug": null,
-   "publie_le": null
+   "publie_le": null,
+   "volume": 10
+  },
+  {
+   "id": 15,
+   "titre": "Gérer ses voyageurs sans être disponible : arrivée autonome, messages, urgences",
+   "requete": "gérer Airbnb à distance",
+   "secondaires": [
+    "arrivée autonome Airbnb boîte à clés",
+    "serrure connectée location courte durée",
+    "messages automatiques Airbnb"
+   ],
+   "categorie": "Gestion",
+   "intention": "information",
+   "priorite": 3,
+   "angle": "Boîte à clés ou serrure connectée (et copropriété), messages programmés, numéro d'urgence, livret d'accueil. Ce qui reste impossible à distance.",
+   "statut": "a_faire",
+   "slug": null,
+   "publie_le": null,
+   "volume": 0
+  },
+  {
+   "id": 16,
+   "titre": "Les 10 erreurs qui réduisent la rentabilité d'un logement Airbnb",
+   "requete": "erreurs Airbnb propriétaire",
+   "secondaires": [
+    "pourquoi mon Airbnb ne marche pas",
+    "erreurs location courte durée"
+   ],
+   "categorie": "Gestion",
+   "intention": "information",
+   "priorite": 3,
+   "angle": "Erreurs observées sur le terrain : prix fixe, ménage non contrôlé, photos, règles oubliées, calendrier fermé, assurance. Encadrés « Vu sur le terrain ».",
+   "statut": "a_faire",
+   "slug": null,
+   "publie_le": null,
+   "volume": 0
+  },
+  {
+   "id": 23,
+   "titre": "Fêtes, nuisances, voyageurs en trop : prévenir et réagir",
+   "requete": "fête Airbnb voyageur",
+   "secondaires": [
+    "nuisances sonores Airbnb propriétaire",
+    "voyageurs non déclarés Airbnb",
+    "expulser voyageur Airbnb"
+   ],
+   "categorie": "Dégâts et litiges",
+   "intention": "information",
+   "priorite": 3,
+   "angle": "Règlement intérieur, filtrage des réservations, capteur de bruit (et information obligatoire), marche à suivre avec la plateforme, preuves.",
+   "statut": "a_faire",
+   "slug": null,
+   "publie_le": null,
+   "volume": 0
+  },
+  {
+   "id": 25,
+   "titre": "Équiper un logement pour la location courte durée : la liste, pièce par pièce",
+   "requete": "équipement logement Airbnb liste",
+   "secondaires": [
+    "meubler appartement Airbnb",
+    "équipements indispensables location saisonnière",
+    "inventaire location courte durée"
+   ],
+   "categorie": "Gestion",
+   "intention": "information",
+   "priorite": 3,
+   "angle": "Indispensable, attendu, différenciant. Clientèle professionnelle (bureau, Wi-Fi) ou familles. Sans marques ni liens d'affiliation.",
+   "statut": "a_faire",
+   "slug": null,
+   "publie_le": null,
+   "volume": 0
+  },
+  {
+   "id": 33,
+   "titre": "Augmenter les revenus de son logement Airbnb sans casser les prix",
+   "requete": "augmenter revenus Airbnb",
+   "secondaires": [
+    "gagner plus Airbnb",
+    "améliorer taux d'occupation Airbnb"
+   ],
+   "categorie": "Rentabilité",
+   "intention": "information",
+   "priorite": 3,
+   "angle": "Leviers classés : photos, durée minimale, événements, avis, équipements, frais. Aucun pourcentage de gain promis.",
+   "statut": "a_faire",
+   "slug": null,
+   "publie_le": null,
+   "volume": 0
+  },
+  {
+   "id": 38,
+   "titre": "Avis voyageurs : comment garder une note proche de 5 sur Airbnb",
+   "requete": "améliorer note Airbnb",
+   "secondaires": [
+    "avis Airbnb propriétaire",
+    "Superhôte Airbnb conditions",
+    "mauvais avis Airbnb que faire"
+   ],
+   "categorie": "Gestion",
+   "intention": "information",
+   "priorite": 3,
+   "angle": "Critères de notation, conditions du statut Superhôte publiées par Airbnb, réponse aux avis, ce qui fait perdre des points.",
+   "statut": "a_faire",
+   "slug": null,
+   "publie_le": null,
+   "volume": 0
+  },
+  {
+   "id": 40,
+   "titre": "Livret d'accueil d'une location courte durée : ce qu'il doit contenir",
+   "requete": "livret d'accueil Airbnb",
+   "secondaires": [
+    "guide d'accueil location saisonnière modèle",
+    "consignes voyageurs Airbnb"
+   ],
+   "categorie": "Gestion",
+   "intention": "information",
+   "priorite": 3,
+   "angle": "Arrivée, Wi-Fi, équipements, tri, voisinage, urgences, départ. Version numérique.",
+   "statut": "a_faire",
+   "slug": null,
+   "publie_le": null,
+   "volume": 0
+  },
+  {
+   "id": 41,
+   "titre": "Grands événements en Île-de-France : le calendrier qui fait monter la demande",
+   "requete": "événements Île-de-France location courte durée",
+   "secondaires": [
+    "salons Paris hébergement demande",
+    "Roland-Garros location Airbnb",
+    "Salon du Bourget hébergement"
+   ],
+   "categorie": "Rentabilité",
+   "intention": "information",
+   "priorite": 3,
+   "angle": "Salons de Villepinte et de la porte de Versailles, Roland-Garros, compétitions au Golf National, Grandes Eaux de Versailles. Dates vérifiées sur les sites des organisateurs.",
+   "statut": "a_faire",
+   "slug": null,
+   "publie_le": null,
+   "volume": 0
   },
   {
    "id": 44,
@@ -757,24 +898,8 @@
    "angle": "Soirs de match et de concert, ligne 14, règles de la commune. Lien vers la page Seine-Saint-Denis (pas de page ville : ne pas remplir le champ ville).",
    "statut": "a_faire",
    "slug": null,
-   "publie_le": null
-  },
-  {
-   "id": 45,
-   "titre": "Contrat de conciergerie : les clauses à lire avant de signer",
-   "requete": "contrat de conciergerie Airbnb",
-   "secondaires": [
-    "contrat conciergerie location courte durée clauses",
-    "durée contrat conciergerie",
-    "résiliation conciergerie Airbnb"
-   ],
-   "categorie": "Contrat",
-   "intention": "commerciale",
-   "priorite": 2,
-   "angle": "Durée, préavis, assiette de la commission, accès aux comptes, responsabilité, restitution des photos et des accès. Complète l'article sur la fin de contrat.",
-   "statut": "a_faire",
-   "slug": null,
-   "publie_le": null
+   "publie_le": null,
+   "volume": 0
   },
   {
    "id": 46,
@@ -790,40 +915,9 @@
    "angle": "Annonces sur le compte du propriétaire ou de la conciergerie : ce que cela change à la sortie. Étapes de transition.",
    "statut": "a_faire",
    "slug": null,
-   "publie_le": null
-  },
-  {
-   "id": 47,
-   "titre": "Résidence principale ou secondaire : pourquoi tout change pour Airbnb",
-   "requete": "résidence principale ou secondaire Airbnb",
-   "secondaires": [
-    "définition résidence principale 8 mois",
-    "louer résidence secondaire Airbnb règles"
-   ],
-   "categorie": "Réglementation",
-   "intention": "information",
-   "priorite": 2,
-   "angle": "Définition légale (8 mois), preuve demandée, conséquences sur le changement d'usage, le plafond de nuitées et la fiscalité.",
-   "statut": "a_faire",
-   "slug": null,
-   "publie_le": null
-  },
-  {
-   "id": 48,
-   "titre": "Location courte durée : quelles communes d'Île-de-France demandent un changement d'usage ?",
-   "requete": "changement d'usage Île-de-France communes",
-   "secondaires": [
-    "changement d'usage Val-de-Marne",
-    "changement d'usage Seine-Saint-Denis",
-    "changement d'usage Essonne"
-   ],
-   "categorie": "Réglementation",
-   "intention": "information",
-   "priorite": 2,
-   "angle": "Règle par département (petite couronne, grande couronne), comment vérifier sa commune. Complète l'article Yvelines et Hauts-de-Seine sans le répéter.",
-   "statut": "a_faire",
-   "slug": null,
-   "publie_le": null
+   "publie_le": null,
+   "volume": 0,
+   "note": "Proche de /blog/fin-contrat-conciergerie (publié le 26/11/2026) : ne l'écrire que si l'angle est différent (comparer avant de changer), sinon l'écarter."
   },
   {
    "id": 49,
@@ -839,7 +933,8 @@
    "angle": "Chambre chez l'habitant, chambre d'hôtes, déclaration, fiscalité. Sources : service-public.",
    "statut": "a_faire",
    "slug": null,
-   "publie_le": null
+   "publie_le": null,
+   "volume": 0
   },
   {
    "id": 50,
@@ -855,7 +950,64 @@
    "angle": "Prévention (règlement, capteur, arrivée discrète), dialogue avec le syndic, responsabilité du propriétaire.",
    "statut": "a_faire",
    "slug": null,
-   "publie_le": null
+   "publie_le": null,
+   "volume": 0
+  },
+  {
+   "id": 53,
+   "titre": "Quels quartiers pour investir en location saisonnière en Île-de-France ?",
+   "requete": "où investir en location saisonnière Île-de-France",
+   "secondaires": [
+    "investir Airbnb Île-de-France",
+    "investir location courte durée"
+   ],
+   "categorie": "Rentabilité",
+   "intention": "investissement",
+   "angle": "Critères vérifiables plutôt que palmarès : règles de la commune (changement d'usage, compensation), demande (tourisme, affaires, événements), transports, copropriétés. Chiffres de marché uniquement avec source nommée et datée. Aucun revenu promis.",
+   "note": "Demande de Nassim (21/11/2026). Volume non mesurable : à garder en priorité 3.",
+   "priorite": 3,
+   "statut": "a_faire",
+   "slug": null,
+   "publie_le": null,
+   "volume": 0
+  },
+  {
+   "id": 5,
+   "titre": "Combien coûte une conciergerie Airbnb ? Commission, assiette et frais à comparer",
+   "requete": "tarif conciergerie Airbnb",
+   "secondaires": [
+    "prix conciergerie Airbnb",
+    "commission conciergerie Airbnb",
+    "conciergerie Airbnb pourcentage",
+    "frais de conciergerie location courte durée"
+   ],
+   "categorie": "Contrat",
+   "intention": "commerciale",
+   "priorite": 1,
+   "angle": "Ce qui se cache derrière un pourcentage : assiette (brut ou net), ménage, linge, frais de mise en service. Grille de questions à poser. Lien vers /tarifs.",
+   "statut": "ecarte",
+   "slug": null,
+   "publie_le": null,
+   "raison": "Même intention que la page /tarifs (« tarif conciergerie Airbnb », « prix conciergerie Airbnb » : 560 recherches par mois). Un article ferait concurrence à la page commerciale : c'est /tarifs qui a été renforcée le 21/11/2026."
+  },
+  {
+   "id": 28,
+   "titre": "Confier la gestion de son Airbnb dans les Yvelines : comment ça se passe",
+   "requete": "gestion Airbnb Yvelines",
+   "secondaires": [
+    "conciergerie Airbnb Yvelines",
+    "gestion location courte durée 78",
+    "faire gérer son Airbnb Versailles"
+   ],
+   "categorie": "Villes",
+   "intention": "commerciale",
+   "priorite": 2,
+   "ville": "guyancourt",
+   "angle": "Déroulé concret d'une prise en charge depuis Guyancourt : visite, vérifications en mairie, annonce, premier voyageur. Lien vers la page Yvelines.",
+   "statut": "ecarte",
+   "slug": null,
+   "publie_le": null,
+   "raison": "Même intention que la page /conciergerie-airbnb-yvelines. Un article « gestion Airbnb Yvelines » ferait concurrence à la page département : enrichir la page plutôt qu'écrire un article."
   }
  ]
 }

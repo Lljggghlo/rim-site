@@ -6,7 +6,11 @@
   "_relecture_obligatoire_pour": "Liste de catégories toujours déposées en brouillon, même en mode auto. Exemple : [\"Fiscalité\", \"Réglementation\"].",
   "rythme": {
     "articles_par_semaine": 3,
-    "jours": ["lundi", "mercredi", "vendredi"],
+    "jours": [
+      "lundi",
+      "mercredi",
+      "vendredi"
+    ],
     "articles_villes_max_par_semaine": 1,
     "pause_jusqu_au": null
   },
@@ -30,7 +34,8 @@
     "impressions_min_28j": 30
   },
   "alerte": {
-    "jours_sans_article_max": 6
+    "jours_sans_article_max": 4,
+    "_jours_sans_article_max": "Avec trois articles par semaine, l'écart normal maximal est de 3 jours (vendredi → lundi). Au-delà de 4 jours, le contrôle quotidien ouvre un ticket GitHub (e-mail à Nassim)."
   },
   "indexnow_key": "02aee623294ba9e19a2624a3c754a840"
 }

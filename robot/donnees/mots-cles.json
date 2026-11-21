@@ -1,0 +1,1148 @@
+{
+ "source": "Google Ads (volumes mensuels moyens sur 12 mois, France, langue française) et DataForSEO Labs (difficulté 0-100), via Firecrawl",
+ "releve_le": "2026-11-21",
+ "note": "Les requêtes absentes avaient moins de 10 recherches par mois (seuil de Google Ads) : c'est le cas de presque toutes les communes (Guyancourt, Saint-Quentin-en-Yvelines, Montigny-le-Bretonneux, Le Chesnay, Vélizy, Meudon, Antony...). Une requête générique comme « conciergerie airbnb » est localisée par Google selon la position de l'internaute : c'est elle qui compte le plus pour une conciergerie locale.",
+ "requetes": [
+  {
+   "requete": "conciergerie paris",
+   "volume": 14800,
+   "concurrence_payante": "HIGH",
+   "cpc_usd": 2.22,
+   "difficulte": null
+  },
+  {
+   "requete": "bail mobilité",
+   "volume": 9900,
+   "concurrence_payante": "LOW",
+   "cpc_usd": 1.77,
+   "difficulte": null
+  },
+  {
+   "requete": "encadrement des loyers paris",
+   "volume": 9900,
+   "concurrence_payante": "LOW",
+   "cpc_usd": 1.08,
+   "difficulte": null
+  },
+  {
+   "requete": "conciergerie airbnb",
+   "volume": 6600,
+   "concurrence_payante": "MEDIUM",
+   "cpc_usd": 6.17,
+   "difficulte": 22
+  },
+  {
+   "requete": "loi le meur",
+   "volume": 3600,
+   "concurrence_payante": "LOW",
+   "cpc_usd": 0.43,
+   "difficulte": 13
+  },
+  {
+   "requete": "meublé de tourisme",
+   "volume": 3600,
+   "concurrence_payante": "LOW",
+   "cpc_usd": 1.28,
+   "difficulte": 61
+  },
+  {
+   "requete": "ménage airbnb",
+   "volume": 1900,
+   "concurrence_payante": "MEDIUM",
+   "cpc_usd": 4.36,
+   "difficulte": 0
+  },
+  {
+   "requete": "statut lmnp",
+   "volume": 1300,
+   "concurrence_payante": "MEDIUM",
+   "cpc_usd": 1.38,
+   "difficulte": null
+  },
+  {
+   "requete": "conciergerie airbnb paris",
+   "volume": 1000,
+   "concurrence_payante": "HIGH",
+   "cpc_usd": 8.55,
+   "difficulte": 14
+  },
+  {
+   "requete": "airbnb versailles",
+   "volume": 1000,
+   "concurrence_payante": "MEDIUM",
+   "cpc_usd": 0.45,
+   "difficulte": null
+  },
+  {
+   "requete": "location courte durée paris",
+   "volume": 1000,
+   "concurrence_payante": "HIGH",
+   "cpc_usd": 2.05,
+   "difficulte": null
+  },
+  {
+   "requete": "conciergerie immobilière",
+   "volume": 880,
+   "concurrence_payante": "MEDIUM",
+   "cpc_usd": 4.9,
+   "difficulte": null
+  },
+  {
+   "requete": "taxe de séjour airbnb",
+   "volume": 720,
+   "concurrence_payante": "LOW",
+   "cpc_usd": 6.76,
+   "difficulte": 22
+  },
+  {
+   "requete": "caution airbnb",
+   "volume": 720,
+   "concurrence_payante": "LOW",
+   "cpc_usd": 4.08,
+   "difficulte": 0
+  },
+  {
+   "requete": "conciergerie location saisonnière",
+   "volume": 590,
+   "concurrence_payante": "MEDIUM",
+   "cpc_usd": 4.95,
+   "difficulte": 0
+  },
+  {
+   "requete": "impot airbnb",
+   "volume": 590,
+   "concurrence_payante": "MEDIUM",
+   "cpc_usd": 3.85,
+   "difficulte": 0
+  },
+  {
+   "requete": "prix airbnb",
+   "volume": 590,
+   "concurrence_payante": "LOW",
+   "cpc_usd": 3.15,
+   "difficulte": null
+  },
+  {
+   "requete": "classement meublé de tourisme",
+   "volume": 590,
+   "concurrence_payante": "LOW",
+   "cpc_usd": 2.94,
+   "difficulte": 17
+  },
+  {
+   "requete": "meublé de tourisme classé",
+   "volume": 590,
+   "concurrence_payante": "LOW",
+   "cpc_usd": 3.14,
+   "difficulte": 24
+  },
+  {
+   "requete": "fiscalité airbnb",
+   "volume": 480,
+   "concurrence_payante": "MEDIUM",
+   "cpc_usd": 2.83,
+   "difficulte": 0
+  },
+  {
+   "requete": "loi le meur airbnb",
+   "volume": 480,
+   "concurrence_payante": "LOW",
+   "cpc_usd": 0.41,
+   "difficulte": 3
+  },
+  {
+   "requete": "serrure connectée airbnb",
+   "volume": 480,
+   "concurrence_payante": "HIGH",
+   "cpc_usd": 2.82,
+   "difficulte": 0
+  },
+  {
+   "requete": "changement d'usage",
+   "volume": 390,
+   "concurrence_payante": "LOW",
+   "cpc_usd": 0.05,
+   "difficulte": 9
+  },
+  {
+   "requete": "déclaration meublé de tourisme",
+   "volume": 390,
+   "concurrence_payante": "LOW",
+   "cpc_usd": 8.55,
+   "difficulte": 33
+  },
+  {
+   "requete": "comment louer sur airbnb",
+   "volume": 390,
+   "concurrence_payante": "MEDIUM",
+   "cpc_usd": 3.24,
+   "difficulte": 17
+  },
+  {
+   "requete": "vacance locative",
+   "volume": 390,
+   "concurrence_payante": "LOW",
+   "cpc_usd": 1.92,
+   "difficulte": 0
+  },
+  {
+   "requete": "gestion airbnb",
+   "volume": 320,
+   "concurrence_payante": "MEDIUM",
+   "cpc_usd": 7.6,
+   "difficulte": 22
+  },
+  {
+   "requete": "gestionnaire airbnb",
+   "volume": 320,
+   "concurrence_payante": "MEDIUM",
+   "cpc_usd": 7.6,
+   "difficulte": 16
+  },
+  {
+   "requete": "déclarer revenus airbnb",
+   "volume": 320,
+   "concurrence_payante": "MEDIUM",
+   "cpc_usd": 2.82,
+   "difficulte": 0
+  },
+  {
+   "requete": "tarif conciergerie airbnb",
+   "volume": 260,
+   "concurrence_payante": "MEDIUM",
+   "cpc_usd": 4.56,
+   "difficulte": 6
+  },
+  {
+   "requete": "devenir hôte airbnb",
+   "volume": 260,
+   "concurrence_payante": "MEDIUM",
+   "cpc_usd": 2.51,
+   "difficulte": 4
+  },
+  {
+   "requete": "femme de ménage airbnb",
+   "volume": 260,
+   "concurrence_payante": "MEDIUM",
+   "cpc_usd": 3.14,
+   "difficulte": 0
+  },
+  {
+   "requete": "location saisonnière impot",
+   "volume": 260,
+   "concurrence_payante": "MEDIUM",
+   "cpc_usd": 1.84,
+   "difficulte": 22
+  },
+  {
+   "requete": "conciergerie location courte durée",
+   "volume": 210,
+   "concurrence_payante": "MEDIUM",
+   "cpc_usd": 7.86,
+   "difficulte": 3
+  },
+  {
+   "requete": "sous location airbnb",
+   "volume": 210,
+   "concurrence_payante": "LOW",
+   "cpc_usd": 4.37,
+   "difficulte": 0
+  },
+  {
+   "requete": "location saisonnière réglementation",
+   "volume": 210,
+   "concurrence_payante": "MEDIUM",
+   "cpc_usd": 1.98,
+   "difficulte": 26
+  },
+  {
+   "requete": "prix conciergerie airbnb",
+   "volume": 170,
+   "concurrence_payante": "HIGH",
+   "cpc_usd": 3.76,
+   "difficulte": 6
+  },
+  {
+   "requete": "conciergerie versailles",
+   "volume": 170,
+   "concurrence_payante": "MEDIUM",
+   "cpc_usd": 4.82,
+   "difficulte": 0
+  },
+  {
+   "requete": "numéro d'enregistrement airbnb",
+   "volume": 170,
+   "concurrence_payante": "LOW",
+   "cpc_usd": 6.08,
+   "difficulte": 0
+  },
+  {
+   "requete": "lmnp airbnb",
+   "volume": 170,
+   "concurrence_payante": "MEDIUM",
+   "cpc_usd": 2.8,
+   "difficulte": 0
+  },
+  {
+   "requete": "boite à clé airbnb",
+   "volume": 170,
+   "concurrence_payante": "HIGH",
+   "cpc_usd": 0.51,
+   "difficulte": 0
+  },
+  {
+   "requete": "photographe airbnb",
+   "volume": 170,
+   "concurrence_payante": "LOW",
+   "cpc_usd": 4.97,
+   "difficulte": 14
+  },
+  {
+   "requete": "location meublée touristique",
+   "volume": 170,
+   "concurrence_payante": "LOW",
+   "cpc_usd": 1.27,
+   "difficulte": null
+  },
+  {
+   "requete": "gestion location saisonnière",
+   "volume": 140,
+   "concurrence_payante": "MEDIUM",
+   "cpc_usd": 15.6,
+   "difficulte": 7
+  },
+  {
+   "requete": "conciergerie val d'europe",
+   "volume": 140,
+   "concurrence_payante": "MEDIUM",
+   "cpc_usd": 10.39,
+   "difficulte": 0
+  },
+  {
+   "requete": "conciergerie saint denis",
+   "volume": 140,
+   "concurrence_payante": "MEDIUM",
+   "cpc_usd": 3.95,
+   "difficulte": null
+  },
+  {
+   "requete": "rentabilité airbnb",
+   "volume": 140,
+   "concurrence_payante": "MEDIUM",
+   "cpc_usd": 4.06,
+   "difficulte": 0
+  },
+  {
+   "requete": "numéro d'enregistrement meublé de tourisme",
+   "volume": 140,
+   "concurrence_payante": "LOW",
+   "cpc_usd": null,
+   "difficulte": 22
+  },
+  {
+   "requete": "louer son appartement sur airbnb",
+   "volume": 140,
+   "concurrence_payante": "MEDIUM",
+   "cpc_usd": 5.92,
+   "difficulte": 0
+  },
+  {
+   "requete": "gestion location courte durée",
+   "volume": 110,
+   "concurrence_payante": "MEDIUM",
+   "cpc_usd": 9.7,
+   "difficulte": 5
+  },
+  {
+   "requete": "gestion locative courte durée",
+   "volume": 110,
+   "concurrence_payante": "MEDIUM",
+   "cpc_usd": 9.7,
+   "difficulte": null
+  },
+  {
+   "requete": "gestion locative saisonnière",
+   "volume": 110,
+   "concurrence_payante": "LOW",
+   "cpc_usd": 10.85,
+   "difficulte": 0
+  },
+  {
+   "requete": "agence airbnb",
+   "volume": 110,
+   "concurrence_payante": "HIGH",
+   "cpc_usd": 12.06,
+   "difficulte": null
+  },
+  {
+   "requete": "conciergerie boulogne billancourt",
+   "volume": 110,
+   "concurrence_payante": "MEDIUM",
+   "cpc_usd": 5.1,
+   "difficulte": 0
+  },
+  {
+   "requete": "airbnb résidence secondaire",
+   "volume": 110,
+   "concurrence_payante": "LOW",
+   "cpc_usd": null,
+   "difficulte": 0
+  },
+  {
+   "requete": "conciergerie booking",
+   "volume": 90,
+   "concurrence_payante": "MEDIUM",
+   "cpc_usd": 2.61,
+   "difficulte": null
+  },
+  {
+   "requete": "conciergerie airbnb tarif",
+   "volume": 90,
+   "concurrence_payante": "MEDIUM",
+   "cpc_usd": 5.52,
+   "difficulte": null
+  },
+  {
+   "requete": "conciergerie essonne",
+   "volume": 90,
+   "concurrence_payante": "LOW",
+   "cpc_usd": 3.65,
+   "difficulte": 0
+  },
+  {
+   "requete": "réglementation airbnb paris",
+   "volume": 90,
+   "concurrence_payante": "LOW",
+   "cpc_usd": 4.95,
+   "difficulte": 7
+  },
+  {
+   "requete": "dpe airbnb",
+   "volume": 90,
+   "concurrence_payante": "LOW",
+   "cpc_usd": 2.08,
+   "difficulte": 0
+  },
+  {
+   "requete": "airbnb ou booking",
+   "volume": 90,
+   "concurrence_payante": "MEDIUM",
+   "cpc_usd": 4.03,
+   "difficulte": 0
+  },
+  {
+   "requete": "prix ménage airbnb",
+   "volume": 90,
+   "concurrence_payante": "MEDIUM",
+   "cpc_usd": 4.12,
+   "difficulte": 0
+  },
+  {
+   "requete": "nouvelle loi airbnb",
+   "volume": 90,
+   "concurrence_payante": "LOW",
+   "cpc_usd": 0.09,
+   "difficulte": 0
+  },
+  {
+   "requete": "airbnb urssaf",
+   "volume": 90,
+   "concurrence_payante": "LOW",
+   "cpc_usd": 4.28,
+   "difficulte": null
+  },
+  {
+   "requete": "conciergerie airbnb ile de france",
+   "volume": 70,
+   "concurrence_payante": "MEDIUM",
+   "cpc_usd": 5.93,
+   "difficulte": 48
+  },
+  {
+   "requete": "conciergerie yvelines",
+   "volume": 70,
+   "concurrence_payante": "MEDIUM",
+   "cpc_usd": 3.78,
+   "difficulte": null
+  },
+  {
+   "requete": "conciergerie seine et marne",
+   "volume": 70,
+   "concurrence_payante": "MEDIUM",
+   "cpc_usd": 4.37,
+   "difficulte": null
+  },
+  {
+   "requete": "conciergerie serris",
+   "volume": 70,
+   "concurrence_payante": "MEDIUM",
+   "cpc_usd": 8.43,
+   "difficulte": null
+  },
+  {
+   "requete": "investir airbnb",
+   "volume": 70,
+   "concurrence_payante": "MEDIUM",
+   "cpc_usd": 4.4,
+   "difficulte": null
+  },
+  {
+   "requete": "assurance location courte durée",
+   "volume": 70,
+   "concurrence_payante": "HIGH",
+   "cpc_usd": 5.22,
+   "difficulte": 16
+  },
+  {
+   "requete": "superhote airbnb",
+   "volume": 70,
+   "concurrence_payante": "LOW",
+   "cpc_usd": 5.09,
+   "difficulte": null
+  },
+  {
+   "requete": "airbnb guyancourt",
+   "volume": 70,
+   "concurrence_payante": "MEDIUM",
+   "cpc_usd": 0.42,
+   "difficulte": null
+  },
+  {
+   "requete": "conciergerie airbnb avis",
+   "volume": 50,
+   "concurrence_payante": "MEDIUM",
+   "cpc_usd": 4.23,
+   "difficulte": null
+  },
+  {
+   "requete": "meilleure conciergerie airbnb",
+   "volume": 50,
+   "concurrence_payante": "MEDIUM",
+   "cpc_usd": 33.32,
+   "difficulte": null
+  },
+  {
+   "requete": "conciergerie airbnb yvelines",
+   "volume": 50,
+   "concurrence_payante": "MEDIUM",
+   "cpc_usd": 10.5,
+   "difficulte": 0
+  },
+  {
+   "requete": "conciergerie val de marne",
+   "volume": 50,
+   "concurrence_payante": "LOW",
+   "cpc_usd": 3.92,
+   "difficulte": null
+  },
+  {
+   "requete": "conciergerie 77",
+   "volume": 50,
+   "concurrence_payante": "MEDIUM",
+   "cpc_usd": 4.15,
+   "difficulte": null
+  },
+  {
+   "requete": "conciergerie val d'oise",
+   "volume": 50,
+   "concurrence_payante": "MEDIUM",
+   "cpc_usd": 9.94,
+   "difficulte": null
+  },
+  {
+   "requete": "conciergerie clamart",
+   "volume": 50,
+   "concurrence_payante": "LOW",
+   "cpc_usd": 5.44,
+   "difficulte": 0
+  },
+  {
+   "requete": "conciergerie boulogne",
+   "volume": 50,
+   "concurrence_payante": "MEDIUM",
+   "cpc_usd": 4.91,
+   "difficulte": null
+  },
+  {
+   "requete": "assurance airbnb propriétaire",
+   "volume": 50,
+   "concurrence_payante": "MEDIUM",
+   "cpc_usd": 4.51,
+   "difficulte": null
+  },
+  {
+   "requete": "frais airbnb hôte",
+   "volume": 50,
+   "concurrence_payante": "LOW",
+   "cpc_usd": 6.74,
+   "difficulte": null
+  },
+  {
+   "requete": "cfe airbnb",
+   "volume": 50,
+   "concurrence_payante": "LOW",
+   "cpc_usd": 7.27,
+   "difficulte": 1
+  },
+  {
+   "requete": "conciergerie airbnb prix",
+   "volume": 40,
+   "concurrence_payante": "MEDIUM",
+   "cpc_usd": 4.83,
+   "difficulte": null
+  },
+  {
+   "requete": "conciergerie 91",
+   "volume": 40,
+   "concurrence_payante": "LOW",
+   "cpc_usd": 6.64,
+   "difficulte": null
+  },
+  {
+   "requete": "conciergerie issy les moulineaux",
+   "volume": 40,
+   "concurrence_payante": "MEDIUM",
+   "cpc_usd": 5.1,
+   "difficulte": null
+  },
+  {
+   "requete": "conciergerie vincennes",
+   "volume": 40,
+   "concurrence_payante": "HIGH",
+   "cpc_usd": 6.62,
+   "difficulte": null
+  },
+  {
+   "requete": "conciergerie massy",
+   "volume": 40,
+   "concurrence_payante": "MEDIUM",
+   "cpc_usd": 4.27,
+   "difficulte": null
+  },
+  {
+   "requete": "conciergerie marne la vallée",
+   "volume": 40,
+   "concurrence_payante": "MEDIUM",
+   "cpc_usd": 8.35,
+   "difficulte": null
+  },
+  {
+   "requete": "conciergerie montreuil",
+   "volume": 40,
+   "concurrence_payante": "MEDIUM",
+   "cpc_usd": 3.26,
+   "difficulte": null
+  },
+  {
+   "requete": "rentabilité location saisonnière",
+   "volume": 40,
+   "concurrence_payante": "HIGH",
+   "cpc_usd": 3.37,
+   "difficulte": 7
+  },
+  {
+   "requete": "changement d'usage airbnb",
+   "volume": 40,
+   "concurrence_payante": "LOW",
+   "cpc_usd": 4.8,
+   "difficulte": null
+  },
+  {
+   "requete": "tarification dynamique airbnb",
+   "volume": 40,
+   "concurrence_payante": "HIGH",
+   "cpc_usd": 40.75,
+   "difficulte": null
+  },
+  {
+   "requete": "taux d'occupation airbnb",
+   "volume": 40,
+   "concurrence_payante": "MEDIUM",
+   "cpc_usd": 8.16,
+   "difficulte": null
+  },
+  {
+   "requete": "lmnp ou micro bic",
+   "volume": 40,
+   "concurrence_payante": "MEDIUM",
+   "cpc_usd": 5.16,
+   "difficulte": null
+  },
+  {
+   "requete": "gestion airbnb paris",
+   "volume": 30,
+   "concurrence_payante": "HIGH",
+   "cpc_usd": 9.38,
+   "difficulte": null
+  },
+  {
+   "requete": "conciergerie 78",
+   "volume": 30,
+   "concurrence_payante": "LOW",
+   "cpc_usd": 4.44,
+   "difficulte": null
+  },
+  {
+   "requete": "conciergerie 94",
+   "volume": 30,
+   "concurrence_payante": "MEDIUM",
+   "cpc_usd": 11.26,
+   "difficulte": null
+  },
+  {
+   "requete": "conciergerie 93",
+   "volume": 30,
+   "concurrence_payante": "MEDIUM",
+   "cpc_usd": 5.03,
+   "difficulte": null
+  },
+  {
+   "requete": "conciergerie saint germain en laye",
+   "volume": 30,
+   "concurrence_payante": "MEDIUM",
+   "cpc_usd": 4.32,
+   "difficulte": null
+  },
+  {
+   "requete": "conciergerie courbevoie",
+   "volume": 30,
+   "concurrence_payante": "HIGH",
+   "cpc_usd": 8.54,
+   "difficulte": null
+  },
+  {
+   "requete": "conciergerie orly",
+   "volume": 30,
+   "concurrence_payante": "LOW",
+   "cpc_usd": 1.21,
+   "difficulte": null
+  },
+  {
+   "requete": "conciergerie chessy",
+   "volume": 30,
+   "concurrence_payante": "MEDIUM",
+   "cpc_usd": 9.2,
+   "difficulte": null
+  },
+  {
+   "requete": "dpe meublé de tourisme",
+   "volume": 30,
+   "concurrence_payante": "LOW",
+   "cpc_usd": 9.19,
+   "difficulte": null
+  },
+  {
+   "requete": "copropriété airbnb",
+   "volume": 30,
+   "concurrence_payante": "LOW",
+   "cpc_usd": 0.02,
+   "difficulte": null
+  },
+  {
+   "requete": "linge airbnb",
+   "volume": 30,
+   "concurrence_payante": "HIGH",
+   "cpc_usd": 3.05,
+   "difficulte": null
+  },
+  {
+   "requete": "conciergerie hauts de seine",
+   "volume": 20,
+   "concurrence_payante": "HIGH",
+   "cpc_usd": 4.6,
+   "difficulte": null
+  },
+  {
+   "requete": "conciergerie 92",
+   "volume": 20,
+   "concurrence_payante": "MEDIUM",
+   "cpc_usd": 6.65,
+   "difficulte": null
+  },
+  {
+   "requete": "conciergerie airbnb essonne",
+   "volume": 20,
+   "concurrence_payante": "LOW",
+   "cpc_usd": 6.82,
+   "difficulte": null
+  },
+  {
+   "requete": "conciergerie airbnb seine et marne",
+   "volume": 20,
+   "concurrence_payante": "HIGH",
+   "cpc_usd": 4.08,
+   "difficulte": null
+  },
+  {
+   "requete": "conciergerie airbnb versailles",
+   "volume": 20,
+   "concurrence_payante": "MEDIUM",
+   "cpc_usd": 3.19,
+   "difficulte": 0
+  },
+  {
+   "requete": "conciergerie airbnb boulogne billancourt",
+   "volume": 20,
+   "concurrence_payante": "MEDIUM",
+   "cpc_usd": 4.63,
+   "difficulte": null
+  },
+  {
+   "requete": "conciergerie neuilly sur seine",
+   "volume": 20,
+   "concurrence_payante": "MEDIUM",
+   "cpc_usd": 5.89,
+   "difficulte": null
+  },
+  {
+   "requete": "conciergerie puteaux",
+   "volume": 20,
+   "concurrence_payante": "HIGH",
+   "cpc_usd": 5.78,
+   "difficulte": null
+  },
+  {
+   "requete": "conciergerie nanterre",
+   "volume": 20,
+   "concurrence_payante": "HIGH",
+   "cpc_usd": 7.86,
+   "difficulte": null
+  },
+  {
+   "requete": "conciergerie airbnb vincennes",
+   "volume": 20,
+   "concurrence_payante": "MEDIUM",
+   "cpc_usd": 5.8,
+   "difficulte": null
+  },
+  {
+   "requete": "conciergerie airbnb val d'europe",
+   "volume": 20,
+   "concurrence_payante": "LOW",
+   "cpc_usd": 3.82,
+   "difficulte": null
+  },
+  {
+   "requete": "conciergerie creteil",
+   "volume": 20,
+   "concurrence_payante": "HIGH",
+   "cpc_usd": 3.52,
+   "difficulte": null
+  },
+  {
+   "requete": "airbnb ou location longue durée",
+   "volume": 20,
+   "concurrence_payante": "MEDIUM",
+   "cpc_usd": 4.14,
+   "difficulte": null
+  },
+  {
+   "requete": "mettre son appartement sur airbnb",
+   "volume": 20,
+   "concurrence_payante": "HIGH",
+   "cpc_usd": 3.85,
+   "difficulte": null
+  },
+  {
+   "requete": "conciergerie airbnb île de france",
+   "volume": 10,
+   "concurrence_payante": "HIGH",
+   "cpc_usd": 2.11,
+   "difficulte": null
+  },
+  {
+   "requete": "société de gestion airbnb",
+   "volume": 10,
+   "concurrence_payante": "HIGH",
+   "cpc_usd": 7.6,
+   "difficulte": null
+  },
+  {
+   "requete": "conciergerie meublé de tourisme",
+   "volume": 10,
+   "concurrence_payante": "MEDIUM",
+   "cpc_usd": 4.44,
+   "difficulte": null
+  },
+  {
+   "requete": "conciergerie airbnb pourcentage",
+   "volume": 10,
+   "concurrence_payante": "MEDIUM",
+   "cpc_usd": null,
+   "difficulte": null
+  },
+  {
+   "requete": "faire gérer son airbnb",
+   "volume": 10,
+   "concurrence_payante": "HIGH",
+   "cpc_usd": null,
+   "difficulte": null
+  },
+  {
+   "requete": "conciergerie airbnb seine saint denis",
+   "volume": 10,
+   "concurrence_payante": "MEDIUM",
+   "cpc_usd": 13.79,
+   "difficulte": null
+  },
+  {
+   "requete": "conciergerie seine saint denis",
+   "volume": 10,
+   "concurrence_payante": "MEDIUM",
+   "cpc_usd": 7.38,
+   "difficulte": null
+  },
+  {
+   "requete": "conciergerie airbnb 77",
+   "volume": 10,
+   "concurrence_payante": "HIGH",
+   "cpc_usd": 5.01,
+   "difficulte": null
+  },
+  {
+   "requete": "gestion airbnb versailles",
+   "volume": 10,
+   "concurrence_payante": "MEDIUM",
+   "cpc_usd": 2.5,
+   "difficulte": null
+  },
+  {
+   "requete": "conciergerie airbnb issy les moulineaux",
+   "volume": 10,
+   "concurrence_payante": "LOW",
+   "cpc_usd": 5.69,
+   "difficulte": null
+  },
+  {
+   "requete": "conciergerie airbnb neuilly sur seine",
+   "volume": 10,
+   "concurrence_payante": "MEDIUM",
+   "cpc_usd": 7.5,
+   "difficulte": null
+  },
+  {
+   "requete": "conciergerie levallois perret",
+   "volume": 10,
+   "concurrence_payante": "HIGH",
+   "cpc_usd": 9.12,
+   "difficulte": null
+  },
+  {
+   "requete": "conciergerie airbnb courbevoie",
+   "volume": 10,
+   "concurrence_payante": "HIGH",
+   "cpc_usd": 4.17,
+   "difficulte": null
+  },
+  {
+   "requete": "conciergerie airbnb puteaux",
+   "volume": 10,
+   "concurrence_payante": "HIGH",
+   "cpc_usd": 5.05,
+   "difficulte": null
+  },
+  {
+   "requete": "conciergerie airbnb nanterre",
+   "volume": 10,
+   "concurrence_payante": "LOW",
+   "cpc_usd": null,
+   "difficulte": null
+  },
+  {
+   "requete": "conciergerie rueil malmaison",
+   "volume": 10,
+   "concurrence_payante": "MEDIUM",
+   "cpc_usd": 4.24,
+   "difficulte": null
+  },
+  {
+   "requete": "conciergerie airbnb suresnes",
+   "volume": 10,
+   "concurrence_payante": "HIGH",
+   "cpc_usd": 7.72,
+   "difficulte": null
+  },
+  {
+   "requete": "conciergerie suresnes",
+   "volume": 10,
+   "concurrence_payante": "HIGH",
+   "cpc_usd": null,
+   "difficulte": null
+  },
+  {
+   "requete": "conciergerie airbnb montrouge",
+   "volume": 10,
+   "concurrence_payante": "MEDIUM",
+   "cpc_usd": 16.67,
+   "difficulte": null
+  },
+  {
+   "requete": "conciergerie montrouge",
+   "volume": 10,
+   "concurrence_payante": "HIGH",
+   "cpc_usd": 3.76,
+   "difficulte": null
+  },
+  {
+   "requete": "conciergerie airbnb malakoff",
+   "volume": 10,
+   "concurrence_payante": "HIGH",
+   "cpc_usd": 29.15,
+   "difficulte": null
+  },
+  {
+   "requete": "conciergerie palaiseau",
+   "volume": 10,
+   "concurrence_payante": "MEDIUM",
+   "cpc_usd": 7.37,
+   "difficulte": null
+  },
+  {
+   "requete": "conciergerie airbnb serris",
+   "volume": 10,
+   "concurrence_payante": "LOW",
+   "cpc_usd": 4.85,
+   "difficulte": null
+  },
+  {
+   "requete": "conciergerie airbnb saint cloud",
+   "volume": 10,
+   "concurrence_payante": "MEDIUM",
+   "cpc_usd": null,
+   "difficulte": null
+  },
+  {
+   "requete": "conciergerie airbnb saint denis",
+   "volume": 10,
+   "concurrence_payante": "LOW",
+   "cpc_usd": 4.84,
+   "difficulte": null
+  },
+  {
+   "requete": "conciergerie airbnb montreuil",
+   "volume": 10,
+   "concurrence_payante": "MEDIUM",
+   "cpc_usd": 8.56,
+   "difficulte": null
+  },
+  {
+   "requete": "conciergerie plaisir",
+   "volume": 10,
+   "concurrence_payante": "MEDIUM",
+   "cpc_usd": 1.79,
+   "difficulte": null
+  },
+  {
+   "requete": "conciergerie rambouillet",
+   "volume": 10,
+   "concurrence_payante": "HIGH",
+   "cpc_usd": 2.41,
+   "difficulte": null
+  },
+  {
+   "requete": "conciergerie saint cyr l'ecole",
+   "volume": 10,
+   "concurrence_payante": "LOW",
+   "cpc_usd": null,
+   "difficulte": null
+  },
+  {
+   "requete": "conciergerie airbnb boulogne",
+   "volume": 10,
+   "concurrence_payante": null,
+   "cpc_usd": null,
+   "difficulte": null
+  },
+  {
+   "requete": "conciergerie colombes",
+   "volume": 10,
+   "concurrence_payante": "HIGH",
+   "cpc_usd": 2.4,
+   "difficulte": null
+  },
+  {
+   "requete": "rentabilité airbnb paris",
+   "volume": 10,
+   "concurrence_payante": "LOW",
+   "cpc_usd": null,
+   "difficulte": null
+  },
+  {
+   "requete": "calcul rentabilité location courte durée",
+   "volume": 10,
+   "concurrence_payante": "MEDIUM",
+   "cpc_usd": 1.27,
+   "difficulte": null
+  },
+  {
+   "requete": "airbnb paris 90 jours",
+   "volume": 10,
+   "concurrence_payante": "LOW",
+   "cpc_usd": null,
+   "difficulte": null
+  },
+  {
+   "requete": "déclarer airbnb mairie",
+   "volume": 10,
+   "concurrence_payante": "LOW",
+   "cpc_usd": 6.51,
+   "difficulte": null
+  },
+  {
+   "requete": "micro bic meublé de tourisme",
+   "volume": 10,
+   "concurrence_payante": "LOW",
+   "cpc_usd": 1.4,
+   "difficulte": null
+  },
+  {
+   "requete": "optimiser annonce airbnb",
+   "volume": 10,
+   "concurrence_payante": "HIGH",
+   "cpc_usd": 10.25,
+   "difficulte": null
+  },
+  {
+   "requete": "taux d'occupation airbnb paris",
+   "volume": 10,
+   "concurrence_payante": "LOW",
+   "cpc_usd": 1.99,
+   "difficulte": null
+  },
+  {
+   "requete": "investir location courte durée",
+   "volume": 10,
+   "concurrence_payante": "MEDIUM",
+   "cpc_usd": null,
+   "difficulte": null
+  },
+  {
+   "requete": "airbnb impots 2026",
+   "volume": 10,
+   "concurrence_payante": "MEDIUM",
+   "cpc_usd": null,
+   "difficulte": null
+  },
+  {
+   "requete": "airbnb taxe d'habitation",
+   "volume": 10,
+   "concurrence_payante": "LOW",
+   "cpc_usd": null,
+   "difficulte": null
+  },
+  {
+   "requete": "airbnb jo paris",
+   "volume": 10,
+   "concurrence_payante": null,
+   "cpc_usd": null,
+   "difficulte": null
+  },
+  {
+   "requete": "location courte durée yvelines",
+   "volume": 10,
+   "concurrence_payante": "HIGH",
+   "cpc_usd": 2.21,
+   "difficulte": null
+  }
+ ]
+}

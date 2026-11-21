@@ -12,6 +12,7 @@ image_alt: >-
   Toits en zinc d'immeubles parisiens, avec leurs lucarnes et leurs fenêtres de
   toit
 verifie: 2026-11-16T00:00:00.000Z
+modif: 2026-11-21
 essentiel:
   - >-
     Dans les communes à numéro d'enregistrement, une résidence principale ne se
@@ -76,6 +77,11 @@ sources:
       les rapports locatifs
     url: >-
       https://www.senat.fr/travaux-parlementaires/textes-legislatifs/la-loi-en-clair/proposition-de-loi-pour-retrouver-la-confiance-et-lequilibre-dans-les-rapports-locatifs.html
+  - nom: >-
+      Assemblée nationale — Dossier législatif « Retrouver la confiance et
+      l'équilibre dans les rapports locatifs » (adoption du 19 novembre 2026)
+    url: >-
+      https://www.assemblee-nationale.fr/dyn/17/dossiers/retrouver_confiance_equilibre_rapports_locatifs_17e
   - nom: Service-Public.fr — Règles d'un bail mobilité
     url: 'https://www.service-public.gouv.fr/particuliers/vosdroits/F34759'
   - nom: Service-Public.fr — Trêve hivernale 2026-2027
@@ -209,9 +215,11 @@ Autre seuil à connaître : au-delà de 23 000 € de recettes annuelles en loca
 
 > [!CONSEIL] Le seuil de nuits se calcule avant impôt. Pour le refaire après impôt et choisir entre micro et réel, voyez votre service des impôts ou un expert-comptable : nous ne donnons pas de conseil fiscal.
 
-## Loyers encadrés : le point à vérifier fin 2026 à Paris, Plaine Commune et Est Ensemble
+## Loyers encadrés à Paris, Plaine Commune et Est Ensemble : la prolongation est votée
 
-En longue durée, vous ne fixez pas toujours le loyer librement. À Paris, à Plaine Commune et à Est Ensemble, le niveau du loyer est plafonné pour les baux signés ou renouvelés jusqu'au 24 novembre 2026, et la suite dépend d'une proposition de loi encore en discussion. Vérifiez la règle en vigueur le jour où vous signez.
+En longue durée, vous ne fixez pas toujours le loyer librement. À Paris, à Plaine Commune et à Est Ensemble, le niveau du loyer est plafonné. Ce plafond devait disparaître fin novembre 2026 ; le Parlement a voté, le 19 novembre 2026, sa prolongation pour deux ans sur les mêmes territoires.
+
+*Mis à jour le 21/11/2026 : adoption définitive de la prolongation par le Parlement. Vérifiez toujours la règle en vigueur le jour où vous signez le bail.*
 
 Ce que dit [la fiche de Service-Public.fr](https://www.service-public.gouv.fr/particuliers/vosdroits/F1314), vérifiée le 1er novembre 2026 :
 
@@ -222,9 +230,13 @@ Ce que dit [la fiche de Service-Public.fr](https://www.service-public.gouv.fr/pa
 
 L'encadrement concerne le logement qui sert de résidence principale au locataire, ou qui est loué avec un bail mobilité. Les meublés de tourisme relèvent d'autres règles, et leur prix est fixé librement. Ce plafond pèse donc sur la ligne 1 de votre calcul si le logement se trouve à [Paris](/conciergerie-airbnb-paris) ou dans l'une de ces communes de [Seine-Saint-Denis](/conciergerie-airbnb-seine-saint-denis).
 
-**Et ensuite ?** Le dispositif est une expérimentation. Le Sénat indique qu'elle arrive à son terme le 23 novembre 2026 ; Service-Public.fr vise les baux signés ou renouvelés jusqu'au 24. [Le Sénat a adopté en première lecture, le 21 octobre 2026](https://www.senat.fr/travaux-parlementaires/textes-legislatifs/la-loi-en-clair/proposition-de-loi-pour-retrouver-la-confiance-et-lequilibre-dans-les-rapports-locatifs.html), une proposition de loi : dans la version qu'il a votée, l'expérimentation serait prolongée de deux ans, à périmètre constant. Le texte a été transmis à l'Assemblée nationale.
+**Et ensuite ?** Le dispositif est une expérimentation qui devait s'achever le 23 novembre 2026. [L'Assemblée nationale a adopté sans modification, le 19 novembre 2026](https://www.assemblee-nationale.fr/dyn/17/dossiers/retrouver_confiance_equilibre_rapports_locatifs_17e), le texte voté par le Sénat le 21 octobre. D'après [la synthèse du Sénat](https://www.senat.fr/travaux-parlementaires/textes-legislatifs/la-loi-en-clair/proposition-de-loi-pour-retrouver-la-confiance-et-lequilibre-dans-les-rapports-locatifs.html), le Parlement l'a ainsi adopté définitivement :
 
-À la date de cet article, nous n'avons pas trouvé de loi promulguée. Nous mettrons cette partie à jour dès que le sort du texte sera connu.
+- l'expérimentation est prolongée de **deux ans, à périmètre constant** : les mêmes territoires, sans nouvelle commune candidate ;
+- un locataire dispose d'**un an** à compter de la signature du bail pour contester un complément de loyer, au lieu de trois mois ;
+- l'action en diminution de loyer se prescrit par **un an**, au lieu de trois.
+
+Au 21 novembre 2026, la loi n'est pas encore promulguée ni publiée au Journal officiel : nous compléterons cette partie avec sa référence dès sa publication.
 
 ## Le bail mobilité, un cadre intermédiaire
 

@@ -41,12 +41,14 @@ Le message qui t'a lancé précise le type : **rédaction** (lundi, mercredi, ve
 
 ### Passage « rédaction » : un article, de bout en bout
 
-**Étape 1 — Choisir le sujet.** Dans `robot/sujets.json`, prends le premier sujet `a_faire` de priorité 1, puis 2, puis 3, en respectant :
+**Étape 1 — Choisir le sujet.** Dans `robot/sujets.json`, prends le premier sujet `a_faire` de priorité 1, puis 2, puis 3 (la file est déjà triée par priorité puis par `volume`, le nombre de recherches mensuelles mesuré dans `robot/donnees/mots-cles.json`), en respectant :
 - pas deux articles de suite dans la même catégorie ;
 - un seul article `Villes` par semaine (du lundi au dimanche) ;
 - un sujet réglementaire ou fiscal seulement si tu trouves les sources officielles à jour ; sinon passe au suivant et note pourquoi ;
 - si `etat/suivi.json` propose des `idees_de_sujets` (requêtes sur lesquelles Google montre déjà le site), tu peux en faire passer une devant : ajoute-la à la file avec la mention « idée Search Console ».
-Vérifie qu'aucun article existant ne vise déjà la même requête (`grep -l "requete:" content/blog/*.md`). Passe le sujet en `en_cours`.
+Vérifie qu'aucun article existant ne vise déjà la même requête (`grep -h "^requete:" content/blog/*.md`). Vérifie aussi qu'aucune page commerciale ne la vise : `/tarifs` (prix et tarif d'une conciergerie), `/gestion-airbnb-booking` (gestion de location courte durée), `/services`, les pages `/conciergerie-airbnb-…` (conciergerie ou gestion Airbnb dans une commune ou un département). Si c'est le cas, l'article ferait concurrence à la page : écarte le sujet (`ecarte`, avec la raison) et note dans le journal ce qui manque à la page. Passe le sujet retenu en `en_cours`.
+
+Quand tu ajoutes un sujet à la file, renseigne `volume` d'après `robot/donnees/mots-cles.json` (0 si la requête n'y figure pas) et range-le à sa place : priorité, puis volume.
 
 **Étape 2 — Étudier la requête.** Cherche la requête principale et deux secondaires. Note : qui est en première page, ce que ces pages disent, ce qui leur manque, les questions que Google associe. Décide de l'angle : ce que ton article apportera de plus. Si tu ne trouves pas d'angle, écarte le sujet (`ecarte`, avec la raison) et prends le suivant.
 

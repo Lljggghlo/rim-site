@@ -485,17 +485,47 @@ export function tarifs() {
       { q: 'La TVA s’ajoute-t-elle ?', a: `<p>Non. ${esc(ctx.s.mention_tva)}</p>` },
       { q: 'Quand dois-je payer ?', a: '<p>Nous vous envoyons une facture par e-mail chaque mois. Elle est payable par virement sous 7 jours.</p>' },
       { q: 'De quoi dépend le taux de commission ?', a: "<p>Du logement et du nombre de biens que vous nous confiez. Le tarif est dégressif. Nous vous donnons le taux exact lors de l'estimation, avant toute signature.</p>" },
+      { q: 'Le ménage est-il compris dans la commission ?', a: "<p>Non. Le ménage et la blanchisserie sont facturés à part. En pratique, ils sont financés par les frais de ménage que paient les voyageurs à chaque réservation. Le linge est fourni par vous ou par nous, selon ce que nous convenons avant la signature.</p>" },
     ],
     { titre: 'Questions sur', script: 'nos tarifs' }
   );
   const body = `${bc.html}
 <section class="hero hero-tight"><div class="wrap">
-  <p class="kicker">Tarifs de conciergerie Airbnb</p>
-  <h1 class="h1">Nos tarifs : une commission, <span class="script">rien de fixe</span></h1>
+  <p class="kicker">Île-de-France · gestion complète</p>
+  <h1 class="h1">Tarif de conciergerie Airbnb : une commission, <span class="script">rien de fixe</span></h1>
   <p class="lead">Nous gagnons un pourcentage de ce que votre logement rapporte réellement : de 20 à 25 % des recettes nettes. Si un mois est calme, notre facture l'est aussi.</p>
 </div></section>
 
 <section class="sec sec-first" id="grille" aria-label="Notre commission"><div class="wrap">${pricesHtml()}</div></section>
+
+<section class="sec sec-gray" id="cout" aria-labelledby="cout-t"><div class="wrap narrow prose">
+  <h2 class="h2" id="cout-t">Combien coûte une <span class="script">conciergerie Airbnb ?</span></h2>
+  ${answer("Chez nous, une gestion complète coûte de 20 à 25 % des recettes locatives nettes, selon le logement et le nombre de biens confiés. Il n'y a ni abonnement ni frais fixe : sans réservation, pas de commission. Le ménage et la blanchisserie sont facturés à part ; en pratique, les frais de ménage payés par les voyageurs les financent.")}
+  <div class="ptable"><table style="min-width:0">
+    <thead><tr><th scope="col">Poste</th><th scope="col">Comment il est payé</th></tr></thead>
+    <tbody>
+      <tr><td>Gestion complète : annonce, prix ajustés chaque jour, voyageurs 24 h/24, organisation du ménage, signalement des incidents</td><td>Commission de 20 à 25 % des recettes locatives nettes</td></tr>
+      <tr><td>Ménage et blanchisserie après chaque séjour</td><td>Facturés à part, financés en pratique par les frais de ménage payés par les voyageurs</td></tr>
+      <tr><td>Linge de maison</td><td>Fourni par vous ou par nous : conditions fixées avant la signature</td></tr>
+      <tr><td>Photos professionnelles (option)</td><td>100 € TTC pour un logement de moins de 100 m²</td></tr>
+      <tr><td>Abonnement, frais fixe mensuel</td><td>Aucun</td></tr>
+    </tbody>
+  </table></div>
+  <p><b>Exemple de calcul, avec des chiffres fictifs.</b> Un mois où votre logement rapporte 1 000 € de recettes locatives nettes, la commission est de 200 € à 20 %, ou de 250 € à 25 %. Un mois sans réservation, elle est de 0 €. Nous vous donnons le taux exact de votre logement lors de l'estimation, avant toute signature.</p>
+</div></section>
+
+<section class="sec" id="comparer" aria-labelledby="comparer-t"><div class="wrap narrow prose">
+  <h2 class="h2" id="comparer-t">Comparer les tarifs <span class="script">en six points</span></h2>
+  ${answer("Un pourcentage seul ne suffit pas pour comparer deux conciergeries. Regardez sur quel montant il s'applique, ce qui est facturé en plus, la durée d'engagement, qui reçoit vos loyers et sur quel compte sont publiées vos annonces. Deux offres au même taux peuvent coûter des montants différents à la fin du mois.")}
+  <ol>
+    <li><b>Le montant sur lequel s'applique la commission.</b> Le prix payé par le voyageur, ou les recettes après les commissions des plateformes et le ménage ? Chez nous, c'est le second cas, défini plus haut.</li>
+    <li><b>Le ménage et le linge.</b> Qui les organise, et qui les paie : le voyageur, par les frais de ménage, ou vous ?</li>
+    <li><b>Les frais en plus.</b> Mise en service, photos, équipement pour les arrivées autonomes, petites réparations : demandez la liste écrite avant de signer.</li>
+    <li><b>La durée d'engagement.</b> Durée du contrat, reconduction, préavis, indemnité en cas de départ anticipé. Chez nous : 12 mois, reconduits par périodes de 12 mois, préavis d'un mois avant l'échéance.</li>
+    <li><b>Qui reçoit vos loyers.</b> Chez nous, Airbnb et Booking vous les versent directement, sur votre compte bancaire. Nous ne les recevons jamais.</li>
+    <li><b>Le compte qui porte vos annonces.</b> Une annonce publiée sur le compte d'une conciergerie reste en général sur ce compte à la fin du contrat, avec ses avis. Chez nous, les annonces sont publiées sur vos propres comptes.</li>
+  </ol>
+</div></section>
 
 <section class="sec sec-gray" id="compare" aria-labelledby="compare-t"><div class="wrap">
   <h2 class="h2" id="compare-t">Gérer seul ou avec <span class="script">une conciergerie ?</span></h2>
@@ -509,7 +539,7 @@ ${finalCta()}`;
   return {
     path: '/tarifs',
     title: 'Tarifs conciergerie Airbnb Île-de-France | Rim Conciergerie',
-    description: 'Commission de 20 à 25 % des recettes locatives nettes, dégressive, sans abonnement ni frais fixes. Et pourquoi une conciergerie change tout.',
+    description: "Prix d'une conciergerie Airbnb en Île-de-France : 20 à 25 % des recettes nettes, dégressif, sans abonnement. Ce qui est compris, ce qui est en plus.",
     body,
     schema: [bc.schema, faq.schema, { '@type': 'Service', name: 'Conciergerie Airbnb, gestion complète', provider: { '@id': `${ctx.s.url}/#entreprise` }, areaServed: 'Île-de-France', offers: { '@type': 'Offer', name: 'Gestion complète', description: 'De 20 à 25 % des recettes locatives nettes, selon le logement et le nombre de biens', priceCurrency: 'EUR' } }],
     lastmod: ctx.today,
