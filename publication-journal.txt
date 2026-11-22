@@ -1,31 +1,34 @@
-0 image(s) préparée(s).
+✔ Photo de ville saint-quentin-en-yvelines : File:Elancourt Commanderie entrée.JPG (CC BY-SA 3.0)
+1 image(s) préparée(s).
 
 > build
 > node build/build.mjs
 
-✔ Site généré dans dist/ : 55 pages HTML, 51 dans le sitemap (2026-11-21).
+✔ Site généré dans dist/ : 55 pages HTML, 51 dans le sitemap (2026-11-22).
   Articles publiés : 7 · programmés : 1 → fin-contrat-conciergerie (2026-11-26)
   Villes : 25 · Témoignages vidéo publiés : 0
 ⚠ 1 point(s) à vérifier :
-  - Registre des dates (data/lastmod.json) à mettre à jour avec « npm run lastmod » : 3 page(s) modifiée(s), dont /, /gestion-airbnb-booking, /services
-Aucun article à contrôler.
+  - Registre des dates (data/lastmod.json) à mettre à jour avec « npm run lastmod » : 5 page(s) modifiée(s), dont /, /conciergerie-airbnb-saint-quentin-en-yvelines, /blog/demarches-mettre-logement-airbnb
+✔ changement-usage-yvelines-hauts-de-seine — 1150 mots, 7 parties, 6 liens internes, 6 sources (6 officielles)
+✔ demarches-mettre-logement-airbnb — 1898 mots, 8 parties, 11 liens internes, 9 sources (9 officielles)
+✔ numero-enregistrement-meuble-de-tourisme-2026 — 1284 mots, 7 parties, 7 liens internes, 5 sources (5 officielles)
 
 > strict
 > STRICT=1 node build/build.mjs
 
-✔ Site généré dans dist/ : 55 pages HTML, 51 dans le sitemap (2026-11-21).
+✔ Site généré dans dist/ : 55 pages HTML, 51 dans le sitemap (2026-11-22).
   Articles publiés : 7 · programmés : 1 → fin-contrat-conciergerie (2026-11-26)
   Villes : 25 · Témoignages vidéo publiés : 0
 {
- "date": "2026-11-21T21:18:48.314Z",
+ "date": "2026-11-22T07:53:12.388Z",
  "ok": true,
  "pages_controlees": 51,
  "articles_en_ligne": 7,
- "jours_depuis_dernier_article": 0,
+ "jours_depuis_dernier_article": 1,
  "article_attendu": null,
  "article_en_ligne": null,
  "indexnow": {
-  "envoyees": 9,
+  "envoyees": 15,
   "reponse": 200
  },
  "erreurs": [],
