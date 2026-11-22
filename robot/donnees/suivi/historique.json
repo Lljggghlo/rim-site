@@ -7,5 +7,17 @@
   "position_moyenne": 11.5,
   "pages_avec_impressions": 41,
   "source": "Search Console via Windsor.ai"
+ },
+ {
+  "date": "2026-11-22",
+  "periode": "28 jours",
+  "clics": 61,
+  "impressions": 2932,
+  "position_moyenne": 11.5,
+  "pages_avec_impressions": 41,
+  "visites_7j": 8,
+  "visiteurs_7j": 3,
+  "demandes_estimation_7j": 0,
+  "source": "Search Console via Windsor.ai (fenêtre identique au 21/11) ; visites Vercel Web Analytics (mesure depuis le 21/11 au soir)"
  }
 ]

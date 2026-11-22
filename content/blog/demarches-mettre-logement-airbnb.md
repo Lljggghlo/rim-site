@@ -10,7 +10,7 @@ requete: démarches avant de mettre son logement sur Airbnb
 image_source: 'File:Immeuble_haussmannien_à_Paris_(52169315349).jpg'
 image_alt: 'Façade en pierre d''un immeuble haussmannien à Paris, avec ses balcons'
 verifie: 2026-11-15T00:00:00.000Z
-modif: 2026-11-21
+modif: 2026-11-22
 essentiel:
   - >-
     Tout part d'une question : le logement est-il votre résidence principale
@@ -54,6 +54,10 @@ sources:
   - nom: Direction générale des entreprises — Les meublés de tourisme
     url: >-
       https://www.entreprises.gouv.fr/espace-entreprises/s-informer-sur-la-reglementation/les-meubles-de-tourisme
+  - nom: >-
+      Légifrance — Code du tourisme, article L324-1-1 (version en vigueur
+      depuis le 20 mai 2026)
+    url: 'https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000050623378'
   - nom: 'Légifrance — Code de la construction et de l''habitation, article L631-7'
     url: 'https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000037669825'
   - nom: Saint-Quentin-en-Yvelines — Guide pratique de la taxe de séjour (2024)
@@ -62,12 +66,11 @@ sources:
 faq:
   - q: Faut-il toujours déclarer son logement Airbnb à la mairie ?
     a: >-
-      Pour une résidence secondaire, oui, dans toutes les communes : déclaration
-      avec enregistrement dans la plupart des grandes communes, déclaration
-      simple ailleurs. Pour une résidence principale, la déclaration n'est
-      exigée que dans les communes qui ont mis en place l'enregistrement. Quand
-      le téléservice national ouvrira, l'enregistrement deviendra obligatoire
-      partout.
+      Oui. Le Code du tourisme, dans sa version en vigueur depuis le 20 mai
+      2026, impose une déclaration avec enregistrement pour tout meublé de
+      tourisme, résidence principale comprise, sur un téléservice national. Tant
+      que ce téléservice n'est pas ouvert, suivez la procédure de votre mairie,
+      qui varie d'une commune à l'autre.
   - q: Peut-on louer sur Airbnb sans numéro SIRET ?
     a: >-
       Non. Louer un logement meublé suppose de déclarer un début d'activité
@@ -76,11 +79,12 @@ faq:
       se déclarent ensuite chaque année avec vos revenus.
   - q: Que risque-t-on à louer sans avoir fait ces démarches ?
     a: >-
-      D'après Service-Public.fr, l'absence de déclaration simple est punie d'une
-      amende pouvant aller jusqu'à 450 €, et louer sans l'autorisation de
-      changement d'usage, là où elle est exigée, d'une amende pouvant aller
-      jusqu'à 100 000 €. Dans les communes à enregistrement, une annonce sans
-      numéro doit être retirée par la plateforme.
+      Selon l'article L324-1-1 du Code du tourisme en vigueur sur Légifrance,
+      louer sans la déclaration avec enregistrement expose à une amende
+      administrative pouvant aller jusqu'à 10 000 €, et jusqu'à 20 000 € pour une
+      fausse déclaration. Louer sans l'autorisation de changement d'usage, là où
+      elle est exigée, expose à une amende civile pouvant aller jusqu'à 100 000 €
+      par logement.
   - q: Une conciergerie peut-elle faire ces démarches à ma place ?
     a: >-
       Les déclarations se font à votre nom : c'est vous le loueur. En revanche,
@@ -100,9 +104,9 @@ La définition vient de la [Direction générale des entreprises](https://www.en
 
 | | Résidence principale | Autre logement (résidence secondaire, investissement) |
 | --- | --- | --- |
-| Déclaration à la mairie | Seulement dans les communes qui ont mis en place l'enregistrement | Toujours |
+| Déclaration avec enregistrement | Oui (texte en vigueur depuis le 20 mai 2026 ; en attendant le téléservice national, procédure de la mairie) | Oui |
 | Changement d'usage | Non | Oui, dans les communes qui l'ont instauré par délibération |
-| Plafond de nuits par an | 120 dans les communes à enregistrement ; la commune peut l'abaisser à 90 | Aucun |
+| Plafond de nuits par an | 120 ; la commune peut l'abaisser jusqu'à 90 | Aucun |
 
 > [!RETENIR] Un logement social ne peut jamais être loué en meublé de tourisme. Et si vous êtes locataire du logement, il vous faut l'autorisation de votre propriétaire avant de le proposer sur une plateforme.
 
@@ -121,11 +125,13 @@ La loi du 19 novembre 2024 a ajouté deux règles pour les copropriétés :
 
 ## Étape 2 : déclarer le logement à la mairie
 
-La démarche dépend de la commune. Dans la plupart des grandes communes, la déclaration donne lieu à un enregistrement et à un numéro à afficher sur l'annonce. Dans les autres, une déclaration simple suffit pour une résidence secondaire. La mairie vous dit laquelle s'applique.
+La démarche dépend aujourd'hui de la commune. Dans la plupart des grandes communes, la déclaration donne lieu à un enregistrement et à un numéro à afficher sur l'annonce. Ailleurs, les fiches de Service-Public.fr décrivent encore une déclaration simple. La mairie vous dit laquelle s'applique.
+
+*Mis à jour le 22/11/2026 : cette étape tient compte de la version de l'article L324-1-1 du Code du tourisme affichée par Légifrance, en vigueur depuis le 20 mai 2026.*
 
 **La déclaration avec enregistrement.** Vous déclarez le logement sur le téléservice de la commune, qui délivre un numéro d'enregistrement de 13 caractères. Ce numéro doit figurer sur chaque annonce. Elle concerne les résidences secondaires comme les résidences principales.
 
-**La déclaration simple.** Elle se fait avec le formulaire Cerfa n° 14004, envoyé au maire par courrier recommandé avec accusé de réception. Elle indique votre identité, l'adresse du logement, le nombre de pièces et de lits, et les périodes de location prévues. D'après Service-Public.fr, ne pas la faire expose à une amende pouvant aller jusqu'à 450 €.
+**La déclaration simple.** Service-Public.fr la décrit encore : formulaire Cerfa n° 14004, envoyé au maire par courrier recommandé avec accusé de réception, avec votre identité, l'adresse du logement, le nombre de pièces et de lits, et les périodes de location prévues. Mais l'[article L324-1-1 du Code du tourisme](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000050623378), dans sa version en vigueur sur Légifrance, a supprimé cette déclaration simple : il prévoit une déclaration avec enregistrement pour tous, et une amende pouvant aller jusqu'à 10 000 € sans elle (au lieu de 450 € selon la fiche). Faites la démarche que la mairie vous indique, et gardez une trace écrite de sa réponse.
 
 **Et le téléservice national ?** La loi prévoit un enregistrement de tous les meublés de tourisme sur un téléservice national unique. [Service-Public.fr annonce sa mise en service pour le quatrième trimestre 2026](https://www.service-public.gouv.fr/particuliers/actualites/A18880). À la date de cet article, il n'est pas ouvert. Ce qu'il faut savoir :
 
