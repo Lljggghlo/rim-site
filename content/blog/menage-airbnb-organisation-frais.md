@@ -155,7 +155,7 @@ Le linge est souvent ce qui ralentit un ménage. Trois organisations existent : 
 | Linge du propriétaire, lavé en blanchisserie | Linge prêt à l'avance, ménage plus rapide | Il faut deux ou trois parures par lit et un circuit de dépôt et de retrait |
 | Linge loué et livré | Pas de lavage, qualité homogène | Dépendance au fournisseur, livraison à caler sur les réservations |
 
-![Armoire ouverte remplie de draps, couvertures et serviettes pliés](/images/blog/menage-airbnb-organisation-frais-1-1200.webp "Une réserve de linge pliée — Photo : Tangopaso, Public domain, via Wikimedia Commons")
+![Piles de serviettes blanches pliées avec soin sur un banc en bois](commons:File:Stacks-of-gym-towels-on-wood-bench.jpg "Du linge blanc, plié et compté avant chaque arrivée")
 
 Dans tous les cas, comptez les pièces à chaque passage. Une serviette tachée ou un drap abîmé se remplace avant l'arrivée suivante, pas après un commentaire.
 
