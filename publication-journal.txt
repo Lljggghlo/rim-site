@@ -1,6 +1,5 @@
-✔ Couverture menage-airbnb-organisation-frais : File:DSC 7517 Crisp white towels neatly rolled on a freshly made bed with patterned cushions and a colorful tiled headboard in the background.jpg (CC BY-SA 4.0, 18 ko)
-✔ Photo 1 de menage-airbnb-organisation-frais : File:Armoire avec linge de maison.jpg (Public domain)
-2 image(s) préparée(s).
+✔ Photo 1 de menage-airbnb-organisation-frais : File:Stacks-of-gym-towels-on-wood-bench.jpg (CC BY-SA 3.0)
+1 image(s) préparée(s).
 
 > build
 > node build/build.mjs
@@ -9,9 +8,7 @@
   Articles publiés : 8 · programmés : 1 → fin-contrat-conciergerie (2026-11-26)
   Villes : 25 · Témoignages vidéo publiés : 0
 ⚠ 1 point(s) à vérifier :
-  - Registre des dates (data/lastmod.json) à mettre à jour avec « npm run lastmod » : 5 page(s) modifiée(s), dont /, /blog, /blog/menage-airbnb-organisation-frais
-✔ airbnb-ou-location-longue-duree — 2784 mots, 8 parties, 9 liens internes, 16 sources (15 officielles)
-✔ demarches-mettre-logement-airbnb — 1936 mots, 8 parties, 12 liens internes, 9 sources (9 officielles)
+  - Registre des dates (data/lastmod.json) à mettre à jour avec « npm run lastmod » : 1 page(s) modifiée(s), dont /blog/menage-airbnb-organisation-frais
 ✔ menage-airbnb-organisation-frais — 2108 mots, 8 parties, 5 liens internes, 9 sources (1 officielles)
 
 > strict
@@ -21,13 +18,13 @@
   Articles publiés : 8 · programmés : 1 → fin-contrat-conciergerie (2026-11-26)
   Villes : 25 · Témoignages vidéo publiés : 0
 {
- "date": "2026-11-23T05:40:36.336Z",
+ "date": "2026-11-23T10:37:50.463Z",
  "ok": true,
  "pages_controlees": 52,
  "articles_en_ligne": 8,
- "jours_depuis_dernier_article": -1,
- "article_attendu": "/blog/menage-airbnb-organisation-frais",
- "article_en_ligne": true,
+ "jours_depuis_dernier_article": 0,
+ "article_attendu": null,
+ "article_en_ligne": null,
  "indexnow": {
   "envoyees": 16,
   "reponse": 200
