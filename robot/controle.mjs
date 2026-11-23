@@ -62,6 +62,12 @@ export function controler(slug, { strictDate = true } = {}) {
   const a = lire(slug);
   if (!a) return { slug, erreurs: [`fichier content/blog/${slug}.md introuvable`], avertissements: [] };
   const d = a.data, body = a.body;
+  // Milliers séparés par une espace : « 15 000 € », jamais « 15000 € » (hors blocs de code et graphiques, mis en forme au build)
+  {
+    const prose = String(body).replace(/```[\s\S]*?```/g, '');
+    const nb = [...new Set((prose.match(/(?<![\d\w.,/-])\d{4,}(?:,\d+)?(?=\s?(?:€|euros?\b|m²|nuits?\b|jours\b|voyageurs\b|logements\b|habitants\b))/g) || []))];
+    if (nb.length) E.push(`nombres à écrire avec une espace pour les milliers (ex. 15 000 €) : ${nb.join(', ')}`);
+  }
   const iso = (x) => (x instanceof Date ? x.toISOString().slice(0, 10) : String(x || '').slice(0, 10));
 
   // ---------- Adresse ----------

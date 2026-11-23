@@ -160,7 +160,7 @@ function barres(json) {
   const rows = Array.isArray(d.donnees) ? d.donnees.filter((r) => typeof r.valeur === 'number') : [];
   if (!rows.length) return '';
   const max = Math.max(...rows.map((r) => r.valeur)) || 1;
-  const fmt = (n) => String(n).replace('.', ',');
+  const fmt = (n) => n.toLocaleString('fr-FR', { maximumFractionDigits: 2 }).replace(/[\u202f\u00a0 ]/g, '\u00a0');
   return `<figure class="pbars">${d.titre ? `<figcaption class="pbars-t">${esc(d.titre)}</figcaption>` : ''}<dl>${rows
     .map((r) => `<div><dt>${esc(r.label)}</dt><dd><span class="pbar" style="--w:${Math.max(4, Math.round((r.valeur / max) * 100))}%"></span><b>${fmt(r.valeur)}${d.unite ? `&nbsp;${esc(d.unite)}` : ''}</b>${r.note ? `<small>${esc(r.note)}</small>` : ''}</dd></div>`)
     .join('')}</dl>${d.source ? `<p class="pbars-s">Source : ${esc(d.source)}</p>` : ''}</figure>`;

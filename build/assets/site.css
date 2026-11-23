@@ -1528,6 +1528,7 @@ svg.ab,.score-s,.proof svg,.btn-ab svg{flex:none;overflow:visible}
 .art-cta p{margin:0;color:var(--soft);font-size:15px}
 .art-cta .art-cta-t{font-weight:700;font-size:17px;color:var(--ink)}
 .art-cta .btn{flex:none}
+.prose a.btn,.art-cta a.btn{color:#fff;text-decoration:none}
 .art-src{margin:36px 0 0;padding:20px 22px;border-radius:20px;border:1px solid var(--line)}
 .art-src h2{margin:0 0 10px;font-size:1.05rem}
 .art-src ul{list-style:none;display:grid;gap:6px}

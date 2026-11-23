@@ -117,6 +117,7 @@ Dans cet ordre, en t'arrêtant quand le temps manque (note où tu t'es arrêté)
 - Honnête : dire ce qui ne marche pas, ce que nous ne faisons pas, quand la location longue durée est préférable. C'est ce qui distingue le blog des plaquettes des concurrents.
 - Le terrain : quand c'est vrai et utile, un encadré « Vu sur le terrain » s'appuie sur ce que Rim fait réellement (section 9) : protocole vidéo au ménage, prix ajustés chaque jour, annonces sur les comptes du propriétaire, loyers versés directement au propriétaire. Jamais de cas client inventé, jamais de chiffre de résultat.
 - Interdits de style : « dans cet article », « il est important de noter », « en conclusion », « n'hésitez pas », « incontournable », « véritable », superlatifs, questions rhétoriques en série, emojis, phrases en trois temps systématiques.
+- Nombres : une espace insécable sépare les milliers dès 1 000 (« 15 000 € », « 1 200 nuits », « 77 700 € »), dans le texte, les tableaux et les encadrés. Les graphiques ```barres reçoivent la valeur brute (77700) : le site ajoute l'espace. Années, codes postaux, numéros de Cerfa et d'articles de loi restent sans espace.
 - Vocabulaire : contrat de prestations (jamais « mandat »), changement d'usage, numéro d'enregistrement, rotation, recettes locatives nettes.
 
 ## 5. Gabarit d'un article
