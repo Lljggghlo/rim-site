@@ -1,11 +1,11 @@
 {
- "date": "2026-11-23T05:40:36.336Z",
+ "date": "2026-11-23T10:27:13.852Z",
  "ok": true,
  "pages_controlees": 52,
  "articles_en_ligne": 8,
- "jours_depuis_dernier_article": -1,
- "article_attendu": "/blog/menage-airbnb-organisation-frais",
- "article_en_ligne": true,
+ "jours_depuis_dernier_article": 0,
+ "article_attendu": null,
+ "article_en_ligne": null,
  "indexnow": {
   "envoyees": 16,
   "reponse": 200
