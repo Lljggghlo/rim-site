@@ -77,10 +77,11 @@
    "intention": "information",
    "priorite": 1,
    "angle": "Protocole vidéo horodatée avant et après, liste de contrôle, consommables, linge. Frais de ménage : qui paie quoi.",
-   "statut": "a_faire",
-   "slug": null,
-   "publie_le": null,
-   "volume": 2250
+   "statut": "publie",
+   "slug": "menage-airbnb-organisation-frais",
+   "publie_le": "2026-11-23",
+   "volume": 2250,
+   "note": "Angle retenu : nouvelle politique Airbnb « règlement intérieur raisonnable » (réservations à partir du 20/11/2026) + liste de contrôle, linge, preuve vidéo, frais de ménage. Aucun prix de ménage publié faute de source."
   },
   {
    "id": 4,

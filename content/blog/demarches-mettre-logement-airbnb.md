@@ -10,7 +10,7 @@ requete: démarches avant de mettre son logement sur Airbnb
 image_source: 'File:Immeuble_haussmannien_à_Paris_(52169315349).jpg'
 image_alt: 'Façade en pierre d''un immeuble haussmannien à Paris, avec ses balcons'
 verifie: 2026-11-15T00:00:00.000Z
-modif: 2026-11-22
+modif: 2026-11-23
 essentiel:
   - >-
     Tout part d'une question : le logement est-il votre résidence principale
@@ -189,6 +189,8 @@ Deux points se règlent avant le premier voyageur : prévenir votre assureur que
 L'annonce vient en dernier. Avant de la publier, la plateforme doit vous informer de vos obligations et vous demander une attestation sur l'honneur : vous y déclarez avoir fait les démarches préalables. Dans les communes à enregistrement, le numéro figure sur l'annonce.
 
 Dans ces communes, les plateformes ont l'obligation de retirer une annonce qui ne porte pas de numéro d'enregistrement. Si vous louez votre résidence principale, vous devez aussi le préciser à la plateforme.
+
+Le règlement intérieur de l'annonce compte aussi : pour les réservations faites depuis le 20 novembre 2026, Airbnb limite ce que vous pouvez demander au voyageur avant son départ. Nous le détaillons dans notre [guide du ménage Airbnb](/blog/menage-airbnb-organisation-frais).
 
 > [!TERRAIN] Avant de signer avec un propriétaire, nous reprenons cette liste avec lui, commune par commune. Les annonces sont ensuite créées sur ses propres comptes Airbnb et Booking, et les loyers lui sont versés directement par les plateformes.
 

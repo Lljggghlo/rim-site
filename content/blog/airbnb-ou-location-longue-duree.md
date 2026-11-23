@@ -12,7 +12,7 @@ image_alt: >-
   Toits en zinc d'immeubles parisiens, avec leurs lucarnes et leurs fenêtres de
   toit
 verifie: 2026-11-16T00:00:00.000Z
-modif: 2026-11-21
+modif: 2026-11-23
 essentiel:
   - >-
     Dans les communes à numéro d'enregistrement, une résidence principale ne se
@@ -192,7 +192,7 @@ En longue durée, une partie des dépenses courantes passe au locataire, directe
 | Ameublement | Aucun en bail vide ; mobilier minimum en meublé | Mobilier complet, plus le linge si vous le fournissez |
 | Votre temps, si vous gérez seul | Mise en location, états des lieux, suivi du bail | Messages, arrivées et ménages à organiser à chaque séjour |
 
-Le dernier poste ne figure sur aucune facture : à vous de lui donner un prix. Sur ce point, lisez notre comparaison entre [conciergerie Airbnb et gestion en solo](/blog/conciergerie-airbnb-ou-gerer-seul).
+Le dernier poste ne figure sur aucune facture : à vous de lui donner un prix. Sur ce point, lisez notre comparaison entre [conciergerie Airbnb et gestion en solo](/blog/conciergerie-airbnb-ou-gerer-seul). Pour le ménage et le linge, voyez notre [guide du ménage Airbnb](/blog/menage-airbnb-organisation-frais).
 
 > [!TERRAIN] Nous ajustons les prix chaque jour avec un outil de tarification dynamique, et c'est vous qui fixez le prix plancher. Refaites le calcul du seuil avec ce prix plancher à la place du prix moyen : vous obtenez votre hypothèse basse. Les annonces restent sur vos comptes Airbnb et Booking, et les plateformes vous versent les loyers directement.
 
