@@ -1,45 +1,94 @@
 ---
-title: "Ménage Airbnb : organisation, contrôle, frais et nouvelles règles de départ"
-seo_title: "Ménage Airbnb : organisation et frais | Rim Conciergerie"
-description: "Ménage Airbnb : ce que le voyageur ne fait plus depuis le 20/11/2026, la liste de contrôle d'une rotation, le linge, la preuve vidéo et les frais."
-date: 2026-11-23
-categorie: "Gestion"
-requete: "ménage Airbnb"
-image_source: "File:DSC 7517 Crisp white towels neatly rolled on a freshly made bed with patterned cushions and a colorful tiled headboard in the background.jpg"
-image_alt: "Serviettes blanches roulées et posées au milieu d'un lit fraîchement fait"
-verifie: 2026-11-23
+title: 'Ménage Airbnb : organisation, contrôle, frais et nouvelles règles de départ'
+seo_title: 'Ménage Airbnb : organisation et frais | Rim Conciergerie'
+description: >-
+  Ménage Airbnb : ce que le voyageur ne fait plus depuis le 20/11/2026, la liste
+  de contrôle d'une rotation, le linge, la preuve vidéo et les frais.
+date: 2026-11-23T00:00:00.000Z
+categorie: Gestion
+requete: ménage Airbnb
+image_source: >-
+  File:DSC 7517 Crisp white towels neatly rolled on a freshly made bed with
+  patterned cushions and a colorful tiled headboard in the background.jpg
+image_alt: Serviettes blanches roulées et posées au milieu d'un lit fraîchement fait
+verifie: 2026-11-23T00:00:00.000Z
 essentiel:
-  - "Pour les réservations faites depuis le 20 novembre 2026, Airbnb interdit de demander aux voyageurs de laver la vaisselle, de retirer les draps ou d'aller déposer les poubelles ailleurs."
-  - "Le voyageur peut encore mettre la vaisselle dans l'évier, rassembler les serviettes et trier ses déchets dans les poubelles du logement : le reste revient à l'équipe de ménage."
-  - "Les frais de ménage sont fixés par l'hôte, comptés dans le prix total, et soumis aux frais de service d'Airbnb comme le prix des nuits."
-  - "Un ménage se contrôle à distance par une preuve datée de l'état du logement, avant et après chaque passage : c'est aussi la pièce clé en cas de dégât."
-  - "Relisez dès maintenant le règlement intérieur de votre annonce : Airbnb vérifie les annonces jusqu'à fin mars 2027 et laisse au moins 20 jours pour corriger."
+  - >-
+    Pour les réservations faites depuis le 20 novembre 2026, Airbnb interdit de
+    demander aux voyageurs de laver la vaisselle, de retirer les draps ou
+    d'aller déposer les poubelles ailleurs.
+  - >-
+    Le voyageur peut encore mettre la vaisselle dans l'évier, rassembler les
+    serviettes et trier ses déchets dans les poubelles du logement : le reste
+    revient à l'équipe de ménage.
+  - >-
+    Les frais de ménage sont fixés par l'hôte, comptés dans le prix total, et
+    soumis aux frais de service d'Airbnb comme le prix des nuits.
+  - >-
+    Un ménage se contrôle à distance par une preuve datée de l'état du logement,
+    avant et après chaque passage : c'est aussi la pièce clé en cas de dégât.
+  - >-
+    Relisez dès maintenant le règlement intérieur de votre annonce : Airbnb
+    vérifie les annonces jusqu'à fin mars 2027 et laisse au moins 20 jours pour
+    corriger.
 sources:
-  - nom: "Airbnb — Politique « Règlement intérieur raisonnable » (réservations à partir du 20/11/2026)"
-    url: "https://www.airbnb.fr/help/article/4168"
-  - nom: "Airbnb — Changements importants apportés au règlement intérieur (20/10/2026, mis à jour le 03/11/2026)"
-    url: "https://www.airbnb.fr/resources/hosting-homes/a/important-changes-to-house-rules-21"
-  - nom: "Airbnb — Ajoutez des frais de ménage aux annonces de logements"
-    url: "https://www.airbnb.fr/help/article/58"
-  - nom: "Airbnb — Frais de ménage (remboursement en cas d'annulation)"
-    url: "https://www.airbnb.fr/help/article/2812"
-  - nom: "Airbnb — Tout ce que vous devez savoir sur les frais de ménage"
-    url: "https://www.airbnb.fr/resources/hosting-homes/a/everything-you-need-to-know-about-cleaning-fees-470"
-  - nom: "Airbnb — Combien Airbnb facture-t-il aux hôtes ? (frais uniques de 15,5 %)"
-    url: "https://www.airbnb.fr/resources/hosting-homes/a/how-much-does-airbnb-charge-hosts-288"
-  - nom: "Airbnb — Frais de service Airbnb"
-    url: "https://www.airbnb.fr/help/article/1857"
-  - nom: "Booking.com for Partners — Gérer les frais de service et de ménage (Additional fees & charges)"
-    url: "https://partner.booking.com/en-us/help/property-guest-experience/policies-services-amenities/managing-my-services-charges"
-  - nom: "BOFiP — BOI-IR-RICI-150-10, crédit d'impôt pour l'emploi d'un salarié à domicile, champ d'application"
-    url: "https://bofip.impots.gouv.fr/bofip/3971-PGP.html/identifiant=BOI-IR-RICI-150-10-20260812"
+  - nom: >-
+      Airbnb — Politique « Règlement intérieur raisonnable » (réservations à
+      partir du 20/11/2026)
+    url: 'https://www.airbnb.fr/help/article/4168'
+  - nom: >-
+      Airbnb — Changements importants apportés au règlement intérieur
+      (20/10/2026, mis à jour le 03/11/2026)
+    url: >-
+      https://www.airbnb.fr/resources/hosting-homes/a/important-changes-to-house-rules-21
+  - nom: Airbnb — Ajoutez des frais de ménage aux annonces de logements
+    url: 'https://www.airbnb.fr/help/article/58'
+  - nom: Airbnb — Frais de ménage (remboursement en cas d'annulation)
+    url: 'https://www.airbnb.fr/help/article/2812'
+  - nom: Airbnb — Tout ce que vous devez savoir sur les frais de ménage
+    url: >-
+      https://www.airbnb.fr/resources/hosting-homes/a/everything-you-need-to-know-about-cleaning-fees-470
+  - nom: 'Airbnb — Combien Airbnb facture-t-il aux hôtes ? (frais uniques de 15,5 %)'
+    url: >-
+      https://www.airbnb.fr/resources/hosting-homes/a/how-much-does-airbnb-charge-hosts-288
+  - nom: Airbnb — Frais de service Airbnb
+    url: 'https://www.airbnb.fr/help/article/1857'
+  - nom: >-
+      Booking.com for Partners — Gérer les frais de service et de ménage
+      (Additional fees & charges)
+    url: >-
+      https://partner.booking.com/en-us/help/property-guest-experience/policies-services-amenities/managing-my-services-charges
+  - nom: >-
+      BOFiP — BOI-IR-RICI-150-10, crédit d'impôt pour l'emploi d'un salarié à
+      domicile, champ d'application
+    url: >-
+      https://bofip.impots.gouv.fr/bofip/3971-PGP.html/identifiant=BOI-IR-RICI-150-10-20260812
 faq:
-  - q: "Les frais de ménage sont-ils remboursés si le voyageur annule ?"
-    a: "Sur Airbnb, oui en totalité si le voyageur annule pendant la période d'annulation gratuite de la réservation. En dehors de cette période, les frais de ménage sont traités comme le prix des nuits et remboursés selon vos conditions d'annulation. Une fois le séjour terminé, ils ne sont pas remboursés."
-  - q: "Peut-on facturer au voyageur un ménage supplémentaire s'il laisse le logement très sale ?"
-    a: "Pas sous forme d'amende : la politique d'Airbnb interdit en règle générale les amendes et pénalités dans le règlement intérieur. Pour un nettoyage imprévu, comme des taches ou une odeur de tabac, Airbnb indique que la garantie dommages des hôtes, comprise dans AirCover, peut rembourser certains frais. Il faut alors des photos ou une vidéo de l'état du logement."
-  - q: "Peut-on baisser les frais de ménage pour les séjours d'une ou deux nuits ?"
-    a: "Oui. Airbnb propose des frais de ménage spécifiques aux séjours d'une ou deux nuits, inférieurs aux frais standards appliqués aux séjours plus longs. Le montant retenu dépend de la durée réservée. Pour une réservation modifiée, vérifiez que les bons frais s'appliquent aux nouvelles dates."
+  - q: Les frais de ménage sont-ils remboursés si le voyageur annule ?
+    a: >-
+      Sur Airbnb, oui en totalité si le voyageur annule pendant la période
+      d'annulation gratuite de la réservation. En dehors de cette période, les
+      frais de ménage sont traités comme le prix des nuits et remboursés selon
+      vos conditions d'annulation. Une fois le séjour terminé, ils ne sont pas
+      remboursés.
+  - q: >-
+      Peut-on facturer au voyageur un ménage supplémentaire s'il laisse le
+      logement très sale ?
+    a: >-
+      Pas sous forme d'amende : la politique d'Airbnb interdit en règle générale
+      les amendes et pénalités dans le règlement intérieur. Pour un nettoyage
+      imprévu, comme des taches ou une odeur de tabac, Airbnb indique que la
+      garantie dommages des hôtes, comprise dans AirCover, peut rembourser
+      certains frais. Il faut alors des photos ou une vidéo de l'état du
+      logement.
+  - q: Peut-on baisser les frais de ménage pour les séjours d'une ou deux nuits ?
+    a: >-
+      Oui. Airbnb propose des frais de ménage spécifiques aux séjours d'une ou
+      deux nuits, inférieurs aux frais standards appliqués aux séjours plus
+      longs. Le montant retenu dépend de la durée réservée. Pour une réservation
+      modifiée, vérifiez que les bons frais s'appliquent aux nouvelles dates.
+image: /images/blog/menage-airbnb-organisation-frais-1200.webp
+image_credit: 'PattayaPatrol, CC BY-SA 4.0, via Wikimedia Commons'
 ---
 Le ménage Airbnb est la tâche qui revient le plus souvent dans une location courte durée : un passage à chaque départ, dans un délai serré, avec un résultat que le voyageur suivant note sur cinq étoiles. Depuis le 20 novembre 2026, Airbnb a aussi fixé ce qu'on peut encore demander au voyageur avant son départ. Voici les nouvelles règles, la liste de contrôle d'une rotation, les options pour le linge, la manière de contrôler un ménage à distance et le fonctionnement des frais de ménage.
 
@@ -106,7 +155,7 @@ Le linge est souvent ce qui ralentit un ménage. Trois organisations existent : 
 | Linge du propriétaire, lavé en blanchisserie | Linge prêt à l'avance, ménage plus rapide | Il faut deux ou trois parures par lit et un circuit de dépôt et de retrait |
 | Linge loué et livré | Pas de lavage, qualité homogène | Dépendance au fournisseur, livraison à caler sur les réservations |
 
-![Armoire ouverte remplie de draps, couvertures et serviettes pliés](commons:File:Armoire_avec_linge_de_maison.jpg "Une réserve de linge pliée")
+![Armoire ouverte remplie de draps, couvertures et serviettes pliés](/images/blog/menage-airbnb-organisation-frais-1-1200.webp "Une réserve de linge pliée — Photo : Tangopaso, Public domain, via Wikimedia Commons")
 
 Dans tous les cas, comptez les pièces à chaque passage. Une serviette tachée ou un drap abîmé se remplace avant l'arrivée suivante, pas après un commentaire.
 
