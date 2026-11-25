@@ -1,34 +1,40 @@
-✔ Photo 1 de menage-airbnb-organisation-frais : File:Stacks-of-gym-towels-on-wood-bench.jpg (CC BY-SA 3.0)
+✔ Couverture fiscalite-airbnb-micro-bic-reel : File:Palais du Luxembourg, South View 140116 1.jpg (CC BY-SA 3.0, 149 ko)
 1 image(s) préparée(s).
 
 > build
 > node build/build.mjs
 
-✔ Site généré dans dist/ : 56 pages HTML, 52 dans le sitemap (2026-11-23).
-  Articles publiés : 8 · programmés : 1 → fin-contrat-conciergerie (2026-11-26)
+✔ Site généré dans dist/ : 57 pages HTML, 53 dans le sitemap (2026-11-25).
+  Articles publiés : 9 · programmés : 1 → fin-contrat-conciergerie (2026-11-26)
   Villes : 25 · Témoignages vidéo publiés : 0
-⚠ 1 point(s) à vérifier :
-  - Registre des dates (data/lastmod.json) à mettre à jour avec « npm run lastmod » : 1 page(s) modifiée(s), dont /blog/menage-airbnb-organisation-frais
-✔ menage-airbnb-organisation-frais — 2108 mots, 8 parties, 5 liens internes, 9 sources (1 officielles)
+⚠ 10 point(s) à vérifier :
+  - Registre des dates (data/lastmod.json) à mettre à jour avec « npm run lastmod » : 6 page(s) modifiée(s), dont /, /blog, /blog/theme/reglementation
+  - Mot à vérifier « élève » sur /
+  - Mot à vérifier « élève » sur /blog
+  - Mot à vérifier « élève » sur /blog/fiscalite-airbnb-micro-bic-reel
+  - Mot à vérifier « élève » sur /blog/menage-airbnb-organisation-frais
+  - Mot à vérifier « élève » sur /blog/loi-le-meur-ce-qui-change
+  - Mot à vérifier « élève » sur /blog/airbnb-ou-location-longue-duree
+  - Mot à vérifier « élève » sur /blog/demarches-mettre-logement-airbnb
+  - Mot à vérifier « élève » sur /blog/degats-voyageur-aircover-booking
+  - Mot à vérifier « élève » sur /blog/conciergerie-airbnb-ou-gerer-seul
+✔ demarches-mettre-logement-airbnb — 1952 mots, 8 parties, 13 liens internes, 9 sources (9 officielles)
+✔ fiscalite-airbnb-micro-bic-reel — 2366 mots, 8 parties, 6 liens internes, 10 sources (10 officielles)
+✔ loi-le-meur-ce-qui-change — 2589 mots, 8 parties, 8 liens internes, 11 sources (11 officielles)
 
 > strict
 > STRICT=1 node build/build.mjs
 
-✔ Site généré dans dist/ : 56 pages HTML, 52 dans le sitemap (2026-11-23).
-  Articles publiés : 8 · programmés : 1 → fin-contrat-conciergerie (2026-11-26)
+✔ Site généré dans dist/ : 57 pages HTML, 53 dans le sitemap (2026-11-25).
+  Articles publiés : 9 · programmés : 1 → fin-contrat-conciergerie (2026-11-26)
   Villes : 25 · Témoignages vidéo publiés : 0
-{
- "date": "2026-11-23T10:37:50.463Z",
- "ok": true,
- "pages_controlees": 52,
- "articles_en_ligne": 8,
- "jours_depuis_dernier_article": 0,
- "article_attendu": null,
- "article_en_ligne": null,
- "indexnow": {
-  "envoyees": 16,
-  "reponse": 200
- },
- "erreurs": [],
- "avertissements": []
-}
+⚠ 9 point(s) à vérifier :
+  - Mot à vérifier « élève » sur /
+  - Mot à vérifier « élève » sur /blog
+  - Mot à vérifier « élève » sur /blog/fiscalite-airbnb-micro-bic-reel
+  - Mot à vérifier « élève » sur /blog/menage-airbnb-organisation-frais
+  - Mot à vérifier « élève » sur /blog/loi-le-meur-ce-qui-change
+  - Mot à vérifier « élève » sur /blog/airbnb-ou-location-longue-duree
+  - Mot à vérifier « élève » sur /blog/demarches-mettre-logement-airbnb
+  - Mot à vérifier « élève » sur /blog/degats-voyageur-aircover-booking
+  - Mot à vérifier « élève » sur /blog/conciergerie-airbnb-ou-gerer-seul
