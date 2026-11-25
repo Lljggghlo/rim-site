@@ -1,7 +1,7 @@
 {
- "date": "2026-11-25T05:47:09Z",
- "ok": false,
+ "date": "2026-11-25T05:49:09Z",
+ "ok": true,
  "branche": "publication/fiscalite-airbnb-micro-bic-reel",
- "article": "",
- "execution": "https://github.com/Lljggghlo/rim-site/actions/runs/45555940480"
+ "article": "fiscalite-airbnb-micro-bic-reel",
+ "execution": "https://github.com/Lljggghlo/rim-site/actions/runs/45556107661"
 }
