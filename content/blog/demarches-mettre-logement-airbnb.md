@@ -174,7 +174,7 @@ Vos recettes relèvent ensuite, par défaut, du régime micro-BIC, tant qu'elles
 
 Au-delà du plafond, vous passez au régime réel, où vous déduisez vos charges réelles. Les plateformes vous envoient chaque année, en janvier, un relevé du montant brut de vos transactions : gardez-le pour votre déclaration.
 
-> [!CONSEIL] Le choix entre micro-BIC et régime réel dépend de vos charges et de vos autres revenus. Pour un cas particulier, voyez le service des impôts ou un expert-comptable : nous ne donnons pas de conseil fiscal. Notre guide de la [fiscalité Airbnb](/blog/fiscalite-airbnb-micro-bic-reel) détaille les deux régimes, les prélèvements sociaux et la CFE.
+> [!CONSEIL] Le choix entre micro-BIC et régime réel dépend de vos charges et de vos autres revenus. Pour un cas particulier, voyez le service des impôts ou un expert-comptable : nous ne donnons pas de conseil fiscal. Notre guide de la [fiscalité Airbnb](/blog/fiscalite-airbnb-micro-bic-reel) détaille les deux régimes, les contributions sociales et la CFE.
 
 ## Étape 5 : assurance et taxe de séjour
 

@@ -1,7 +1,7 @@
 ---
 title: "Fiscalité Airbnb en 2026 : micro-BIC, régime réel et ce qui a changé"
 seo_title: "Fiscalité Airbnb 2026 : micro-BIC ou réel | Rim Conciergerie"
-description: "Fiscalité Airbnb : plafonds 2025 et 2026, abattement de 30 % ou 50 %, régime réel, prélèvements sociaux, CFE et budget 2027, vérifiés à la source."
+description: "Fiscalité Airbnb : plafonds 2025 et 2026, abattement de 30 % ou 50 %, régime réel, contributions sociales, CFE et budget 2027, vérifiés à la source."
 date: 2026-11-25
 categorie: "Fiscalité"
 requete: "fiscalité Airbnb"
@@ -9,7 +9,7 @@ image_source: "File:Palais_du_Luxembourg,_South_View_140116_1.jpg"
 image_alt: "Façade sud du palais du Luxembourg, siège du Sénat, vue depuis le jardin, à Paris"
 verifie: 2026-11-25
 essentiel:
-  - "Les loyers d'un meublé de tourisme sont des bénéfices industriels et commerciaux (BIC), imposés au barème de l'impôt sur le revenu et soumis aux prélèvements sociaux."
+  - "Les loyers d'un meublé de tourisme sont des bénéfices industriels et commerciaux (BIC), imposés au barème de l'impôt sur le revenu et soumis aux contributions sociales."
   - "Micro-BIC : 15 000 € de recettes au plus et 30 % d'abattement pour un meublé non classé ; 50 % d'abattement pour un meublé classé, avec un plafond de 77 700 € pour les revenus de 2025 et de 83 600 € pour ceux de 2026."
   - "Au-delà du plafond, après une éventuelle année de tolérance, le régime réel s'applique : charges et amortissement déductibles, comptabilité et déclaration n° 2031 obligatoires."
   - "Au-delà de 23 000 € de recettes, des cotisations sociales s'ajoutent. La CFE peut être due, sauf exonération."
@@ -23,7 +23,7 @@ sources:
     url: "https://www.service-public.gouv.fr/particuliers/actualites/A18880"
   - nom: "Service-Public.fr — Cotisations sociales et location d'un meublé (vérifié le 20 février 2026)"
     url: "https://www.service-public.gouv.fr/particuliers/vosdroits/F34102"
-  - nom: "Service-Public.fr — Prélèvements sociaux sur les revenus du patrimoine (vérifié le 30 juin 2026)"
+  - nom: "Service-Public.fr — CSG, CRDS et contributions sociales sur les revenus du patrimoine (vérifié le 30 juin 2026)"
     url: "https://www.service-public.gouv.fr/particuliers/vosdroits/F2329"
   - nom: "impots.gouv.fr — Location meublée et CFE (modifié le 8 juillet 2026)"
     url: "https://www.impots.gouv.fr/particulier/questions/je-fais-de-la-location-meublee-dois-je-payer-de-la-cfe-cotisation-fonciere-des"
@@ -40,16 +40,16 @@ faq:
     a: "Oui, pour un logement entier. Service-Public.fr cite l'exemple d'un appartement loué pendant un week-end : ces recettes sont des revenus de location meublée à déclarer. Seule la location de pièces de votre résidence principale peut, sous conditions, en être dispensée. Au micro-BIC, aucun impôt n'est dû si les recettes de l'année restent inférieures à 305 €, mais la déclaration reste à faire."
   - q: "Airbnb transmet-il mes revenus aux impôts ?"
     a: "Oui. Pour les opérations réalisées depuis 2025, un dispositif européen, qui remplace celui en place en France depuis 2020, impose aux plateformes établies dans l'Union européenne d'envoyer à chaque loueur, avant le 31 janvier, un récapitulatif de l'année (nombre d'opérations, montant net perçu, frais et taxes prélevés) et de transmettre les mêmes informations à l'administration fiscale. Les montants peuvent apparaître dans votre parcours de déclaration en ligne, mais c'est à vous de vérifier ce qui est imposable et de le déclarer, même s'ils n'y figurent pas."
-  - q: "Quel est le taux des prélèvements sociaux sur les revenus d'un meublé de tourisme ?"
-    a: "Service-Public.fr donne 18,6 % pour le cas général des revenus du patrimoine (CSG 10,6 %, CRDS 0,5 %, prélèvement de solidarité 7,5 %), après la loi de financement de la sécurité sociale pour 2026. Seuls les revenus fonciers d'une location vide et les plus-values immobilières restent à 17,2 %. Les prélèvements figurent sur l'avis d'imposition."
+  - q: "Quel est le taux de CSG et de CRDS sur les revenus d'un meublé de tourisme ?"
+    a: "Service-Public.fr donne 18,6 % pour le cas général des revenus du patrimoine (CSG 10,6 %, CRDS 0,5 % et 7,5 % au titre de la solidarité), après la loi de financement de la sécurité sociale pour 2026. Seuls les revenus fonciers d'une location vide et les plus-values immobilières restent à 17,2 %. Ces contributions figurent sur l'avis d'imposition."
   - q: "Faut-il un numéro SIRET pour louer sur Airbnb ?"
     a: "Oui. Service-Public.fr indique que tout loueur en meublé, professionnel ou non, déclare le début de son activité sur le guichet des formalités des entreprises dans les 15 jours qui suivent la première location. La démarche est gratuite et donne un numéro SIRET à reporter sur la déclaration de revenus."
 ---
-La fiscalité Airbnb a changé avec la loi Le Meur : depuis les revenus de 2025, un meublé de tourisme non classé n'a plus droit qu'à 30 % d'abattement, jusqu'à 15 000 € de recettes. Le classement, le régime réel, les prélèvements sociaux et la CFE pèsent autant que le choix de la plateforme. Voici les règles en vigueur, lues aujourd'hui sur Service-Public.fr et impots.gouv.fr, avec un exemple chiffré et l'état du budget 2027.
+La fiscalité Airbnb a changé avec la loi Le Meur : depuis les revenus de 2025, un meublé de tourisme non classé n'a plus droit qu'à 30 % d'abattement, jusqu'à 15 000 € de recettes. Le classement, le régime réel, les contributions sociales et la CFE pèsent autant que le choix de la plateforme. Voici les règles en vigueur, lues aujourd'hui sur Service-Public.fr et impots.gouv.fr, avec un exemple chiffré et l'état du budget 2027.
 
 ## Fiscalité Airbnb : comment sont imposés les loyers d'un meublé de tourisme ?
 
-Les loyers d'un meublé de tourisme sont des bénéfices industriels et commerciaux (BIC). Ils s'ajoutent à vos autres revenus et sont imposés au barème progressif de l'impôt sur le revenu, puis soumis aux prélèvements sociaux. Le montant dépend de deux choix : le régime (micro-BIC ou réel) et le statut du logement (classé ou non).
+Les loyers d'un meublé de tourisme sont des bénéfices industriels et commerciaux (BIC). Ils s'ajoutent à vos autres revenus et sont imposés au barème progressif de l'impôt sur le revenu, puis soumis aux contributions sociales (CSG, CRDS et solidarité), à ne pas confondre avec les cotisations sociales de l'Urssaf. Le montant dépend de deux choix : le régime (micro-BIC ou réel) et le statut du logement (classé ou non).
 
 La plupart des propriétaires sont « loueurs en meublé non professionnels » (LMNP). [Service-Public.fr](https://www.service-public.gouv.fr/particuliers/vosdroits/F32744) retient ce statut dès qu'une condition est remplie : les recettes du foyer fiscal restent sous 23 000 € par an, ou elles restent inférieures aux autres revenus d'activité du foyer (salaires, par exemple).
 
@@ -94,10 +94,10 @@ Pour un même montant de recettes, le classement réduit la base imposable de pl
 | Abattement forfaitaire | 3 600 € (30 %) | 6 000 € (50 %) |
 | Bénéfice imposable | 8 400 € | 6 000 € |
 | Impôt sur le revenu à 30 % (exemple) | 2 520 € | 1 800 € |
-| Prélèvements sociaux à 18,6 % | 1 562 € | 1 116 € |
+| CSG, CRDS et solidarité à 18,6 % | 1 562 € | 1 116 € |
 | Total de l'exemple | 4 082 € | 2 916 € |
 
-Le calcul s'appuie sur les abattements de Service-Public.fr et sur le taux des prélèvements sociaux publié dans sa fiche sur les revenus du patrimoine. Il ne tient pas compte de la CSG déductible ni du quotient familial, qui modifient le résultat. Avec 18 000 € de recettes, l'exemple ne tient plus : le meublé non classé dépasse 15 000 € et bascule au réel, à la tolérance d'un an près.
+Le calcul s'appuie sur les abattements de Service-Public.fr et sur le taux des contributions sociales publié dans sa fiche sur les revenus du patrimoine. Il ne tient pas compte de la CSG déductible ni du quotient familial, qui modifient le résultat. Avec 18 000 € de recettes, l'exemple ne tient plus : le meublé non classé dépasse 15 000 € et bascule au réel, à la tolérance d'un an près.
 
 Cet écart ne dit rien de la rentabilité du logement. Pour comparer la courte et la longue durée, charges et vacance comprises, voyez notre méthode pour [choisir entre Airbnb et location longue durée](/blog/airbnb-ou-location-longue-duree).
 
@@ -119,19 +119,19 @@ L'option se reconduit tacitement chaque année, sauf renonciation. Selon Service
 
 > [!TERRAIN] Avec Rim Conciergerie, les annonces sont publiées sur les comptes Airbnb et Booking du propriétaire et les loyers lui sont versés directement par les plateformes. Les recettes à déclarer sont donc celles de vos relevés. Au réel, nos factures de prestations peuvent figurer parmi vos justificatifs de charges ; au micro-BIC, elles ne se déduisent pas.
 
-## Cotisations sociales, prélèvements sociaux et CFE
+## Cotisations sociales, CSG et CFE
 
-L'impôt sur le revenu n'est pas le seul prélèvement. Selon Service-Public.fr, les prélèvements sociaux s'appliquent au bénéfice, les cotisations sociales s'ajoutent au-delà de 23 000 € de recettes, et la CFE dépend de la situation du logement. Ces trois lignes se calculent sur des bases différentes et ne se compensent pas entre elles.
+L'impôt sur le revenu n'est pas la seule ligne à payer. Selon Service-Public.fr, les contributions sociales s'appliquent au bénéfice, les cotisations sociales s'ajoutent au-delà de 23 000 € de recettes, et la CFE dépend de la situation du logement. Ces trois lignes se calculent sur des bases différentes et ne se compensent pas entre elles.
 
 | Recettes annuelles (revenus de 2026) | Meublé de tourisme non classé | Meublé de tourisme classé |
 | --- | --- | --- |
-| Jusqu'à 15 000 € | Micro-BIC possible, prélèvements sociaux, pas de cotisations sociales | Micro-BIC possible, prélèvements sociaux, pas de cotisations sociales |
-| De 15 000 € à 23 000 € | Régime réel, prélèvements sociaux, pas de cotisations sociales | Micro-BIC possible, prélèvements sociaux, pas de cotisations sociales |
+| Jusqu'à 15 000 € | Micro-BIC possible, CSG et CRDS, pas de cotisations sociales | Micro-BIC possible, CSG et CRDS, pas de cotisations sociales |
+| De 15 000 € à 23 000 € | Régime réel, CSG et CRDS, pas de cotisations sociales | Micro-BIC possible, CSG et CRDS, pas de cotisations sociales |
 | Plus de 23 000 € | Régime réel, cotisations sociales au régime des travailleurs indépendants | Cotisations sociales : micro-entrepreneur, ou régime général sur option, si les recettes de 2024 ou de 2025 n'ont pas dépassé 77 700 € ; sinon, travailleur indépendant |
 
 Ce tableau reprend la [fiche de Service-Public.fr sur les cotisations sociales des loueurs en meublé](https://www.service-public.gouv.fr/particuliers/vosdroits/F34102). Au-delà de 23 000 €, l'activité est traitée comme professionnelle par l'Urssaf. Pour les revenus de 2025, la fiche laisse trois régimes au choix au-delà de ce seuil, que le meublé soit classé ou non : micro-entrepreneur, travailleur indépendant ou régime général.
 
-**Les prélèvements sociaux.** La [fiche de Service-Public.fr sur les revenus du patrimoine](https://www.service-public.gouv.fr/particuliers/vosdroits/F2329) donne un taux de 18,6 % pour le cas général des revenus du patrimoine, après la hausse de CSG votée dans la loi de financement de la sécurité sociale pour 2026. Seuls les revenus fonciers d'une location vide et les plus-values immobilières y restent à 17,2 % ; pour les non-résidents, la fiche cite expressément la location meublée non professionnelle à 18,6 %.
+**La CSG et la CRDS.** La [fiche de Service-Public.fr sur les revenus du patrimoine](https://www.service-public.gouv.fr/particuliers/vosdroits/F2329) donne un taux de 18,6 % pour le cas général des revenus du patrimoine, après la hausse de CSG votée dans la loi de financement de la sécurité sociale pour 2026. Seuls les revenus fonciers d'une location vide et les plus-values immobilières y restent à 17,2 % ; pour les non-résidents, la fiche cite expressément la location meublée non professionnelle à 18,6 %.
 
 **La CFE.** D'après [impots.gouv.fr](https://www.impots.gouv.fr/particulier/questions/je-fais-de-la-location-meublee-dois-je-payer-de-la-cfe-cotisation-fonciere-des), la location meublée est par nature une activité commerciale soumise à la cotisation foncière des entreprises, même pour un particulier. Deux exonérations comptent pour un propriétaire Airbnb :
 
