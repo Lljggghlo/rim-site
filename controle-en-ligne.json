@@ -1,11 +1,11 @@
 {
- "date": "2026-11-25T05:49:09.515Z",
+ "date": "2026-11-25T17:37:35.612Z",
  "ok": true,
  "pages_controlees": 53,
  "articles_en_ligne": 9,
- "jours_depuis_dernier_article": -1,
- "article_attendu": "/blog/fiscalite-airbnb-micro-bic-reel",
- "article_en_ligne": true,
+ "jours_depuis_dernier_article": 0,
+ "article_attendu": null,
+ "article_en_ligne": null,
  "indexnow": {
   "envoyees": 8,
   "reponse": 200
