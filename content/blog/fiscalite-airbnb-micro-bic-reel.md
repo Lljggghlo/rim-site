@@ -1,49 +1,113 @@
 ---
-title: "Fiscalité Airbnb en 2026 : micro-BIC, régime réel et ce qui a changé"
-seo_title: "Fiscalité Airbnb 2026 : micro-BIC ou réel | Rim Conciergerie"
-description: "Fiscalité Airbnb : plafonds 2025 et 2026, abattement de 30 % ou 50 %, régime réel, contributions sociales, CFE et budget 2027, vérifiés à la source."
-date: 2026-11-25
-categorie: "Fiscalité"
-requete: "fiscalité Airbnb"
-image_source: "File:Palais_du_Luxembourg,_South_View_140116_1.jpg"
-image_alt: "Façade sud du palais du Luxembourg, siège du Sénat, vue depuis le jardin, à Paris"
-verifie: 2026-11-25
+title: 'Fiscalité Airbnb en 2026 : micro-BIC, régime réel et ce qui a changé'
+seo_title: 'Fiscalité Airbnb 2026 : micro-BIC ou réel | Rim Conciergerie'
+description: >-
+  Fiscalité Airbnb : plafonds 2025 et 2026, abattement de 30 % ou 50 %, régime
+  réel, contributions sociales, CFE et budget 2027, vérifiés à la source.
+date: 2026-11-25T00:00:00.000Z
+categorie: Fiscalité
+requete: fiscalité Airbnb
+image_source: 'File:Palais_du_Luxembourg,_South_View_140116_1.jpg'
+image_alt: >-
+  Façade sud du palais du Luxembourg, siège du Sénat, vue depuis le jardin, à
+  Paris
+verifie: 2026-11-25T00:00:00.000Z
 essentiel:
-  - "Les loyers d'un meublé de tourisme sont des bénéfices industriels et commerciaux (BIC), imposés au barème de l'impôt sur le revenu et soumis aux contributions sociales."
-  - "Micro-BIC : 15 000 € de recettes au plus et 30 % d'abattement pour un meublé non classé ; 50 % d'abattement pour un meublé classé, avec un plafond de 77 700 € pour les revenus de 2025 et de 83 600 € pour ceux de 2026."
-  - "Au-delà du plafond, après une éventuelle année de tolérance, le régime réel s'applique : charges et amortissement déductibles, comptabilité et déclaration n° 2031 obligatoires."
-  - "Au-delà de 23 000 € de recettes, des cotisations sociales s'ajoutent. La CFE peut être due, sauf exonération."
-  - "Le budget 2027 est encore en discussion au Parlement : rien ne change tant que la loi n'est pas publiée. Pour votre cas, voyez votre service des impôts ou un expert-comptable."
+  - >-
+    Les loyers d'un meublé de tourisme sont des bénéfices industriels et
+    commerciaux (BIC), imposés au barème de l'impôt sur le revenu et soumis aux
+    contributions sociales.
+  - >-
+    Micro-BIC : 15 000 € de recettes au plus et 30 % d'abattement pour un meublé
+    non classé ; 50 % d'abattement pour un meublé classé, avec un plafond de 77
+    700 € pour les revenus de 2025 et de 83 600 € pour ceux de 2026.
+  - >-
+    Au-delà du plafond, après une éventuelle année de tolérance, le régime réel
+    s'applique : charges et amortissement déductibles, comptabilité et
+    déclaration n° 2031 obligatoires.
+  - >-
+    Au-delà de 23 000 € de recettes, des cotisations sociales s'ajoutent. La CFE
+    peut être due, sauf exonération.
+  - >-
+    Le budget 2027 est encore en discussion au Parlement : rien ne change tant
+    que la loi n'est pas publiée. Pour votre cas, voyez votre service des impôts
+    ou un expert-comptable.
 sources:
-  - nom: "Service-Public.fr — Impôt sur le revenu : revenus d'une location meublée (vérifié le 15 avril 2026)"
-    url: "https://www.service-public.gouv.fr/particuliers/vosdroits/F32744"
-  - nom: "impots.gouv.fr — Location meublée de tourisme : quel est le nouveau régime fiscal ? (modifié le 6 juillet 2026)"
-    url: "https://www.impots.gouv.fr/particulier/questions/je-suis-proprietaire-dune-location-meublee-de-tourisme-quel-est-le-nouveau"
-  - nom: "Service-Public.fr — Mettre son logement en location : les règles évoluent en 2026 (actualité du 27 juillet 2026)"
-    url: "https://www.service-public.gouv.fr/particuliers/actualites/A18880"
-  - nom: "Service-Public.fr — Cotisations sociales et location d'un meublé (vérifié le 20 février 2026)"
-    url: "https://www.service-public.gouv.fr/particuliers/vosdroits/F34102"
-  - nom: "Service-Public.fr — CSG, CRDS et contributions sociales sur les revenus du patrimoine (vérifié le 30 juin 2026)"
-    url: "https://www.service-public.gouv.fr/particuliers/vosdroits/F2329"
-  - nom: "impots.gouv.fr — Location meublée et CFE (modifié le 8 juillet 2026)"
-    url: "https://www.impots.gouv.fr/particulier/questions/je-fais-de-la-location-meublee-dois-je-payer-de-la-cfe-cotisation-fonciere-des"
-  - nom: "impots.gouv.fr — Revenus de plateformes collaboratives"
-    url: "https://www.impots.gouv.fr/revenus-de-plateformes-collaboratives-0"
-  - nom: "Service-Public.fr — Plus-value immobilière (vérifié le 15 avril 2026)"
-    url: "https://www.service-public.gouv.fr/particuliers/vosdroits/F10864"
-  - nom: "Assemblée nationale — Projet de loi de finances pour 2027, texte déposé (n° 3210)"
-    url: "https://www.assemblee-nationale.fr/dyn/17/textes/l17b3210_projet-loi"
-  - nom: "Assemblée nationale — Dossier législatif du projet de loi de finances pour 2027"
-    url: "https://www.assemblee-nationale.fr/dyn/17/dossiers/plf_2027"
+  - nom: >-
+      Service-Public.fr — Impôt sur le revenu : revenus d'une location meublée
+      (vérifié le 15 avril 2026)
+    url: 'https://www.service-public.gouv.fr/particuliers/vosdroits/F32744'
+  - nom: >-
+      impots.gouv.fr — Location meublée de tourisme : quel est le nouveau régime
+      fiscal ? (modifié le 6 juillet 2026)
+    url: >-
+      https://www.impots.gouv.fr/particulier/questions/je-suis-proprietaire-dune-location-meublee-de-tourisme-quel-est-le-nouveau
+  - nom: >-
+      Service-Public.fr — Mettre son logement en location : les règles évoluent
+      en 2026 (actualité du 27 juillet 2026)
+    url: 'https://www.service-public.gouv.fr/particuliers/actualites/A18880'
+  - nom: >-
+      Service-Public.fr — Cotisations sociales et location d'un meublé (vérifié
+      le 20 février 2026)
+    url: 'https://www.service-public.gouv.fr/particuliers/vosdroits/F34102'
+  - nom: >-
+      Service-Public.fr — CSG, CRDS et contributions sociales sur les revenus du
+      patrimoine (vérifié le 30 juin 2026)
+    url: 'https://www.service-public.gouv.fr/particuliers/vosdroits/F2329'
+  - nom: impots.gouv.fr — Location meublée et CFE (modifié le 8 juillet 2026)
+    url: >-
+      https://www.impots.gouv.fr/particulier/questions/je-fais-de-la-location-meublee-dois-je-payer-de-la-cfe-cotisation-fonciere-des
+  - nom: impots.gouv.fr — Revenus de plateformes collaboratives
+    url: 'https://www.impots.gouv.fr/revenus-de-plateformes-collaboratives-0'
+  - nom: Service-Public.fr — Plus-value immobilière (vérifié le 15 avril 2026)
+    url: 'https://www.service-public.gouv.fr/particuliers/vosdroits/F10864'
+  - nom: >-
+      Assemblée nationale — Projet de loi de finances pour 2027, texte déposé
+      (n° 3210)
+    url: 'https://www.assemblee-nationale.fr/dyn/17/textes/l17b3210_projet-loi'
+  - nom: >-
+      Assemblée nationale — Dossier législatif du projet de loi de finances pour
+      2027
+    url: 'https://www.assemblee-nationale.fr/dyn/17/dossiers/plf_2027'
 faq:
-  - q: "Faut-il déclarer ses revenus Airbnb si l'on loue seulement quelques week-ends par an ?"
-    a: "Oui, pour un logement entier. Service-Public.fr cite l'exemple d'un appartement loué pendant un week-end : ces recettes sont des revenus de location meublée à déclarer. Seule la location de pièces de votre résidence principale peut, sous conditions, en être dispensée. Au micro-BIC, aucun impôt n'est dû si les recettes de l'année restent inférieures à 305 €, mais la déclaration reste à faire."
-  - q: "Airbnb transmet-il mes revenus aux impôts ?"
-    a: "Oui. Pour les opérations réalisées depuis 2025, un dispositif européen, qui remplace celui en place en France depuis 2020, impose aux plateformes établies dans l'Union européenne d'envoyer à chaque loueur, avant le 31 janvier, un récapitulatif de l'année (nombre d'opérations, montant net perçu, frais et taxes prélevés) et de transmettre les mêmes informations à l'administration fiscale. Les montants peuvent apparaître dans votre parcours de déclaration en ligne, mais c'est à vous de vérifier ce qui est imposable et de le déclarer, même s'ils n'y figurent pas."
-  - q: "Quel est le taux de CSG et de CRDS sur les revenus d'un meublé de tourisme ?"
-    a: "Service-Public.fr donne 18,6 % pour le cas général des revenus du patrimoine (CSG 10,6 %, CRDS 0,5 % et 7,5 % au titre de la solidarité), après la loi de financement de la sécurité sociale pour 2026. Seuls les revenus fonciers d'une location vide et les plus-values immobilières restent à 17,2 %. Ces contributions figurent sur l'avis d'imposition."
-  - q: "Faut-il un numéro SIRET pour louer sur Airbnb ?"
-    a: "Oui. Service-Public.fr indique que tout loueur en meublé, professionnel ou non, déclare le début de son activité sur le guichet des formalités des entreprises dans les 15 jours qui suivent la première location. La démarche est gratuite et donne un numéro SIRET à reporter sur la déclaration de revenus."
+  - q: >-
+      Faut-il déclarer ses revenus Airbnb si l'on loue seulement quelques
+      week-ends par an ?
+    a: >-
+      Oui, pour un logement entier. Service-Public.fr cite l'exemple d'un
+      appartement loué pendant un week-end : ces recettes sont des revenus de
+      location meublée à déclarer. Seule la location de pièces de votre
+      résidence principale peut, sous conditions, en être dispensée. Au
+      micro-BIC, aucun impôt n'est dû si les recettes de l'année restent
+      inférieures à 305 €, mais la déclaration reste à faire.
+  - q: Airbnb transmet-il mes revenus aux impôts ?
+    a: >-
+      Oui. Pour les opérations réalisées depuis 2025, un dispositif européen,
+      qui remplace celui en place en France depuis 2020, impose aux plateformes
+      établies dans l'Union européenne d'envoyer à chaque loueur, avant le 31
+      janvier, un récapitulatif de l'année (nombre d'opérations, montant net
+      perçu, frais et taxes prélevés) et de transmettre les mêmes informations à
+      l'administration fiscale. Les montants peuvent apparaître dans votre
+      parcours de déclaration en ligne, mais c'est à vous de vérifier ce qui est
+      imposable et de le déclarer, même s'ils n'y figurent pas.
+  - q: >-
+      Quel est le taux de CSG et de CRDS sur les revenus d'un meublé de tourisme
+      ?
+    a: >-
+      Service-Public.fr donne 18,6 % pour le cas général des revenus du
+      patrimoine (CSG 10,6 %, CRDS 0,5 % et 7,5 % au titre de la solidarité),
+      après la loi de financement de la sécurité sociale pour 2026. Seuls les
+      revenus fonciers d'une location vide et les plus-values immobilières
+      restent à 17,2 %. Ces contributions figurent sur l'avis d'imposition.
+  - q: Faut-il un numéro SIRET pour louer sur Airbnb ?
+    a: >-
+      Oui. Service-Public.fr indique que tout loueur en meublé, professionnel ou
+      non, déclare le début de son activité sur le guichet des formalités des
+      entreprises dans les 15 jours qui suivent la première location. La
+      démarche est gratuite et donne un numéro SIRET à reporter sur la
+      déclaration de revenus.
+image: /images/blog/fiscalite-airbnb-micro-bic-reel-1200.webp
+image_credit: 'DXR, CC BY-SA 3.0, via Wikimedia Commons'
 ---
 La fiscalité Airbnb a changé avec la loi Le Meur : depuis les revenus de 2025, un meublé de tourisme non classé n'a plus droit qu'à 30 % d'abattement, jusqu'à 15 000 € de recettes. Le classement, le régime réel, les contributions sociales et la CFE pèsent autant que le choix de la plateforme. Voici les règles en vigueur, lues aujourd'hui sur Service-Public.fr et impots.gouv.fr, avec un exemple chiffré et l'état du budget 2027.
 
