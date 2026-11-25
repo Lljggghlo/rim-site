@@ -10,6 +10,7 @@ requete: loi Le Meur
 image_source: 'File:Palacio_Borbón,_París,_Francia,_2026-04-04,_DD_82-84_HDR.jpg'
 image_alt: 'Façade nord du Palais Bourbon, siège de l''Assemblée nationale, à Paris'
 verifie: 2026-11-21T00:00:00.000Z
+modif: 2026-11-25
 essentiel:
   - >-
     La loi Le Meur du 19 novembre 2024 encadre les meublés de tourisme. Ses
@@ -192,7 +193,7 @@ Ce vote à la majorité a été contesté. Le [Conseil constitutionnel l'a décl
 
 ## Impôts : ce que la loi Le Meur a changé pour le micro-BIC
 
-Depuis les revenus perçus en 2025, un meublé de tourisme non classé ne bénéficie plus que d'un abattement de 30 %, dans la limite de 15 000 € de recettes par an. Un meublé classé passe à 50 % d'abattement, avec un plafond de 77 700 € pour les revenus de 2025 (188 700 € pour ceux de 2024) et de 83 600 € pour ceux de 2026, d'après impots.gouv.fr et Service-Public.fr.
+Depuis les revenus perçus en 2025, un meublé de tourisme non classé ne bénéficie plus que d'un abattement de 30 %, dans la limite de 15 000 € de recettes par an. Un meublé classé passe à 50 % d'abattement, avec un plafond de 77 700 € pour les revenus de 2025 (188 700 € pour ceux de 2024) et de 83 600 € pour ceux de 2026, d'après impots.gouv.fr et Service-Public.fr. Le détail du micro-BIC, du régime réel et des prélèvements sociaux est dans notre guide de la [fiscalité Airbnb en 2026](/blog/fiscalite-airbnb-micro-bic-reel).
 
 ```barres
 {"titre": "Plafond de recettes du micro-BIC pour un meublé de tourisme non classé", "unite": "€", "source": "impots.gouv.fr et Service-Public.fr, vérifié le 21/11/2026", "donnees": [{"label": "Revenus de 2024", "valeur": 77700}, {"label": "Revenus de 2025", "valeur": 15000}, {"label": "Revenus de 2026", "valeur": 15000}]}

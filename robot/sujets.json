@@ -98,9 +98,9 @@
    "intention": "information",
    "priorite": 1,
    "angle": "Seuils et abattements d'après service-public et impots.gouv ; classé ou non classé ; micro ou réel ; exemple chiffré étiqueté « exemple ».",
-   "statut": "a_faire",
-   "slug": null,
-   "publie_le": null,
+   "statut": "publie",
+   "slug": "fiscalite-airbnb-micro-bic-reel",
+   "publie_le": "2026-11-25",
    "volume": 1330,
    "note": "Le sujet 35 (déclarer ses revenus) vise la démarche de déclaration : ne pas répéter dans le 4 le pas-à-pas des formulaires, lier les deux articles."
   },

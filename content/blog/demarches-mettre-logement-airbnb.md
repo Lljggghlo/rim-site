@@ -10,7 +10,7 @@ requete: démarches avant de mettre son logement sur Airbnb
 image_source: 'File:Immeuble_haussmannien_à_Paris_(52169315349).jpg'
 image_alt: 'Façade en pierre d''un immeuble haussmannien à Paris, avec ses balcons'
 verifie: 2026-11-15T00:00:00.000Z
-modif: 2026-11-23
+modif: 2026-11-25
 essentiel:
   - >-
     Tout part d'une question : le logement est-il votre résidence principale
@@ -174,7 +174,7 @@ Vos recettes relèvent ensuite, par défaut, du régime micro-BIC, tant qu'elles
 
 Au-delà du plafond, vous passez au régime réel, où vous déduisez vos charges réelles. Les plateformes vous envoient chaque année, en janvier, un relevé du montant brut de vos transactions : gardez-le pour votre déclaration.
 
-> [!CONSEIL] Le choix entre micro-BIC et régime réel dépend de vos charges et de vos autres revenus. Pour un cas particulier, voyez le service des impôts ou un expert-comptable : nous ne donnons pas de conseil fiscal.
+> [!CONSEIL] Le choix entre micro-BIC et régime réel dépend de vos charges et de vos autres revenus. Pour un cas particulier, voyez le service des impôts ou un expert-comptable : nous ne donnons pas de conseil fiscal. Notre guide de la [fiscalité Airbnb](/blog/fiscalite-airbnb-micro-bic-reel) détaille les deux régimes, les prélèvements sociaux et la CFE.
 
 ## Étape 5 : assurance et taxe de séjour
 
