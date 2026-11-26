@@ -1,13 +1,13 @@
 {
- "date": "2026-11-25T17:37:35.612Z",
+ "date": "2026-11-26T17:19:29.769Z",
  "ok": true,
- "pages_controlees": 53,
- "articles_en_ligne": 9,
+ "pages_controlees": 54,
+ "articles_en_ligne": 10,
  "jours_depuis_dernier_article": 0,
  "article_attendu": null,
  "article_en_ligne": null,
  "indexnow": {
-  "envoyees": 8,
+  "envoyees": 7,
   "reponse": 200
  },
  "erreurs": [],
