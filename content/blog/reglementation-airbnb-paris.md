@@ -1,54 +1,123 @@
 ---
-title: "Réglementation Airbnb à Paris en 2026 : ce qu'un propriétaire doit vérifier"
-seo_title: "Réglementation Airbnb Paris : les 4 cas | Rim Conciergerie"
-description: "90 jours, changement d'usage, compensation de 1 à 3 m² par m² : les règles de la Ville de Paris selon votre logement, vérifiées à la source."
-date: 2026-11-27
-categorie: "Réglementation"
-requete: "réglementation Airbnb Paris"
+title: 'Réglementation Airbnb à Paris en 2026 : ce qu''un propriétaire doit vérifier'
+seo_title: 'Réglementation Airbnb Paris : les 4 cas | Rim Conciergerie'
+description: >-
+  90 jours, changement d'usage, compensation de 1 à 3 m² par m² : les règles de
+  la Ville de Paris selon votre logement, vérifiées à la source.
+date: 2026-11-27T00:00:00.000Z
+categorie: Réglementation
+requete: réglementation Airbnb Paris
 ville: paris
-image_source: "File:Hôtel_ville_façade_principale_Paris_11.jpg"
-image_alt: "Façade principale de l'Hôtel de Ville de Paris, place de l'Hôtel-de-Ville"
-verifie: 2026-11-27
+image_source: 'File:Hôtel_ville_façade_principale_Paris_11.jpg'
+image_alt: 'Façade principale de l''Hôtel de Ville de Paris, place de l''Hôtel-de-Ville'
+verifie: 2026-11-27T00:00:00.000Z
 essentiel:
-  - "À Paris, tout meublé de tourisme (logement loué entier) doit avoir un numéro d'enregistrement, obtenu en ligne sur le site de la Ville, à afficher sur chaque annonce."
-  - "Votre résidence principale se loue au plus 90 jours par an, sans autre autorisation, sauf obligation professionnelle, raison de santé ou force majeure. Une chambre dans le logement que vous habitez ne demande ni déclaration ni autorisation, sauf chambre d'hôtes."
-  - "Tout autre logement exige, dès le premier jour, un changement d'usage avec compensation et un changement de destination en hébergement hôtelier : il faut transformer en logement 1, 2 ou 3 m² de bureau ou de commerce pour chaque m² loué, dans le même quartier administratif."
-  - "Un local commercial ou artisanal demande une autorisation distincte ; un bureau ou un garage, un changement de destination."
-  - "Avant de louer : vérifiez le statut du logement, l'usage du local, le règlement de copropriété, puis enregistrez-vous vous-même sur le téléservice de la Ville."
+  - >-
+    À Paris, tout meublé de tourisme (logement loué entier) doit avoir un numéro
+    d'enregistrement, obtenu en ligne sur le site de la Ville, à afficher sur
+    chaque annonce.
+  - >-
+    Votre résidence principale se loue au plus 90 jours par an, sans autre
+    autorisation, sauf obligation professionnelle, raison de santé ou force
+    majeure. Une chambre dans le logement que vous habitez ne demande ni
+    déclaration ni autorisation, sauf chambre d'hôtes.
+  - >-
+    Tout autre logement exige, dès le premier jour, un changement d'usage avec
+    compensation et un changement de destination en hébergement hôtelier : il
+    faut transformer en logement 1, 2 ou 3 m² de bureau ou de commerce pour
+    chaque m² loué, dans le même quartier administratif.
+  - >-
+    Un local commercial ou artisanal demande une autorisation distincte ; un
+    bureau ou un garage, un changement de destination.
+  - >-
+    Avant de louer : vérifiez le statut du logement, l'usage du local, le
+    règlement de copropriété, puis enregistrez-vous vous-même sur le téléservice
+    de la Ville.
 sources:
-  - nom: "Ville de Paris — La location meublée touristique : les règles à suivre (mise à jour du 25/03/2026)"
-    url: "https://www.paris.fr/pages/meubles-touristiques-3637"
-  - nom: "Ville de Paris — Règlement municipal sur les changements d'usage, délibération 2025 DLH 44, version consolidée publiée le 03/03/2025"
-    url: "https://cdn.paris.fr/paris/2025/06/06/2025-dlh-44-reglement-municipal-sur-les-changements-d-usage-consolide-03-03-25-EPOl.pdf"
-  - nom: "Ville de Paris — Fiche technique : le changement d'usage à caractère réel avec compensation"
-    url: "https://cdn.paris.fr/paris/2025/02/18/3-fiche-technique-paris-fr-le-changement-d-usage-a-caractere-reel-avec-compensation-KeMb.pdf"
-  - nom: "Ville de Paris — Règlement municipal des locaux commerciaux et artisanaux (avril 2025)"
-    url: "https://cdn.paris.fr/paris/2025/04/18/reglement-municipal-locaux-commerciaux_avril-2025-dIoN.pdf"
-  - nom: "Ville de Paris — Location limitée à 90 jours : Paris serre la vis sur les meublés touristiques"
-    url: "https://www.paris.fr/pages/location-limitee-a-90-jours-paris-serre-la-vis-sur-les-meubles-touristiques-29653"
-  - nom: "Ville de Paris — Boîtes à clés interdites sur l'espace public (mise à jour du 22/04/2026)"
-    url: "https://www.paris.fr/pages/boites-a-cles-interdites-sur-l-espace-public-ce-qu-il-faut-savoir-et-faire-29992"
-  - nom: "Légifrance — Code du tourisme, article L324-1-1 (version en vigueur depuis le 20 mai 2026)"
-    url: "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000050623378"
-  - nom: "Légifrance — Code du tourisme, articles L324-1 à L324-2-1"
-    url: "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006074073/LEGISCTA000006158462/"
-  - nom: "Légifrance — Code de la construction et de l'habitation, article L631-7-1 A"
-    url: "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000050623467"
-  - nom: "Légifrance — Code de la construction et de l'habitation, article L651-2"
-    url: "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000038791019"
-  - nom: "Légifrance — Code de la construction et de l'habitation, articles L651-1 à L651-10 (dont L651-3)"
-    url: "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006074096/LEGISCTA000006159117/"
-  - nom: "Service-Public.fr — Mettre son logement en location : les règles évoluent en 2026 (actualité du 27 juillet 2026)"
-    url: "https://www.service-public.gouv.fr/particuliers/actualites/A18880"
+  - nom: >-
+      Ville de Paris — La location meublée touristique : les règles à suivre
+      (mise à jour du 25/03/2026)
+    url: 'https://www.paris.fr/pages/meubles-touristiques-3637'
+  - nom: >-
+      Ville de Paris — Règlement municipal sur les changements d'usage,
+      délibération 2025 DLH 44, version consolidée publiée le 03/03/2025
+    url: >-
+      https://cdn.paris.fr/paris/2025/06/06/2025-dlh-44-reglement-municipal-sur-les-changements-d-usage-consolide-03-03-25-EPOl.pdf
+  - nom: >-
+      Ville de Paris — Fiche technique : le changement d'usage à caractère réel
+      avec compensation
+    url: >-
+      https://cdn.paris.fr/paris/2025/02/18/3-fiche-technique-paris-fr-le-changement-d-usage-a-caractere-reel-avec-compensation-KeMb.pdf
+  - nom: >-
+      Ville de Paris — Règlement municipal des locaux commerciaux et artisanaux
+      (avril 2025)
+    url: >-
+      https://cdn.paris.fr/paris/2025/04/18/reglement-municipal-locaux-commerciaux_avril-2025-dIoN.pdf
+  - nom: >-
+      Ville de Paris — Location limitée à 90 jours : Paris serre la vis sur les
+      meublés touristiques
+    url: >-
+      https://www.paris.fr/pages/location-limitee-a-90-jours-paris-serre-la-vis-sur-les-meubles-touristiques-29653
+  - nom: >-
+      Ville de Paris — Boîtes à clés interdites sur l'espace public (mise à jour
+      du 22/04/2026)
+    url: >-
+      https://www.paris.fr/pages/boites-a-cles-interdites-sur-l-espace-public-ce-qu-il-faut-savoir-et-faire-29992
+  - nom: >-
+      Légifrance — Code du tourisme, article L324-1-1 (version en vigueur depuis
+      le 20 mai 2026)
+    url: 'https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000050623378'
+  - nom: 'Légifrance — Code du tourisme, articles L324-1 à L324-2-1'
+    url: >-
+      https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006074073/LEGISCTA000006158462/
+  - nom: >-
+      Légifrance — Code de la construction et de l'habitation, article L631-7-1
+      A
+    url: 'https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000050623467'
+  - nom: 'Légifrance — Code de la construction et de l''habitation, article L651-2'
+    url: 'https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000038791019'
+  - nom: >-
+      Légifrance — Code de la construction et de l'habitation, articles L651-1 à
+      L651-10 (dont L651-3)
+    url: >-
+      https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006074096/LEGISCTA000006159117/
+  - nom: >-
+      Service-Public.fr — Mettre son logement en location : les règles évoluent
+      en 2026 (actualité du 27 juillet 2026)
+    url: 'https://www.service-public.gouv.fr/particuliers/actualites/A18880'
 faq:
-  - q: "Peut-on louer un appartement sur Airbnb toute l'année à Paris ?"
-    a: "Oui, mais seulement si le logement n'est pas votre résidence principale et qu'il a obtenu une autorisation de changement d'usage avec compensation, un changement de destination en hébergement hôtelier et un numéro d'enregistrement. Une résidence principale reste limitée à 90 jours par an. Un autre logement ne peut pas être loué en meublé de tourisme sans ces autorisations."
-  - q: "Combien coûte une compensation pour louer en meublé de tourisme à Paris ?"
-    a: "Il n'existe pas de tarif officiel. Selon la Ville de Paris, le titre de compensation, aussi appelé commercialité, s'achète à un propriétaire de bureaux ou de commerces qui les transforme en logements ; le prix se négocie entre vendeur et acheteur et varie selon le quartier. La Ville n'intervient pas dans ce marché et recommande un intermédiaire spécialisé."
-  - q: "Une conciergerie peut-elle faire la déclaration de meublé à ma place ?"
-    a: "Non. La Ville de Paris précise que la déclaration doit être déposée par le loueur et ne peut pas être faite au nom de la conciergerie qui gère la location. Le Code du tourisme exige aussi une déclaration faite en personne. La conciergerie qui intervient dans la mise en location, comme la plateforme, doit vous informer de vos obligations et obtenir votre déclaration sur l'honneur avant la publication de l'annonce."
-  - q: "La règle des 90 jours s'applique-t-elle à une chambre louée chez moi ?"
-    a: "Non. Selon la Ville de Paris, le meublé de tourisme est un logement loué entier. Louer une simple chambre dans votre résidence principale ne demande ni autorisation ni déclaration préalable, sauf si elle est exploitée comme une chambre d'hôtes. Une chambre de service indépendante, en revanche, est un logement distinct, soumis au changement d'usage."
+  - q: Peut-on louer un appartement sur Airbnb toute l'année à Paris ?
+    a: >-
+      Oui, mais seulement si le logement n'est pas votre résidence principale et
+      qu'il a obtenu une autorisation de changement d'usage avec compensation,
+      un changement de destination en hébergement hôtelier et un numéro
+      d'enregistrement. Une résidence principale reste limitée à 90 jours par
+      an. Un autre logement ne peut pas être loué en meublé de tourisme sans ces
+      autorisations.
+  - q: Combien coûte une compensation pour louer en meublé de tourisme à Paris ?
+    a: >-
+      Il n'existe pas de tarif officiel. Selon la Ville de Paris, le titre de
+      compensation, aussi appelé commercialité, s'achète à un propriétaire de
+      bureaux ou de commerces qui les transforme en logements ; le prix se
+      négocie entre vendeur et acheteur et varie selon le quartier. La Ville
+      n'intervient pas dans ce marché et recommande un intermédiaire spécialisé.
+  - q: Une conciergerie peut-elle faire la déclaration de meublé à ma place ?
+    a: >-
+      Non. La Ville de Paris précise que la déclaration doit être déposée par le
+      loueur et ne peut pas être faite au nom de la conciergerie qui gère la
+      location. Le Code du tourisme exige aussi une déclaration faite en
+      personne. La conciergerie qui intervient dans la mise en location, comme
+      la plateforme, doit vous informer de vos obligations et obtenir votre
+      déclaration sur l'honneur avant la publication de l'annonce.
+  - q: La règle des 90 jours s'applique-t-elle à une chambre louée chez moi ?
+    a: >-
+      Non. Selon la Ville de Paris, le meublé de tourisme est un logement loué
+      entier. Louer une simple chambre dans votre résidence principale ne
+      demande ni autorisation ni déclaration préalable, sauf si elle est
+      exploitée comme une chambre d'hôtes. Une chambre de service indépendante,
+      en revanche, est un logement distinct, soumis au changement d'usage.
+image: /images/blog/reglementation-airbnb-paris-1200.webp
+image_credit: 'Chabe01, CC BY-SA 4.0, via Wikimedia Commons'
 ---
 La réglementation Airbnb à Paris dépend d'abord de ce que vous louez. Votre résidence principale : 90 jours par an et un numéro d'enregistrement. Tout autre logement : une autorisation de changement d'usage avec compensation, rarement à la portée d'un particulier. Un commerce ou un bureau : d'autres autorisations encore. Voici les quatre situations prévues par la Ville de Paris, les règles de compensation adoptées en 2025 et les vérifications à faire avant de publier une annonce.
 
