@@ -1,36 +1,4 @@
-✔ Couverture fiscalite-airbnb-micro-bic-reel : File:Palais du Luxembourg, South View 140116 1.jpg (CC BY-SA 3.0, 149 ko)
+✔ Couverture reglementation-airbnb-paris : File:Hôtel ville façade principale Paris 11.jpg (CC BY-SA 4.0, 135 ko)
 1 image(s) préparée(s).
-
-> build
-> node build/build.mjs
-
-✔ Site généré dans dist/ : 57 pages HTML, 53 dans le sitemap (2026-11-25).
-  Articles publiés : 9 · programmés : 1 → fin-contrat-conciergerie (2026-11-26)
-  Villes : 25 · Témoignages vidéo publiés : 0
-⚠ 1 point(s) à vérifier :
-  - Registre des dates (data/lastmod.json) à mettre à jour avec « npm run lastmod » : 6 page(s) modifiée(s), dont /, /blog, /blog/theme/reglementation
-✔ demarches-mettre-logement-airbnb — 1952 mots, 8 parties, 13 liens internes, 9 sources (9 officielles)
-✔ fiscalite-airbnb-micro-bic-reel — 2389 mots, 8 parties, 6 liens internes, 10 sources (10 officielles)
-✔ loi-le-meur-ce-qui-change — 2589 mots, 8 parties, 8 liens internes, 11 sources (11 officielles)
-
-> strict
-> STRICT=1 node build/build.mjs
-
-✔ Site généré dans dist/ : 57 pages HTML, 53 dans le sitemap (2026-11-25).
-  Articles publiés : 9 · programmés : 1 → fin-contrat-conciergerie (2026-11-26)
-  Villes : 25 · Témoignages vidéo publiés : 0
-{
- "date": "2026-11-25T05:49:09.515Z",
- "ok": true,
- "pages_controlees": 53,
- "articles_en_ligne": 9,
- "jours_depuis_dernier_article": -1,
- "article_attendu": "/blog/fiscalite-airbnb-micro-bic-reel",
- "article_en_ligne": true,
- "indexnow": {
-  "envoyees": 8,
-  "reponse": 200
- },
- "erreurs": [],
- "avertissements": []
-}
+✘ Images en échec :
+  - reglementation-airbnb-paris : Fichier introuvable sur Wikimedia Commons : File:Façades_d'immeubles_haussmanniens_(51920057865
