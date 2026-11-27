@@ -1,7 +1,7 @@
 {
- "date": "2026-11-27T05:45:57Z",
- "ok": false,
+ "date": "2026-11-27T05:47:43Z",
+ "ok": true,
  "branche": "publication/reglementation-airbnb-paris",
- "article": "",
- "execution": "https://github.com/Lljggghlo/rim-site/actions/runs/45947710711"
+ "article": "reglementation-airbnb-paris",
+ "execution": "https://github.com/Lljggghlo/rim-site/actions/runs/45947851549"
 }
