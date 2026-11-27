@@ -127,8 +127,6 @@ Les locaux apportés doivent devenir de vraies unités de logement, décentes, d
 
 Pour un particulier, ce parcours est long et coûteux. Comparez avant d'acheter : notre méthode pour choisir entre [Airbnb et location longue durée](/blog/airbnb-ou-location-longue-duree) met les deux options côte à côte.
 
-![Façades d'immeubles haussmanniens à balcons filants, à Paris](commons:File:Façades_d'immeubles_haussmanniens_(51920057865).jpg "Immeubles haussmanniens à Paris")
-
 ## Louer un local commercial, un bureau ou un garage
 
 Un local qui n'est pas à usage d'habitation ne passe pas par la compensation. Un commerce ou un atelier artisanal demande une autorisation au titre du règlement municipal des locaux commerciaux ; un bureau, un garage ou un autre local, un changement de destination en hébergement hôtelier. Dans les deux cas, l'enregistrement suit l'autorisation, nécessaire dès le premier jour.
