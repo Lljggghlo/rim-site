@@ -117,7 +117,7 @@ faq:
       exploitée comme une chambre d'hôtes. Une chambre de service indépendante,
       en revanche, est un logement distinct, soumis au changement d'usage.
 image: /images/blog/reglementation-airbnb-paris-1200.webp
-image_credit: 'Chabe01, CC BY-SA 4.0, via Wikimedia Commons'
+image_credit: 'Chabe01, CC BY-SA 4.0, via Wikimedia Commons (affiche floutée)'
 ---
 La réglementation Airbnb à Paris dépend d'abord de ce que vous louez. Votre résidence principale : 90 jours par an et un numéro d'enregistrement. Tout autre logement : une autorisation de changement d'usage avec compensation, rarement à la portée d'un particulier. Un commerce ou un bureau : d'autres autorisations encore. Voici les quatre situations prévues par la Ville de Paris, les règles de compensation adoptées en 2025 et les vérifications à faire avant de publier une annonce.
 
