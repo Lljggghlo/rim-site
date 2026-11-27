@@ -1,5 +1,4 @@
-✔ Couverture reglementation-airbnb-paris : File:Hôtel ville façade principale Paris 11.jpg (CC BY-SA 4.0, 135 ko)
-1 image(s) préparée(s).
+0 image(s) préparée(s).
 
 > build
 > node build/build.mjs
@@ -8,9 +7,7 @@
   Articles publiés : 11 · programmés : 0
   Villes : 25 · Témoignages vidéo publiés : 0
 ⚠ 1 point(s) à vérifier :
-  - Registre des dates (data/lastmod.json) à mettre à jour avec « npm run lastmod » : 7 page(s) modifiée(s), dont /, /conciergerie-airbnb-paris, /blog
-✔ loi-le-meur-ce-qui-change — 2600 mots, 8 parties, 9 liens internes, 11 sources (11 officielles)
-✔ numero-enregistrement-meuble-de-tourisme-2026 — 1307 mots, 7 parties, 8 liens internes, 5 sources (5 officielles)
+  - Registre des dates (data/lastmod.json) à mettre à jour avec « npm run lastmod » : 1 page(s) modifiée(s), dont /blog/reglementation-airbnb-paris
 ✔ reglementation-airbnb-paris — 2735 mots, 7 parties, 6 liens internes, 12 sources (12 officielles)
 
 > strict
@@ -20,13 +17,13 @@
   Articles publiés : 11 · programmés : 0
   Villes : 25 · Témoignages vidéo publiés : 0
 {
- "date": "2026-11-27T05:47:43.724Z",
+ "date": "2026-11-27T05:53:06.954Z",
  "ok": true,
  "pages_controlees": 55,
  "articles_en_ligne": 11,
  "jours_depuis_dernier_article": -1,
- "article_attendu": "/blog/reglementation-airbnb-paris",
- "article_en_ligne": true,
+ "article_attendu": null,
+ "article_en_ligne": null,
  "indexnow": {
   "envoyees": 10,
   "reponse": 200

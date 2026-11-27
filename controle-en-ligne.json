@@ -1,11 +1,11 @@
 {
- "date": "2026-11-27T05:47:43.724Z",
+ "date": "2026-11-27T05:53:06.954Z",
  "ok": true,
  "pages_controlees": 55,
  "articles_en_ligne": 11,
  "jours_depuis_dernier_article": -1,
- "article_attendu": "/blog/reglementation-airbnb-paris",
- "article_en_ligne": true,
+ "article_attendu": null,
+ "article_en_ligne": null,
  "indexnow": {
   "envoyees": 10,
   "reponse": 200
