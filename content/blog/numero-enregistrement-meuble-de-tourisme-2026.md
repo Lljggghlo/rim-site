@@ -3,7 +3,7 @@ title: "Numéro d'enregistrement d'un meublé de tourisme en 2026 : ce qui chang
 seo_title: "Numéro d'enregistrement meublé 2026 | Rim Conciergerie"
 description: "Depuis mai 2026, tout meublé de tourisme doit être enregistré. Téléservice national, procédures des mairies, sanctions : le point au 31/10/2026."
 date: 2026-10-31
-modif: 2026-11-22
+modif: 2026-11-27
 categorie: "Réglementation"
 requete: "numéro d'enregistrement meublé de tourisme"
 image: "/images/blog/numero-enregistrement-meuble-de-tourisme-2026-1200.webp"
@@ -75,7 +75,7 @@ Trois situations se présentent, selon ce que la commune a mis en place. Le plus
 | La commune délivre le numéro à la déclaration | Versailles | Déclarer le meublé : le numéro est attribué automatiquement |
 | La commune n'a pas de procédure d'enregistrement | Variable d'une commune à l'autre | Demander à la mairie la démarche en vigueur, et garder une trace écrite de la réponse |
 
-À Paris, selon la [Ville de Paris](https://www.paris.fr/pages/meubles-touristiques-3637), une résidence principale se loue au plus 90 jours par an, et une résidence secondaire exige en plus, avant l'enregistrement, une autorisation de changement d'usage avec compensation et un changement de destination en hébergement hôtelier. Notre page [conciergerie Airbnb à Paris](/conciergerie-airbnb-paris) reprend ces règles.
+À Paris, selon la [Ville de Paris](https://www.paris.fr/pages/meubles-touristiques-3637), une résidence principale se loue au plus 90 jours par an, et une résidence secondaire exige en plus, avant l'enregistrement, une autorisation de changement d'usage avec compensation et un changement de destination en hébergement hôtelier. Notre page [conciergerie Airbnb à Paris](/conciergerie-airbnb-paris) reprend ces règles, et notre guide de la [réglementation Airbnb à Paris](/blog/reglementation-airbnb-paris) détaille les quatre situations prévues par la Ville et le calcul de la compensation.
 
 À Versailles, le guide 2026 de la Ville indique que le numéro est exigé depuis le 30 juin 2018 et qu'il doit figurer sur toute annonce, en ligne comme sur papier. Une résidence secondaire y demande aussi une autorisation de changement d'usage : voyez notre page [conciergerie Airbnb à Versailles](/conciergerie-airbnb-versailles). Pour savoir si votre commune applique cette autorisation, lisez notre guide du [changement d'usage dans les Yvelines et les Hauts-de-Seine](/blog/changement-usage-yvelines-hauts-de-seine).
 

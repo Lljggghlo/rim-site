@@ -138,9 +138,9 @@
    "priorite": 1,
    "ville": "paris",
    "angle": "Résidence principale (plafond de nuitées en vigueur), résidence secondaire (changement d'usage et compensation), contrôles et amendes. Sources : paris.fr, service-public, Légifrance.",
-   "statut": "a_faire",
-   "slug": null,
-   "publie_le": null,
+   "statut": "publie",
+   "slug": "reglementation-airbnb-paris",
+   "publie_le": "2026-11-27",
    "volume": 1100
   },
   {

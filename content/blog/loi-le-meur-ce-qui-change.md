@@ -10,7 +10,7 @@ requete: loi Le Meur
 image_source: 'File:Palacio_Borbón,_París,_Francia,_2026-04-04,_DD_82-84_HDR.jpg'
 image_alt: 'Façade nord du Palais Bourbon, siège de l''Assemblée nationale, à Paris'
 verifie: 2026-11-21T00:00:00.000Z
-modif: 2026-11-25
+modif: 2026-11-27
 essentiel:
   - >-
     La loi Le Meur du 19 novembre 2024 encadre les meublés de tourisme. Ses
@@ -154,7 +154,7 @@ Avant la loi, ce plafond ne valait que dans les communes qui imposaient l'enregi
 
 Rappel utile : la résidence principale est le logement occupé au moins huit mois par an. La louer plus de quatre mois en courte durée revient, selon le ministère chargé du Logement, à ne plus en faire une résidence principale.
 
-Si vous louez à Paris, voyez aussi notre page sur la [conciergerie Airbnb à Paris](/conciergerie-airbnb-paris).
+Si vous louez à Paris, voyez notre guide de la [réglementation Airbnb à Paris](/blog/reglementation-airbnb-paris), situation par situation, et notre page sur la [conciergerie Airbnb à Paris](/conciergerie-airbnb-paris).
 
 ## Résidence secondaire : changement d'usage, quotas et DPE
 
